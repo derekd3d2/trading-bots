@@ -1,70 +1,97 @@
-import ib_insync
-import logging
+import os
+import json
+import alpaca_trade_api as tradeapi
 from datetime import datetime
 
-# Configure logging
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+# ✅ Load Alpaca API Keys
+ALPACA_API_KEY = os.getenv("ALPACA_API_KEY")
+ALPACA_SECRET_KEY = os.getenv("ALPACA_SECRET_KEY")
+ALPACA_BASE_URL = "https://paper-api.alpaca.markets"  # Change to live URL when ready
 
-# Connect to IB Gateway
-ib = ib_insync.IB()
-ib.connect('127.0.0.1', 7497, clientId=1)
+# ✅ Connect to Alpaca API
+api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
 
-class TradingBot:
-    def __init__(self):
-        self.account = ib.accountSummary()
-        logging.info("Trading bot initialized and connected to IB Gateway.")
-    
-    def get_market_data(self, symbol):
-        contract = ib_insync.Stock(symbol, 'SMART', 'USD')
-        ib.qualifyContracts(contract)
-        market_data = ib.reqMktData(contract)
-        ib.sleep(1)  # Give time for market data to update
-        return market_data
-    
-    def place_order(self, symbol, action, quantity, order_type='MKT', limit_price=None):
-        contract = ib_insync.Stock(symbol, 'SMART', 'USD')
-        ib.qualifyContracts(contract)
-        
-        if order_type == 'MKT':
-            order = ib_insync.MarketOrder(action, quantity)
-        elif order_type == 'LMT' and limit_price:
-            order = ib_insync.LimitOrder(action, quantity, limit_price)
-        else:
-            logging.error("Invalid order type or missing limit price.")
-            return
-        
-        trade = ib.placeOrder(contract, order)
-        logging.info(f"Order placed: {action} {quantity} {symbol} at {datetime.now()}.")
-        return trade
-    
-    def get_open_positions(self):
-        positions = ib.positions()
-        return positions
-    
-    def close_position(self, symbol):
-        positions = self.get_open_positions()
-        for position in positions:
-            if position.contract.symbol == symbol:
-                action = 'SELL' if position.position > 0 else 'BUY'
-                self.place_order(symbol, action, abs(position.position))
-                logging.info(f"Closed position: {symbol}")
-    
-    def stop_loss_take_profit(self, symbol, stop_loss_price, take_profit_price):
-        contract = ib_insync.Stock(symbol, 'SMART', 'USD')
-        ib.qualifyContracts(contract)
-        
-        stop_order = ib_insync.StopOrder('SELL', 1, stop_loss_price)
-        take_profit_order = ib_insync.LimitOrder('SELL', 1, take_profit_price)
-        
-        ib.placeOrder(contract, stop_order)
-        ib.placeOrder(contract, take_profit_order)
-        logging.info(f"Stop-loss at {stop_loss_price} and take-profit at {take_profit_price} set for {symbol}.")
+# ✅ Load Trade Signals
+def load_trade_signals():
+    try:
+        with open("trading_signals.json", "r") as file:
+            signals = json.load(file)
+        return signals
+    except FileNotFoundError:
+        print("⚠️ No trade signals found.")
+        return []
 
-# Example usage
+# ✅ Get Available Cash & Calculate Dynamic Budget
+def get_trading_budget(estimated_trades_today=10):
+    account = api.get_account()
+    total_cash = float(account.cash)  # Convert cash balance to float
+    trading_budget = total_cash * 0.95  # Use 95% of available cash
+
+    # ✅ Estimate allocation per trade dynamically based on expected trades per day
+    allocation_per_trade = trading_budget / estimated_trades_today  
+    return allocation_per_trade, total_cash  # Return allocation per trade & cash available
+
+# ✅ Check if a Stock is Tradable on Alpaca
+def is_tradable(ticker):
+    try:
+        asset = api.get_asset(ticker)
+        return asset.tradable  # Returns True if tradable, False otherwise
+    except Exception:
+        return False  # If asset lookup fails, assume it's not tradable
+
+# ✅ Execute Trades with Smart Allocation
+def execute_trades():
+    trade_signals = load_trade_signals()
+    
+    if not trade_signals:
+        print("⚠️ No trades to execute.")
+        return
+
+    # ✅ Predict total trades today (adjust based on trends)
+    estimated_trades_today = max(len(trade_signals), 10)  # Default: 10 trades/day
+    
+    for trade in trade_signals:
+        ticker = trade["ticker"]
+        action = trade["action"]
+
+        if not is_tradable(ticker):
+            print(f"⚠️ Skipping {ticker}: Not tradable on Alpaca")
+            continue  # Skip non-tradable stocks
+
+        # ✅ Get updated available cash & new allocation per trade
+        allocation_per_trade, total_cash = get_trading_budget(estimated_trades_today)
+
+        # ✅ Get real-time price using `get_latest_trade()`
+        try:
+            latest_price = api.get_latest_trade(ticker).price  # ✅ Correct method
+            qty = int(allocation_per_trade // latest_price)  # Whole shares only
+
+            if qty < 1:
+                print(f"⚠️ Skipping {ticker}: Not enough funds to buy even 1 share.")
+                continue
+
+            if action == "BUY":
+                print(f"🚀 Placing BUY order for {ticker} - {qty} shares (${allocation_per_trade:.2f} allocated, ${total_cash:.2f} available)")
+                api.submit_order(
+                    symbol=ticker,
+                    qty=qty,
+                    side="buy",
+                    type="market",
+                    time_in_force="gtc"
+                )
+
+            elif action == "SELL":
+                print(f"📉 Placing SELL order for {ticker} - {qty} shares (${allocation_per_trade:.2f} allocated, ${total_cash:.2f} available)")
+                api.submit_order(
+                    symbol=ticker,
+                    qty=qty,
+                    side="sell",
+                    type="market",
+                    time_in_force="gtc"
+                )
+
+        except Exception as e:
+            print(f"❌ Error executing trade for {ticker}: {e}")
+
 if __name__ == "__main__":
-    bot = TradingBot()
-    data = bot.get_market_data('AAPL')
-    print(f"AAPL Price: {data.last}")
-    bot.place_order('AAPL', 'BUY', 1)
-    bot.stop_loss_take_profit('AAPL', 170, 190)
-
+    execute_trades()

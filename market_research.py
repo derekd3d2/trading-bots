@@ -1,102 +1,76 @@
-import praw
-import requests
 import os
-import re
+import requests
 import sqlite3
-import yfinance as yf
+import json
 from datetime import datetime
 
-# Load API Keys
-NEWS_API_KEY = os.getenv("NEWS_API_KEY")
+# ✅ Load API Key
+QUIVER_API_KEY = os.getenv("QUIVER_API_KEY")
 
-# Authenticate with Reddit (Commented Out for Now)
-# reddit = praw.Reddit(
-#     client_id=os.getenv("REDDIT_CLIENT_ID"),
-#     client_secret=os.getenv("REDDIT_CLIENT_SECRET"),
-#     user_agent=os.getenv("REDDIT_USER_AGENT"),
-#     username=os.getenv("REDDIT_USERNAME"),
-#     password=os.getenv("REDDIT_PASSWORD"),
-# )
+# ✅ QuiverQuant Congress Trading API Endpoint
+CONGRESS_API_URL = "https://api.quiverquant.com/beta/live/congresstrading"
 
-# Setup SQLite Database for Stock Trends
-DB_FILE = "stock_trends.db"
+# ✅ Setup SQLite Database
+DB_FILE = "market_research.db"
 conn = sqlite3.connect(DB_FILE)
 cursor = conn.cursor()
 
+# ✅ Create Congress Trades Table (Fixed 'transaction' issue)
 cursor.execute("""
-CREATE TABLE IF NOT EXISTS stock_trends (
+CREATE TABLE IF NOT EXISTS congress_trades (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     ticker TEXT,
-    sentiment TEXT,
+    trade_type TEXT,  -- ✅ Renamed from 'transaction' to 'trade_type'
+    congress_member TEXT,
+    amount TEXT,
+    transaction_date TEXT,
+    report_date TEXT,
     timestamp DATETIME DEFAULT CURRENT_TIMESTAMP
 )
 """)
 conn.commit()
 
-# Function to Extract Stock Tickers from Text
-def extract_tickers(text):
-    pattern = r'\b[A-Z]{2,5}\b'
-    tickers = re.findall(pattern, text)
-    exclude_words = {"WSB", "YOLO", "SEC", "ETF", "CPI", "USD"}
-    return [ticker for ticker in tickers if ticker not in exclude_words]
-
-# Fetch WallStreetBets Sentiment
-def get_wsb_sentiment():
-    return "Skipping WSB Sentiment (No Reddit API Key)"
-
-# Fetch Real-Time Stock Prices
-def get_stock_price(ticker):
+# ✅ Fetch & Store Congress Trading Data
+def fetch_congress_trades():
+    headers = {"accept": "application/json", "Authorization": f"Bearer {QUIVER_API_KEY}"}
     try:
-        stock = yf.Ticker(ticker)
-        price = stock.history(period="1d")["Close"].iloc[-1]
-        return f"{ticker} Current Price: ${price:.2f}"
-    except Exception as e:
-        return f"Error fetching {ticker} price: {e}"
-
-# Generate Trading Signals
-def generate_trading_signal(ticker):
-    try:
-        cursor.execute("SELECT sentiment FROM stock_trends WHERE ticker=? ORDER BY timestamp DESC LIMIT 3", (ticker,))
-        sentiment_history = [row[0] for row in cursor.fetchall()]
-
-        if not sentiment_history:
-            return f"No sentiment data available for {ticker}."
-
-        positive_count = sum(1 for sentiment in sentiment_history if "positive" in sentiment.lower())
-        negative_count = sum(1 for sentiment in sentiment_history if "negative" in sentiment.lower())
-
-        if positive_count > 2:
-            signal = "BUY"
-        elif negative_count > 2:
-            signal = "SELL"
-        else:
-            signal = "HOLD"
-
-        return f"{ticker} Trading Signal: {signal}"
-    except Exception as e:
-        return f"Error generating trading signal for {ticker}: {e}"
-
-# Fetch News Sentiment (Disabled for Now)
-def get_news_sentiment():
-    return "Skipping News Sentiment (OpenAI API temporarily disabled)"
-
-# Fetch Fear & Greed Index
-def get_fear_greed_index():
-    url = "https://api.alternative.me/fng/?limit=1"
-    try:
-        response = requests.get(url)
+        response = requests.get(CONGRESS_API_URL, headers=headers)
         response.raise_for_status()
-        data = response.json()
-        index_score = data["data"][0]["value"]
-        return f"Current Fear & Greed Index: {index_score}"
-    except requests.exceptions.RequestException as e:
-        return f"Error fetching Fear & Greed Index: {e}"
+        trades = response.json()
 
-# Test Function Calls
+        for trade in trades:
+            cursor.execute("""
+                INSERT INTO congress_trades (ticker, trade_type, congress_member, amount, transaction_date, report_date)
+                VALUES (?, ?, ?, ?, ?, ?)
+            """, (
+                trade["Ticker"], trade["Transaction"], trade["Representative"],
+                trade["Amount"], trade["TransactionDate"], trade["ReportDate"]
+            ))
+
+        conn.commit()
+        print("✅ Congress trading data updated.")
+    
+    except requests.exceptions.RequestException as e:
+        print(f"❌ Error fetching Congress trades: {e}")
+
+# ✅ Generate Trade Signals & Save to JSON
+def generate_trade_signals():
+    cursor.execute("SELECT ticker, trade_type FROM congress_trades ORDER BY report_date DESC LIMIT 10")
+    trades = cursor.fetchall()
+
+    trade_signals = []
+    for ticker, trade_type in trades:
+        if trade_type.lower() == "purchase":
+            trade_signals.append({"ticker": ticker, "action": "BUY"})
+        elif trade_type.lower() == "sale":
+            trade_signals.append({"ticker": ticker, "action": "SELL"})
+
+    # ✅ Save signals to a JSON file for the trading bot to read
+    with open("trading_signals.json", "w") as json_file:
+        json.dump(trade_signals, json_file)
+
+    print("📊 Trade signals saved to trading_signals.json.")
+
 if __name__ == "__main__":
-    print(get_wsb_sentiment())
-    print(get_news_sentiment())
-    print(get_fear_greed_index())
-    test_ticker = "AAPL"
-    print(get_stock_price(test_ticker))
-    print(generate_trading_signal(test_ticker))
+    fetch_congress_trades()
+    generate_trade_signals()
