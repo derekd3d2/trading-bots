@@ -1,0 +1,17 @@
+nohup: ignoring input
+ * Serving Flask app 'webhook_listener'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9000
+ * Running on http://172.31.5.132:9000
+Press CTRL+C to quit
+3.236.174.128 - - [17/Mar/2025 01:36:53] "GET /github-webhook/ HTTP/1.1" 405 -
+140.82.115.76 - - [17/Mar/2025 01:38:09] "POST /github-webhook/ HTTP/1.1" 400 -
+From https://github.com/derekd3d2/trading-bots
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+✅ Trading bot updated successfully!
+140.82.115.10 - - [17/Mar/2025 03:24:58] "POST /github-webhook/ HTTP/1.1" 200 -
+172.214.113.235 - - [17/Mar/2025 04:39:26] code 400, message Bad request syntax ('MGLNDD_3.236.174.128_9000')
+172.214.113.235 - - [17/Mar/2025 04:39:26] "MGLNDD_3.236.174.128_9000" HTTPStatus.BAD_REQUEST -
