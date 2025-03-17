@@ -15,3 +15,52 @@ Already up to date.
 140.82.115.10 - - [17/Mar/2025 03:24:58] "POST /github-webhook/ HTTP/1.1" 200 -
 172.214.113.235 - - [17/Mar/2025 04:39:26] code 400, message Bad request syntax ('MGLNDD_3.236.174.128_9000')
 172.214.113.235 - - [17/Mar/2025 04:39:26] "MGLNDD_3.236.174.128_9000" HTTPStatus.BAD_REQUEST -
+20.150.202.9 - - [17/Mar/2025 06:05:55] code 400, message Bad request syntax ('SSH-2.0-Go')
+20.150.202.9 - - [17/Mar/2025 06:05:55] "SSH-2.0-Go" HTTPStatus.BAD_REQUEST -
+3.87.130.252 - - [17/Mar/2025 06:34:58] code 400, message Bad request version ('À\x13À')
+3.87.130.252 - - [17/Mar/2025 06:34:58] "\x16\x03\x01\x05ã\x01\x00\x05ß\x03\x03K\x91\x11³&\x91\x11ï"eÅ1éX=\x1dB·úâI\x91\x1a5J)@þG\x83M¤ \x18¤X\x8e\x98\x1bK\x0c4J\\\x87ÿ M\x05Þ\x9aLqSÙÖêå\x9b\x9fmS&9\x01\x002À+À/À,À0Ì©Ì¨À\x09À\x13À" HTTPStatus.BAD_REQUEST -
+3.87.130.252 - - [17/Mar/2025 06:34:58] code 400, message Bad request version ('À\x13À')
+3.87.130.252 - - [17/Mar/2025 06:34:58] "\x16\x03\x01\x05ã\x01\x00\x05ß\x03\x03f'vÃ-Z\x0dxgÄ^,\x05\x9dz|\x0f\x9c¿<Oq*r\x94£Ý3¿\x1få\x0c X¢ÝI¯>\x9eÌÝÅ\x1a\x12\x10O2çFU\x8dØ\x96³ô@tFÎ\x91ÈÈó\x95\x002À+À/À,À0Ì©Ì¨À\x09À\x13À" HTTPStatus.BAD_REQUEST -
+3.87.130.252 - - [17/Mar/2025 06:34:58] code 400, message Bad request version ('\x00kÌª\x00/\x00\x9fÀ(Ì©\x00g\x00\x19\x00\x13\x002\x00\x12\x00\x11À')
+3.87.130.252 - - [17/Mar/2025 06:34:58] "\x16\x03\x01\x00è\x01\x00\x00ä\x03\x03\x1fû\x04\x1d0W\x84dÁÑ<NÔV§.\x05lO6uz;^Ô9ÌÏ©Â}P\x00\x00hÀ#\x00\x06\x00\x17\x00\x08À/À\x13\x00@À$À\x07À\x11\x00\x03À\x08\x00£À,\x00\x05\x003\x00j\x00<\x00\x14\x00\x16\x005\x00\x04\x00\x15\x009À\x09\x00kÌª\x00/\x00\x9fÀ(Ì©\x00g\x00\x19\x00\x13\x002\x00\x12\x00\x11À" HTTPStatus.BAD_REQUEST -
+3.87.130.252 - - [17/Mar/2025 06:34:58] code 400, message Bad request version ('\x00kÌª\x00/\x00\x9fÀ(Ì©\x00g\x00\x19\x00\x13\x002\x00\x12\x00\x11À')
+3.87.130.252 - - [17/Mar/2025 06:34:58] "\x16\x03\x01\x00è\x01\x00\x00ä\x03\x03ÈÃ[é\x8fæbËºWp]ó*\x8f%pÜ\x1fÏÉB\x16?.\x81<\x13ÀsdI\x00\x00hÀ#\x00\x06\x00\x17\x00\x08À/À\x13\x00@À$À\x07À\x11\x00\x03À\x08\x00£À,\x00\x05\x003\x00j\x00<\x00\x14\x00\x16\x005\x00\x04\x00\x15\x009À\x09\x00kÌª\x00/\x00\x9fÀ(Ì©\x00g\x00\x19\x00\x13\x002\x00\x12\x00\x11À" HTTPStatus.BAD_REQUEST -
+3.87.130.252 - - [17/Mar/2025 06:34:58] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x05ã\x01\x00\x05ß\x03\x03¨\x16i\x030\x8dëÝ\x9eú¦')
+3.87.130.252 - - [17/Mar/2025 06:34:58] "\x16\x03\x01\x05ã\x01\x00\x05ß\x03\x03¨\x16i\x030\x8dëÝ\x9eú¦ \x05<«À¹ú5´_=÷\x04ã" HTTPStatus.BAD_REQUEST -
+3.87.130.252 - - [17/Mar/2025 06:34:58] code 400, message Bad request syntax ('\x16\x03\x01\x05ã\x01\x00\x05ß\x03\x03ð:\x96\x150bÇb')
+3.87.130.252 - - [17/Mar/2025 06:34:58] "\x16\x03\x01\x05ã\x01\x00\x05ß\x03\x03ð:\x96\x150bÇb" HTTPStatus.BAD_REQUEST -
+3.87.130.252 - - [17/Mar/2025 06:34:58] code 400, message Bad request version ('\x00kÌª\x00/\x00\x9fÀ(Ì©\x00g\x00\x19\x00\x13\x002\x00\x12\x00\x11À')
+3.87.130.252 - - [17/Mar/2025 06:34:58] "\x16\x03\x01\x00è\x01\x00\x00ä\x03\x03¬\x91¶[_ß\x13æ?¹\x0d=úXè\x88EU.~E\x95\x10\x8c3\x04Êº\x14B\x83Ì\x00\x00hÀ#\x00\x06\x00\x17\x00\x08À/À\x13\x00@À$À\x07À\x11\x00\x03À\x08\x00£À,\x00\x05\x003\x00j\x00<\x00\x14\x00\x16\x005\x00\x04\x00\x15\x009À\x09\x00kÌª\x00/\x00\x9fÀ(Ì©\x00g\x00\x19\x00\x13\x002\x00\x12\x00\x11À" HTTPStatus.BAD_REQUEST -
+3.87.130.252 - - [17/Mar/2025 06:34:58] code 400, message Bad request version ('\x00kÌª\x00/\x00\x9fÀ(Ì©\x00g\x00\x19\x00\x13\x002\x00\x12\x00\x11À')
+3.87.130.252 - - [17/Mar/2025 06:34:58] "\x16\x03\x01\x00è\x01\x00\x00ä\x03\x03âçH\x11\x16;\x19Úyÿ\x83ÃR<<`*oÀ\x0cê|\x90Ó÷c\x90\x0bË\x9b¼\x1b\x00\x00hÀ#\x00\x06\x00\x17\x00\x08À/À\x13\x00@À$À\x07À\x11\x00\x03À\x08\x00£À,\x00\x05\x003\x00j\x00<\x00\x14\x00\x16\x005\x00\x04\x00\x15\x009À\x09\x00kÌª\x00/\x00\x9fÀ(Ì©\x00g\x00\x19\x00\x13\x002\x00\x12\x00\x11À" HTTPStatus.BAD_REQUEST -
+3.87.130.252 - - [17/Mar/2025 06:34:58] "GET / HTTP/1.1" 404 -
+3.87.130.252 - - [17/Mar/2025 06:34:58] code 400, message Bad request version ('À\x13À')
+3.87.130.252 - - [17/Mar/2025 06:34:58] "\x16\x03\x01\x05Ù\x01\x00\x05Õ\x03\x03\x16"Á¡Ü=Ô6\x8aî%\x96>U<«ô\x91\x8d¸pHÛ\x841¶^C$yê\x92 \x1c\x1az cìbùhÖh\x1c\x9c­¤\x1a¡\x92AÍ\x04\x04\x93\x04q-Z\x13QZy$\x00\x1aÀ+À/À,À0Ì©Ì¨À\x09À\x13À" HTTPStatus.BAD_REQUEST -
+35.172.142.173 - - [17/Mar/2025 06:34:59] "GET / HTTP/1.1" 404 -
+3.87.130.252 - - [17/Mar/2025 06:35:02] "GET /actuator HTTP/1.1" 404 -
+3.87.130.252 - - [17/Mar/2025 06:35:02] "GET /swagger-ui/index.html HTTP/1.1" 404 -
+3.87.130.252 - - [17/Mar/2025 06:35:02] "GET /?query=SELECT+version() HTTP/1.1" 404 -
+3.87.130.252 - - [17/Mar/2025 06:35:02] "GET /api/server/version HTTP/1.1" 404 -
+3.87.130.252 - - [17/Mar/2025 06:35:02] "GET /actuator/favicon.ico HTTP/1.1" 404 -
+3.87.130.252 - - [17/Mar/2025 06:35:02] "GET /swagger/ HTTP/1.1" 404 -
+3.87.130.252 - - [17/Mar/2025 06:35:02] "GET /sessions/new HTTP/1.1" 404 -
+3.87.130.252 - - [17/Mar/2025 06:35:02] "GET /.git/config HTTP/1.1" 404 -
+3.87.130.252 - - [17/Mar/2025 06:35:02] "GET /.env HTTP/1.1" 404 -
+From https://github.com/derekd3d2/trading-bots
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+✅ Trading bot updated successfully!
+140.82.115.10 - - [17/Mar/2025 07:31:14] "POST /github-webhook/ HTTP/1.1" 200 -
+From https://github.com/derekd3d2/trading-bots
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+✅ Trading bot updated successfully!
+140.82.115.123 - - [17/Mar/2025 07:33:09] "POST /github-webhook/ HTTP/1.1" 200 -
+From https://github.com/derekd3d2/trading-bots
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+✅ Trading bot updated successfully!
+140.82.115.127 - - [17/Mar/2025 10:15:55] "POST /github-webhook/ HTTP/1.1" 200 -
+110.35.153.55 - - [17/Mar/2025 10:38:16] code 400, message Bad request syntax ('ðÞ¼')
+110.35.153.55 - - [17/Mar/2025 10:38:16] "ðÞ¼" HTTPStatus.BAD_REQUEST -
+159.65.155.114 - - [17/Mar/2025 11:14:36] "GET / HTTP/1.1" 404 -
