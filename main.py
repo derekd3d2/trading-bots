@@ -10,9 +10,12 @@ def wait_until_market_open():
     est = pytz.timezone('America/New_York')
     while True:
         now = datetime.now(est)
-        if now.hour == 9 and now.minute >= 30:
+        print(f"🔎 DEBUG: Current time in EST: {now.strftime('%Y-%m-%d %H:%M:%S EST')}")
+        
+        if now.hour >= 9 and now.minute >= 30:
             print("🚀 Market is open! Starting trading scripts...")
             break
+
         print(f"⏳ Waiting for market open... Current time: {now.strftime('%Y-%m-%d %H:%M:%S EST')}")
         time.sleep(60)  # Check every 60 seconds
 

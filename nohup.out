@@ -1,0 +1,315 @@
+🔍 Loaded 10 trade signals from trading_signals.json
+🔍 Processing SELL order for SYK
+✅ SYK is tradable on Alpaca.
+📉 Placing SELL order for SYK
+🔍 Processing BUY order for AMZN
+✅ AMZN is tradable on Alpaca.
+🚀 Placing BUY order for AMZN
+🔍 Processing SELL order for MAGN
+✅ MAGN is tradable on Alpaca.
+📉 Placing SELL order for MAGN
+🔍 Processing BUY order for MDLZ
+✅ MDLZ is tradable on Alpaca.
+🚀 Placing BUY order for MDLZ
+🔍 Processing SELL order for PRNDY
+✅ PRNDY is tradable on Alpaca.
+⚠️ Skipping PRNDY: Not tradable on Alpaca
+🔍 Processing BUY order for WFC
+✅ WFC is tradable on Alpaca.
+🚀 Placing BUY order for WFC
+🔍 Processing SELL order for NSC
+✅ NSC is tradable on Alpaca.
+📉 Placing SELL order for NSC
+🔍 Processing BUY order for UNP
+✅ UNP is tradable on Alpaca.
+🚀 Placing BUY order for UNP
+🔍 Processing BUY order for GS
+✅ GS is tradable on Alpaca.
+🚀 Placing BUY order for GS
+🔍 Processing SELL order for PNC
+✅ PNC is tradable on Alpaca.
+📉 Placing SELL order for PNC
+🔍 Loaded 10 trade signals from trading_signals.json
+🔍 Processing SELL order for SYK
+✅ SYK is tradable on Alpaca.
+📉 Placing SELL order for SYK
+🔍 Processing BUY order for AMZN
+✅ AMZN is tradable on Alpaca.
+🚀 Placing BUY order for AMZN
+🔍 Processing SELL order for MAGN
+✅ MAGN is tradable on Alpaca.
+📉 Placing SELL order for MAGN
+🔍 Processing BUY order for MDLZ
+✅ MDLZ is tradable on Alpaca.
+🚀 Placing BUY order for MDLZ
+🔍 Processing SELL order for PRNDY
+✅ PRNDY is tradable on Alpaca.
+⚠️ Skipping PRNDY: Not tradable on Alpaca
+🔍 Processing BUY order for WFC
+✅ WFC is tradable on Alpaca.
+🚀 Placing BUY order for WFC
+🔍 Processing SELL order for NSC
+✅ NSC is tradable on Alpaca.
+📉 Placing SELL order for NSC
+🔍 Processing BUY order for UNP
+✅ UNP is tradable on Alpaca.
+🚀 Placing BUY order for UNP
+🔍 Processing BUY order for GS
+✅ GS is tradable on Alpaca.
+🚀 Placing BUY order for GS
+🔍 Processing SELL order for PNC
+✅ PNC is tradable on Alpaca.
+📉 Placing SELL order for PNC
+🔍 Loaded 10 trade signals from trading_signals.json
+🔍 Processing SELL order for SYK
+✅ SYK is tradable on Alpaca.
+📉 Placing SELL order for SYK
+🔍 Processing BUY order for AMZN
+✅ AMZN is tradable on Alpaca.
+🚀 Placing BUY order for AMZN
+🔍 Processing SELL order for MAGN
+✅ MAGN is tradable on Alpaca.
+📉 Placing SELL order for MAGN
+🔍 Processing BUY order for MDLZ
+✅ MDLZ is tradable on Alpaca.
+🚀 Placing BUY order for MDLZ
+🔍 Processing SELL order for PRNDY
+✅ PRNDY is tradable on Alpaca.
+⚠️ Skipping PRNDY: Not tradable on Alpaca
+🔍 Processing BUY order for WFC
+✅ WFC is tradable on Alpaca.
+🚀 Placing BUY order for WFC
+🔍 Processing SELL order for NSC
+✅ NSC is tradable on Alpaca.
+📉 Placing SELL order for NSC
+🔍 Processing BUY order for UNP
+✅ UNP is tradable on Alpaca.
+🚀 Placing BUY order for UNP
+🔍 Processing BUY order for GS
+✅ GS is tradable on Alpaca.
+🚀 Placing BUY order for GS
+🔍 Processing SELL order for PNC
+✅ PNC is tradable on Alpaca.
+📉 Placing SELL order for PNC
+🔍 Loaded 10 trade signals from trading_signals.json
+🔍 Processing SELL order for SYK
+✅ SYK is tradable on Alpaca.
+📉 Placing SELL order for SYK
+🔍 Processing BUY order for AMZN
+✅ AMZN is tradable on Alpaca.
+🚀 Placing BUY order for AMZN
+🔍 Processing SELL order for MAGN
+✅ MAGN is tradable on Alpaca.
+📉 Placing SELL order for MAGN
+🔍 Processing BUY order for MDLZ
+✅ MDLZ is tradable on Alpaca.
+🚀 Placing BUY order for MDLZ
+🔍 Processing SELL order for PRNDY
+✅ PRNDY is tradable on Alpaca.
+⚠️ Skipping PRNDY: Not tradable on Alpaca
+🔍 Processing BUY order for WFC
+✅ WFC is tradable on Alpaca.
+🚀 Placing BUY order for WFC
+🔍 Processing SELL order for NSC
+✅ NSC is tradable on Alpaca.
+📉 Placing SELL order for NSC
+🔍 Processing BUY order for UNP
+✅ UNP is tradable on Alpaca.
+🚀 Placing BUY order for UNP
+🔍 Processing BUY order for GS
+✅ GS is tradable on Alpaca.
+🚀 Placing BUY order for GS
+🔍 Processing SELL order for PNC
+✅ PNC is tradable on Alpaca.
+📉 Placing SELL order for PNC
+🚀 AI Auto-Update System is Running...
+🔄 Fetching AI improvements for trading_bot.py...
+✅ Backup saved: bot_backups/trading_bot_backup_2025-03-17_13-47-28.py
+🔄 Running backtest on trading_bot.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='trading_bot.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for market_research.py...
+✅ Backup saved: bot_backups/market_research_backup_2025-03-17_13-47-53.py
+🔄 Running backtest on market_research.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='market_research.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/botai_auto_update.py", line 121, in <module>
+    time.sleep(43200)  # Check every 12  hours
+KeyboardInterrupt
+🔍 Loaded 10 trade signals from trading_signals.json
+🔍 Processing SELL order for SYK
+✅ SYK is tradable on Alpaca.
+📉 Placing SELL order for SYK
+🔍 Processing BUY order for AMZN
+✅ AMZN is tradable on Alpaca.
+🚀 Placing BUY order for AMZN
+🔍 Processing SELL order for MAGN
+✅ MAGN is tradable on Alpaca.
+📉 Placing SELL order for MAGN
+🔍 Processing BUY order for MDLZ
+✅ MDLZ is tradable on Alpaca.
+🚀 Placing BUY order for MDLZ
+🔍 Processing SELL order for PRNDY
+✅ PRNDY is tradable on Alpaca.
+⚠️ Skipping PRNDY: Not tradable on Alpaca
+🔍 Processing BUY order for WFC
+✅ WFC is tradable on Alpaca.
+🚀 Placing BUY order for WFC
+🔍 Processing SELL order for NSC
+✅ NSC is tradable on Alpaca.
+📉 Placing SELL order for NSC
+🔍 Processing BUY order for UNP
+✅ UNP is tradable on Alpaca.
+🚀 Placing BUY order for UNP
+🔍 Processing BUY order for GS
+✅ GS is tradable on Alpaca.
+🚀 Placing BUY order for GS
+🔍 Processing SELL order for PNC
+✅ PNC is tradable on Alpaca.
+📉 Placing SELL order for PNC
+🔍 Loaded 10 trade signals from trading_signals.json
+🔍 Processing SELL order for SYK
+✅ SYK is tradable on Alpaca.
+📉 Placing SELL order for SYK
+🔍 Processing BUY order for AMZN
+✅ AMZN is tradable on Alpaca.
+🚀 Placing BUY order for AMZN
+🔍 Processing SELL order for MAGN
+✅ MAGN is tradable on Alpaca.
+📉 Placing SELL order for MAGN
+🔍 Processing BUY order for MDLZ
+✅ MDLZ is tradable on Alpaca.
+🚀 Placing BUY order for MDLZ
+🔍 Processing SELL order for PRNDY
+✅ PRNDY is tradable on Alpaca.
+⚠️ Skipping PRNDY: Not tradable on Alpaca
+🔍 Processing BUY order for WFC
+✅ WFC is tradable on Alpaca.
+🚀 Placing BUY order for WFC
+🔍 Processing SELL order for NSC
+✅ NSC is tradable on Alpaca.
+📉 Placing SELL order for NSC
+🔍 Processing BUY order for UNP
+✅ UNP is tradable on Alpaca.
+🚀 Placing BUY order for UNP
+🔍 Processing BUY order for GS
+✅ GS is tradable on Alpaca.
+🚀 Placing BUY order for GS
+🔍 Processing SELL order for PNC
+✅ PNC is tradable on Alpaca.
+📉 Placing SELL order for PNC
+🔍 Loaded 10 trade signals from trading_signals.json
+🔍 Processing SELL order for SYK
+✅ SYK is tradable on Alpaca.
+📉 Placing SELL order for SYK
+🔍 Processing BUY order for AMZN
+✅ AMZN is tradable on Alpaca.
+🚀 Placing BUY order for AMZN
+🔍 Processing SELL order for MAGN
+✅ MAGN is tradable on Alpaca.
+📉 Placing SELL order for MAGN
+🔍 Processing BUY order for MDLZ
+✅ MDLZ is tradable on Alpaca.
+🚀 Placing BUY order for MDLZ
+🔍 Processing SELL order for PRNDY
+✅ PRNDY is tradable on Alpaca.
+⚠️ Skipping PRNDY: Not tradable on Alpaca
+🔍 Processing BUY order for WFC
+✅ WFC is tradable on Alpaca.
+🚀 Placing BUY order for WFC
+🔍 Processing SELL order for NSC
+✅ NSC is tradable on Alpaca.
+📉 Placing SELL order for NSC
+🔍 Processing BUY order for UNP
+✅ UNP is tradable on Alpaca.
+🚀 Placing BUY order for UNP
+🔍 Processing BUY order for GS
+✅ GS is tradable on Alpaca.
+🚀 Placing BUY order for GS
+🔍 Processing SELL order for PNC
+✅ PNC is tradable on Alpaca.
+📉 Placing SELL order for PNC
+🔍 Loaded 10 trade signals from trading_signals.json
+🔍 Processing SELL order for SYK
+✅ SYK is tradable on Alpaca.
+📉 Placing SELL order for SYK
+🔍 Processing BUY order for AMZN
+✅ AMZN is tradable on Alpaca.
+🚀 Placing BUY order for AMZN
+🔍 Processing SELL order for MAGN
+✅ MAGN is tradable on Alpaca.
+📉 Placing SELL order for MAGN
+🔍 Processing BUY order for MDLZ
+✅ MDLZ is tradable on Alpaca.
+🚀 Placing BUY order for MDLZ
+🔍 Processing SELL order for PRNDY
+✅ PRNDY is tradable on Alpaca.
+⚠️ Skipping PRNDY: Not tradable on Alpaca
+🔍 Processing BUY order for WFC
+✅ WFC is tradable on Alpaca.
+🚀 Placing BUY order for WFC
+🔍 Processing SELL order for NSC
+✅ NSC is tradable on Alpaca.
+📉 Placing SELL order for NSC
+🔍 Processing BUY order for UNP
+✅ UNP is tradable on Alpaca.
+🚀 Placing BUY order for UNP
+🔍 Processing BUY order for GS
+✅ GS is tradable on Alpaca.
+🚀 Placing BUY order for GS
+🔍 Processing SELL order for PNC
+✅ PNC is tradable on Alpaca.
+📉 Placing SELL order for PNC
+$BRK.B: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+🔍 Loaded 7 trade signals.
+🚀 Buying FLL at 3.9800000190734863
+🚀 Buying UBS at 33.6150016784668
+🚀 Buying DG at 80.45999908447266
+🚀 Buying CRWD at 362.32501220703125
+🚀 Buying TSLA at 224.38999938964844
+🚀 Buying GS at 550.6599731445312
+⚠️ Selling AMZN: 2% stop-loss triggered.
+✅ Trade execution process complete.
+$BRK.B: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+🔍 Loaded 7 trade signals.
+🚀 Buying FLL at 4.045000076293945
+🚀 Buying UBS at 33.560001373291016
+🚀 Buying DG at 81.23999786376953
+🚀 Buying CRWD at 362.25
+🚀 Buying TSLA at 223.4600067138672
+🚀 Buying GS at 549.4000244140625
+⚠️ Selling AMZN: 2% stop-loss triggered.
+✅ Trade execution process complete.
+$BRK.B: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+🔍 Loaded 7 trade signals.
+🚀 Buying FLL at 4.054999828338623
+🚀 Buying UBS at 33.630001068115234
+🚀 Buying DG at 81.12000274658203
+🚀 Buying CRWD at 361.67999267578125
+🚀 Buying TSLA at 228.1199951171875
+🚀 Buying GS at 548.9199829101562
+⚠️ Selling AMZN: 2% stop-loss triggered.
+✅ Trade execution process complete.
+$BRK.B: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+🔍 Loaded 7 trade signals.
+🚀 Buying FLL at 4.050000190734863
+🚀 Buying UBS at 33.625
+🚀 Buying DG at 81.04000091552734
+🚀 Buying CRWD at 363.8725891113281
+🚀 Buying TSLA at 227.13999938964844
+🚀 Buying GS at 549.0
+⚠️ Selling AMZN: 2% stop-loss triggered.
+✅ Trade execution process complete.
+$BRK.B: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+🔍 Loaded 7 trade signals.
+🚀 Buying FLL at 4.070000171661377
+🚀 Buying UBS at 33.834999084472656
+🚀 Buying GS at 550.60498046875
+🚀 Buying CRWD at 363.57000732421875
+🚀 Buying DG at 81.26000213623047
+🚀 Buying TSLA at 227.00999450683594
+⚠️ Selling AMZN: 2% stop-loss triggered.
+✅ Trade execution process complete.
