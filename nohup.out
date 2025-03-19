@@ -313,3 +313,13 @@ $BRK.B: possibly delisted; no price data found  (period=1d) (Yahoo error = "No d
 🚀 Buying TSLA at 227.00999450683594
 ⚠️ Selling AMZN: 2% stop-loss triggered.
 ✅ Trade execution process complete.
+$BRK.B: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+🔍 Loaded 7 trade signals.
+🚀 Buying FLL at 4.039999961853027
+🚀 Buying UBS at 33.83000183105469
+🚀 Buying GS at 550.5349731445312
+🚀 Buying CRWD at 363.4100036621094
+🚀 Buying DG at 81.33999633789062
+🚀 Buying TSLA at 226.60499572753906
+⚠️ Selling AMZN: 2% stop-loss triggered.
+✅ Trade execution process complete.

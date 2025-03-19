@@ -1,0 +1,22 @@
+[
+    {
+        "ticker": "CRWD",
+        "action": "BUY",
+        "strategy": "LONG"
+    },
+    {
+        "ticker": "TSLA",
+        "action": "BUY",
+        "strategy": "LONG"
+    },
+    {
+        "ticker": "DG",
+        "action": "BUY",
+        "strategy": "LONG"
+    },
+    {
+        "ticker": "GS",
+        "action": "BUY",
+        "strategy": "LONG"
+    }
+]

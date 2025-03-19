@@ -1,0 +1,172 @@
+[
+    {
+        "ticker": "SLB",
+        "ai_score": 0.7579,
+        "action": "BUY"
+    },
+    {
+        "ticker": "GLD",
+        "ai_score": 0.9479,
+        "action": "BUY"
+    },
+    {
+        "ticker": "LOVE",
+        "ai_score": 0.85,
+        "action": "BUY"
+    },
+    {
+        "ticker": "SEA",
+        "ai_score": 0.7506,
+        "action": "BUY"
+    },
+    {
+        "ticker": "FUND",
+        "ai_score": 0.6037,
+        "action": "BUY"
+    },
+    {
+        "ticker": "IBKR",
+        "ai_score": 0.7914,
+        "action": "BUY"
+    },
+    {
+        "ticker": "BRO",
+        "ai_score": 0.6184499999999999,
+        "action": "BUY"
+    },
+    {
+        "ticker": "WELL",
+        "ai_score": 0.6257333333333333,
+        "action": "BUY"
+    },
+    {
+        "ticker": "ADD",
+        "ai_score": 0.6486,
+        "action": "BUY"
+    },
+    {
+        "ticker": "WANT",
+        "ai_score": 0.8052,
+        "action": "BUY"
+    },
+    {
+        "ticker": "EPS",
+        "ai_score": 0.6384799999999999,
+        "action": "BUY"
+    },
+    {
+        "ticker": "LIVE",
+        "ai_score": 0.7359,
+        "action": "BUY"
+    },
+    {
+        "ticker": "IMO",
+        "ai_score": 0.63815,
+        "action": "BUY"
+    },
+    {
+        "ticker": "CQQQ",
+        "ai_score": 0.8074,
+        "action": "BUY"
+    },
+    {
+        "ticker": "FXI",
+        "ai_score": 0.8074,
+        "action": "BUY"
+    },
+    {
+        "ticker": "KWEB",
+        "ai_score": 0.8074,
+        "action": "BUY"
+    },
+    {
+        "ticker": "XPEV",
+        "ai_score": 0.8074,
+        "action": "BUY"
+    },
+    {
+        "ticker": "BBWI",
+        "ai_score": 0.8591,
+        "action": "BUY"
+    },
+    {
+        "ticker": "COST",
+        "ai_score": 0.7876,
+        "action": "BUY"
+    },
+    {
+        "ticker": "NFLX",
+        "ai_score": 0.7876,
+        "action": "BUY"
+    },
+    {
+        "ticker": "WOW",
+        "ai_score": 0.8074,
+        "action": "BUY"
+    },
+    {
+        "ticker": "KOLD",
+        "ai_score": 0.8689,
+        "action": "BUY"
+    },
+    {
+        "ticker": "LCID",
+        "ai_score": 0.7351,
+        "action": "BUY"
+    },
+    {
+        "ticker": "TSLZ",
+        "ai_score": 0.6124,
+        "action": "BUY"
+    },
+    {
+        "ticker": "NIO",
+        "ai_score": 0.6505,
+        "action": "BUY"
+    },
+    {
+        "ticker": "UBS",
+        "ai_score": 0.9678,
+        "action": "BUY"
+    },
+    {
+        "ticker": "UNH",
+        "ai_score": 0.7269,
+        "action": "BUY"
+    },
+    {
+        "ticker": "SMCL",
+        "ai_score": 0.8436,
+        "action": "BUY"
+    },
+    {
+        "ticker": "BEST",
+        "ai_score": 0.8769,
+        "action": "BUY"
+    },
+    {
+        "ticker": "DAY",
+        "ai_score": 0.9022,
+        "action": "BUY"
+    },
+    {
+        "ticker": "RATE",
+        "ai_score": 0.9022,
+        "action": "BUY"
+    },
+    {
+        "ticker": "SBLK",
+        "ai_score": 0.9299,
+        "action": "BUY"
+    },
+    {
+        "ticker": "RTH",
+        "ai_score": 0.9547,
+        "action": "BUY"
+    },
+    {
+        "ticker": "GMS",
+        "ai_score": 0.7845,
+        "action": "BUY"
+    }
+]

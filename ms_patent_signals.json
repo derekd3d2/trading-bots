@@ -1,0 +1,74 @@
+[
+    {
+        "ticker": "XRX",
+        "ai_score": 31,
+        "action": "BUY",
+        "strategy": "LONG"
+    },
+    {
+        "ticker": "UMC",
+        "ai_score": 32,
+        "action": "BUY",
+        "strategy": "LONG"
+    },
+    {
+        "ticker": "TXG",
+        "ai_score": 27,
+        "action": "BUY",
+        "strategy": "LONG"
+    },
+    {
+        "ticker": "SONY",
+        "ai_score": 102,
+        "action": "BUY",
+        "strategy": "LONG"
+    },
+    {
+        "ticker": "SONO",
+        "ai_score": 43,
+        "action": "BUY",
+        "strategy": "LONG"
+    },
+    {
+        "ticker": "SNOW",
+        "ai_score": 39,
+        "action": "BUY",
+        "strategy": "LONG"
+    },
+    {
+        "ticker": "SNAP",
+        "ai_score": 51,
+        "action": "BUY",
+        "strategy": "LONG"
+    },
+    {
+        "ticker": "QCOM",
+        "ai_score": 476,
+        "action": "BUY",
+        "strategy": "LONG"
+    },
+    {
+        "ticker": "PLTR",
+        "ai_score": 39,
+        "action": "BUY",
+        "strategy": "LONG"
+    },
+    {
+        "ticker": "NVDA",
+        "ai_score": 84,
+        "action": "BUY",
+        "strategy": "LONG"
+    },
+    {
+        "ticker": "BB",
+        "ai_score": 23,
+        "action": "BUY",
+        "strategy": "LONG"
+    },
+    {
+        "ticker": "AMD",
+        "ai_score": 50,
+        "action": "BUY",
+        "strategy": "LONG"
+    }
+]

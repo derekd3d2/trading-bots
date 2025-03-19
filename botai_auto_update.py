@@ -15,7 +15,6 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 # ✅ File Paths
 BOT_FILES = {
     "trading_bot.py": "bot_backups/trading_bot_backup",
-    "market_research.py": "bot_backups/market_research_backup"
 }
 BACKUP_DIR = "bot_backups"
 LOG_FILE = "bot_update.log"
@@ -36,7 +35,7 @@ def fetch_new_ai_code(bot_file):
         log_message(f"🔄 Fetching AI improvements for {bot_file}...")
         response = openai.chat.completions.create(
             model="gpt-4",
-            messages=[{"role": "system", "content": f"Improve and optimize the Python code for {bot_file}. Make it more efficient, accurate, and robust for stock trading and market research."}]
+            messages=[{"role": "system", "content": f"Improve and optimize the Python code for {bot_file}. Make it more efficient, accurate, and robust for stock trading."}]
         )
 
         new_code = response.choices[0].message.content
@@ -108,13 +107,11 @@ def restart_trading_bot():
         log_message(f"❌ Error restarting the bot: {str(e)}")
 
 # ✅ Run this script every 12 hours
-schedule.every(12).hours.do(lambda: update_bot("trading_bot.py"))
-schedule.every(12).hours.do(lambda: update_bot("market_research.py"))
+schedule.every(12).hours.do(lambda: update_bot("day_trading_bot.py"))
 
 if __name__ == "__main__":
     log_message("🚀 AI Auto-Update System is Running...")
     update_bot("trading_bot.py")  # Run immediately on startup
-    update_bot("market_research.py")  # Run immediately on startup
 
     while True:
         schedule.run_pending()
