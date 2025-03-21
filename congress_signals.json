@@ -1,22 +1,26 @@
 [
     {
+        "ticker": "GS",
+        "action": "BUY",
+        "strategy": "LONG",
+        "congress_score": 1.001
+    },
+    {
         "ticker": "CRWD",
         "action": "BUY",
-        "strategy": "LONG"
+        "strategy": "LONG",
+        "congress_score": 1.001
     },
     {
         "ticker": "TSLA",
         "action": "BUY",
-        "strategy": "LONG"
+        "strategy": "LONG",
+        "congress_score": 1.001
     },
     {
         "ticker": "DG",
         "action": "BUY",
-        "strategy": "LONG"
-    },
-    {
-        "ticker": "GS",
-        "action": "BUY",
-        "strategy": "LONG"
+        "strategy": "LONG",
+        "congress_score": 1.001
     }
 ]

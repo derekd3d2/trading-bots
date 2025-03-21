@@ -6,8 +6,8 @@ from datetime import datetime, timedelta
 import time
 
 # ✅ Load API Keys
-ALPACA_API_KEY = os.getenv("APCA_API_KEY_ID")
-ALPACA_SECRET_KEY = os.getenv("APCA_API_SECRET_KEY")
+ALPACA_API_KEY = os.getenv("ALPACA_API_KEY")
+ALPACA_SECRET_KEY = os.getenv("ALPACA_SECRET_KEY")
 ALPACA_BASE_URL = "https://paper-api.alpaca.markets"
 
 if not ALPACA_API_KEY or not ALPACA_SECRET_KEY:

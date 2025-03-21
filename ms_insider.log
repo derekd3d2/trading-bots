@@ -1,0 +1,34 @@
+❌ API Key not found! Make sure it is set correctly.
+❌ API Key not found! Make sure it is set correctly.
+❌ API Key not found! Make sure it is set correctly.
+❌ API Key not found! Make sure it is set correctly.
+❌ API Key not found! Make sure it is set correctly.
+❌ API Key not found! Make sure it is set correctly.
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/ms_insider_trading.py", line 6, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/ms_insider_trading.py", line 6, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/ms_insider_trading.py", line 6, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/ms_insider_trading.py", line 6, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+✅ API Key successfully loaded in ms_insider_trading.py
+📊 Running AI-Enhanced Insider Trading Market Research...
+Tracked tickers from QuiverQuant Insider Trading API: []
+✅ 0 Insider trading signals saved to insider_signals.json
+✅ API Key successfully loaded in ms_insider_trading.py
+📊 Running AI-Enhanced Insider Trading Market Research...
+Tracked tickers from QuiverQuant Insider Trading API: []
+✅ 0 Insider trading signals saved to insider_signals.json
+✅ API Key successfully loaded in ms_insider_trading.py
+📊 Running AI-Enhanced Insider Trading Market Research...
+Tracked tickers from QuiverQuant Insider Trading API: []
+✅ 0 Insider trading signals saved to insider_signals.json

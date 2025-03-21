@@ -1,0 +1,72 @@
+📊 Running Long-Term Congress Trading Strategy...
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/ms_congress.py", line 71, in <module>
+    congress_trades = fetch_congress_trades()
+  File "/home/ubuntu/trading-bots/ms_congress.py", line 34, in fetch_congress_trades
+    response.raise_for_status()
+  File "/usr/local/lib/python3.10/dist-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: Internal Server Error for url: https://api.quiverquant.com/beta/live/congresstrading
+📊 Running Long-Term Congress Trading Strategy...
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/ms_congress.py", line 71, in <module>
+    congress_trades = fetch_congress_trades()
+  File "/home/ubuntu/trading-bots/ms_congress.py", line 34, in fetch_congress_trades
+    response.raise_for_status()
+  File "/usr/local/lib/python3.10/dist-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: Internal Server Error for url: https://api.quiverquant.com/beta/live/congresstrading
+📊 Running Long-Term Congress Trading Strategy...
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/ms_congress.py", line 71, in <module>
+    congress_trades = fetch_congress_trades()
+  File "/home/ubuntu/trading-bots/ms_congress.py", line 34, in fetch_congress_trades
+    response.raise_for_status()
+  File "/usr/local/lib/python3.10/dist-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: Internal Server Error for url: https://api.quiverquant.com/beta/live/congresstrading
+📊 Running Long-Term Congress Trading Strategy...
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/ms_congress.py", line 71, in <module>
+    congress_trades = fetch_congress_trades()
+  File "/home/ubuntu/trading-bots/ms_congress.py", line 34, in fetch_congress_trades
+    response.raise_for_status()
+  File "/usr/local/lib/python3.10/dist-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: Internal Server Error for url: https://api.quiverquant.com/beta/live/congresstrading
+📊 Running Long-Term Congress Trading Strategy...
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/ms_congress.py", line 71, in <module>
+    congress_trades = fetch_congress_trades()
+  File "/home/ubuntu/trading-bots/ms_congress.py", line 34, in fetch_congress_trades
+    response.raise_for_status()
+  File "/usr/local/lib/python3.10/dist-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: Internal Server Error for url: https://api.quiverquant.com/beta/live/congresstrading
+📊 Running Long-Term Congress Trading Strategy...
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/ms_congress.py", line 71, in <module>
+    congress_trades = fetch_congress_trades()
+  File "/home/ubuntu/trading-bots/ms_congress.py", line 34, in fetch_congress_trades
+    response.raise_for_status()
+  File "/usr/local/lib/python3.10/dist-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: Internal Server Error for url: https://api.quiverquant.com/beta/live/congresstrading
+📊 Running Long-Term Congress Trading Strategy...
+✅ 4 Congress trade signals saved to congress_signals.json
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/ms_congress.py", line 1, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/ms_congress.py", line 1, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/ms_congress.py", line 1, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/ms_congress.py", line 1, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'

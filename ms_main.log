@@ -1,0 +1,76 @@
+2025-03-21 03:04:09.866100 - ✅ Launched ms_congress.py
+2025-03-21 03:04:09.866436 - ✅ Launched ms_daytrading_signals.py
+2025-03-21 03:04:09.866829 - ✅ Launched ms_insider_trading.py
+2025-03-21 03:04:09.870039 - ✅ Launched ms_twitter.py
+2025-03-21 03:04:24.787541 - ✅ Launched ms_congress.py
+2025-03-21 03:04:24.787893 - ✅ Launched ms_daytrading_signals.py
+2025-03-21 03:04:24.788270 - ✅ Launched ms_insider_trading.py
+2025-03-21 03:04:24.791035 - ✅ Launched ms_twitter.py
+2025-03-21 03:05:40.749253 - Congress: ✅ No summary line found.
+2025-03-21 03:05:41.209755 - Day Trading: ✅ No summary line found.
+2025-03-21 03:05:46.402917 - Insider: ✅ API Key successfully loaded in ms_insider_trading.py
+2025-03-21 03:05:46.583499 - Twitter: ✅ API Key successfully loaded in ms_twitter.py
+2025-03-21 03:16:25.285919 - ms_congress.py output:
+✅ 4 trade signals saved to congress_signals.json
+
+
+
+2025-03-21 03:16:25.286137 - ms_daytrading_signals.py output:
+
+
+
+2025-03-21 03:16:25.286277 - ms_insider_trading.py output:
+✅ API Key successfully loaded in ms_insider_trading.py
+📊 Running AI-Enhanced Insider Trading Market Research...
+Tracked tickers from QuiverQuant Insider Trading API: []
+✅ 0 Insider trading signals saved to insider_signals.json
+
+
+
+2025-03-21 03:16:25.286433 - ms_twitter.py output:
+✅ API Key successfully loaded in ms_twitter.py
+📊 Fetching full list of tickers from Twitter sentiment data...
+Tracked tickers from QuiverQuant Twitter API: ['NET']
+
+
+
+2025-03-21 03:16:25.286581 - ms_wsb.py output:
+✅ API Key successfully loaded in ms_wsb.py
+📊 Fetching WallStreetBets sentiment data...
+✅ 34 trade signals saved to wsb_signals.json
+
+
+
+2025-03-21 03:38:27.741548 - ms_daytrading_signals.py output:
+
+
+2025-03-21 03:38:27.758109 - ms_daytrading_bot.py output:
+
+python3: can't open file '/home/ubuntu/trading-bots/ms_daytrading_bot.py': [Errno 2] No such file or directory
+
+2025-03-21 03:42:08.216073 - ms_congress.py finished:
+✅ 4 trade signals saved to congress_signals.json
+
+
+2025-03-21 03:42:08.216249 - ms_daytrading_signals.py finished:
+
+
+2025-03-21 03:42:08.216404 - ms_insider_trading.py finished:
+✅ API Key successfully loaded in ms_insider_trading.py
+📊 Running AI-Enhanced Insider Trading Market Research...
+Tracked tickers from QuiverQuant Insider Trading API: []
+✅ 0 Insider trading signals saved to insider_signals.json
+
+
+2025-03-21 03:42:08.216555 - ms_twitter.py finished:
+✅ API Key successfully loaded in ms_twitter.py
+📊 Fetching full list of tickers from Twitter sentiment data...
+Tracked tickers from QuiverQuant Twitter API: ['NET']
+
+
+2025-03-21 03:42:08.216695 - ms_wsb.py finished:
+✅ API Key successfully loaded in ms_wsb.py
+📊 Fetching WallStreetBets sentiment data...
+✅ 34 trade signals saved to wsb_signals.json
+
+

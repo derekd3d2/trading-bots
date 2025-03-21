@@ -1,8 +1,11 @@
 # 🚀 To-Do List
 
-## Immediate Tasks
-- [ ] make sure twitter threshold is updated for trading bot
+## Immediate Tasks- [ ] make sure twitter threshold is updated for trading bot
 - [ ] try to find out how to have AI self learning on  
+      fix daily updates emails
+      fkx crontab -e
+main marker researxh bor needed 
+find kut why main isnt running on auto, but running trading bot manually is woeking  
 
 ## Improvements
 - [ ] Enhance AI self-updating script logging.

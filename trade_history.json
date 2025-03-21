@@ -1,0 +1,10 @@
+[
+    {
+        "timestamp": "2025-03-21T03:57:50.330166",
+        "action": "BUY",
+        "ticker": "ADD",
+        "shares": 425.2233,
+        "price": 0.92,
+        "reason": "New Signal"
+    }
+]

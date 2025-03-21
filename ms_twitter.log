@@ -1,0 +1,31 @@
+❌ API Key not found! Make sure it is set correctly.
+❌ API Key not found! Make sure it is set correctly.
+❌ API Key not found! Make sure it is set correctly.
+❌ API Key not found! Make sure it is set correctly.
+❌ API Key not found! Make sure it is set correctly.
+❌ API Key not found! Make sure it is set correctly.
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/ms_twitter.py", line 7, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/ms_twitter.py", line 7, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/ms_twitter.py", line 7, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/ms_twitter.py", line 7, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+✅ API Key successfully loaded in ms_twitter.py
+📊 Fetching full list of tickers from Twitter sentiment data...
+Tracked tickers from QuiverQuant Twitter API: ['NET']
+✅ API Key successfully loaded in ms_twitter.py
+📊 Fetching full list of tickers from Twitter sentiment data...
+Tracked tickers from QuiverQuant Twitter API: ['NET']
+✅ API Key successfully loaded in ms_twitter.py
+📊 Fetching full list of tickers from Twitter sentiment data...
+Tracked tickers from QuiverQuant Twitter API: ['NET']

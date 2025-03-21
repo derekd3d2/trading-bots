@@ -1,0 +1,303 @@
+python3: can't open file '/home/ubuntu/trading-bots/ai_auto_update.py': [Errno 2] No such file or directory
+⚠️ No day trading signals found.
+⚠️ No trades to execute.
+⚠️ Selling KOLD: Stop-loss triggered.
+✅ Selling SYK: Profit target reached.
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/day_trading_bot.py", line 116, in <module>
+    check_and_sell_positions()
+  File "/home/ubuntu/trading-bots/day_trading_bot.py", line 99, in check_and_sell_positions
+    api.submit_order(symbol=ticker, qty=pos.qty, side="sell", type="market", time_in_force="day")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 433, in submit_order
+    resp = self.post('/orders', params)
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 257, in post
+    return self._request('POST', path, data)
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 222, in _request
+    return self._one_request(method, url, opts, retry)
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 248, in _one_request
+    raise_api_error(resp, http_error)
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 83, in raise_api_error
+    raise APIError(error, http_error) from None
+alpaca_trade_api.rest.APIError: qty must be > 0
+python3: can't open file '/home/ubuntu/trading-bots/ai_auto_update.py': [Errno 2] No such file or directory
+$LIVE: possibly delisted; no price data found  (period=1d)
+$BEST: possibly delisted; no price data found  (period=1d)
+🔍 Loaded 37 day trading signals after exclusion.
+🚀 Buying 0.2258 shares of CRWD at 376.9700012207031
+🚀 Buying 1.0423 shares of DG at 81.6718978881836
+🚀 Buying 0.1532 shares of GS at 555.7260131835938
+🚀 Buying 2.0627 shares of SLB at 41.27000045776367
+🚀 Buying 0.3037 shares of GLD at 280.3399963378906
+🚀 Buying 5.0521 shares of LOVE at 16.850000381469727
+🚀 Buying 6.5635 shares of SEA at 12.970000267028809
+❌ Error executing buy for SEA: asset "SEA" is not fractionable
+🚀 Buying 11.6566 shares of FUND at 7.302999973297119
+❌ Error executing buy for FUND: asset "FUND" is not fractionable
+🚀 Buying 0.4759 shares of IBKR at 178.8699951171875
+🚀 Buying 0.7126 shares of BRO at 119.46499633789062
+🚀 Buying 0.5680 shares of WELL at 149.875
+🚀 Buying 90.5622 shares of ADD at 0.9399999976158142
+❌ Error executing buy for ADD: asset "ADD" is not fractionable
+🚀 Buying 2.4994 shares of WANT at 34.058998107910156
+🚀 Buying 1.4259 shares of EPS at 59.70109939575195
+🚀 Buying 1.2163 shares of IMO at 69.98999786376953
+🚀 Buying 1.7402 shares of CQQQ at 48.91999816894531
+🚀 Buying 2.2198 shares of FXI at 38.349998474121094
+🚀 Buying 2.2610 shares of KWEB at 37.650001525878906
+🚀 Buying 3.5821 shares of XPEV at 23.764999389648438
+🚀 Buying 2.8386 shares of BBWI at 29.989999771118164
+🚀 Buying 0.0946 shares of COST at 900.0
+🚀 Buying 0.0888 shares of NFLX at 958.77001953125
+🚀 Buying 17.9786 shares of WOW at 4.735000133514404
+🚀 Buying 4.6394 shares of KOLD at 18.34910011291504
+🚀 Buying 34.6051 shares of LCID at 2.4600000381469727
+🚀 Buying 15.4647 shares of TSLZ at 5.504700183868408
+❌ Error executing buy for TSLZ: asset "TSLZ" is not fractionable
+🚀 Buying 16.4341 shares of NIO at 5.179999828338623
+🚀 Buying 2.5703 shares of UBS at 33.119998931884766
+🚀 Buying 0.1695 shares of UNH at 502.1050109863281
+🚀 Buying 5.1593 shares of SMCL at 16.5
+❌ Error executing buy for SMCL: asset "SMCL" is not fractionable
+🚀 Buying 1.4675 shares of DAY at 58.0099983215332
+🚀 Buying 4.3589 shares of RATE at 19.529699325561523
+❌ Error executing buy for RATE: asset "RATE" is not fractionable
+🚀 Buying 5.0312 shares of SBLK at 16.920000076293945
+🚀 Buying 0.3857 shares of RTH at 220.74000549316406
+🚀 Buying 1.1780 shares of GMS at 72.26499938964844
+✅ Selling NSC: Profit target reached.
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/day_trading_bot.py", line 121, in <module>
+    check_and_sell_positions()
+  File "/home/ubuntu/trading-bots/day_trading_bot.py", line 104, in check_and_sell_positions
+    api.submit_order(symbol=ticker, qty=pos.qty, side="sell", type="market", time_in_force="day")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 433, in submit_order
+    resp = self.post('/orders', params)
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 257, in post
+    return self._request('POST', path, data)
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 222, in _request
+    return self._one_request(method, url, opts, retry)
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 248, in _one_request
+    raise_api_error(resp, http_error)
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 83, in raise_api_error
+    raise APIError(error, http_error) from None
+alpaca_trade_api.rest.APIError: qty must be > 0
+$LIVE: possibly delisted; no price data found  (period=1d)
+$BEST: possibly delisted; no price data found  (period=1d)
+🔍 Loaded 37 day trading signals after exclusion.
+🚀 Buying 0.0658 shares of CRWD at 375.04998779296875
+🚀 Buying 0.2997 shares of DG at 82.33000183105469
+🚀 Buying 0.0443 shares of GS at 557.3400268554688
+🚀 Buying 0.6006 shares of SLB at 41.08000183105469
+🚀 Buying 0.0878 shares of GLD at 281.1099853515625
+🚀 Buying 1.4050 shares of LOVE at 17.559999465942383
+🚀 Buying 1.8920 shares of SEA at 13.039999961853027
+❌ Error executing buy for SEA: asset "SEA" is not fractionable
+🚀 Buying 3.3566 shares of FUND at 7.349999904632568
+❌ Error executing buy for FUND: asset "FUND" is not fractionable
+🚀 Buying 0.1385 shares of IBKR at 178.14999389648438
+🚀 Buying 0.2058 shares of BRO at 119.87999725341797
+🚀 Buying 0.1658 shares of WELL at 148.75999450683594
+🚀 Buying 24.1876 shares of ADD at 1.0199999809265137
+❌ Error executing buy for ADD: asset "ADD" is not fractionable
+🚀 Buying 0.7065 shares of WANT at 34.91999816894531
+🚀 Buying 0.4113 shares of EPS at 59.97999954223633
+🚀 Buying 0.3508 shares of IMO at 70.31999969482422
+🚀 Buying 0.5043 shares of CQQQ at 48.91999816894531
+🚀 Buying 0.6437 shares of FXI at 38.33000183105469
+🚀 Buying 0.6555 shares of KWEB at 37.63999938964844
+🚀 Buying 1.0366 shares of XPEV at 23.799999237060547
+🚀 Buying 0.8159 shares of BBWI at 30.239999771118164
+🚀 Buying 0.0273 shares of COST at 904.0499877929688
+🚀 Buying 0.0257 shares of NFLX at 959.489990234375
+🚀 Buying 5.2159 shares of WOW at 4.730000019073486
+🚀 Buying 1.3271 shares of KOLD at 18.59000015258789
+🚀 Buying 10.1112 shares of LCID at 2.440000057220459
+🚀 Buying 4.5269 shares of TSLZ at 5.449999809265137
+❌ Error executing buy for TSLZ: asset "TSLZ" is not fractionable
+🚀 Buying 4.7720 shares of NIO at 5.170000076293945
+🚀 Buying 0.7460 shares of UBS at 33.06999969482422
+🚀 Buying 0.0490 shares of UNH at 503.20001220703125
+🚀 Buying 1.4555 shares of SMCL at 16.950000762939453
+❌ Error executing buy for SMCL: asset "SMCL" is not fractionable
+🚀 Buying 0.4278 shares of DAY at 57.66999816894531
+🚀 Buying 1.2767 shares of RATE at 19.323999404907227
+❌ Error executing buy for RATE: asset "RATE" is not fractionable
+🚀 Buying 1.4564 shares of SBLK at 16.940000534057617
+🚀 Buying 0.1107 shares of RTH at 222.91000366210938
+🚀 Buying 0.3401 shares of GMS at 72.55000305175781
+⚠️ Selling LCID: Stop-loss triggered.
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/day_trading_bot.py", line 121, in <module>
+    check_and_sell_positions()
+  File "/home/ubuntu/trading-bots/day_trading_bot.py", line 108, in check_and_sell_positions
+    api.submit_order(symbol=ticker, qty=pos.qty, side="sell", type="market", time_in_force="day")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 433, in submit_order
+    resp = self.post('/orders', params)
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 257, in post
+    return self._request('POST', path, data)
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 222, in _request
+    return self._one_request(method, url, opts, retry)
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 248, in _one_request
+    raise_api_error(resp, http_error)
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 83, in raise_api_error
+    raise APIError(error, http_error) from None
+alpaca_trade_api.rest.APIError: potential wash trade detected. use complex orders
+$LIVE: possibly delisted; no price data found  (period=1d)
+$BEST: possibly delisted; no price data found  (period=1d)
+$RATE: possibly delisted; no price data found  (period=1d)
+🔍 Loaded 37 day trading signals after exclusion.
+🚀 Buying 0.0500 shares of CRWD at 375.04998779296875
+🚀 Buying 0.2277 shares of DG at 82.33000183105469
+🚀 Buying 0.0336 shares of GS at 557.3400268554688
+🚀 Buying 0.4563 shares of SLB at 41.08000183105469
+🚀 Buying 0.0667 shares of GLD at 281.1099853515625
+🚀 Buying 1.0675 shares of LOVE at 17.559999465942383
+🚀 Buying 1.4376 shares of SEA at 13.039999961853027
+❌ Error executing buy for SEA: asset "SEA" is not fractionable
+🚀 Buying 2.5505 shares of FUND at 7.349999904632568
+❌ Error executing buy for FUND: asset "FUND" is not fractionable
+🚀 Buying 0.1052 shares of IBKR at 178.14999389648438
+🚀 Buying 0.1564 shares of BRO at 119.87999725341797
+🚀 Buying 0.1260 shares of WELL at 148.75999450683594
+🚀 Buying 18.3783 shares of ADD at 1.0199999809265137
+❌ Error executing buy for ADD: asset "ADD" is not fractionable
+🚀 Buying 0.5368 shares of WANT at 34.91999816894531
+🚀 Buying 0.3125 shares of EPS at 59.97999954223633
+🚀 Buying 0.2666 shares of IMO at 70.31999969482422
+🚀 Buying 0.3832 shares of CQQQ at 48.91999816894531
+🚀 Buying 0.4891 shares of FXI at 38.33000183105469
+🚀 Buying 0.4980 shares of KWEB at 37.63999938964844
+🚀 Buying 0.7876 shares of XPEV at 23.799999237060547
+🚀 Buying 0.6199 shares of BBWI at 30.239999771118164
+🚀 Buying 0.0207 shares of COST at 904.0499877929688
+🚀 Buying 0.0195 shares of NFLX at 959.489990234375
+🚀 Buying 3.9632 shares of WOW at 4.730000019073486
+🚀 Buying 1.0084 shares of KOLD at 18.59000015258789
+🚀 Buying 7.6827 shares of LCID at 2.440000057220459
+🚀 Buying 3.4396 shares of TSLZ at 5.449999809265137
+❌ Error executing buy for TSLZ: asset "TSLZ" is not fractionable
+🚀 Buying 3.6259 shares of NIO at 5.170000076293945
+🚀 Buying 0.5669 shares of UBS at 33.06999969482422
+🚀 Buying 0.0373 shares of UNH at 503.20001220703125
+🚀 Buying 1.1060 shares of SMCL at 16.950000762939453
+❌ Error executing buy for SMCL: asset "SMCL" is not fractionable
+🚀 Buying 0.3251 shares of DAY at 57.66999816894531
+🚀 Buying 1.1066 shares of SBLK at 16.940000534057617
+🚀 Buying 0.0841 shares of RTH at 222.91000366210938
+🚀 Buying 0.2584 shares of GMS at 72.55000305175781
+⚠️ Selling LCID: Stop-loss triggered.
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/day_trading_bot.py", line 122, in <module>
+    check_and_sell_positions()
+  File "/home/ubuntu/trading-bots/day_trading_bot.py", line 109, in check_and_sell_positions
+    api.submit_order(symbol=ticker, qty=pos.qty, side="sell", type="market", time_in_force="day")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 433, in submit_order
+    resp = self.post('/orders', params)
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 257, in post
+    return self._request('POST', path, data)
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 222, in _request
+    return self._one_request(method, url, opts, retry)
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 248, in _one_request
+    raise_api_error(resp, http_error)
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 83, in raise_api_error
+    raise APIError(error, http_error) from None
+alpaca_trade_api.rest.APIError: potential wash trade detected. use complex orders
+$LIVE: possibly delisted; no price data found  (period=1d)
+$BEST: possibly delisted; no price data found  (period=1d)
+🔍 Loaded 38 day trading signals.
+🚀 Buying 0.0286 shares of CRWD at 375.04998779296875
+🚀 Buying 0.0455 shares of TSLA at 235.86000061035156
+🚀 Buying 0.1304 shares of DG at 82.33000183105469
+🚀 Buying 0.0193 shares of GS at 557.3400268554688
+🚀 Buying 0.2614 shares of SLB at 41.08000183105469
+🚀 Buying 0.0382 shares of GLD at 281.1099853515625
+🚀 Buying 0.6115 shares of LOVE at 17.559999465942383
+⚠️ Skipping SEA: Not fractionable, insufficient capital for 1 whole share.
+🚀 Buying 1.4610 shares of FUND at 7.349999904632568
+❌ Error executing buy for FUND: asset "FUND" is not fractionable
+🚀 Buying 0.0603 shares of IBKR at 178.14999389648438
+🚀 Buying 0.0896 shares of BRO at 119.87999725341797
+🚀 Buying 0.0722 shares of WELL at 148.75999450683594
+🚀 Buying 10.5279 shares of ADD at 1.0199999809265137
+❌ Error executing buy for ADD: asset "ADD" is not fractionable
+🚀 Buying 0.3075 shares of WANT at 34.91999816894531
+🚀 Buying 0.1790 shares of EPS at 59.97999954223633
+🚀 Buying 0.1527 shares of IMO at 70.31999969482422
+🚀 Buying 0.2195 shares of CQQQ at 48.91999816894531
+🚀 Buying 0.2802 shares of FXI at 38.33000183105469
+🚀 Buying 0.2853 shares of KWEB at 37.63999938964844
+🚀 Buying 0.4512 shares of XPEV at 23.799999237060547
+🚀 Buying 0.3551 shares of BBWI at 30.239999771118164
+🚀 Buying 0.0119 shares of COST at 904.0499877929688
+🚀 Buying 0.0112 shares of NFLX at 959.489990234375
+🚀 Buying 2.2703 shares of WOW at 4.730000019073486
+🚀 Buying 0.5776 shares of KOLD at 18.59000015258789
+🚀 Buying 4.4010 shares of LCID at 2.440000057220459
+🚀 Buying 1.9704 shares of TSLZ at 5.449999809265137
+❌ Error executing buy for TSLZ: asset "TSLZ" is not fractionable
+🚀 Buying 2.0771 shares of NIO at 5.170000076293945
+🚀 Buying 0.3247 shares of UBS at 33.06999969482422
+🚀 Buying 0.0213 shares of UNH at 503.20001220703125
+⚠️ Skipping SMCL: Not fractionable, insufficient capital for 1 whole share.
+🚀 Buying 0.1862 shares of DAY at 57.66999816894531
+⚠️ Skipping RATE: Not fractionable, insufficient capital for 1 whole share.
+🚀 Buying 0.6339 shares of SBLK at 16.940000534057617
+🚀 Buying 0.0482 shares of RTH at 222.91000366210938
+🚀 Buying 0.1480 shares of GMS at 72.55000305175781
+❌ Error executing sell for LCID: potential wash trade detected. use complex orders
+❌ Error executing sell for SYK: qty must be > 0
+❌ Error executing sell for TSLA: potential wash trade detected. use complex orders
+❌ Error executing sell for WANT: potential wash trade detected. use complex orders
+✅ Selling WFC due to target reached or stop-loss triggered.
+✅ Day trading execution complete.
+$LIVE: possibly delisted; no price data found  (period=1d)
+$BEST: possibly delisted; no price data found  (period=1d)
+🔍 Loaded 38 day trading signals.
+🚀 Buying 0.0168 shares of CRWD at 375.04998779296875
+🚀 Buying 0.0267 shares of TSLA at 235.86000061035156
+🚀 Buying 0.0764 shares of DG at 82.33000183105469
+🚀 Buying 0.0113 shares of GS at 557.3400268554688
+🚀 Buying 0.1530 shares of SLB at 41.08000183105469
+🚀 Buying 0.0224 shares of GLD at 281.1099853515625
+🚀 Buying 0.3580 shares of LOVE at 17.559999465942383
+⚠️ Skipping SEA: Not fractionable, insufficient capital for 1 whole share.
+⚠️ Skipping FUND: Not fractionable, insufficient capital for 1 whole share.
+🚀 Buying 0.0353 shares of IBKR at 178.14999389648438
+🚀 Buying 0.0524 shares of BRO at 119.87999725341797
+🚀 Buying 0.0423 shares of WELL at 148.75999450683594
+🚀 Buying 6.1632 shares of ADD at 1.0199999809265137
+❌ Error executing buy for ADD: asset "ADD" is not fractionable
+🚀 Buying 0.1800 shares of WANT at 34.91999816894531
+🚀 Buying 0.1048 shares of EPS at 59.97999954223633
+🚀 Buying 0.0894 shares of IMO at 70.31999969482422
+🚀 Buying 0.1285 shares of CQQQ at 48.91999816894531
+🚀 Buying 0.1640 shares of FXI at 38.33000183105469
+🚀 Buying 0.1670 shares of KWEB at 37.63999938964844
+🚀 Buying 0.2641 shares of XPEV at 23.799999237060547
+🚀 Buying 0.2079 shares of BBWI at 30.239999771118164
+🚀 Buying 0.0070 shares of COST at 904.0499877929688
+🚀 Buying 0.0066 shares of NFLX at 959.489990234375
+🚀 Buying 1.3291 shares of WOW at 4.730000019073486
+🚀 Buying 0.3382 shares of KOLD at 18.59000015258789
+🚀 Buying 2.5764 shares of LCID at 2.440000057220459
+🚀 Buying 1.1535 shares of TSLZ at 5.449999809265137
+❌ Error executing buy for TSLZ: asset "TSLZ" is not fractionable
+🚀 Buying 1.2159 shares of NIO at 5.170000076293945
+🚀 Buying 0.1901 shares of UBS at 33.06999969482422
+🚀 Buying 0.0125 shares of UNH at 503.20001220703125
+⚠️ Skipping SMCL: Not fractionable, insufficient capital for 1 whole share.
+🚀 Buying 0.1090 shares of DAY at 57.66999816894531
+⚠️ Skipping RATE: Not fractionable, insufficient capital for 1 whole share.
+🚀 Buying 0.3711 shares of SBLK at 16.940000534057617
+🚀 Buying 0.0282 shares of RTH at 222.91000366210938
+🚀 Buying 0.0866 shares of GMS at 72.55000305175781
+❌ Error executing sell for LCID: potential wash trade detected. use complex orders
+❌ Error executing sell for SYK: qty must be > 0
+❌ Error executing sell for TSLA: potential wash trade detected. use complex orders
+❌ Error executing sell for WANT: potential wash trade detected. use complex orders
+❌ Error executing sell for WFC: insufficient qty available for order (requested: 278, available: 0)
+✅ Day trading execution complete.
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/main.py", line 50, in <module>
+    time.sleep(30)
+KeyboardInterrupt

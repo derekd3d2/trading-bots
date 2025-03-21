@@ -1,10 +1,21 @@
-import requests
 import os
+from dotenv import load_dotenv
+import requests
 import json
 import sqlite3
 
-# Load environment variables
-QUIVER_API_KEY = os.getenv('QUIVER_API_KEY')
+# ✅ Load API Key from Environment
+QUIVER_API_KEY = os.getenv("QUIVER_API_KEY")
+
+if not QUIVER_API_KEY:
+    # Fallback: Load from .bashrc_custom
+    load_dotenv("/home/ubuntu/.bashrc_custom")
+    QUIVER_API_KEY = os.getenv("QUIVER_API_KEY")
+
+if not QUIVER_API_KEY:
+    raise ValueError("❌ API Key not found! Make sure it is set in the environment.")
+else:
+    print("✅ API Key successfully loaded in ms_wsb.py")
 
 QUIVER_WSB_URL = "https://api.quiverquant.com/beta/live/wallstreetbets"
 

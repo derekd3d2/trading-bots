@@ -2,8 +2,8 @@ import os
 import alpaca_trade_api as tradeapi
 
 # ✅ Load API Keys
-ALPACA_API_KEY = os.getenv("ALPACA_API_KEY")
-ALPACA_SECRET_KEY = os.getenv("ALPACA_SECRET_KEY")
+ALPACA_API_KEY = os.getenv("APCA_API_KEY_ID")
+ALPACA_SECRET_KEY = os.getenv("APCA_API_SECRET_KEY")
 ALPACA_BASE_URL = "https://paper-api.alpaca.markets"
 
 # ✅ Connect to Alpaca API

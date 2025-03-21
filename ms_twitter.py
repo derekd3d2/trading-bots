@@ -4,12 +4,20 @@ import sqlite3
 import json
 from datetime import datetime, timedelta
 import time
+from dotenv import load_dotenv
 
-# ✅ Load API Key from environment
+# ✅ Load API Key from Environment
 QUIVER_API_KEY = os.getenv("QUIVER_API_KEY")
+
 if not QUIVER_API_KEY:
-    print("❌ API Key not found! Make sure it is set correctly.")
-    exit(1)
+    # Fallback: Load from .bashrc_custom
+    load_dotenv("/home/ubuntu/.bashrc_custom")
+    QUIVER_API_KEY = os.getenv("QUIVER_API_KEY")
+
+if not QUIVER_API_KEY:
+    raise ValueError("❌ API Key not found! Make sure it is set in the environment.")
+else:
+    print("✅ API Key successfully loaded in ms_twitter.py")
 
 # ✅ QuiverQuant Twitter API Endpoint
 TWITTER_API_URL = "https://api.quiverquant.com/beta/live/twitter"

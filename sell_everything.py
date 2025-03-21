@@ -3,8 +3,8 @@ import os
 
 # Connect to Alpaca
 api = tradeapi.REST(
-    os.getenv("ALPACA_API_KEY"),
-    os.getenv("ALPACA_SECRET_KEY"),
+    os.getenv("APCA_API_KEY"),
+    os.getenv("APCA_SECRET_KEY"),
     "https://paper-api.alpaca.markets",
     api_version="v2"
 )

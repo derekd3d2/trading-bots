@@ -1,51 +1,75 @@
+import subprocess
+import time
+from datetime import datetime
+import pytz
+import alpaca_trade_api as tradeapi
 import json
 import os
-import time
-from datetime import datetime, timedelta
 
-# Load signals from individual bots, handling different filenames
+def log(message):
+    log_file = "/home/ubuntu/trading-bots/main.log"
+    try:
+        with open(log_file, "a") as f:
+            f.write(f"{datetime.now()} - {message}\n")
+    except Exception as e:
+        print(f"⚠️ Log write failed: {e}")
 
-def load_signals(filename):
-    if not os.path.exists(filename):
+# ✅ Load Congress Trading Data
+def load_congress_trades():
+    try:
+        with open("/home/ubuntu/trading-bots/congress_signals.json", "r") as file:
+            congress_data = json.load(file)
+        return {trade["ticker"]: trade.get("congress_score", 0) for trade in congress_data}
+    except FileNotFoundError:
+        log("❌ Congress trading data not found.")
+        return {}
+
+# ✅ Load Day Trading Signals
+def load_trade_signals():
+    try:
+        with open("/home/ubuntu/trading-bots/day_trading_signals.json", "r") as file:
+            signals = json.load(file)
+        return signals
+    except FileNotFoundError:
+        log("❌ No day trading signals file found.")
         return []
-    with open(filename, 'r') as file:
-        return json.load(file)
 
-# Combine signals uniquely and remove duplicates clearly by ticker
+# ✅ Select Best 10-15 Stocks from Signals
+def filter_top_stocks():
+    signals = load_trade_signals()
+    congress_scores = load_congress_trades()
 
-def combine_signals():
-    filenames = ['insider_signals.json', 'congress_signals.json', 'twitter_signals.json', 'wsb_signals.json']
+    for stock in signals:
+        ticker = stock["ticker"]
+        stock["congress_score"] = congress_scores.get(ticker, 0)  # Default to 0 if not found
+        stock["total_score"] = (
+            (stock["congress_score"] * 0.4) +  # 40% Weight: Congress trades
+            (stock.get("insider_score", 0) * 0.3) +   # 30% Weight: Insider buying
+            (stock.get("momentum_score", 0) * 0.1) +  # 10% Weight: Stock momentum
+            (stock.get("sentiment_score", 0) * 0.1) +  # 10% Weight: WSB/Twitter sentiment
+            (stock.get("volume_score", 0) * 0.1)      # 10% Weight: Trading volume
+        )
 
-    combined_signals = {}
-    for filename in filenames:
-        signals = load_signals(filename)
-        for signal in signals:
-            ticker = signal['ticker']
-            if ticker not in combined_signals:
-                combined_signals[ticker] = signal
+    # Sort by highest AI score
+    sorted_stocks = sorted(signals, key=lambda x: x['total_score'], reverse=True)
 
-    return combined_signals
+    # Select top 10-15 stocks
+    selected_stocks = sorted_stocks[:15]
 
-# Save combined signals to JSON
+    with open("/home/ubuntu/trading-bots/day_trading_signals.json", "w") as file:
+        json.dump(selected_stocks, file, indent=4)
+    
+    log(f"✅ Selected {len(selected_stocks)} high-confidence trades for today.")
+    return selected_stocks
 
-def save_combined_signals(signals, filename='day_trading_signals.json'):
-    trade_signals = list(signals.values())
-
-    with open(filename, 'w') as f:
-        json.dump(trade_signals, f, indent=4)
-    print(f"✅ {len(trade_signals)} unique trade signals saved to {filename}")
-
-# Continuous execution every 5 minutes during market hours
-
-def run_signal_bot():
-    end_of_day = datetime.now().replace(hour=16, minute=0, second=0, microsecond=0)
-
-    while datetime.now() < end_of_day:
-        print(f"📊 Running signal generation at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
-        combined_signals = combine_signals()
-        save_combined_signals(combined_signals)
-        print("🕑 Waiting 5 minutes before next run.")
-        time.sleep(300)
-
+# ✅ Main Execution
 if __name__ == "__main__":
-    run_signal_bot()
+    # Convert to Eastern Time (ET)
+    et = pytz.timezone("America/New_York")
+    now_et = datetime.now(et)
+    market_open_time = now_et.replace(hour=9, minute=30, second=0, microsecond=0)
+    log(f"📅 Market open set for {market_open_time}")
+
+    selected_stocks = filter_top_stocks()
+    if selected_stocks:
+        log("🚀 High-confidence trades selected and ready for execution.")
