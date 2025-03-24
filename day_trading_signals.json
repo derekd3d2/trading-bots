@@ -1,51 +1,6 @@
 [
     {
-        "ticker": "RCG",
-        "congress_score": 0.0,
-        "insider_score": 10,
-        "sentiment_score": 0.0,
-        "momentum_score": 0,
-        "volume_score": 0,
-        "total_score": 3.0
-    },
-    {
-        "ticker": "NL",
-        "congress_score": 0.0,
-        "insider_score": 10,
-        "sentiment_score": 0.0,
-        "momentum_score": 0,
-        "volume_score": 0,
-        "total_score": 3.0
-    },
-    {
         "ticker": "SRBK",
-        "congress_score": 0.0,
-        "insider_score": 10,
-        "sentiment_score": 0.0,
-        "momentum_score": 0,
-        "volume_score": 0,
-        "total_score": 3.0
-    },
-    {
-        "ticker": "VG",
-        "congress_score": 0.0,
-        "insider_score": 10,
-        "sentiment_score": 0.0,
-        "momentum_score": 0,
-        "volume_score": 0,
-        "total_score": 3.0
-    },
-    {
-        "ticker": "BUKS",
-        "congress_score": 0.0,
-        "insider_score": 10.0,
-        "sentiment_score": 0.0,
-        "momentum_score": 0,
-        "volume_score": 0,
-        "total_score": 3.0
-    },
-    {
-        "ticker": "EONR",
         "congress_score": 0.0,
         "insider_score": 10,
         "sentiment_score": 0.0,
@@ -63,9 +18,36 @@
         "total_score": 3.0
     },
     {
+        "ticker": "MCVT",
+        "congress_score": 0.0,
+        "insider_score": 10,
+        "sentiment_score": 0.0,
+        "momentum_score": 0,
+        "volume_score": 0,
+        "total_score": 3.0
+    },
+    {
         "ticker": "WEST",
         "congress_score": 0.0,
         "insider_score": 10.0,
+        "sentiment_score": 0.0,
+        "momentum_score": 0,
+        "volume_score": 0,
+        "total_score": 3.0
+    },
+    {
+        "ticker": "VG",
+        "congress_score": 0.0,
+        "insider_score": 10,
+        "sentiment_score": 0.0,
+        "momentum_score": 0,
+        "volume_score": 0,
+        "total_score": 3.0
+    },
+    {
+        "ticker": "NL",
+        "congress_score": 0.0,
+        "insider_score": 10,
         "sentiment_score": 0.0,
         "momentum_score": 0,
         "volume_score": 0,
@@ -81,6 +63,15 @@
         "total_score": 3.0
     },
     {
+        "ticker": "EONR",
+        "congress_score": 0.0,
+        "insider_score": 10,
+        "sentiment_score": 0.0,
+        "momentum_score": 0,
+        "volume_score": 0,
+        "total_score": 3.0
+    },
+    {
         "ticker": "ZOM",
         "congress_score": 0.0,
         "insider_score": 10,
@@ -90,22 +81,22 @@
         "total_score": 3.0
     },
     {
-        "ticker": "MCVT",
+        "ticker": "BUKS",
         "congress_score": 0.0,
-        "insider_score": 10,
+        "insider_score": 10.0,
         "sentiment_score": 0.0,
         "momentum_score": 0,
         "volume_score": 0,
         "total_score": 3.0
     },
     {
-        "ticker": "ECAT",
+        "ticker": "RCG",
         "congress_score": 0.0,
-        "insider_score": 9.0,
+        "insider_score": 10,
         "sentiment_score": 0.0,
         "momentum_score": 0,
         "volume_score": 0,
-        "total_score": 2.6999999999999997
+        "total_score": 3.0
     },
     {
         "ticker": "BLNE",
@@ -126,16 +117,16 @@
         "total_score": 2.6999999999999997
     },
     {
-        "ticker": "FLWS",
+        "ticker": "ECAT",
         "congress_score": 0.0,
-        "insider_score": 8.0,
+        "insider_score": 9.0,
         "sentiment_score": 0.0,
         "momentum_score": 0,
         "volume_score": 0,
-        "total_score": 2.4
+        "total_score": 2.6999999999999997
     },
     {
-        "ticker": "CUBA",
+        "ticker": "BTMD",
         "congress_score": 0.0,
         "insider_score": 8.0,
         "sentiment_score": 0.0,
@@ -153,7 +144,16 @@
         "total_score": 2.4
     },
     {
-        "ticker": "BTMD",
+        "ticker": "CUBA",
+        "congress_score": 0.0,
+        "insider_score": 8.0,
+        "sentiment_score": 0.0,
+        "momentum_score": 0,
+        "volume_score": 0,
+        "total_score": 2.4
+    },
+    {
+        "ticker": "FLWS",
         "congress_score": 0.0,
         "insider_score": 8.0,
         "sentiment_score": 0.0,
@@ -171,15 +171,6 @@
         "total_score": 2.4
     },
     {
-        "ticker": "BUSE",
-        "congress_score": 0.0,
-        "insider_score": 7.0,
-        "sentiment_score": 0.0,
-        "momentum_score": 0,
-        "volume_score": 0,
-        "total_score": 2.1
-    },
-    {
         "ticker": "VREO",
         "congress_score": 0.0,
         "insider_score": 7.0,
@@ -189,7 +180,7 @@
         "total_score": 2.1
     },
     {
-        "ticker": "MVBF",
+        "ticker": "BUSE",
         "congress_score": 0.0,
         "insider_score": 7.0,
         "sentiment_score": 0.0,
@@ -207,43 +198,25 @@
         "total_score": 2.1
     },
     {
-        "ticker": "ZYME",
+        "ticker": "MVBF",
         "congress_score": 0.0,
-        "insider_score": 6.0,
+        "insider_score": 7.0,
         "sentiment_score": 0.0,
         "momentum_score": 0,
         "volume_score": 0,
-        "total_score": 1.7999999999999998
+        "total_score": 2.1
+    },
+    {
+        "ticker": "PESI",
+        "congress_score": 0.0,
+        "insider_score": 7.0,
+        "sentiment_score": 0.0,
+        "momentum_score": 0,
+        "volume_score": 0,
+        "total_score": 2.1
     },
     {
         "ticker": "ADV",
-        "congress_score": 0.0,
-        "insider_score": 6.0,
-        "sentiment_score": 0.0,
-        "momentum_score": 0,
-        "volume_score": 0,
-        "total_score": 1.7999999999999998
-    },
-    {
-        "ticker": "QRHC",
-        "congress_score": 0.0,
-        "insider_score": 6.0,
-        "sentiment_score": 0.0,
-        "momentum_score": 0,
-        "volume_score": 0,
-        "total_score": 1.7999999999999998
-    },
-    {
-        "ticker": "CION",
-        "congress_score": 0.0,
-        "insider_score": 6.0,
-        "sentiment_score": 0.0,
-        "momentum_score": 0,
-        "volume_score": 0,
-        "total_score": 1.7999999999999998
-    },
-    {
-        "ticker": "ASAN",
         "congress_score": 0.0,
         "insider_score": 6.0,
         "sentiment_score": 0.0,
@@ -261,7 +234,34 @@
         "total_score": 1.7999999999999998
     },
     {
-        "ticker": "ONTF",
+        "ticker": "CION",
+        "congress_score": 0.0,
+        "insider_score": 6.0,
+        "sentiment_score": 0.0,
+        "momentum_score": 0,
+        "volume_score": 0,
+        "total_score": 1.7999999999999998
+    },
+    {
+        "ticker": "QRHC",
+        "congress_score": 0.0,
+        "insider_score": 6.0,
+        "sentiment_score": 0.0,
+        "momentum_score": 0,
+        "volume_score": 0,
+        "total_score": 1.7999999999999998
+    },
+    {
+        "ticker": "ZYME",
+        "congress_score": 0.0,
+        "insider_score": 6.0,
+        "sentiment_score": 0.0,
+        "momentum_score": 0,
+        "volume_score": 0,
+        "total_score": 1.7999999999999998
+    },
+    {
+        "ticker": "DK",
         "congress_score": 0.0,
         "insider_score": 6.0,
         "sentiment_score": 0.0,

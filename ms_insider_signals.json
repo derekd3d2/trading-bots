@@ -2,8 +2,8 @@
   "buy_signals": [
     {
       "ticker": "RCG",
-      "insider_score": 56,
-      "last_trade": "2025-03-20T00:00:00.000"
+      "insider_score": 63,
+      "last_trade": "2025-03-21T00:00:00.000"
     },
     {
       "ticker": "NL",
@@ -63,12 +63,17 @@
     {
       "ticker": "TTSH",
       "insider_score": 9,
-      "last_trade": "2025-03-20T00:00:00.000"
+      "last_trade": "2025-03-19T00:00:00.000"
     },
     {
       "ticker": "BLNE",
       "insider_score": 9,
       "last_trade": "2025-03-19T00:00:00.000"
+    },
+    {
+      "ticker": null,
+      "insider_score": 8,
+      "last_trade": "2025-03-21T00:00:00.000"
     },
     {
       "ticker": "FLWS",
@@ -78,7 +83,7 @@
     {
       "ticker": "CULP",
       "insider_score": 8,
-      "last_trade": "2025-03-18T00:00:00.000"
+      "last_trade": "2025-03-19T00:00:00.000"
     },
     {
       "ticker": "BTMD",
@@ -94,6 +99,11 @@
       "ticker": "CUBA",
       "insider_score": 8,
       "last_trade": "2025-03-13T00:00:00.000"
+    },
+    {
+      "ticker": "PESI",
+      "insider_score": 7,
+      "last_trade": "2025-03-21T00:00:00.000"
     },
     {
       "ticker": "VREO",
@@ -113,12 +123,12 @@
     {
       "ticker": "BUSE",
       "insider_score": 7,
-      "last_trade": "2025-03-14T00:00:00.000"
+      "last_trade": "2025-03-13T00:00:00.000"
     },
     {
       "ticker": "ASAN",
       "insider_score": 6,
-      "last_trade": "2025-03-20T00:00:00.000"
+      "last_trade": "2025-03-19T00:00:00.000"
     },
     {
       "ticker": "ADV",
@@ -138,7 +148,7 @@
     {
       "ticker": "ZYME",
       "insider_score": 6,
-      "last_trade": "2025-03-17T00:00:00.000"
+      "last_trade": "2025-03-19T00:00:00.000"
     },
     {
       "ticker": "ONTF",
@@ -156,9 +166,9 @@
       "last_trade": "2025-03-14T00:00:00.000"
     },
     {
-      "ticker": null,
+      "ticker": "ALZN",
       "insider_score": 5,
-      "last_trade": "2025-03-20T00:00:00.000"
+      "last_trade": "2025-03-21T00:00:00.000"
     },
     {
       "ticker": "SUNS",
@@ -173,12 +183,17 @@
     {
       "ticker": "TZUP",
       "insider_score": 5,
-      "last_trade": "2025-03-19T00:00:00.000"
+      "last_trade": "2025-03-18T00:00:00.000"
     },
     {
       "ticker": "GUTS",
       "insider_score": 5,
       "last_trade": "2025-03-14T00:00:00.000"
+    },
+    {
+      "ticker": "GSAT",
+      "insider_score": 4,
+      "last_trade": "2025-03-21T00:00:00.000"
     },
     {
       "ticker": "TCPC",
@@ -188,17 +203,12 @@
     {
       "ticker": "ADVM",
       "insider_score": 4,
-      "last_trade": "2025-03-18T00:00:00.000"
+      "last_trade": "2025-03-19T00:00:00.000"
     },
     {
       "ticker": "HFFG",
       "insider_score": 4,
       "last_trade": "2025-03-19T00:00:00.000"
-    },
-    {
-      "ticker": "ALZN",
-      "insider_score": 4,
-      "last_trade": "2025-03-20T00:00:00.000"
     },
     {
       "ticker": "MG",
@@ -216,11 +226,6 @@
       "last_trade": "2025-03-17T00:00:00.000"
     },
     {
-      "ticker": "PESI",
-      "insider_score": 4,
-      "last_trade": "2025-03-18T00:00:00.000"
-    },
-    {
       "ticker": "CRGY",
       "insider_score": 4,
       "last_trade": "2025-03-17T00:00:00.000"
@@ -228,12 +233,12 @@
     {
       "ticker": "CPSH",
       "insider_score": 4,
-      "last_trade": "2025-03-19T00:00:00.000"
+      "last_trade": "2025-03-17T00:00:00.000"
     },
     {
       "ticker": "PRLD",
       "insider_score": 4,
-      "last_trade": "2025-03-14T00:00:00.000"
+      "last_trade": "2025-03-17T00:00:00.000"
     },
     {
       "ticker": "CBKM",
@@ -273,7 +278,7 @@
     {
       "ticker": "CMTG",
       "insider_score": 4,
-      "last_trade": "2025-03-12T00:00:00.000"
+      "last_trade": "2025-03-13T00:00:00.000"
     },
     {
       "ticker": "LUV",
@@ -288,12 +293,7 @@
     {
       "ticker": "RNAC",
       "insider_score": 3,
-      "last_trade": "2025-03-20T00:00:00.000"
-    },
-    {
-      "ticker": "GSAT",
-      "insider_score": 3,
-      "last_trade": "2025-03-20T00:00:00.000"
+      "last_trade": "2025-03-18T00:00:00.000"
     },
     {
       "ticker": "RDW",
@@ -303,7 +303,7 @@
     {
       "ticker": "ZDGE",
       "insider_score": 3,
-      "last_trade": "2025-03-19T00:00:00.000"
+      "last_trade": "2025-03-20T00:00:00.000"
     },
     {
       "ticker": "GCBC",
@@ -333,7 +333,7 @@
     {
       "ticker": "MIRM",
       "insider_score": 3,
-      "last_trade": "2025-03-14T00:00:00.000"
+      "last_trade": "2025-03-17T00:00:00.000"
     },
     {
       "ticker": "BATRA",
@@ -373,7 +373,7 @@
     {
       "ticker": "VSCO",
       "insider_score": 3,
-      "last_trade": "2025-03-12T00:00:00.000"
+      "last_trade": "2025-03-13T00:00:00.000"
     },
     {
       "ticker": "TSE",
@@ -388,12 +388,12 @@
     {
       "ticker": "UAN",
       "insider_score": 3,
-      "last_trade": "2025-03-13T00:00:00.000"
+      "last_trade": "2025-03-11T00:00:00.000"
     },
     {
       "ticker": "RAPP",
       "insider_score": 3,
-      "last_trade": "2025-03-13T00:00:00.000"
+      "last_trade": "2025-03-12T00:00:00.000"
     },
     {
       "ticker": "FNWD",
@@ -424,6 +424,26 @@
       "ticker": "CIX",
       "insider_score": 3,
       "last_trade": "2025-03-11T00:00:00.000"
+    },
+    {
+      "ticker": "fmbm",
+      "insider_score": 2,
+      "last_trade": "2025-03-20T00:00:00.000"
+    },
+    {
+      "ticker": "DHIL",
+      "insider_score": 2,
+      "last_trade": "2025-03-21T00:00:00.000"
+    },
+    {
+      "ticker": "FGEN",
+      "insider_score": 2,
+      "last_trade": "2025-03-21T00:00:00.000"
+    },
+    {
+      "ticker": "NEWT",
+      "insider_score": 2,
+      "last_trade": "2025-03-21T00:00:00.000"
     },
     {
       "ticker": "OABI",
@@ -468,7 +488,7 @@
     {
       "ticker": "FLOC",
       "insider_score": 2,
-      "last_trade": "2025-03-19T00:00:00.000"
+      "last_trade": "2025-03-20T00:00:00.000"
     },
     {
       "ticker": "CSBB",
@@ -513,7 +533,7 @@
     {
       "ticker": "AHH",
       "insider_score": 2,
-      "last_trade": "2025-03-18T00:00:00.000"
+      "last_trade": "2025-03-17T00:00:00.000"
     },
     {
       "ticker": "N/A",
@@ -593,7 +613,7 @@
     {
       "ticker": "PGRE",
       "insider_score": 2,
-      "last_trade": "2025-03-14T00:00:00.000"
+      "last_trade": "2025-03-13T00:00:00.000"
     },
     {
       "ticker": "MX",
@@ -643,7 +663,7 @@
     {
       "ticker": "GDRZF",
       "insider_score": 2,
-      "last_trade": "2025-03-12T00:00:00.000"
+      "last_trade": "2025-03-13T00:00:00.000"
     },
     {
       "ticker": "BMNM",
@@ -678,7 +698,7 @@
     {
       "ticker": "SGHT",
       "insider_score": 2,
-      "last_trade": "2025-03-13T00:00:00.000"
+      "last_trade": "2025-03-12T00:00:00.000"
     },
     {
       "ticker": "LIDR",
@@ -716,6 +736,36 @@
       "last_trade": "2025-03-11T00:00:00.000"
     },
     {
+      "ticker": "UBSI",
+      "insider_score": 1,
+      "last_trade": "2025-03-24T00:00:00.000"
+    },
+    {
+      "ticker": "FVR",
+      "insider_score": 1,
+      "last_trade": "2025-03-21T00:00:00.000"
+    },
+    {
+      "ticker": "ACNT",
+      "insider_score": 1,
+      "last_trade": "2025-03-21T00:00:00.000"
+    },
+    {
+      "ticker": "NAD",
+      "insider_score": 1,
+      "last_trade": "2025-03-21T00:00:00.000"
+    },
+    {
+      "ticker": "NMZ",
+      "insider_score": 1,
+      "last_trade": "2025-03-21T00:00:00.000"
+    },
+    {
+      "ticker": "JFR",
+      "insider_score": 1,
+      "last_trade": "2025-03-21T00:00:00.000"
+    },
+    {
       "ticker": "ORRF",
       "insider_score": 1,
       "last_trade": "2025-03-19T00:00:00.000"
@@ -732,11 +782,6 @@
     },
     {
       "ticker": "pm2c#xro",
-      "insider_score": 1,
-      "last_trade": "2025-03-20T00:00:00.000"
-    },
-    {
-      "ticker": "NEWT",
       "insider_score": 1,
       "last_trade": "2025-03-20T00:00:00.000"
     },
@@ -1116,11 +1161,6 @@
       "last_trade": "2025-03-13T00:00:00.000"
     },
     {
-      "ticker": "DHIL",
-      "insider_score": 1,
-      "last_trade": "2025-03-12T00:00:00.000"
-    },
-    {
       "ticker": "ALT",
       "insider_score": 1,
       "last_trade": "2025-03-13T00:00:00.000"
@@ -1381,11 +1421,6 @@
       "last_trade": "2025-03-12T00:00:00.000"
     },
     {
-      "ticker": "fmbm",
-      "insider_score": 1,
-      "last_trade": "2025-03-12T00:00:00.000"
-    },
-    {
       "ticker": "XEL",
       "insider_score": 1,
       "last_trade": "2025-03-11T00:00:00.000"
@@ -1490,7 +1525,7 @@
     {
       "ticker": "IRON",
       "short_score": 36,
-      "last_trade": "2025-03-21T00:00:00.000"
+      "last_trade": "2025-03-20T00:00:00.000"
     },
     {
       "ticker": "RDDT",
@@ -1530,7 +1565,7 @@
     {
       "ticker": "CWST",
       "short_score": 23,
-      "last_trade": "2025-03-12T00:00:00.000"
+      "last_trade": "2025-03-13T00:00:00.000"
     },
     {
       "ticker": "ZS",
@@ -1560,7 +1595,7 @@
     {
       "ticker": "TARS",
       "short_score": 18,
-      "last_trade": "2025-03-19T00:00:00.000"
+      "last_trade": "2025-03-18T00:00:00.000"
     },
     {
       "ticker": "GAP",
@@ -1570,7 +1605,7 @@
     {
       "ticker": "WDAY",
       "short_score": 18,
-      "last_trade": "2025-03-14T00:00:00.000"
+      "last_trade": "2025-03-17T00:00:00.000"
     },
     {
       "ticker": "MGPI",
@@ -1600,7 +1635,7 @@
     {
       "ticker": "CARG",
       "short_score": 15,
-      "last_trade": "2025-03-19T00:00:00.000"
+      "last_trade": "2025-03-20T00:00:00.000"
     },
     {
       "ticker": "CSWI",
@@ -1645,7 +1680,7 @@
     {
       "ticker": "DRCT",
       "short_score": 13,
-      "last_trade": "2025-03-18T00:00:00.000"
+      "last_trade": "2025-03-17T00:00:00.000"
     },
     {
       "ticker": "QTWO",
@@ -1663,6 +1698,11 @@
       "last_trade": "2025-03-13T00:00:00.000"
     },
     {
+      "ticker": "KR",
+      "short_score": 12,
+      "last_trade": "2025-03-21T00:00:00.000"
+    },
+    {
       "ticker": "PLMR",
       "short_score": 12,
       "last_trade": "2025-03-21T00:00:00.000"
@@ -1674,11 +1714,6 @@
     },
     {
       "ticker": "TOST",
-      "short_score": 11,
-      "last_trade": "2025-03-19T00:00:00.000"
-    },
-    {
-      "ticker": "KR",
       "short_score": 11,
       "last_trade": "2025-03-19T00:00:00.000"
     },
@@ -1695,7 +1730,7 @@
     {
       "ticker": "RRGB",
       "short_score": 10,
-      "last_trade": "2025-03-14T00:00:00.000"
+      "last_trade": "2025-03-17T00:00:00.000"
     },
     {
       "ticker": "PTCT",
@@ -1720,7 +1755,7 @@
     {
       "ticker": "DFH",
       "short_score": 9,
-      "last_trade": "2025-03-19T00:00:00.000"
+      "last_trade": "2025-03-21T00:00:00.000"
     },
     {
       "ticker": "SHIM",
@@ -1740,7 +1775,7 @@
     {
       "ticker": "TDUP",
       "short_score": 9,
-      "last_trade": "2025-03-20T00:00:00.000"
+      "last_trade": "2025-03-18T00:00:00.000"
     },
     {
       "ticker": "PB",
@@ -1765,7 +1800,7 @@
     {
       "ticker": "GSAT",
       "short_score": 9,
-      "last_trade": "2025-03-12T00:00:00.000"
+      "last_trade": "2025-03-13T00:00:00.000"
     },
     {
       "ticker": "FTI",
@@ -1810,7 +1845,7 @@
     {
       "ticker": "GYRE",
       "short_score": 8,
-      "last_trade": "2025-03-20T00:00:00.000"
+      "last_trade": "2025-03-19T00:00:00.000"
     },
     {
       "ticker": "EVCM",
@@ -1825,7 +1860,7 @@
     {
       "ticker": "HGTY",
       "short_score": 8,
-      "last_trade": "2025-03-20T00:00:00.000"
+      "last_trade": "2025-03-18T00:00:00.000"
     },
     {
       "ticker": "PCTY",
@@ -1850,7 +1885,7 @@
     {
       "ticker": "BZFD",
       "short_score": 8,
-      "last_trade": "2025-03-12T00:00:00.000"
+      "last_trade": "2025-03-13T00:00:00.000"
     },
     {
       "ticker": "NVDA",
@@ -2115,7 +2150,7 @@
     {
       "ticker": "RKLB",
       "short_score": 5,
-      "last_trade": "2025-03-14T00:00:00.000"
+      "last_trade": "2025-03-17T00:00:00.000"
     },
     {
       "ticker": "NMIH",
@@ -2215,7 +2250,7 @@
     {
       "ticker": "RDNT",
       "short_score": 4,
-      "last_trade": "2025-03-17T00:00:00.000"
+      "last_trade": "2025-03-18T00:00:00.000"
     },
     {
       "ticker": "RXT",
@@ -2270,7 +2305,7 @@
     {
       "ticker": "WGS",
       "short_score": 4,
-      "last_trade": "2025-03-17T00:00:00.000"
+      "last_trade": "2025-03-13T00:00:00.000"
     },
     {
       "ticker": "LAZ",
@@ -2313,6 +2348,16 @@
       "last_trade": "2025-03-11T00:00:00.000"
     },
     {
+      "ticker": "PGR",
+      "short_score": 3,
+      "last_trade": "2025-03-21T00:00:00.000"
+    },
+    {
+      "ticker": "PGC",
+      "short_score": 3,
+      "last_trade": "2025-03-21T00:00:00.000"
+    },
+    {
       "ticker": "CHPT",
       "short_score": 3,
       "last_trade": "2025-03-21T00:00:00.000"
@@ -2325,7 +2370,7 @@
     {
       "ticker": "ROKU",
       "short_score": 3,
-      "last_trade": "2025-03-20T00:00:00.000"
+      "last_trade": "2025-03-21T00:00:00.000"
     },
     {
       "ticker": "AZO",
@@ -2370,7 +2415,7 @@
     {
       "ticker": "JOE",
       "short_score": 3,
-      "last_trade": "2025-03-20T00:00:00.000"
+      "last_trade": "2025-03-18T00:00:00.000"
     },
     {
       "ticker": "MXCT",
@@ -2380,7 +2425,7 @@
     {
       "ticker": "LPSN",
       "short_score": 3,
-      "last_trade": "2025-03-18T00:00:00.000"
+      "last_trade": "2025-03-20T00:00:00.000"
     },
     {
       "ticker": "META",
@@ -2595,7 +2640,7 @@
     {
       "ticker": "MPA",
       "short_score": 3,
-      "last_trade": "2025-03-13T00:00:00.000"
+      "last_trade": "2025-03-14T00:00:00.000"
     },
     {
       "ticker": "WK",
@@ -2610,7 +2655,7 @@
     {
       "ticker": "CRCT",
       "short_score": 3,
-      "last_trade": "2025-03-12T00:00:00.000"
+      "last_trade": "2025-03-13T00:00:00.000"
     },
     {
       "ticker": "GRND",
@@ -2676,6 +2721,11 @@
       "ticker": "PAY",
       "short_score": 3,
       "last_trade": "2025-03-12T00:00:00.000"
+    },
+    {
+      "ticker": "MSEX",
+      "short_score": 2,
+      "last_trade": "2025-03-21T00:00:00.000"
     },
     {
       "ticker": "ADMA",
@@ -2780,12 +2830,12 @@
     {
       "ticker": "COCO",
       "short_score": 2,
-      "last_trade": "2025-03-19T00:00:00.000"
+      "last_trade": "2025-03-18T00:00:00.000"
     },
     {
       "ticker": "CDRE",
       "short_score": 2,
-      "last_trade": "2025-03-18T00:00:00.000"
+      "last_trade": "2025-03-19T00:00:00.000"
     },
     {
       "ticker": "ANIP",
@@ -2801,11 +2851,6 @@
       "ticker": "GDYN",
       "short_score": 2,
       "last_trade": "2025-03-18T00:00:00.000"
-    },
-    {
-      "ticker": "PGC",
-      "short_score": 2,
-      "last_trade": "2025-03-19T00:00:00.000"
     },
     {
       "ticker": "WWD",
@@ -2935,7 +2980,7 @@
     {
       "ticker": "AVDX",
       "short_score": 2,
-      "last_trade": "2025-03-14T00:00:00.000"
+      "last_trade": "2025-03-17T00:00:00.000"
     },
     {
       "ticker": "ASTS",
@@ -2979,11 +3024,6 @@
     },
     {
       "ticker": "IPI",
-      "short_score": 2,
-      "last_trade": "2025-03-17T00:00:00.000"
-    },
-    {
-      "ticker": "PGR",
       "short_score": 2,
       "last_trade": "2025-03-17T00:00:00.000"
     },
@@ -3100,7 +3140,7 @@
     {
       "ticker": "NCSM",
       "short_score": 2,
-      "last_trade": "2025-03-13T00:00:00.000"
+      "last_trade": "2025-03-12T00:00:00.000"
     },
     {
       "ticker": "CELH",
@@ -4399,11 +4439,6 @@
     },
     {
       "ticker": "SHOO",
-      "short_score": 1,
-      "last_trade": "2025-03-11T00:00:00.000"
-    },
-    {
-      "ticker": "MSEX",
       "short_score": 1,
       "last_trade": "2025-03-11T00:00:00.000"
     }

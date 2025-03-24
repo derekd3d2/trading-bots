@@ -9214,3 +9214,610 @@ AttributeError: 'list' object has no attribute 'get'
 ✅ Saved WSB sentiment signals to /home/ubuntu/trading-bots/ms_wsb_signals.json with 29 entries.
 
 
+2025-03-24 09:25:15.757163 - ms_congress.py finished:
+📱 Fetching Congress trading data from QuiverQuant...
+✅ Saved Congress signals to /home/ubuntu/trading-bots/congress_signals.json with 11 buys, 1 shorts, and 0 options trades.
+
+
+2025-03-24 09:25:15.757391 - ms_daytrading_signals.py finished:
+🧠 ADVM: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 ECAT: Congress=0.0, Insider=9.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.7
+🧠 MKZR: Congress=0.0, Insider=7.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.1
+🧠 CVI: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 CUBA: Congress=0.0, Insider=8.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.4
+🧠 DK: Congress=0.0, Insider=6.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.8
+🧠 BTMD: Congress=0.0, Insider=8.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.4
+🧠 CPSH: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 WEST: Congress=0.0, Insider=10.0, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 CION: Congress=0.0, Insider=6.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.8
+🧠 AFCG: Congress=0.0, Insider=6.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.8
+🧠 ONTF: Congress=0.0, Insider=6.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.8
+🧠 HFFG: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 TZUP: Congress=0.0, Insider=5.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.5
+🧠 CULP: Congress=0.0, Insider=8.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.4
+🧠 BHRB: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 KRO: Congress=0.0, Insider=10, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 ZYME: Congress=0.0, Insider=6.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.8
+🧠 SBGI: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 GUTS: Congress=0.0, Insider=5.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.5
+🧠 MCVT: Congress=0.0, Insider=10, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 CRGY: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 CBKM: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 DGICA: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 TREE: Congress=0.0, Insider=8.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.4
+🧠 ASAN: Congress=0.0, Insider=6.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.8
+🧠 MG: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 MVBF: Congress=0.0, Insider=7.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.1
+🧠 AWRE: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 PESI: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 VG: Congress=0.0, Insider=10, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 SRBK: Congress=0.0, Insider=10, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 PSEC: Congress=0.0, Insider=10.0, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 BUKS: Congress=0.0, Insider=10.0, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 CMTG: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 EONR: Congress=0.0, Insider=10, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 ONL: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 GABC: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 SUNS: Congress=0.0, Insider=5.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.5
+🧠 FLWS: Congress=0.0, Insider=8.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.4
+🧠 ALZN: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 LUV: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 ZOM: Congress=0.0, Insider=10, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 NL: Congress=0.0, Insider=10, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 QRHC: Congress=0.0, Insider=6.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.8
+🧠 IMCR: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 TTSH: Congress=0.0, Insider=9.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.7
+🧠 BLNE: Congress=0.0, Insider=9.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.7
+🧠 RCG: Congress=0.0, Insider=10, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 BUSE: Congress=0.0, Insider=7.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.1
+🧠 ENX: Congress=0.0, Insider=5.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.5
+🧠 PRLD: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 ADV: Congress=0.0, Insider=6.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.8
+🧠 VREO: Congress=0.0, Insider=7.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.1
+🧠 TCPC: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+
+
+2025-03-24 09:25:15.757554 - ms_insider_trading.py finished:
+✅ API Key successfully loaded in ms_insider_trading.py
+📊 Fetching Insider trading data from QuiverQuant...
+✅ Saved insider signals to /home/ubuntu/trading-bots/ms_insider_signals.json with 296 buys and 589 shorts.
+
+
+2025-03-24 09:25:15.757669 - ms_wsb.py finished:
+✅ API Key successfully loaded in ms_wsb.py
+📊 Fetching WallStreetBets sentiment data from QuiverQuant...
+✅ Saved WSB sentiment signals to /home/ubuntu/trading-bots/ms_wsb_signals.json with 29 entries.
+
+
+2025-03-24 09:55:15.805920 - ms_congress.py finished:
+📱 Fetching Congress trading data from QuiverQuant...
+✅ Saved Congress signals to /home/ubuntu/trading-bots/congress_signals.json with 11 buys, 1 shorts, and 0 options trades.
+
+
+2025-03-24 09:55:15.806190 - ms_daytrading_signals.py finished:
+🧠 CBKM: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 IMCR: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 ECAT: Congress=0.0, Insider=9.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.7
+🧠 WEST: Congress=0.0, Insider=10.0, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 BHRB: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 CPSH: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 KRO: Congress=0.0, Insider=10, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 QRHC: Congress=0.0, Insider=6.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.8
+🧠 VREO: Congress=0.0, Insider=7.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.1
+🧠 ASAN: Congress=0.0, Insider=6.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.8
+🧠 LUV: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 DK: Congress=0.0, Insider=6.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.8
+🧠 PESI: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 PRLD: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 ZYME: Congress=0.0, Insider=6.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.8
+🧠 ENX: Congress=0.0, Insider=5.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.5
+🧠 SBGI: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 ADVM: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 ADV: Congress=0.0, Insider=6.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.8
+🧠 CRGY: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 EONR: Congress=0.0, Insider=10, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 PSEC: Congress=0.0, Insider=10.0, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 TZUP: Congress=0.0, Insider=5.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.5
+🧠 TREE: Congress=0.0, Insider=8.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.4
+🧠 ALZN: Congress=0.0, Insider=5.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.5
+🧠 SUNS: Congress=0.0, Insider=5.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.5
+🧠 GSAT: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 MKZR: Congress=0.0, Insider=7.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.1
+🧠 RCG: Congress=0.0, Insider=10, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 MVBF: Congress=0.0, Insider=7.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.1
+🧠 AWRE: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 AFCG: Congress=0.0, Insider=6.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.8
+🧠 CION: Congress=0.0, Insider=6.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.8
+🧠 BLNE: Congress=0.0, Insider=9.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.7
+🧠 CMTG: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 VG: Congress=0.0, Insider=10, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 BUKS: Congress=0.0, Insider=10.0, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 DGICA: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 TCPC: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 GABC: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 MCVT: Congress=0.0, Insider=10, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 BUSE: Congress=0.0, Insider=7.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.1
+🧠 ONTF: Congress=0.0, Insider=6.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.8
+🧠 ONL: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 CVI: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 SRBK: Congress=0.0, Insider=10, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 HFFG: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 CULP: Congress=0.0, Insider=8.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.4
+🧠 TTSH: Congress=0.0, Insider=9.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.7
+🧠 ZOM: Congress=0.0, Insider=10, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 MG: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 FLWS: Congress=0.0, Insider=8.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.4
+🧠 NL: Congress=0.0, Insider=10, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 BTMD: Congress=0.0, Insider=8.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.4
+🧠 CUBA: Congress=0.0, Insider=8.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.4
+🧠 GUTS: Congress=0.0, Insider=5.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.5
+
+
+2025-03-24 09:55:15.806349 - ms_insider_trading.py finished:
+✅ API Key successfully loaded in ms_insider_trading.py
+📊 Fetching Insider trading data from QuiverQuant...
+✅ Saved insider signals to /home/ubuntu/trading-bots/ms_insider_signals.json with 296 buys and 589 shorts.
+
+
+2025-03-24 09:55:15.806459 - ms_wsb.py finished:
+✅ API Key successfully loaded in ms_wsb.py
+📊 Fetching WallStreetBets sentiment data from QuiverQuant...
+✅ Saved WSB sentiment signals to /home/ubuntu/trading-bots/ms_wsb_signals.json with 29 entries.
+
+
+2025-03-24 10:25:14.459172 - ms_congress.py finished:
+📱 Fetching Congress trading data from QuiverQuant...
+✅ Saved Congress signals to /home/ubuntu/trading-bots/congress_signals.json with 11 buys, 1 shorts, and 0 options trades.
+
+
+2025-03-24 10:25:14.459404 - ms_daytrading_signals.py finished:
+🧠 SBGI: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 PRLD: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 ADVM: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 CRGY: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 RCG: Congress=0.0, Insider=10, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 TREE: Congress=0.0, Insider=8.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.4
+🧠 BTMD: Congress=0.0, Insider=8.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.4
+🧠 MCVT: Congress=0.0, Insider=10, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 ASAN: Congress=0.0, Insider=6.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.8
+🧠 MVBF: Congress=0.0, Insider=7.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.1
+🧠 CMTG: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 DK: Congress=0.0, Insider=6.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.8
+🧠 BLNE: Congress=0.0, Insider=9.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.7
+🧠 ADV: Congress=0.0, Insider=6.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.8
+🧠 CVI: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 PSEC: Congress=0.0, Insider=10.0, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 BUKS: Congress=0.0, Insider=10.0, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 CION: Congress=0.0, Insider=6.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.8
+🧠 ZOM: Congress=0.0, Insider=10, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 MKZR: Congress=0.0, Insider=7.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.1
+🧠 CBKM: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 ZYME: Congress=0.0, Insider=6.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.8
+🧠 MG: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 TCPC: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 DGICA: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 TTSH: Congress=0.0, Insider=9.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.7
+🧠 QRHC: Congress=0.0, Insider=6.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.8
+🧠 LUV: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 ECAT: Congress=0.0, Insider=9.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.7
+🧠 VREO: Congress=0.0, Insider=7.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.1
+🧠 AWRE: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 IMCR: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 FLWS: Congress=0.0, Insider=8.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.4
+🧠 NL: Congress=0.0, Insider=10, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 PESI: Congress=0.0, Insider=7.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.1
+🧠 SRBK: Congress=0.0, Insider=10, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 GABC: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 TZUP: Congress=0.0, Insider=5.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.5
+🧠 ALZN: Congress=0.0, Insider=5.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.5
+🧠 BUSE: Congress=0.0, Insider=7.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.1
+🧠 VG: Congress=0.0, Insider=10, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 ONL: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 GSAT: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 CPSH: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 CULP: Congress=0.0, Insider=8.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.4
+🧠 HFFG: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 KRO: Congress=0.0, Insider=10, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 ONTF: Congress=0.0, Insider=6.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.8
+🧠 WEST: Congress=0.0, Insider=10.0, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 EONR: Congress=0.0, Insider=10, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 BHRB: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 CUBA: Congress=0.0, Insider=8.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.4
+🧠 SUNS: Congress=0.0, Insider=5.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.5
+🧠 AFCG: Congress=0.0, Insider=6.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.8
+🧠 ENX: Congress=0.0, Insider=5.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.5
+🧠 GUTS: Congress=0.0, Insider=5.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.5
+
+
+2025-03-24 10:25:14.459569 - ms_insider_trading.py finished:
+✅ API Key successfully loaded in ms_insider_trading.py
+📊 Fetching Insider trading data from QuiverQuant...
+✅ Saved insider signals to /home/ubuntu/trading-bots/ms_insider_signals.json with 297 buys and 589 shorts.
+
+
+2025-03-24 10:25:14.459692 - ms_wsb.py finished:
+✅ API Key successfully loaded in ms_wsb.py
+📊 Fetching WallStreetBets sentiment data from QuiverQuant...
+✅ Saved WSB sentiment signals to /home/ubuntu/trading-bots/ms_wsb_signals.json with 29 entries.
+
+
+2025-03-24 10:55:16.053047 - ms_congress.py finished:
+📱 Fetching Congress trading data from QuiverQuant...
+✅ Saved Congress signals to /home/ubuntu/trading-bots/congress_signals.json with 11 buys, 1 shorts, and 0 options trades.
+
+
+2025-03-24 10:55:16.053302 - ms_daytrading_signals.py finished:
+🧠 MVBF: Congress=0.0, Insider=7.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.1
+🧠 NL: Congress=0.0, Insider=10, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 TREE: Congress=0.0, Insider=8.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.4
+🧠 CUBA: Congress=0.0, Insider=8.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.4
+🧠 SUNS: Congress=0.0, Insider=5.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.5
+🧠 TCPC: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 PRLD: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 CBKM: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 BUSE: Congress=0.0, Insider=7.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.1
+🧠 CPSH: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 DK: Congress=0.0, Insider=6.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.8
+🧠 CVI: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 HFFG: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 GUTS: Congress=0.0, Insider=5.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.5
+🧠 TZUP: Congress=0.0, Insider=5.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.5
+🧠 IMCR: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 WEST: Congress=0.0, Insider=10.0, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 ZYME: Congress=0.0, Insider=6.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.8
+🧠 ALZN: Congress=0.0, Insider=5.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.5
+🧠 FLWS: Congress=0.0, Insider=8.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.4
+🧠 BLNE: Congress=0.0, Insider=9.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.7
+🧠 KRO: Congress=0.0, Insider=10, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 PESI: Congress=0.0, Insider=7.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.1
+🧠 ECAT: Congress=0.0, Insider=9.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.7
+🧠 PSEC: Congress=0.0, Insider=10.0, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 ADVM: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 GABC: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 MKZR: Congress=0.0, Insider=7.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.1
+🧠 ASAN: Congress=0.0, Insider=6.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.8
+🧠 CULP: Congress=0.0, Insider=8.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.4
+🧠 BHRB: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 ADV: Congress=0.0, Insider=6.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.8
+🧠 VREO: Congress=0.0, Insider=7.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.1
+🧠 SRBK: Congress=0.0, Insider=10, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 ONL: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 CMTG: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 GSAT: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 MCVT: Congress=0.0, Insider=10, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 ONTF: Congress=0.0, Insider=6.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.8
+🧠 AWRE: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 CION: Congress=0.0, Insider=6.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.8
+🧠 BUKS: Congress=0.0, Insider=10.0, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 ZOM: Congress=0.0, Insider=10, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 TTSH: Congress=0.0, Insider=9.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.7
+🧠 AFCG: Congress=0.0, Insider=6.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.8
+🧠 LUV: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 DGICA: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 VG: Congress=0.0, Insider=10, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 RCG: Congress=0.0, Insider=10, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 ENX: Congress=0.0, Insider=5.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.5
+🧠 SBGI: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 MG: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 EONR: Congress=0.0, Insider=10, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 QRHC: Congress=0.0, Insider=6.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.8
+🧠 CRGY: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 BTMD: Congress=0.0, Insider=8.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.4
+
+
+2025-03-24 10:55:16.053466 - ms_insider_trading.py finished:
+✅ API Key successfully loaded in ms_insider_trading.py
+📊 Fetching Insider trading data from QuiverQuant...
+✅ Saved insider signals to /home/ubuntu/trading-bots/ms_insider_signals.json with 297 buys and 589 shorts.
+
+
+2025-03-24 10:55:16.053584 - ms_wsb.py finished:
+✅ API Key successfully loaded in ms_wsb.py
+📊 Fetching WallStreetBets sentiment data from QuiverQuant...
+✅ Saved WSB sentiment signals to /home/ubuntu/trading-bots/ms_wsb_signals.json with 29 entries.
+
+
+2025-03-24 11:25:17.085604 - ms_congress.py finished:
+📱 Fetching Congress trading data from QuiverQuant...
+✅ Saved Congress signals to /home/ubuntu/trading-bots/congress_signals.json with 11 buys, 1 shorts, and 0 options trades.
+
+
+2025-03-24 11:25:17.085845 - ms_daytrading_signals.py finished:
+🧠 ALZN: Congress=0.0, Insider=5.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.5
+🧠 ZYME: Congress=0.0, Insider=6.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.8
+🧠 GABC: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 ADV: Congress=0.0, Insider=6.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.8
+🧠 ENX: Congress=0.0, Insider=5.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.5
+🧠 TZUP: Congress=0.0, Insider=5.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.5
+🧠 TCPC: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 PRLD: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 LUV: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 MG: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 RCG: Congress=0.0, Insider=10, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 DK: Congress=0.0, Insider=6.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.8
+🧠 CVI: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 QRHC: Congress=0.0, Insider=6.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.8
+🧠 HFFG: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 BHRB: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 BUSE: Congress=0.0, Insider=7.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.1
+🧠 VREO: Congress=0.0, Insider=7.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.1
+🧠 GUTS: Congress=0.0, Insider=5.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.5
+🧠 TTSH: Congress=0.0, Insider=9.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.7
+🧠 CBKM: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 CUBA: Congress=0.0, Insider=8.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.4
+🧠 SRBK: Congress=0.0, Insider=10, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 ECAT: Congress=0.0, Insider=9.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.7
+🧠 BLNE: Congress=0.0, Insider=9.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.7
+🧠 DGICA: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 IMCR: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 PESI: Congress=0.0, Insider=7.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.1
+🧠 CULP: Congress=0.0, Insider=8.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.4
+🧠 CION: Congress=0.0, Insider=6.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.8
+🧠 CRGY: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 AFCG: Congress=0.0, Insider=6.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.8
+🧠 EONR: Congress=0.0, Insider=10, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 NL: Congress=0.0, Insider=10, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 MVBF: Congress=0.0, Insider=7.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.1
+🧠 SUNS: Congress=0.0, Insider=5.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.5
+🧠 TREE: Congress=0.0, Insider=8.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.4
+🧠 CPSH: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 KRO: Congress=0.0, Insider=10, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 ADVM: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 BTMD: Congress=0.0, Insider=8.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.4
+🧠 PSEC: Congress=0.0, Insider=10.0, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 VG: Congress=0.0, Insider=10, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 SBGI: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 MKZR: Congress=0.0, Insider=7.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.1
+🧠 CMTG: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 MCVT: Congress=0.0, Insider=10, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 FLWS: Congress=0.0, Insider=8.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.4
+🧠 BUKS: Congress=0.0, Insider=10.0, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 GSAT: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 ONTF: Congress=0.0, Insider=6.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.8
+🧠 WEST: Congress=0.0, Insider=10.0, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 AWRE: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 ASAN: Congress=0.0, Insider=6.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.8
+🧠 ZOM: Congress=0.0, Insider=10, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 ONL: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+
+
+2025-03-24 11:25:17.086056 - ms_insider_trading.py finished:
+✅ API Key successfully loaded in ms_insider_trading.py
+📊 Fetching Insider trading data from QuiverQuant...
+✅ Saved insider signals to /home/ubuntu/trading-bots/ms_insider_signals.json with 297 buys and 589 shorts.
+
+
+2025-03-24 11:25:17.086172 - ms_wsb.py finished:
+✅ API Key successfully loaded in ms_wsb.py
+📊 Fetching WallStreetBets sentiment data from QuiverQuant...
+✅ Saved WSB sentiment signals to /home/ubuntu/trading-bots/ms_wsb_signals.json with 29 entries.
+
+
+2025-03-24 11:55:15.127019 - ms_congress.py finished:
+📱 Fetching Congress trading data from QuiverQuant...
+✅ Saved Congress signals to /home/ubuntu/trading-bots/congress_signals.json with 11 buys, 1 shorts, and 0 options trades.
+
+
+2025-03-24 11:55:15.127237 - ms_daytrading_signals.py finished:
+🧠 QRHC: Congress=0.0, Insider=6.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.8
+🧠 DK: Congress=0.0, Insider=6.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.8
+🧠 TTSH: Congress=0.0, Insider=9.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.7
+🧠 ONL: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 PESI: Congress=0.0, Insider=7.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.1
+🧠 PSEC: Congress=0.0, Insider=10.0, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 BUKS: Congress=0.0, Insider=10.0, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 CVI: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 ECAT: Congress=0.0, Insider=9.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.7
+🧠 MVBF: Congress=0.0, Insider=7.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.1
+🧠 RCG: Congress=0.0, Insider=10, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 GABC: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 BHRB: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 PRLD: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 MCVT: Congress=0.0, Insider=10, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 LUV: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 CBKM: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 TZUP: Congress=0.0, Insider=5.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.5
+🧠 SUNS: Congress=0.0, Insider=5.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.5
+🧠 MG: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 MKZR: Congress=0.0, Insider=7.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.1
+🧠 ALZN: Congress=0.0, Insider=5.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.5
+🧠 FLWS: Congress=0.0, Insider=8.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.4
+🧠 TCPC: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 BTMD: Congress=0.0, Insider=8.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.4
+🧠 ONTF: Congress=0.0, Insider=6.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.8
+🧠 BUSE: Congress=0.0, Insider=7.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.1
+🧠 ZOM: Congress=0.0, Insider=10, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 HFFG: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 SBGI: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 ADVM: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 ZYME: Congress=0.0, Insider=6.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.8
+🧠 CRGY: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 GUTS: Congress=0.0, Insider=5.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.5
+🧠 AWRE: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 VG: Congress=0.0, Insider=10, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 TREE: Congress=0.0, Insider=8.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.4
+🧠 CPSH: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 CMTG: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 AFCG: Congress=0.0, Insider=6.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.8
+🧠 ADV: Congress=0.0, Insider=6.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.8
+🧠 GSAT: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 EONR: Congress=0.0, Insider=10, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 CUBA: Congress=0.0, Insider=8.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.4
+🧠 NL: Congress=0.0, Insider=10, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 ENX: Congress=0.0, Insider=5.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.5
+🧠 SRBK: Congress=0.0, Insider=10, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 KRO: Congress=0.0, Insider=10, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 CULP: Congress=0.0, Insider=8.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.4
+🧠 IMCR: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 ASAN: Congress=0.0, Insider=6.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.8
+🧠 WEST: Congress=0.0, Insider=10.0, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 VREO: Congress=0.0, Insider=7.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.1
+🧠 BLNE: Congress=0.0, Insider=9.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.7
+🧠 CION: Congress=0.0, Insider=6.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.8
+🧠 DGICA: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+
+
+2025-03-24 11:55:15.127391 - ms_insider_trading.py finished:
+✅ API Key successfully loaded in ms_insider_trading.py
+📊 Fetching Insider trading data from QuiverQuant...
+✅ Saved insider signals to /home/ubuntu/trading-bots/ms_insider_signals.json with 298 buys and 589 shorts.
+
+
+2025-03-24 11:55:15.127510 - ms_wsb.py finished:
+✅ API Key successfully loaded in ms_wsb.py
+📊 Fetching WallStreetBets sentiment data from QuiverQuant...
+✅ Saved WSB sentiment signals to /home/ubuntu/trading-bots/ms_wsb_signals.json with 29 entries.
+
+
+2025-03-24 12:25:16.678830 - ms_congress.py finished:
+📱 Fetching Congress trading data from QuiverQuant...
+✅ Saved Congress signals to /home/ubuntu/trading-bots/congress_signals.json with 11 buys, 1 shorts, and 0 options trades.
+
+
+2025-03-24 12:25:16.679124 - ms_daytrading_signals.py finished:
+🧠 PESI: Congress=0.0, Insider=7.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.1
+🧠 DGICA: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 ADVM: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 EONR: Congress=0.0, Insider=10, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 CION: Congress=0.0, Insider=6.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.8
+🧠 TZUP: Congress=0.0, Insider=5.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.5
+🧠 PRLD: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 MVBF: Congress=0.0, Insider=7.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.1
+🧠 GABC: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 ASAN: Congress=0.0, Insider=6.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.8
+🧠 ONL: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 CMTG: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 NL: Congress=0.0, Insider=10, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 ZOM: Congress=0.0, Insider=10, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 ENX: Congress=0.0, Insider=5.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.5
+🧠 BHRB: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 GUTS: Congress=0.0, Insider=5.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.5
+🧠 WEST: Congress=0.0, Insider=10.0, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 BLNE: Congress=0.0, Insider=9.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.7
+🧠 ZYME: Congress=0.0, Insider=6.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.8
+🧠 MKZR: Congress=0.0, Insider=7.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.1
+🧠 LUV: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 AWRE: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 CRGY: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 GSAT: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 SRBK: Congress=0.0, Insider=10, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 SBGI: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 CPSH: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 PSEC: Congress=0.0, Insider=10.0, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 TREE: Congress=0.0, Insider=8.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.4
+🧠 CUBA: Congress=0.0, Insider=8.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.4
+🧠 TTSH: Congress=0.0, Insider=9.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.7
+🧠 ONTF: Congress=0.0, Insider=6.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.8
+🧠 RCG: Congress=0.0, Insider=10, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 CULP: Congress=0.0, Insider=8.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.4
+🧠 MCVT: Congress=0.0, Insider=10, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 KRO: Congress=0.0, Insider=10, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 CBKM: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 CVI: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 QRHC: Congress=0.0, Insider=6.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.8
+🧠 BUSE: Congress=0.0, Insider=7.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.1
+🧠 TCPC: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 DK: Congress=0.0, Insider=6.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.8
+🧠 IMCR: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 SUNS: Congress=0.0, Insider=5.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.5
+🧠 BUKS: Congress=0.0, Insider=10.0, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 FLWS: Congress=0.0, Insider=8.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.4
+🧠 VREO: Congress=0.0, Insider=7.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.1
+🧠 ALZN: Congress=0.0, Insider=5.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.5
+🧠 ADV: Congress=0.0, Insider=6.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.8
+🧠 HFFG: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 ECAT: Congress=0.0, Insider=9.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.7
+🧠 MG: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 AFCG: Congress=0.0, Insider=6.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.8
+🧠 BTMD: Congress=0.0, Insider=8.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.4
+🧠 VG: Congress=0.0, Insider=10, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+
+
+2025-03-24 12:25:16.679302 - ms_insider_trading.py finished:
+✅ API Key successfully loaded in ms_insider_trading.py
+📊 Fetching Insider trading data from QuiverQuant...
+✅ Saved insider signals to /home/ubuntu/trading-bots/ms_insider_signals.json with 299 buys and 589 shorts.
+
+
+2025-03-24 12:25:16.679416 - ms_wsb.py finished:
+✅ API Key successfully loaded in ms_wsb.py
+📊 Fetching WallStreetBets sentiment data from QuiverQuant...
+✅ Saved WSB sentiment signals to /home/ubuntu/trading-bots/ms_wsb_signals.json with 29 entries.
+
+
+2025-03-24 12:55:15.738018 - ms_congress.py finished:
+📱 Fetching Congress trading data from QuiverQuant...
+✅ Saved Congress signals to /home/ubuntu/trading-bots/congress_signals.json with 11 buys, 1 shorts, and 0 options trades.
+
+
+2025-03-24 12:55:15.738266 - ms_daytrading_signals.py finished:
+🧠 VREO: Congress=0.0, Insider=7.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.1
+🧠 BLNE: Congress=0.0, Insider=9.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.7
+🧠 CPSH: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 SRBK: Congress=0.0, Insider=10, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 ADV: Congress=0.0, Insider=6.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.8
+🧠 KRO: Congress=0.0, Insider=10, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 CMTG: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 ENX: Congress=0.0, Insider=5.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.5
+🧠 BTMD: Congress=0.0, Insider=8.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.4
+🧠 GUTS: Congress=0.0, Insider=5.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.5
+🧠 MCVT: Congress=0.0, Insider=10, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 BHRB: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 WEST: Congress=0.0, Insider=10.0, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 ONL: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 VG: Congress=0.0, Insider=10, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 IMCR: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 ADVM: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 TTSH: Congress=0.0, Insider=9.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.7
+🧠 CBKM: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 CULP: Congress=0.0, Insider=8.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.4
+🧠 BUSE: Congress=0.0, Insider=7.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.1
+🧠 DGICA: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 AWRE: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 AFCG: Congress=0.0, Insider=6.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.8
+🧠 NL: Congress=0.0, Insider=10, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 CION: Congress=0.0, Insider=6.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.8
+🧠 MKZR: Congress=0.0, Insider=7.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.1
+🧠 QRHC: Congress=0.0, Insider=6.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.8
+🧠 CUBA: Congress=0.0, Insider=8.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.4
+🧠 TCPC: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 SUNS: Congress=0.0, Insider=5.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.5
+🧠 LUV: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 FLWS: Congress=0.0, Insider=8.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.4
+🧠 ZYME: Congress=0.0, Insider=6.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.8
+🧠 ECAT: Congress=0.0, Insider=9.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.7
+🧠 PSEC: Congress=0.0, Insider=10.0, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 GABC: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 SBGI: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 TREE: Congress=0.0, Insider=8.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.4
+🧠 EONR: Congress=0.0, Insider=10, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 GSAT: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 CRGY: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 ZOM: Congress=0.0, Insider=10, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 DK: Congress=0.0, Insider=6.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.8
+🧠 BUKS: Congress=0.0, Insider=10.0, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+🧠 TZUP: Congress=0.0, Insider=5.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.5
+🧠 ASAN: Congress=0.0, Insider=6.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.8
+🧠 HFFG: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 MVBF: Congress=0.0, Insider=7.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.1
+🧠 MG: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 ALZN: Congress=0.0, Insider=5.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.5
+🧠 PRLD: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 CVI: Congress=0.0, Insider=4.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.2
+🧠 ONTF: Congress=0.0, Insider=6.0, WSB=0.0, Momentum=0, Volume=0 → Total=1.8
+🧠 PESI: Congress=0.0, Insider=7.0, WSB=0.0, Momentum=0, Volume=0 → Total=2.1
+🧠 RCG: Congress=0.0, Insider=10, WSB=0.0, Momentum=0, Volume=0 → Total=3.0
+
+
+2025-03-24 12:55:15.738432 - ms_insider_trading.py finished:
+✅ API Key successfully loaded in ms_insider_trading.py
+📊 Fetching Insider trading data from QuiverQuant...
+✅ Saved insider signals to /home/ubuntu/trading-bots/ms_insider_signals.json with 299 buys and 589 shorts.
+
+
+2025-03-24 12:55:15.738554 - ms_wsb.py finished:
+✅ API Key successfully loaded in ms_wsb.py
+📊 Fetching WallStreetBets sentiment data from QuiverQuant...
+✅ Saved WSB sentiment signals to /home/ubuntu/trading-bots/ms_wsb_signals.json with 29 entries.
+
+

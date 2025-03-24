@@ -11526,5 +11526,165 @@
         "shares": 1,
         "price": 29.55,
         "reason": "Short Signal"
+    },
+    {
+        "timestamp": "2025-03-24T09:30:04.123418",
+        "action": "SHORT",
+        "ticker": "APP",
+        "shares": 6,
+        "price": 327.66,
+        "reason": "Short Signal"
+    },
+    {
+        "timestamp": "2025-03-24T09:30:04.356061",
+        "action": "SHORT",
+        "ticker": "APP",
+        "shares": 6,
+        "price": 327.66,
+        "reason": "Short Signal"
+    },
+    {
+        "timestamp": "2025-03-24T09:30:06.398252",
+        "action": "SHORT",
+        "ticker": "IRON",
+        "shares": 38,
+        "price": 52.49,
+        "reason": "Short Signal"
+    },
+    {
+        "timestamp": "2025-03-24T09:30:06.665478",
+        "action": "SHORT",
+        "ticker": "IRON",
+        "shares": 38,
+        "price": 52.49,
+        "reason": "Short Signal"
+    },
+    {
+        "timestamp": "2025-03-24T09:30:06.961439",
+        "action": "SHORT",
+        "ticker": "ALHC",
+        "shares": 112,
+        "price": 17.74,
+        "reason": "Short Signal"
+    },
+    {
+        "timestamp": "2025-03-24T09:30:07.226062",
+        "action": "SHORT",
+        "ticker": "ALHC",
+        "shares": 112,
+        "price": 17.74,
+        "reason": "Short Signal"
+    },
+    {
+        "timestamp": "2025-03-24T09:30:07.554668",
+        "action": "SHORT",
+        "ticker": "INTU",
+        "shares": 3,
+        "price": 607.5,
+        "reason": "Short Signal"
+    },
+    {
+        "timestamp": "2025-03-24T09:30:07.818398",
+        "action": "SHORT",
+        "ticker": "INTU",
+        "shares": 3,
+        "price": 607.5,
+        "reason": "Short Signal"
+    },
+    {
+        "timestamp": "2025-03-24T09:30:08.167697",
+        "action": "SHORT",
+        "ticker": "IOT",
+        "shares": 48,
+        "price": 41.48,
+        "reason": "Short Signal"
+    },
+    {
+        "timestamp": "2025-03-24T09:30:08.381354",
+        "action": "SHORT",
+        "ticker": "IOT",
+        "shares": 48,
+        "price": 41.48,
+        "reason": "Short Signal"
+    },
+    {
+        "timestamp": "2025-03-24T09:30:08.737734",
+        "action": "SHORT",
+        "ticker": "RDDT",
+        "shares": 16,
+        "price": 119.81,
+        "reason": "Short Signal"
+    },
+    {
+        "timestamp": "2025-03-24T09:30:08.961028",
+        "action": "SHORT",
+        "ticker": "RDDT",
+        "shares": 16,
+        "price": 119.81,
+        "reason": "Short Signal"
+    },
+    {
+        "timestamp": "2025-03-24T09:30:09.304849",
+        "action": "SHORT",
+        "ticker": "SFM",
+        "shares": 13,
+        "price": 143.13,
+        "reason": "Short Signal"
+    },
+    {
+        "timestamp": "2025-03-24T09:30:09.526309",
+        "action": "SHORT",
+        "ticker": "SFM",
+        "shares": 13,
+        "price": 143.13,
+        "reason": "Short Signal"
+    },
+    {
+        "timestamp": "2025-03-24T09:30:09.882918",
+        "action": "SHORT",
+        "ticker": "DUOL",
+        "shares": 6,
+        "price": 318.58,
+        "reason": "Short Signal"
+    },
+    {
+        "timestamp": "2025-03-24T09:30:10.136441",
+        "action": "SHORT",
+        "ticker": "DUOL",
+        "shares": 6,
+        "price": 318.58,
+        "reason": "Short Signal"
+    },
+    {
+        "timestamp": "2025-03-24T09:30:11.697548",
+        "action": "SHORT",
+        "ticker": "MGPI",
+        "shares": 67,
+        "price": 29.58,
+        "reason": "Short Signal"
+    },
+    {
+        "timestamp": "2025-03-24T09:30:12.149007",
+        "action": "SHORT",
+        "ticker": "MGPI",
+        "shares": 67,
+        "price": 29.58,
+        "reason": "Short Signal"
+    },
+    {
+        "timestamp": "2025-03-24T09:32:03.016518",
+        "action": "SHORT",
+        "ticker": "TEAM",
+        "shares": 2,
+        "price": 234.4,
+        "reason": "Short Signal"
+    },
+    {
+        "timestamp": "2025-03-24T09:32:05.884478",
+        "action": "SHORT",
+        "ticker": "AVAH",
+        "shares": 105,
+        "price": 5.51,
+        "reason": "Short Signal"
     }
 ]
