@@ -1,107 +1,272 @@
 [
     {
-        "ticker": "CRWD",
-        "action": "BUY",
-        "strategy": "LONG",
-        "congress_score": 1.001,
-        "total_score": 0.4004
+        "ticker": "RCG",
+        "congress_score": 0.0,
+        "insider_score": 10,
+        "sentiment_score": 0.0,
+        "momentum_score": 0,
+        "volume_score": 0,
+        "total_score": 3.0
     },
     {
-        "ticker": "TSLA",
-        "action": "BUY",
-        "strategy": "LONG",
-        "congress_score": 1.001,
-        "total_score": 0.4004
+        "ticker": "NL",
+        "congress_score": 0.0,
+        "insider_score": 10,
+        "sentiment_score": 0.0,
+        "momentum_score": 0,
+        "volume_score": 0,
+        "total_score": 3.0
     },
     {
-        "ticker": "DG",
-        "action": "BUY",
-        "strategy": "LONG",
-        "congress_score": 1.001,
-        "total_score": 0.4004
+        "ticker": "SRBK",
+        "congress_score": 0.0,
+        "insider_score": 10,
+        "sentiment_score": 0.0,
+        "momentum_score": 0,
+        "volume_score": 0,
+        "total_score": 3.0
     },
     {
-        "ticker": "GS",
-        "action": "BUY",
-        "strategy": "LONG",
-        "congress_score": 1.001,
-        "total_score": 0.4004
+        "ticker": "VG",
+        "congress_score": 0.0,
+        "insider_score": 10,
+        "sentiment_score": 0.0,
+        "momentum_score": 0,
+        "volume_score": 0,
+        "total_score": 3.0
     },
     {
-        "ticker": "GLD",
-        "ai_score": 0.9479,
-        "action": "BUY",
-        "congress_score": 0,
-        "total_score": 0.0
+        "ticker": "BUKS",
+        "congress_score": 0.0,
+        "insider_score": 10.0,
+        "sentiment_score": 0.0,
+        "momentum_score": 0,
+        "volume_score": 0,
+        "total_score": 3.0
     },
     {
-        "ticker": "LOVE",
-        "ai_score": 0.85,
-        "action": "BUY",
-        "congress_score": 0,
-        "total_score": 0.0
+        "ticker": "EONR",
+        "congress_score": 0.0,
+        "insider_score": 10,
+        "sentiment_score": 0.0,
+        "momentum_score": 0,
+        "volume_score": 0,
+        "total_score": 3.0
     },
     {
-        "ticker": "WANT",
-        "ai_score": 0.8052,
-        "action": "BUY",
-        "congress_score": 0,
-        "total_score": 0.0
+        "ticker": "KRO",
+        "congress_score": 0.0,
+        "insider_score": 10,
+        "sentiment_score": 0.0,
+        "momentum_score": 0,
+        "volume_score": 0,
+        "total_score": 3.0
     },
     {
-        "ticker": "IBKR",
-        "ai_score": 0.7914,
-        "action": "BUY",
-        "congress_score": 0,
-        "total_score": 0.0
+        "ticker": "WEST",
+        "congress_score": 0.0,
+        "insider_score": 10.0,
+        "sentiment_score": 0.0,
+        "momentum_score": 0,
+        "volume_score": 0,
+        "total_score": 3.0
     },
     {
-        "ticker": "SLB",
-        "ai_score": 0.7579,
-        "action": "BUY",
-        "congress_score": 0,
-        "total_score": 0.0
+        "ticker": "PSEC",
+        "congress_score": 0.0,
+        "insider_score": 10.0,
+        "sentiment_score": 0.0,
+        "momentum_score": 0,
+        "volume_score": 0,
+        "total_score": 3.0
     },
     {
-        "ticker": "SEA",
-        "ai_score": 0.7506,
-        "action": "BUY",
-        "congress_score": 0,
-        "total_score": 0.0
+        "ticker": "ZOM",
+        "congress_score": 0.0,
+        "insider_score": 10,
+        "sentiment_score": 0.0,
+        "momentum_score": 0,
+        "volume_score": 0,
+        "total_score": 3.0
     },
     {
-        "ticker": "ADD",
-        "ai_score": 0.6486,
-        "action": "BUY",
-        "congress_score": 0,
-        "total_score": 0.0
+        "ticker": "MCVT",
+        "congress_score": 0.0,
+        "insider_score": 10,
+        "sentiment_score": 0.0,
+        "momentum_score": 0,
+        "volume_score": 0,
+        "total_score": 3.0
     },
     {
-        "ticker": "EPS",
-        "ai_score": 0.6384799999999999,
-        "action": "BUY",
-        "congress_score": 0,
-        "total_score": 0.0
+        "ticker": "ECAT",
+        "congress_score": 0.0,
+        "insider_score": 9.0,
+        "sentiment_score": 0.0,
+        "momentum_score": 0,
+        "volume_score": 0,
+        "total_score": 2.6999999999999997
     },
     {
-        "ticker": "WELL",
-        "ai_score": 0.6257333333333333,
-        "action": "BUY",
-        "congress_score": 0,
-        "total_score": 0.0
+        "ticker": "BLNE",
+        "congress_score": 0.0,
+        "insider_score": 9.0,
+        "sentiment_score": 0.0,
+        "momentum_score": 0,
+        "volume_score": 0,
+        "total_score": 2.6999999999999997
     },
     {
-        "ticker": "BRO",
-        "ai_score": 0.6184499999999999,
-        "action": "BUY",
-        "congress_score": 0,
-        "total_score": 0.0
+        "ticker": "TTSH",
+        "congress_score": 0.0,
+        "insider_score": 9.0,
+        "sentiment_score": 0.0,
+        "momentum_score": 0,
+        "volume_score": 0,
+        "total_score": 2.6999999999999997
     },
     {
-        "ticker": "FUND",
-        "ai_score": 0.6037,
-        "action": "BUY",
-        "congress_score": 0,
-        "total_score": 0.0
+        "ticker": "FLWS",
+        "congress_score": 0.0,
+        "insider_score": 8.0,
+        "sentiment_score": 0.0,
+        "momentum_score": 0,
+        "volume_score": 0,
+        "total_score": 2.4
+    },
+    {
+        "ticker": "CUBA",
+        "congress_score": 0.0,
+        "insider_score": 8.0,
+        "sentiment_score": 0.0,
+        "momentum_score": 0,
+        "volume_score": 0,
+        "total_score": 2.4
+    },
+    {
+        "ticker": "CULP",
+        "congress_score": 0.0,
+        "insider_score": 8.0,
+        "sentiment_score": 0.0,
+        "momentum_score": 0,
+        "volume_score": 0,
+        "total_score": 2.4
+    },
+    {
+        "ticker": "BTMD",
+        "congress_score": 0.0,
+        "insider_score": 8.0,
+        "sentiment_score": 0.0,
+        "momentum_score": 0,
+        "volume_score": 0,
+        "total_score": 2.4
+    },
+    {
+        "ticker": "TREE",
+        "congress_score": 0.0,
+        "insider_score": 8.0,
+        "sentiment_score": 0.0,
+        "momentum_score": 0,
+        "volume_score": 0,
+        "total_score": 2.4
+    },
+    {
+        "ticker": "BUSE",
+        "congress_score": 0.0,
+        "insider_score": 7.0,
+        "sentiment_score": 0.0,
+        "momentum_score": 0,
+        "volume_score": 0,
+        "total_score": 2.1
+    },
+    {
+        "ticker": "VREO",
+        "congress_score": 0.0,
+        "insider_score": 7.0,
+        "sentiment_score": 0.0,
+        "momentum_score": 0,
+        "volume_score": 0,
+        "total_score": 2.1
+    },
+    {
+        "ticker": "MVBF",
+        "congress_score": 0.0,
+        "insider_score": 7.0,
+        "sentiment_score": 0.0,
+        "momentum_score": 0,
+        "volume_score": 0,
+        "total_score": 2.1
+    },
+    {
+        "ticker": "MKZR",
+        "congress_score": 0.0,
+        "insider_score": 7.0,
+        "sentiment_score": 0.0,
+        "momentum_score": 0,
+        "volume_score": 0,
+        "total_score": 2.1
+    },
+    {
+        "ticker": "ZYME",
+        "congress_score": 0.0,
+        "insider_score": 6.0,
+        "sentiment_score": 0.0,
+        "momentum_score": 0,
+        "volume_score": 0,
+        "total_score": 1.7999999999999998
+    },
+    {
+        "ticker": "ADV",
+        "congress_score": 0.0,
+        "insider_score": 6.0,
+        "sentiment_score": 0.0,
+        "momentum_score": 0,
+        "volume_score": 0,
+        "total_score": 1.7999999999999998
+    },
+    {
+        "ticker": "QRHC",
+        "congress_score": 0.0,
+        "insider_score": 6.0,
+        "sentiment_score": 0.0,
+        "momentum_score": 0,
+        "volume_score": 0,
+        "total_score": 1.7999999999999998
+    },
+    {
+        "ticker": "CION",
+        "congress_score": 0.0,
+        "insider_score": 6.0,
+        "sentiment_score": 0.0,
+        "momentum_score": 0,
+        "volume_score": 0,
+        "total_score": 1.7999999999999998
+    },
+    {
+        "ticker": "ASAN",
+        "congress_score": 0.0,
+        "insider_score": 6.0,
+        "sentiment_score": 0.0,
+        "momentum_score": 0,
+        "volume_score": 0,
+        "total_score": 1.7999999999999998
+    },
+    {
+        "ticker": "AFCG",
+        "congress_score": 0.0,
+        "insider_score": 6.0,
+        "sentiment_score": 0.0,
+        "momentum_score": 0,
+        "volume_score": 0,
+        "total_score": 1.7999999999999998
+    },
+    {
+        "ticker": "ONTF",
+        "congress_score": 0.0,
+        "insider_score": 6.0,
+        "sentiment_score": 0.0,
+        "momentum_score": 0,
+        "volume_score": 0,
+        "total_score": 1.7999999999999998
     }
 ]

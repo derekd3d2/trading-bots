@@ -1,14 +1,12 @@
 import os
-from dotenv import load_dotenv
 import requests
 import json
-import sqlite3
+from datetime import datetime, timedelta
+from dotenv import load_dotenv
 
 # ✅ Load API Key from Environment
 QUIVER_API_KEY = os.getenv("QUIVER_API_KEY")
-
 if not QUIVER_API_KEY:
-    # Fallback: Load from .bashrc_custom
     load_dotenv("/home/ubuntu/.bashrc_custom")
     QUIVER_API_KEY = os.getenv("QUIVER_API_KEY")
 
@@ -17,48 +15,46 @@ if not QUIVER_API_KEY:
 else:
     print("✅ API Key successfully loaded in ms_wsb.py")
 
-QUIVER_WSB_URL = "https://api.quiverquant.com/beta/live/wallstreetbets"
+# ✅ QuiverQuant WSB API Endpoint
+WSB_API_URL = "https://api.quiverquant.com/beta/live/wallstreetbets"
+SAVE_PATH = "/home/ubuntu/trading-bots/ms_wsb_signals.json"
+MENTION_THRESHOLD = 5
+SCORE_THRESHOLD = 0.05
 
-AI_THRESHOLD = 4.0
-WSB_THRESHOLD = 0.6  # Example sentiment threshold
+# ✅ Fetch WSB Data
+print("📊 Fetching WallStreetBets sentiment data from QuiverQuant...")
+headers = {"accept": "application/json", "Authorization": f"Bearer {QUIVER_API_KEY}"}
+resp = requests.get(WSB_API_URL, headers=headers)
 
-# Database connection
-conn = sqlite3.connect('trades.db')
-cursor = conn.cursor()
+if resp.status_code != 200:
+    print(f"❌ Failed to fetch WSB data: {resp.status_code}")
+    exit()
 
-# Fetch WSB data
-def fetch_wsb_data():
-    headers = {'Authorization': f'Token {QUIVER_API_KEY}'}
-    response = requests.get(QUIVER_WSB_URL, headers=headers)
-    response.raise_for_status()
-    wsb_data = response.json()
+data = resp.json()
 
-    relevant_tickers = {}
-    for entry in wsb_data:
-        ticker = entry["Ticker"]
-        sentiment = entry["Sentiment"]
+buy_signals = []
 
-        if sentiment >= WSB_THRESHOLD:
-            relevant_tickers[ticker] = sentiment
-            cursor.execute("""
-                INSERT INTO wsb_sentiment (ticker, sentiment, mentions)
-                VALUES (?, ?, ?)
-            """, (ticker, sentiment, entry.get("Mentions", 0)))
+for entry in data:
+    try:
+        ticker = entry.get("Ticker")
+        mentions = entry.get("Count", 0)
+        sentiment = entry.get("Sentiment", 0)
+        if not ticker:
+            continue
 
-    conn.commit()
-    return relevant_tickers
+        if mentions >= MENTION_THRESHOLD and sentiment >= SCORE_THRESHOLD:
+            buy_signals.append({
+                "ticker": ticker,
+                "wsb_score": round(sentiment, 4),
+                "mentions": mentions
+            })
+    except Exception as e:
+        print(f"⚠️ Error parsing WSB entry: {e}")
 
-# Save trading signals
-def save_signals(signals, filename):
-    trade_signals = []
-    for ticker, ai_score in signals.items():
-        trade_signals.append({"ticker": ticker, "ai_score": ai_score, "action": "BUY"})
+# ✅ Save output
+output = {"buy_signals": sorted(buy_signals, key=lambda x: x["wsb_score"], reverse=True)}
 
-    with open(filename, "w") as f:
-        json.dump(trade_signals, f, indent=4)
-    print(f"✅ {len(trade_signals)} trade signals saved to {filename}")
+with open(SAVE_PATH, "w") as f:
+    json.dump(output, f, indent=2)
 
-if __name__ == "__main__":
-    print("📊 Fetching WallStreetBets sentiment data...")
-    wsb_signals = fetch_wsb_data()
-    save_signals(wsb_signals, "wsb_signals.json")
+print(f"✅ Saved WSB sentiment signals to {SAVE_PATH} with {len(buy_signals)} entries.")

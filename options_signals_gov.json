@@ -1,0 +1,47 @@
+[
+  {
+    "symbol": "ACN",
+    "amount": 3405540.9,
+    "agency": "Department of the Interior",
+    "description": "NATIONAL FLUIDS LEASE SALE SYSTEM (NFLSS) TASK ORDER:  MISSION SERVICES PLATFORM (MSP) IDIQ",
+    "source": "Gov Contract Win",
+    "signal_strength": "MEDIUM",
+    "date": "2025-03-15"
+  },
+  {
+    "symbol": "BAER",
+    "amount": 2467950.0,
+    "agency": "Department of the Interior",
+    "description": "TASK ORDER FOR THE 2025 WILDLAND FIRE SEASON UNDER CONTRACT 140D0423D0082 FOR AN EXCLUSIVE USE (EU) FIXED WING ATGS WITH SENSOR BASED IN BEMIDJI, MN, DOUBLE EAGLE, NM, AND RONAN, MT.",
+    "source": "Gov Contract Win",
+    "signal_strength": "MEDIUM",
+    "date": "2025-03-15"
+  },
+  {
+    "symbol": "VSAT",
+    "amount": 2085363.56,
+    "agency": "Department of Defense",
+    "description": "VIASAT TO 11  USMC",
+    "source": "Gov Contract Win",
+    "signal_strength": "MEDIUM",
+    "date": "2025-03-15"
+  },
+  {
+    "symbol": "EE",
+    "amount": 3108884.0,
+    "agency": "National Aeronautics and Space Administration",
+    "description": "PROVIDE COMMERCIAL ELECTRICAL POWER SERVICE FOR THE NASA WHITE SAND COMPLEX FACILITY IN LAS CRUCES, NEW MEXICO.",
+    "source": "Gov Contract Win",
+    "signal_strength": "MEDIUM",
+    "date": "2025-03-15"
+  },
+  {
+    "symbol": "CDW",
+    "amount": 8348461.0,
+    "agency": "Department of Transportation",
+    "description": "ITAR-25-1565 SLI#: 56218 ZSCALER FOR GOVERNMENT - VPN",
+    "source": "Gov Contract Win",
+    "signal_strength": "MEDIUM",
+    "date": "2025-03-15"
+  }
+]

@@ -323,3 +323,856 @@ $BRK.B: possibly delisted; no price data found  (period=1d) (Yahoo error = "No d
 🚀 Buying TSLA at 226.60499572753906
 ⚠️ Selling AMZN: 2% stop-loss triggered.
 ✅ Trade execution process complete.
+🚀 AI Auto-Update System is Running...
+🔄 Fetching AI improvements for trading_bot.py...
+✅ Backup saved: bot_backups/trading_bot_backup_2025-03-17_14-01-22.py
+🔄 Running backtest on trading_bot.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='trading_bot.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for market_research.py...
+✅ Backup saved: bot_backups/market_research_backup_2025-03-17_14-01-46.py
+🔄 Running backtest on market_research.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='market_research.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for trading_bot.py...
+✅ Backup saved: bot_backups/trading_bot_backup_2025-03-18_02-02-16.py
+🔄 Running backtest on trading_bot.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='trading_bot.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for market_research.py...
+✅ Backup saved: bot_backups/market_research_backup_2025-03-18_02-02-33.py
+🔄 Running backtest on market_research.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='market_research.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for trading_bot.py...
+✅ Backup saved: bot_backups/trading_bot_backup_2025-03-18_14-02-55.py
+🔄 Running backtest on trading_bot.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='trading_bot.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for market_research.py...
+✅ Backup saved: bot_backups/market_research_backup_2025-03-18_14-03-28.py
+🔄 Running backtest on market_research.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='market_research.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for trading_bot.py...
+✅ Backup saved: bot_backups/trading_bot_backup_2025-03-19_02-03-49.py
+🔄 Running backtest on trading_bot.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='trading_bot.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for market_research.py...
+✅ Backup saved: bot_backups/market_research_backup_2025-03-19_02-04-13.py
+🔄 Running backtest on market_research.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='market_research.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for trading_bot.py...
+✅ Backup saved: bot_backups/trading_bot_backup_2025-03-19_14-04-42.py
+🔄 Running backtest on trading_bot.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='trading_bot.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for market_research.py...
+✅ Backup saved: bot_backups/market_research_backup_2025-03-19_14-05-05.py
+🔄 Running backtest on market_research.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='market_research.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for trading_bot.py...
+✅ Backup saved: bot_backups/trading_bot_backup_2025-03-20_02-05-32.py
+🔄 Running backtest on trading_bot.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='trading_bot.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for market_research.py...
+✅ Backup saved: bot_backups/market_research_backup_2025-03-20_02-05-48.py
+🔄 Running backtest on market_research.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='market_research.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for trading_bot.py...
+✅ Backup saved: bot_backups/trading_bot_backup_2025-03-20_14-06-15.py
+🔄 Running backtest on trading_bot.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='trading_bot.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for market_research.py...
+✅ Backup saved: bot_backups/market_research_backup_2025-03-20_14-06-43.py
+🔄 Running backtest on market_research.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='market_research.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for trading_bot.py...
+✅ Backup saved: bot_backups/trading_bot_backup_2025-03-21_02-07-02.py
+🔄 Running backtest on trading_bot.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='trading_bot.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for market_research.py...
+✅ Backup saved: bot_backups/market_research_backup_2025-03-21_02-07-23.py
+🔄 Running backtest on market_research.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='market_research.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for trading_bot.py...
+✅ Backup saved: bot_backups/trading_bot_backup_2025-03-21_14-07-58.py
+🔄 Running backtest on trading_bot.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='trading_bot.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for market_research.py...
+✅ Backup saved: bot_backups/market_research_backup_2025-03-21_14-08-19.py
+🔄 Running backtest on market_research.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='market_research.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for trading_bot.py...
+✅ Backup saved: bot_backups/trading_bot_backup_2025-03-22_02-08-41.py
+🔄 Running backtest on trading_bot.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='trading_bot.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for market_research.py...
+✅ Backup saved: bot_backups/market_research_backup_2025-03-22_02-08-56.py
+🔄 Running backtest on market_research.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='market_research.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for trading_bot.py...
+✅ Backup saved: bot_backups/trading_bot_backup_2025-03-22_14-09-20.py
+🔄 Running backtest on trading_bot.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='trading_bot.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for market_research.py...
+✅ Backup saved: bot_backups/market_research_backup_2025-03-22_14-09-37.py
+🔄 Running backtest on market_research.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+🚀 AI Auto-Update System is Running...
+🔄 Fetching AI improvements for trading_bot.py...
+✅ Backup saved: bot_backups/trading_bot_backup_2025-03-17_14-58-43.py
+🔄 Running backtest on trading_bot.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='trading_bot.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for market_research.py...
+✅ Backup saved: bot_backups/market_research_backup_2025-03-17_14-58-58.py
+🔄 Running backtest on market_research.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='market_research.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for trading_bot.py...
+✅ Backup saved: bot_backups/trading_bot_backup_2025-03-18_02-59-21.py
+🔄 Running backtest on trading_bot.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='trading_bot.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for market_research.py...
+✅ Backup saved: bot_backups/market_research_backup_2025-03-18_02-59-46.py
+🔄 Running backtest on market_research.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='market_research.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for trading_bot.py...
+✅ Backup saved: bot_backups/trading_bot_backup_2025-03-18_15-00-19.py
+🔄 Running backtest on trading_bot.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='trading_bot.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for market_research.py...
+✅ Backup saved: bot_backups/market_research_backup_2025-03-18_15-00-42.py
+🔄 Running backtest on market_research.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='market_research.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for trading_bot.py...
+✅ Backup saved: bot_backups/trading_bot_backup_2025-03-19_03-01-02.py
+🔄 Running backtest on trading_bot.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='trading_bot.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for market_research.py...
+✅ Backup saved: bot_backups/market_research_backup_2025-03-19_03-01-24.py
+🔄 Running backtest on market_research.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='market_research.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for trading_bot.py...
+✅ Backup saved: bot_backups/trading_bot_backup_2025-03-19_15-01-50.py
+🔄 Running backtest on trading_bot.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='trading_bot.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for market_research.py...
+✅ Backup saved: bot_backups/market_research_backup_2025-03-19_15-02-09.py
+🔄 Running backtest on market_research.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='market_research.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for trading_bot.py...
+✅ Backup saved: bot_backups/trading_bot_backup_2025-03-20_03-02-36.py
+🔄 Running backtest on trading_bot.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='trading_bot.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for market_research.py...
+✅ Backup saved: bot_backups/market_research_backup_2025-03-20_03-02-57.py
+🔄 Running backtest on market_research.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='market_research.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for trading_bot.py...
+✅ Backup saved: bot_backups/trading_bot_backup_2025-03-20_15-03-15.py
+🔄 Running backtest on trading_bot.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='trading_bot.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for market_research.py...
+✅ Backup saved: bot_backups/market_research_backup_2025-03-20_15-03-36.py
+🔄 Running backtest on market_research.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='market_research.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for trading_bot.py...
+✅ Backup saved: bot_backups/trading_bot_backup_2025-03-21_03-04-08.py
+🔄 Running backtest on trading_bot.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='trading_bot.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for market_research.py...
+✅ Backup saved: bot_backups/market_research_backup_2025-03-21_03-04-28.py
+🔄 Running backtest on market_research.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='market_research.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for trading_bot.py...
+✅ Backup saved: bot_backups/trading_bot_backup_2025-03-21_15-05-03.py
+🔄 Running backtest on trading_bot.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='trading_bot.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for market_research.py...
+✅ Backup saved: bot_backups/market_research_backup_2025-03-21_15-05-25.py
+🔄 Running backtest on market_research.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='market_research.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for trading_bot.py...
+✅ Backup saved: bot_backups/trading_bot_backup_2025-03-22_03-05-49.py
+🔄 Running backtest on trading_bot.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='trading_bot.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for market_research.py...
+✅ Backup saved: bot_backups/market_research_backup_2025-03-22_03-06-03.py
+🔄 Running backtest on market_research.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='market_research.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for trading_bot.py...
+✅ Backup saved: bot_backups/trading_bot_backup_2025-03-22_15-06-17.py
+🔄 Running backtest on trading_bot.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='trading_bot.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for market_research.py...
+✅ Backup saved: bot_backups/market_research_backup_2025-03-22_15-06-31.py
+🔄 Running backtest on market_research.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+🚀 AI Auto-Update System is Running...
+🔄 Fetching AI improvements for trading_bot.py...
+✅ Backup saved: bot_backups/trading_bot_backup_2025-03-18_09-46-41.py
+🔄 Running backtest on trading_bot.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='trading_bot.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for market_research.py...
+✅ Backup saved: bot_backups/market_research_backup_2025-03-18_09-47-06.py
+🔄 Running backtest on market_research.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='market_research.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for trading_bot.py...
+✅ Backup saved: bot_backups/trading_bot_backup_2025-03-18_21-47-30.py
+🔄 Running backtest on trading_bot.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='trading_bot.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for market_research.py...
+✅ Backup saved: bot_backups/market_research_backup_2025-03-18_21-47-46.py
+🔄 Running backtest on market_research.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='market_research.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for trading_bot.py...
+✅ Backup saved: bot_backups/trading_bot_backup_2025-03-19_09-48-20.py
+🔄 Running backtest on trading_bot.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='trading_bot.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for market_research.py...
+✅ Backup saved: bot_backups/market_research_backup_2025-03-19_09-48-46.py
+🔄 Running backtest on market_research.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='market_research.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for trading_bot.py...
+✅ Backup saved: bot_backups/trading_bot_backup_2025-03-19_21-49-12.py
+🔄 Running backtest on trading_bot.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='trading_bot.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for market_research.py...
+✅ Backup saved: bot_backups/market_research_backup_2025-03-19_21-49-27.py
+🔄 Running backtest on market_research.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='market_research.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for trading_bot.py...
+✅ Backup saved: bot_backups/trading_bot_backup_2025-03-20_09-49-59.py
+🔄 Running backtest on trading_bot.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='trading_bot.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for market_research.py...
+✅ Backup saved: bot_backups/market_research_backup_2025-03-20_09-50-22.py
+🔄 Running backtest on market_research.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='market_research.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for trading_bot.py...
+✅ Backup saved: bot_backups/trading_bot_backup_2025-03-20_21-50-47.py
+🔄 Running backtest on trading_bot.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='trading_bot.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for market_research.py...
+✅ Backup saved: bot_backups/market_research_backup_2025-03-20_21-51-05.py
+🔄 Running backtest on market_research.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='market_research.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for trading_bot.py...
+✅ Backup saved: bot_backups/trading_bot_backup_2025-03-21_09-51-19.py
+🔄 Running backtest on trading_bot.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='trading_bot.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for market_research.py...
+✅ Backup saved: bot_backups/market_research_backup_2025-03-21_09-51-49.py
+🔄 Running backtest on market_research.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='market_research.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for trading_bot.py...
+✅ Backup saved: bot_backups/trading_bot_backup_2025-03-21_21-52-07.py
+🔄 Running backtest on trading_bot.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='trading_bot.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for market_research.py...
+✅ Backup saved: bot_backups/market_research_backup_2025-03-21_21-52-30.py
+🔄 Running backtest on market_research.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='market_research.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for trading_bot.py...
+✅ Backup saved: bot_backups/trading_bot_backup_2025-03-22_09-52-53.py
+🔄 Running backtest on trading_bot.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='trading_bot.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for market_research.py...
+✅ Backup saved: bot_backups/market_research_backup_2025-03-22_09-53-15.py
+🔄 Running backtest on market_research.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='market_research.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for trading_bot.py...
+✅ Backup saved: bot_backups/trading_bot_backup_2025-03-22_21-53-28.py
+🔄 Running backtest on trading_bot.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='trading_bot.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for market_research.py...
+✅ Backup saved: bot_backups/market_research_backup_2025-03-22_21-53-47.py
+🔄 Running backtest on market_research.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='market_research.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for trading_bot.py...
+✅ Backup saved: bot_backups/trading_bot_backup_2025-03-23_09-54-10.py
+🔄 Running backtest on trading_bot.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='trading_bot.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for market_research.py...
+✅ Backup saved: bot_backups/market_research_backup_2025-03-23_09-54-27.py
+🔄 Running backtest on market_research.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+🚀 AI Auto-Update System is Running...
+🔄 Fetching AI improvements for trading_bot.py...
+✅ Backup saved: bot_backups/trading_bot_backup_2025-03-18_13-46-29.py
+🔄 Running backtest on trading_bot.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='trading_bot.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for market_research.py...
+✅ Backup saved: bot_backups/market_research_backup_2025-03-18_13-46-48.py
+🔄 Running backtest on market_research.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='market_research.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for trading_bot.py...
+✅ Backup saved: bot_backups/trading_bot_backup_2025-03-19_01-47-16.py
+🔄 Running backtest on trading_bot.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='trading_bot.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for market_research.py...
+✅ Backup saved: bot_backups/market_research_backup_2025-03-19_01-47-33.py
+🔄 Running backtest on market_research.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='market_research.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for trading_bot.py...
+✅ Backup saved: bot_backups/trading_bot_backup_2025-03-19_13-48-03.py
+🔄 Running backtest on trading_bot.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='trading_bot.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for market_research.py...
+✅ Backup saved: bot_backups/market_research_backup_2025-03-19_13-48-31.py
+🔄 Running backtest on market_research.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='market_research.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for trading_bot.py...
+✅ Backup saved: bot_backups/trading_bot_backup_2025-03-20_01-48-48.py
+🔄 Running backtest on trading_bot.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='trading_bot.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for market_research.py...
+✅ Backup saved: bot_backups/market_research_backup_2025-03-20_01-49-01.py
+🔄 Running backtest on market_research.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='market_research.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for trading_bot.py...
+✅ Backup saved: bot_backups/trading_bot_backup_2025-03-20_13-49-34.py
+🔄 Running backtest on trading_bot.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='trading_bot.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for market_research.py...
+✅ Backup saved: bot_backups/market_research_backup_2025-03-20_13-50-03.py
+🔄 Running backtest on market_research.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='market_research.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for trading_bot.py...
+✅ Backup saved: bot_backups/trading_bot_backup_2025-03-21_01-50-26.py
+🔄 Running backtest on trading_bot.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='trading_bot.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for market_research.py...
+✅ Backup saved: bot_backups/market_research_backup_2025-03-21_01-50-46.py
+🔄 Running backtest on market_research.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='market_research.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for trading_bot.py...
+✅ Backup saved: bot_backups/trading_bot_backup_2025-03-21_13-51-16.py
+🔄 Running backtest on trading_bot.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='trading_bot.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for market_research.py...
+✅ Backup saved: bot_backups/market_research_backup_2025-03-21_13-51-38.py
+🔄 Running backtest on market_research.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='market_research.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for trading_bot.py...
+✅ Backup saved: bot_backups/trading_bot_backup_2025-03-22_01-51-56.py
+🔄 Running backtest on trading_bot.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='trading_bot.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for market_research.py...
+✅ Backup saved: bot_backups/market_research_backup_2025-03-22_01-52-11.py
+🔄 Running backtest on market_research.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='market_research.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for trading_bot.py...
+✅ Backup saved: bot_backups/trading_bot_backup_2025-03-22_13-52-39.py
+🔄 Running backtest on trading_bot.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='trading_bot.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for market_research.py...
+✅ Backup saved: bot_backups/market_research_backup_2025-03-22_13-52-53.py
+🔄 Running backtest on market_research.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='market_research.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for trading_bot.py...
+✅ Backup saved: bot_backups/trading_bot_backup_2025-03-23_01-53-09.py
+🔄 Running backtest on trading_bot.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='trading_bot.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for market_research.py...
+✅ Backup saved: bot_backups/market_research_backup_2025-03-23_01-53-25.py
+🔄 Running backtest on market_research.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='market_research.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for trading_bot.py...
+✅ Backup saved: bot_backups/trading_bot_backup_2025-03-23_13-53-40.py
+🔄 Running backtest on trading_bot.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+❌ <_io.TextIOWrapper name='trading_bot.py_temp' mode='w' encoding='utf-8'> failed testing. Keeping the old version.
+🔄 Fetching AI improvements for market_research.py...
+✅ Backup saved: bot_backups/market_research_backup_2025-03-23_13-54-06.py
+🔄 Running backtest on market_research.py_temp...
+📊 Backtest Output: 
+❌ New bot did NOT perform better than the old one.
+💵 Capital per trade: 634.50, Price: 227.34, Qty: 2
+🔻 Shorted 2 shares of TEAM at 227.34
+💵 Capital per trade: 634.50, Price: 314.03, Qty: 2
+🔻 Shorted 2 shares of APP at 314.03
+💵 Capital per trade: 634.50, Price: 834.59, Qty: 0
+⚠️ Skipping EQIX: not enough capital for 1 full share
+💵 Capital per trade: 634.50, Price: 1346.12, Qty: 0
+⚠️ Skipping TDG: not enough capital for 1 full share
+💵 Capital per trade: 634.50, Price: 1853.29, Qty: 0
+⚠️ Skipping FICO: not enough capital for 1 full share
+💵 Capital per trade: 634.50, Price: 52.24, Qty: 12
+🔻 Shorted 12 shares of IRON at 52.24
+💵 Capital per trade: 634.50, Price: 17.61, Qty: 36
+🔻 Shorted 36 shares of ALHC at 17.61
+💵 Capital per trade: 634.50, Price: 604.04, Qty: 1
+🔻 Shorted 1 shares of INTU at 604.04
+💵 Capital per trade: 634.50, Price: 40.16, Qty: 15
+🔻 Shorted 15 shares of IOT at 40.16
+💵 Capital per trade: 634.50, Price: 115.70, Qty: 5
+🔻 Shorted 5 shares of RDDT at 115.70
+💵 Capital per trade: 634.50, Price: 142.39, Qty: 4
+🔻 Shorted 4 shares of SFM at 142.39
+💵 Capital per trade: 634.50, Price: 309.30, Qty: 2
+🔻 Shorted 2 shares of DUOL at 309.30
+💵 Capital per trade: 634.50, Price: 51.35, Qty: 12
+❌ Failed to short TEM: asset "TEM" cannot be sold short
+💵 Capital per trade: 634.50, Price: 5.29, Qty: 119
+❌ Failed to short AVAH: insufficient buying power
+💵 Capital per trade: 634.50, Price: 29.55, Qty: 21
+🔻 Shorted 21 shares of MGPI at 29.55
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+🚀 Buying 80.7248 shares of SRBK at 11.789999961853027
+🖍 Logged BUY of SRBK at 11.789999961853027
+🚀 Buying 540.7643 shares of BUKS at 1.7599999904632568
+❌ Error executing buy for BUKS: asset BUKS is not active
+🚀 Buying 18.4161 shares of TREE at 51.68000030517578
+🖍 Logged BUY of TREE at 51.68000030517578
+🚀 Buying 1545.0409 shares of EONR at 0.6159999966621399
+🖍 Logged BUY of EONR at 0.6159999966621399
+🚀 Buying 177.2337 shares of CULP at 5.369999885559082
+🖍 Logged BUY of CULP at 5.369999885559082
+🚀 Buying 353.8086 shares of CUBA at 2.690000057220459
+🖍 Logged BUY of CUBA at 2.690000057220459
+🚀 Buying 15107.0664 shares of ZOM at 0.06300000101327896
+❌ Error executing buy for ZOM: asset ZOM is not active
+🚀 Buying 0.5141 shares of FCNCA at 1851.199951171875
+❌ Error executing buy for FCNCA: insufficient buying power
+🚀 Buying 138.1343 shares of WEST at 6.889999866485596
+❌ Error executing buy for WEST: insufficient buying power
+🚀 Buying 528.7473 shares of MCVT at 1.7999999523162842
+❌ Error executing buy for MCVT: insufficient buying power
+🚀 Buying 58.6411 shares of ECAT at 16.229999542236328
+❌ Error executing buy for ECAT: insufficient buying power
+🚀 Buying 124.4111 shares of NL at 7.650000095367432
+❌ Error executing buy for NL: insufficient buying power
+🚀 Buying 123.4430 shares of KRO at 7.710000038146973
+❌ Error executing buy for KRO: insufficient buying power
+🚀 Buying 81.9763 shares of VG at 11.609999656677246
+❌ Error executing buy for VG: insufficient buying power
+🚀 Buying 413.8023 shares of RCG at 2.299999952316284
+❌ Error executing buy for RCG: insufficient buying power
+⚠️ Skipping selling CRWD: open order detected.
+⚠️ Skipping selling DAY: open order detected.
+⚠️ Skipping selling IONQ: open order detected.
+⚠️ Skipping MAGN: no shares held.
+⚠️ Skipping NSC: no shares held.
+⚠️ Skipping PNC: no shares held.
+⚠️ Skipping SYK: no shares held.
+⚠️ Skipping selling WANT: open order detected.
+✅ Day trading execution complete.
+💵 Capital per trade: 23.61, Price: 227.34, Qty: 0
+⚠️ Skipping TEAM: not enough capital for 1 full share
+💵 Capital per trade: 23.61, Price: 314.03, Qty: 0
+⚠️ Skipping APP: not enough capital for 1 full share
+💵 Capital per trade: 23.61, Price: 834.59, Qty: 0
+⚠️ Skipping EQIX: not enough capital for 1 full share
+💵 Capital per trade: 23.61, Price: 1346.12, Qty: 0
+⚠️ Skipping TDG: not enough capital for 1 full share
+💵 Capital per trade: 23.61, Price: 1853.29, Qty: 0
+⚠️ Skipping FICO: not enough capital for 1 full share
+💵 Capital per trade: 23.61, Price: 52.24, Qty: 0
+⚠️ Skipping IRON: not enough capital for 1 full share
+💵 Capital per trade: 23.61, Price: 17.61, Qty: 1
+🔻 Shorted 1 shares of ALHC at 17.61
+💵 Capital per trade: 23.61, Price: 604.04, Qty: 0
+⚠️ Skipping INTU: not enough capital for 1 full share
+💵 Capital per trade: 23.61, Price: 40.16, Qty: 0
+⚠️ Skipping IOT: not enough capital for 1 full share
+💵 Capital per trade: 23.61, Price: 115.70, Qty: 0
+⚠️ Skipping RDDT: not enough capital for 1 full share
+💵 Capital per trade: 23.61, Price: 142.39, Qty: 0
+⚠️ Skipping SFM: not enough capital for 1 full share
+💵 Capital per trade: 23.61, Price: 309.30, Qty: 0
+⚠️ Skipping DUOL: not enough capital for 1 full share
+💵 Capital per trade: 23.61, Price: 51.35, Qty: 0
+⚠️ Skipping TEM: not enough capital for 1 full share
+💵 Capital per trade: 23.61, Price: 5.29, Qty: 4
+🔻 Shorted 4 shares of AVAH at 5.29
+💵 Capital per trade: 23.61, Price: 29.55, Qty: 0
+⚠️ Skipping MGPI: not enough capital for 1 full share
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+🚀 Buying 3.0039 shares of SRBK at 11.789999961853027
+🖍 Logged BUY of SRBK at 11.789999961853027
+🚀 Buying 20.1228 shares of BUKS at 1.7599999904632568
+❌ Error executing buy for BUKS: asset BUKS is not active
+🚀 Buying 0.6853 shares of TREE at 51.68000030517578
+🖍 Logged BUY of TREE at 51.68000030517578
+🚀 Buying 57.4938 shares of EONR at 0.6159999966621399
+🖍 Logged BUY of EONR at 0.6159999966621399
+🚀 Buying 6.5952 shares of CULP at 5.369999885559082
+🖍 Logged BUY of CULP at 5.369999885559082
+🚀 Buying 13.1659 shares of CUBA at 2.690000057220459
+🖍 Logged BUY of CUBA at 2.690000057220459
+🚀 Buying 562.1619 shares of ZOM at 0.06300000101327896
+❌ Error executing buy for ZOM: asset ZOM is not active
+🚀 Buying 0.0191 shares of FCNCA at 1851.199951171875
+🖍 Logged BUY of FCNCA at 1851.199951171875
+🚀 Buying 5.1402 shares of WEST at 6.889999866485596
+🖍 Logged BUY of WEST at 6.889999866485596
+🚀 Buying 19.6757 shares of MCVT at 1.7999999523162842
+❌ Error executing buy for MCVT: insufficient buying power
+🚀 Buying 2.1821 shares of ECAT at 16.229999542236328
+🖍 Logged BUY of ECAT at 16.229999542236328
+🚀 Buying 4.6296 shares of NL at 7.650000095367432
+🖍 Logged BUY of NL at 7.650000095367432
+🚀 Buying 4.5935 shares of KRO at 7.710000038146973
+🖍 Logged BUY of KRO at 7.710000038146973
+🚀 Buying 3.0505 shares of VG at 11.609999656677246
+❌ Error executing buy for VG: insufficient buying power
+🚀 Buying 15.3983 shares of RCG at 2.299999952316284
+❌ Error executing buy for RCG: insufficient buying power
+⚠️ Skipping selling CRWD: open order detected.
+⚠️ Skipping selling DAY: open order detected.
+⚠️ Skipping selling IONQ: open order detected.
+⚠️ Skipping MAGN: no shares held.
+⚠️ Skipping NSC: no shares held.
+⚠️ Skipping PNC: no shares held.
+⚠️ Skipping SYK: no shares held.
+⚠️ Skipping selling WANT: open order detected.
+✅ Day trading execution complete.
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 36, in <module>
+    buying_power = float(api.get_account().buying_power)
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 280, in get_account
+    resp = self.get('/account')
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 254, in get
+    return self._request('GET', path, data)
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 222, in _request
+    return self._one_request(method, url, opts, retry)
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 248, in _one_request
+    raise_api_error(resp, http_error)
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 83, in raise_api_error
+    raise APIError(error, http_error) from None
+alpaca_trade_api.rest.APIError: forbidden.
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/day_trading_bot.py", line 172, in <module>
+    execute_trades()
+  File "/home/ubuntu/trading-bots/day_trading_bot.py", line 92, in execute_trades
+    buying_power = float(api.get_account().buying_power)
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 280, in get_account
+    resp = self.get('/account')
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 254, in get
+    return self._request('GET', path, data)
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 222, in _request
+    return self._one_request(method, url, opts, retry)
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 248, in _one_request
+    raise_api_error(resp, http_error)
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 83, in raise_api_error
+    raise APIError(error, http_error) from None
+alpaca_trade_api.rest.APIError: forbidden.
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 36, in <module>
+    buying_power = float(api.get_account().buying_power)
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 280, in get_account
+    resp = self.get('/account')
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 254, in get
+    return self._request('GET', path, data)
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 222, in _request
+    return self._one_request(method, url, opts, retry)
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 248, in _one_request
+    raise_api_error(resp, http_error)
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 83, in raise_api_error
+    raise APIError(error, http_error) from None
+alpaca_trade_api.rest.APIError: forbidden.
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/day_trading_bot.py", line 172, in <module>
+    execute_trades()
+  File "/home/ubuntu/trading-bots/day_trading_bot.py", line 92, in execute_trades
+    buying_power = float(api.get_account().buying_power)
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 280, in get_account
+    resp = self.get('/account')
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 254, in get
+    return self._request('GET', path, data)
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 222, in _request
+    return self._one_request(method, url, opts, retry)
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 248, in _one_request
+    raise_api_error(resp, http_error)
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 83, in raise_api_error
+    raise APIError(error, http_error) from None
+alpaca_trade_api.rest.APIError: forbidden.
+💵 Capital per trade: 2000.00, Price: 227.34, Qty: 8
+🔻 Shorted 8 shares of TEAM at 227.34
+💵 Capital per trade: 2000.00, Price: 314.03, Qty: 6
+🔻 Shorted 6 shares of APP at 314.03
+💵 Capital per trade: 2000.00, Price: 834.59, Qty: 2
+🔻 Shorted 2 shares of EQIX at 834.59
+💵 Capital per trade: 2000.00, Price: 1346.12, Qty: 1
+🔻 Shorted 1 shares of TDG at 1346.12
+💵 Capital per trade: 2000.00, Price: 1853.29, Qty: 1
+🔻 Shorted 1 shares of FICO at 1853.29
+💵 Capital per trade: 2000.00, Price: 52.24, Qty: 38
+🔻 Shorted 38 shares of IRON at 52.24
+💵 Capital per trade: 2000.00, Price: 17.61, Qty: 113
+🔻 Shorted 113 shares of ALHC at 17.61
+💵 Capital per trade: 2000.00, Price: 604.04, Qty: 3
+🔻 Shorted 3 shares of INTU at 604.04
+💵 Capital per trade: 2000.00, Price: 40.16, Qty: 49
+🔻 Shorted 49 shares of IOT at 40.16
+💵 Capital per trade: 2000.00, Price: 115.70, Qty: 17
+🔻 Shorted 17 shares of RDDT at 115.70
+💵 Capital per trade: 2000.00, Price: 142.39, Qty: 14
+🔻 Shorted 14 shares of SFM at 142.39
+💵 Capital per trade: 2000.00, Price: 309.30, Qty: 6
+🔻 Shorted 6 shares of DUOL at 309.30
+💵 Capital per trade: 2000.00, Price: 51.35, Qty: 38
+❌ Failed to short TEM: asset "TEM" cannot be sold short
+💵 Capital per trade: 2000.00, Price: 5.29, Qty: 378
+🔻 Shorted 378 shares of AVAH at 5.29
+💵 Capital per trade: 2000.00, Price: 29.55, Qty: 67
+❌ Failed to short MGPI: insufficient buying power
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+🚀 Buying 1304.3479 shares of RCG at 2.299999952316284
+⚠️ Failed to log trade: Expecting ',' delimiter: line 5293 column 25 (char 139179)
+🚀 Buying 258.3979 shares of VG at 11.609999656677246
+🖍 Logged BUY of VG at 11.609999656677246
+🚀 Buying 392.1569 shares of NL at 7.650000095367432
+🖍 Logged BUY of NL at 7.650000095367432
+🚀 Buying 435.4137 shares of WEST at 6.889999866485596
+🖍 Logged BUY of WEST at 6.889999866485596
+🚀 Buying 710.9005 shares of PSEC at 4.21999979019165
+🖍 Logged BUY of PSEC at 4.21999979019165
+🚀 Buying 558.6592 shares of CULP at 5.369999885559082
+🖍 Logged BUY of CULP at 5.369999885559082
+🚀 Buying 4870.1299 shares of EONR at 0.6159999966621399
+❌ Error executing buy for EONR: insufficient buying power
+🚀 Buying 47619.0469 shares of ZOM at 0.06300000101327896
+❌ Error executing buy for ZOM: asset ZOM is not active
+🚀 Buying 460.8295 shares of TTSH at 6.510000228881836
+❌ Error executing buy for TTSH: insufficient buying power
+🚀 Buying 184.8429 shares of ECAT at 16.229999542236328
+❌ Error executing buy for ECAT: insufficient buying power
+🚀 Buying 1704.5455 shares of BUKS at 1.7599999904632568
+❌ Error executing buy for BUKS: asset BUKS is not active
+🚀 Buying 389.1051 shares of KRO at 7.710000038146973
+❌ Error executing buy for KRO: insufficient buying power
+🚀 Buying 58.0495 shares of TREE at 51.68000030517578
+❌ Error executing buy for TREE: insufficient buying power
+🚀 Buying 1666.6667 shares of MCVT at 1.7999999523162842
+❌ Error executing buy for MCVT: insufficient buying power
+🚀 Buying 1.6206 shares of FCNCA at 1851.199951171875
+❌ Error executing buy for FCNCA: insufficient buying power
+✅ Day trading execution complete.
+💵 Capital per trade: 2000.00, Price: 227.34, Qty: 8
+🔻 Shorted 8 shares of TEAM at 227.34
+💵 Capital per trade: 2000.00, Price: 314.03, Qty: 6
+🔻 Shorted 6 shares of APP at 314.03
+💵 Capital per trade: 2000.00, Price: 834.59, Qty: 2
+🔻 Shorted 2 shares of EQIX at 834.59
+💵 Capital per trade: 2000.00, Price: 1346.12, Qty: 1
+🔻 Shorted 1 shares of TDG at 1346.12
+💵 Capital per trade: 2000.00, Price: 1853.29, Qty: 1
+🔻 Shorted 1 shares of FICO at 1853.29
+💵 Capital per trade: 2000.00, Price: 52.24, Qty: 38
+🔻 Shorted 38 shares of IRON at 52.24
+💵 Capital per trade: 2000.00, Price: 17.61, Qty: 113
+🔻 Shorted 113 shares of ALHC at 17.61
+💵 Capital per trade: 2000.00, Price: 604.04, Qty: 3
+🔻 Shorted 3 shares of INTU at 604.04
+💵 Capital per trade: 2000.00, Price: 40.16, Qty: 49
+🔻 Shorted 49 shares of IOT at 40.16
+💵 Capital per trade: 2000.00, Price: 115.70, Qty: 17
+🔻 Shorted 17 shares of RDDT at 115.70
+💵 Capital per trade: 2000.00, Price: 142.39, Qty: 14
+🔻 Shorted 14 shares of SFM at 142.39
+💵 Capital per trade: 2000.00, Price: 309.30, Qty: 6
+🔻 Shorted 6 shares of DUOL at 309.30
+💵 Capital per trade: 2000.00, Price: 51.35, Qty: 38
+❌ Failed to short TEM: asset "TEM" cannot be sold short
+💵 Capital per trade: 2000.00, Price: 5.29, Qty: 378
+🔻 Shorted 378 shares of AVAH at 5.29
+💵 Capital per trade: 2000.00, Price: 29.55, Qty: 67
+🔻 Shorted 67 shares of MGPI at 29.55
+[INFO] Allocating $18750.00 for day trading (75% of $25000.0)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+🚀 Buying 24.1873 shares of TREE at 51.68000030517578
+🖍 Logged BUY of TREE at 51.68000030517578
+🚀 Buying 464.6840 shares of CUBA at 2.690000057220459
+🖍 Logged BUY of CUBA at 2.690000057220459
+🚀 Buying 710.2273 shares of BUKS at 1.7599999904632568
+❌ Error executing buy for BUKS: asset BUKS is not active
+🚀 Buying 296.2085 shares of PSEC at 4.21999979019165
+🖍 Logged BUY of PSEC at 4.21999979019165
+🚀 Buying 2029.2208 shares of EONR at 0.6159999966621399
+🖍 Logged BUY of EONR at 0.6159999966621399
+🚀 Buying 107.6658 shares of VG at 11.609999656677246
+🖍 Logged BUY of VG at 11.609999656677246
+🚀 Buying 162.1271 shares of KRO at 7.710000038146973
+🖍 Logged BUY of KRO at 7.710000038146973
+🚀 Buying 543.4783 shares of RCG at 2.299999952316284
+🖍 Logged BUY of RCG at 2.299999952316284
+🚀 Buying 232.7747 shares of CULP at 5.369999885559082
+🖍 Logged BUY of CULP at 5.369999885559082
+🚀 Buying 0.6752 shares of FCNCA at 1851.199951171875
+🖍 Logged BUY of FCNCA at 1851.199951171875
+🚀 Buying 19841.2695 shares of ZOM at 0.06300000101327896
+❌ Error executing buy for ZOM: asset ZOM is not active
+🚀 Buying 694.4445 shares of MCVT at 1.7999999523162842
+🖍 Logged BUY of MCVT at 1.7999999523162842
+🚀 Buying 77.0179 shares of ECAT at 16.229999542236328
+🖍 Logged BUY of ECAT at 16.229999542236328
+🚀 Buying 106.0221 shares of SRBK at 11.789999961853027
+🖍 Logged BUY of SRBK at 11.789999961853027
+🚀 Buying 181.4224 shares of WEST at 6.889999866485596
+❌ Error executing buy for WEST: insufficient buying power
+✅ Day trading execution complete.

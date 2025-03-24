@@ -1,0 +1,2876 @@
+ticker,representative,transaction_type,transaction_date,price_change
+BX,Marjorie Taylor Greene,Purchase,2025-03-17,34.51
+ABBV,Marjorie Taylor Greene,Purchase,2025-03-17,-207.95
+AAPL,Marjorie Taylor Greene,Purchase,2025-03-17,199.53
+KMI,Marjorie Taylor Greene,Purchase,2025-03-17,50.38
+NVDA,Marjorie Taylor Greene,Purchase,2025-03-17,-153.1
+CAT,Marjorie Taylor Greene,Purchase,2025-03-17,-200.21
+GOOG,Marjorie Taylor Greene,Purchase,2025-03-17,-19.21
+CAH,Marjorie Taylor Greene,Purchase,2025-03-17,143.04
+AMAT,Marjorie Taylor Greene,Purchase,2025-03-17,-214.85
+UPS,Marjorie Taylor Greene,Purchase,2025-03-17,-250.72
+DLR,Marjorie Taylor Greene,Purchase,2025-03-17,-96.81
+FLL,Susie Lee,Sale,2025-03-12,118.2
+CRWD,Marjorie Taylor Greene,Purchase,2025-03-07,861.77
+GS,Marjorie Taylor Greene,Purchase,2025-03-07,97.74
+UBS,Mikie Sherrill,Sale,2025-03-07,-412.88
+DG,Marjorie Taylor Greene,Purchase,2025-03-07,222.39
+TSLA,Marjorie Taylor Greene,Purchase,2025-03-07,-531.47
+BRK.B,Eleanor Holmes Norton,Sale,2025-03-05,469.61
+HLMN,Gilbert Cisneros,Purchase,2025-03-03,-487.29
+STRL,Gilbert Cisneros,Purchase,2025-03-03,416.22
+DG,Marjorie Taylor Greene,Purchase,2025-03-03,1637.22
+IBIT,Marjorie Taylor Greene,Purchase,2025-03-03,-245.4
+WFC,A. Mitchell Jr. McConnell,Purchase,2025-03-03,-585.49
+PI,Marjorie Taylor Greene,Purchase,2025-03-03,287.24
+NGL,Mark Dr Green,Sale,2025-02-28,-351.97
+GS,Josh Gottheimer,Sale,2025-02-28,-918.38
+TPX,April Mcclain Delaney,Sale,2025-02-28,
+LH,April Mcclain Delaney,Purchase,2025-02-28,-670.41
+CPAY,April Mcclain Delaney,Purchase,2025-02-28,-554.69
+RVTY,April Mcclain Delaney,Sale,2025-02-28,-433.35
+V,Josh Gottheimer,Purchase,2025-02-28,-745.77
+XYZ,Josh Gottheimer,Sale,2025-02-27,-493.15
+LH,April Mcclain Delaney,Purchase,2025-02-27,-548.04
+PAYX,April Mcclain Delaney,Purchase,2025-02-27,-385.86
+CACI,April Mcclain Delaney,Purchase,2025-02-27,908.44
+FNA,Josh Gottheimer,Sale,2025-02-27,15.4
+KKR,Josh Gottheimer,Sale,2025-02-27,-1187.59
+BX,Josh Gottheimer,Sale,2025-02-27,-578.18
+UNH,Gilbert Cisneros,Sale,2025-02-26,1148.86
+AKAM,Gilbert Cisneros,Sale,2025-02-26,183.46
+ECL,John Boozman,Purchase,2025-02-26,-580.55
+AMP,Greg Landsman,Purchase,2025-02-26,-621.2
+AXP,John Boozman,Purchase,2025-02-26,-864.24
+EPAC,Gilbert Cisneros,Purchase,2025-02-26,-697.93
+KKR,Josh Gottheimer,Sale,2025-02-26,-1219.48
+WBA,Gilbert Cisneros,Sale,2025-02-26,54.35
+BITB,David H. McCormick,Purchase,2025-02-26,-45.76
+UBER,Gilbert Cisneros,Purchase,2025-02-26,-3.95
+DG,Gilbert Cisneros,Purchase,2025-02-26,1276.45
+PH,Greg Landsman,Sale,2025-02-26,-582.66
+CDNS,Gilbert Cisneros,Sale,2025-02-26,333.94
+FI,Josh Gottheimer,Purchase,2025-02-26,-505.86
+LITP,John Boozman,Purchase,2025-02-26,94.79
+F,Gilbert Cisneros,Sale,2025-02-26,559.66
+FTGC,John Boozman,Sale (Partial),2025-02-26,99.68
+COST,Greg Landsman,Sale,2025-02-26,-1189.08
+HUM,Gilbert Cisneros,Purchase,2025-02-26,435.17
+NVDA,Greg Landsman,Sale,2025-02-26,-1034.43
+CRWD,Greg Landsman,Purchase,2025-02-26,-819.14
+AMZN,Scott Scott Franklin,Purchase,2025-02-26,-846.28
+ANSS,Gilbert Cisneros,Sale,2025-02-26,-244.34
+AMZN,Scott Scott Franklin,Purchase,2025-02-26,-846.28
+AMZN,Thomas H. Kean Jr,Purchase,2025-02-26,-846.28
+AMZN,Scott Scott Franklin,Purchase,2025-02-26,-846.28
+TBLL,John Boozman,Purchase,2025-02-26,29.86
+BX,Josh Gottheimer,Sale,2025-02-26,-700.49
+DHR,Gilbert Cisneros,Sale,2025-02-26,91.67
+WYNN,Gilbert Cisneros,Purchase,2025-02-26,-929.75
+NVDA,John Boozman,Purchase,2025-02-26,-1034.43
+PCG,Gilbert Cisneros,Sale,2025-02-26,523.69
+SYK,Thomas H. Kean Jr,Sale,2025-02-26,-526.62
+TSLA,Gilbert Cisneros,Purchase,2025-02-26,-1447.39
+AMZN,John Boozman,Purchase,2025-02-26,-846.28
+AMZN,Greg Landsman,Sale,2025-02-26,-846.28
+EMLP,John Boozman,Sale (Partial),2025-02-26,78.15
+ALGN,Gilbert Cisneros,Sale,2025-02-26,-1181.95
+LUV,Gilbert Cisneros,Sale,2025-02-26,1348.97
+MSFT,Gilbert Cisneros,Purchase,2025-02-26,-211.89
+MRK,Gilbert Cisneros,Purchase,2025-02-26,417.32
+GM,Gilbert Cisneros,Sale,2025-02-26,276.52
+IVW,John Boozman,Sale (Partial),2025-02-26,-696.01
+CMG,Gilbert Cisneros,Sale,2025-02-26,-915.39
+MSI,John Boozman,Purchase,2025-02-26,-83.52
+PFE,Gilbert Cisneros,Purchase,2025-02-26,-52.99
+BITB,David H. McCormick,Purchase,2025-02-25,-467.45
+URNM,John Boozman,Purchase,2025-02-25,42.49
+VRT,Josh Gottheimer,Sale,2025-02-25,-355.82
+NSC,Julie Johnson,Sale,2025-02-25,-544.68
+UNP,Julie Johnson,Purchase,2025-02-25,-488.43
+RTX,Jefferson Shreve,Purchase,2025-02-24,553.3
+ACN,Shelley Moore Capito,Sale (Partial),2025-02-24,-1610.01
+UNP,Jefferson Shreve,Purchase,2025-02-24,-348.7
+HOPE,Jefferson Shreve,Sale,2025-02-24,-297.12
+AAPL,Josh Gottheimer,Sale,2025-02-24,-1166.73
+MSFT,Jefferson Shreve,Sale,2025-02-24,-315.35
+PLD,Jefferson Shreve,Purchase,2025-02-24,-1019.63
+HOG,Jefferson Shreve,Sale,2025-02-24,-668.43
+NSC,Jefferson Shreve,Sale,2025-02-24,-505.94
+WTW,Gilbert Cisneros,Purchase,2025-02-24,137.42
+BK,Julie Johnson,Purchase,2025-02-24,-506.76
+NVDA,Jefferson Shreve,Purchase,2025-02-24,-965.61
+HD,Josh Gottheimer,Sale,2025-02-24,-817.69
+IEX,Jefferson Shreve,Sale,2025-02-24,-748.14
+GS,Julie Johnson,Purchase,2025-02-24,-974.22
+BLK,Julie Johnson,Sale,2025-02-24,-11.23
+CI,Jefferson Shreve,Purchase,2025-02-24,519.23
+MSTR,Jefferson Shreve,Purchase,2025-02-24,751.17
+BSX,Gilbert Cisneros,Sale,2025-02-24,-354.44
+INTU,Jefferson Shreve,Sale,2025-02-24,648.76
+TJX,Jefferson Shreve,Sale,2025-02-24,-440.44
+QCOM,Jefferson Shreve,Purchase,2025-02-24,-265.67
+PGR,Julie Johnson,Purchase,2025-02-24,8.44
+JNJ,Jefferson Shreve,Purchase,2025-02-24,-6.72
+AVGO,Jefferson Shreve,Purchase,2025-02-24,-782.47
+OXY,Jefferson Shreve,Purchase,2025-02-24,-385.08
+ORCL,Jefferson Shreve,Purchase,2025-02-24,-1043.19
+SNDK,Jefferson Shreve,Exchange,2025-02-24,1102.88
+GE,Jefferson Shreve,Purchase,2025-02-24,272.76
+APD,Jefferson Shreve,Purchase,2025-02-24,-573.39
+AMGN,Jefferson Shreve,Purchase,2025-02-24,204.06
+RPD,Jefferson Shreve,Sale,2025-02-24,-1013.34
+ADBE,Jefferson Shreve,Purchase,2025-02-24,-1286.17
+HUBB,Jefferson Shreve,Sale,2025-02-24,-836.56
+BLK,Jefferson Shreve,Sale,2025-02-24,-11.23
+CMCSA,Shelley Moore Capito,Sale (Full),2025-02-24,123.97
+APP,Jefferson Shreve,Purchase,2025-02-24,-2349.13
+LIN,Jefferson Shreve,Sale,2025-02-24,-4.36
+AKAM,Jefferson Shreve,Sale,2025-02-24,436.57
+ABT,Shelley Moore Capito,Sale (Partial),2025-02-24,-638.01
+UPS,Jefferson Shreve,Sale,2025-02-24,-91.25
+CAT,Jefferson Shreve,Sale,2025-02-24,-92.65
+RGLD,Jefferson Shreve,Purchase,2025-02-24,390.44
+MRP,Jefferson Shreve,Sale,2025-02-24,931.44
+PG,Jefferson Shreve,Sale,2025-02-24,-225.75
+CMCSA,Jefferson Shreve,Sale,2025-02-24,123.97
+PNC,Julie Johnson,Sale,2025-02-24,-714.06
+PWR,Jefferson Shreve,Sale,2025-02-24,341.61
+UNH,Jefferson Shreve,Sale,2025-02-24,1198.86
+ELV,Jefferson Shreve,Purchase,2025-02-24,1088.36
+PHM,Jefferson Shreve,Purchase,2025-02-24,100.29
+EXPO,Jefferson Shreve,Purchase,2025-02-24,-693.56
+BUSE,Jefferson Shreve,Purchase,2025-02-24,-812.5
+BC,Jefferson Shreve,Purchase,2025-02-24,-898.42
+ACGL,Jefferson Shreve,Purchase,2025-02-24,271.36
+ABBV,Jefferson Shreve,Purchase,2025-02-24,290.57
+LOW,Jefferson Shreve,Purchase,2025-02-24,-422.22
+AVB,Jefferson Shreve,Sale,2025-02-24,-516.36
+XOM,Jefferson Shreve,Purchase,2025-02-24,380.16
+ALB,Jefferson Shreve,Sale,2025-02-24,-428.24
+FIS,Jefferson Shreve,Purchase,2025-02-24,573.74
+MSFT,Josh Gottheimer,Sale,2025-02-24,-315.35
+SHW,Jefferson Shreve,Purchase,2025-02-24,-275.1
+BA,Jefferson Shreve,Sale,2025-02-24,-100.05
+PFE,Jefferson Shreve,Purchase,2025-02-24,-138.84
+VRTX,Jefferson Shreve,Purchase,2025-02-24,447.42
+CSGP,Jefferson Shreve,Purchase,2025-02-24,125.18
+NVT,Jefferson Shreve,Purchase,2025-02-24,-555.46
+HD,Jefferson Shreve,Purchase,2025-02-24,-817.69
+DVN,Jefferson Shreve,Purchase,2025-02-24,-310.91
+XYZ,Jefferson Shreve,Sale,2025-02-24,-729.67
+PRI,Jefferson Shreve,Sale,2025-02-24,337.91
+EPAM,Jefferson Shreve,Sale,2025-02-24,-1546.92
+MRP,Jefferson Shreve,Exchange,2025-02-24,931.44
+TTD,Jefferson Shreve,Sale,2025-02-24,-2411.05
+HAL,Jefferson Shreve,Sale,2025-02-24,-747.94
+COF,Julie Johnson,Purchase,2025-02-24,-1255.5
+MRK,Jefferson Shreve,Purchase,2025-02-24,201.6
+LEN,Jefferson Shreve,Sale,2025-02-24,-383.11
+FLL,Susie Lee,Sale,2025-02-24,-1507.94
+ITT,Jefferson Shreve,Sale,2025-02-24,-403.61
+CPAY,April Mcclain Delaney,Purchase,2025-02-22,-402.51
+TDY,April Mcclain Delaney,Sale,2025-02-22,116.73
+CACI,April Mcclain Delaney,Sale,2025-02-22,1190.51
+TPX,April Mcclain Delaney,Sale,2025-02-22,
+NTDOY,Josh Gottheimer,Sale,2025-02-21,-496.6
+PAYX,April Mcclain Delaney,Purchase,2025-02-21,-369.67
+FLL,Susie Lee,Sale,2025-02-21,-1969.98
+CSCO,Josh Gottheimer,Sale,2025-02-21,-575.18
+SPOT,Josh Gottheimer,Sale,2025-02-21,-122.49
+PAYX,Josh Gottheimer,Sale,2025-02-21,-369.67
+TPX,April Mcclain Delaney,Sale,2025-02-21,
+IFNNY,Josh Gottheimer,Sale,2025-02-21,-1075.78
+FI,Josh Gottheimer,Purchase,2025-02-21,-613.33
+SCHW,Josh Gottheimer,Sale,2025-02-21,-254.85
+MSFT,Josh Gottheimer,Sale,2025-02-21,-415.23
+BRK.B,Josh Gottheimer,Sale,2025-02-21,901.74
+BABA,Rob Bresnahan,Purchase,2025-02-21,-598.96
+ROK,Tim Moore,Sale,2025-02-21,-1233.99
+AAPL,Josh Gottheimer,Sale,2025-02-21,-1110.98
+SNOW,Josh Gottheimer,Purchase,2025-02-21,-1096.18
+DASTY,Josh Gottheimer,Sale,2025-02-21,181.95
+AMZN,Greg Landsman,Purchase,2025-02-20,-1196.61
+GD,Tim Moore,Sale,2025-02-20,699.03
+ICFI,Gilbert Cisneros,Sale,2025-02-20,-1637.81
+HOOD,Rob Bresnahan,Sale,2025-02-20,-2087.05
+META,Rob Bresnahan,Sale,2025-02-20,-1418.89
+INTC,Rob Bresnahan,Purchase,2025-02-20,-701.42
+ARINA,Greg Landsman,Sale,2025-02-20,
+ET,Virginia Foxx,Purchase,2025-02-19,-755.47
+LLY,Josh Gottheimer,Sale,2025-02-19,-340.0
+ICFI,Josh Gottheimer,Sale,2025-02-19,-1744.6
+CACI,April Mcclain Delaney,Sale,2025-02-18,795.54
+LMT,Scott Scott Franklin,Purchase,2025-02-18,260.42
+LMT,Scott Scott Franklin,Purchase,2025-02-18,260.42
+LMT,Scott Scott Franklin,Purchase,2025-02-18,260.42
+BLK,Greg Landsman,Sale,2025-02-18,-267.22
+AOS,April Mcclain Delaney,Sale,2025-02-18,118.69
+ALAB,Rob Bresnahan,Sale,2025-02-18,-2376.97
+CRWD,Greg Landsman,Purchase,2025-02-18,-2044.98
+YUM,James E. Banks,Sale (Full),2025-02-18,653.84
+PG,Lloyd Doggett,Purchase,2025-02-18,76.17
+NGL,Mark Dr Green,Sale,2025-02-18,-585.86
+STT,Jake Auchincloss,Sale,2025-02-18,-984.67
+TPX,April Mcclain Delaney,Sale,2025-02-17,
+ENTG,April Mcclain Delaney,Purchase,2025-02-17,-1033.04
+VIK,April Mcclain Delaney,Purchase,2025-02-17,-2266.15
+FBIN,April Mcclain Delaney,Purchase,2025-02-17,-869.06
+LH,April Mcclain Delaney,Purchase,2025-02-17,-490.48
+TPX,April Mcclain Delaney,Sale,2025-02-16,
+TPX,April Mcclain Delaney,Sale,2025-02-15,
+LYV,April Mcclain Delaney,Sale,2025-02-14,-1996.62
+MSFT,Josh Gottheimer,Sale,2025-02-14,-420.39
+ORCL,Rob Bresnahan,Sale,2025-02-14,-1259.19
+MSFT,Josh Gottheimer,Sale,2025-02-14,-420.39
+RDDT,Rob Bresnahan,Purchase,2025-02-14,-4108.36
+COF,Julie Johnson,Purchase,2025-02-14,-1352.39
+MSFT,Josh Gottheimer,Sale,2025-02-14,-420.39
+MSFT,Josh Gottheimer,Purchase,2025-02-14,-420.39
+MSFT,Josh Gottheimer,Sale,2025-02-14,-420.39
+MSFT,Josh Gottheimer,Purchase,2025-02-14,-420.39
+MSFT,Josh Gottheimer,Purchase,2025-02-14,-420.39
+INTC,Rob Bresnahan,Purchase,2025-02-14,279.66
+MSFT,John Boozman,Purchase,2025-02-14,-420.39
+TSLA,Josh Gottheimer,Sale,2025-02-14,-3010.62
+MSFT,Josh Gottheimer,Purchase,2025-02-14,-420.39
+RTX,Julie Johnson,Purchase,2025-02-14,813.66
+BK,Julie Johnson,Purchase,2025-02-14,-488.39
+PGR,Julie Johnson,Purchase,2025-02-14,390.71
+CB,Julie Johnson,Sale,2025-02-14,1017.31
+IVW,John Boozman,Sale (Partial),2025-02-14,-1099.13
+ARLP,Virginia Foxx,Purchase,2025-02-14,-190.58
+LPLA,Markwayne Mullin,Purchase,2025-02-13,-1193.53
+DIS,John Boozman,Sale (Full),2025-02-13,-924.35
+IQV,Markwayne Mullin,Purchase,2025-02-13,-518.24
+LHX,Markwayne Mullin,Purchase,2025-02-13,399.0
+HON,Markwayne Mullin,Sale (Full),2025-02-13,236.27
+ABT,Josh Gottheimer,Purchase,2025-02-13,-413.54
+ANET,Rob Bresnahan,Sale,2025-02-13,-2425.51
+BRK,Markwayne Mullin,Sale (Partial),2025-02-13,
+SNOW,Rob Bresnahan,Purchase,2025-02-13,-1778.78
+STZ,Markwayne Mullin,Sale (Partial),2025-02-13,871.32
+AMZN,Markwayne Mullin,Purchase,2025-02-13,-1482.83
+WST,Jared Moskowitz,Sale,2025-02-13,1485.11
+PM,Markwayne Mullin,Purchase,2025-02-13,154.18
+ACN,Markwayne Mullin,Purchase,2025-02-13,-2161.84
+BSX,John Boozman,Purchase,2025-02-13,-513.47
+DHR,Markwayne Mullin,Sale (Full),2025-02-13,381.65
+FLL,Susie Lee,Sale,2025-02-13,-2103.32
+F,Tim Moore,Purchase,2025-02-13,695.19
+MSFT,Markwayne Mullin,Purchase,2025-02-13,-469.63
+PFE,John Boozman,Sale (Full),2025-02-13,249.61
+TJX,Markwayne Mullin,Purchase,2025-02-13,-773.14
+DHI,Josh Gottheimer,Sale,2025-02-13,-38.66
+VAW,Markwayne Mullin,Sale (Full),2025-02-13,-554.13
+AMD,Markwayne Mullin,Sale (Full),2025-02-13,-480.28
+GOOGL,John Boozman,Purchase,2025-02-13,-1189.96
+TSLA,Josh Gottheimer,Sale,2025-02-13,-3012.59
+V,Josh Gottheimer,Purchase,2025-02-13,-561.54
+PYPL,Josh Gottheimer,Sale,2025-02-13,-835.62
+PLTR,Marjorie Taylor Greene,Purchase,2025-02-12,-2251.47
+MSFT,Marjorie Taylor Greene,Purchase,2025-02-12,-434.68
+HOG,Tim Moore,Purchase,2025-02-12,-536.19
+NSC,Marjorie Taylor Greene,Purchase,2025-02-12,-872.75
+EL,Julie Johnson,Sale,2025-02-12,-301.32
+FCX,Julie Johnson,Purchase,2025-02-12,603.27
+TSLA,Julie Johnson,Sale,2025-02-12,-2609.13
+HII,Julie Johnson,Sale,2025-02-12,2323.08
+AAPL,Marjorie Taylor Greene,Purchase,2025-02-12,-785.24
+REGN,Julie Johnson,Sale,2025-02-12,-81.04
+AES,Julie Johnson,Sale,2025-02-12,2933.6
+UPS,Marjorie Taylor Greene,Purchase,2025-02-12,73.52
+HOG,Tim Moore,Sale,2025-02-12,-536.19
+PLTR,Julie Johnson,Purchase,2025-02-12,-2251.47
+META,Marjorie Taylor Greene,Purchase,2025-02-12,-1780.17
+MAGN,Thomas H. Kean Jr,Sale,2025-02-12,-1845.68
+BWA,Julie Johnson,Purchase,2025-02-12,-65.77
+BABA,Josh Gottheimer,Purchase,2025-02-12,1420.6
+CEG,Julie Johnson,Purchase,2025-02-12,-2910.13
+DVN,Marjorie Taylor Greene,Purchase,2025-02-12,641.74
+WFC,Julie Johnson,Purchase,2025-02-12,-849.21
+SNOW,Rob Bresnahan,Purchase,2025-02-12,-1540.35
+F,Julie Johnson,Purchase,2025-02-12,834.24
+ENPH,Julie Johnson,Sale,2025-02-12,68.72
+ALB,Julie Johnson,Sale,2025-02-12,125.33
+ETN,Julie Johnson,Purchase,2025-02-12,-465.99
+ANET,Julie Johnson,Purchase,2025-02-12,-2417.91
+INTC,Marjorie Taylor Greene,Purchase,2025-02-12,791.81
+PYPL,Julie Johnson,Purchase,2025-02-12,-797.17
+HOOD,Rob Bresnahan,Sale,2025-02-12,-2065.82
+ON,Julie Johnson,Purchase,2025-02-12,-1254.49
+ADBE,Marjorie Taylor Greene,Purchase,2025-02-12,-1631.52
+MKTX,Julie Johnson,Sale,2025-02-12,1242.03
+EIX,Julie Johnson,Purchase,2025-02-12,1042.14
+VST,Julie Johnson,Purchase,2025-02-12,-2162.54
+BA,Julie Johnson,Purchase,2025-02-12,-437.05
+GS,Marjorie Taylor Greene,Purchase,2025-02-12,-1292.14
+TER,Julie Johnson,Purchase,2025-02-12,-2154.38
+APTV,Julie Johnson,Purchase,2025-02-12,-458.37
+WBA,Julie Johnson,Sale,2025-02-12,1721.22
+SHOP,Josh Gottheimer,Purchase,2025-02-12,-1351.15
+PFE,Julie Johnson,Sale,2025-02-12,318.02
+JNPR,Julie Johnson,Sale,2025-02-12,-82.53
+GIS,Tina Smith,Sale (Full),2025-02-11,-119.63
+TFC,Julie Johnson,Sale,2025-02-11,-1250.53
+PEP,Tina Smith,Sale (Full),2025-02-11,-13.05
+CACI,Julie Johnson,Sale,2025-02-11,32.88
+MNDY,Rob Bresnahan,Purchase,2025-02-11,-1905.04
+ZBH,Julie Johnson,Sale,2025-02-11,1187.11
+PYPL,Julie Johnson,Sale,2025-02-11,-789.92
+DOX,Julie Johnson,Sale,2025-02-11,225.9
+TSLA,Julie Johnson,Sale,2025-02-11,-2428.92
+ON,Rob Bresnahan,Sale,2025-02-11,-865.85
+MTSI,Rob Bresnahan,Purchase,2025-02-10,-1292.06
+TTD,Rob Bresnahan,Sale,2025-02-10,-5404.77
+BABA,Rob Bresnahan,Purchase,2025-02-10,2139.78
+F,Tim Moore,Purchase,2025-02-10,822.51
+MSFT,Rob Bresnahan,Sale,2025-02-10,-508.47
+CLH,April Mcclain Delaney,Sale,2025-02-10,-1667.16
+NET,Rob Bresnahan,Purchase,2025-02-10,-3088.29
+XNGSY,Josh Gottheimer,Sale,2025-02-10,1687.83
+TTWO,Rob Bresnahan,Purchase,2025-02-10,45.17
+BRO,April Mcclain Delaney,Sale,2025-02-10,882.38
+DSCSY,Josh Gottheimer,Purchase,2025-02-10,-2727.86
+LLY,Ron Wyden,Sale (Full),2025-02-10,-360.35
+TRMB,April Mcclain Delaney,Sale,2025-02-10,-513.72
+HOG,Tim Moore,Sale,2025-02-10,-411.33
+TSCO,April Mcclain Delaney,Purchase,2025-02-09,-361.93
+PAYX,April Mcclain Delaney,Purchase,2025-02-09,-271.41
+LH,April Mcclain Delaney,Purchase,2025-02-08,-443.53
+FBIN,April Mcclain Delaney,Purchase,2025-02-08,-895.7
+CNM,April Mcclain Delaney,Purchase,2025-02-08,-1175.5
+DSCSY,Josh Gottheimer,Purchase,2025-02-07,-2644.06
+CLH,April Mcclain Delaney,Sale,2025-02-07,-1618.81
+ABEV,Josh Gottheimer,Sale,2025-02-07,2826.09
+LOW,Rob Bresnahan,Sale,2025-02-07,-987.14
+F,Tim Moore,Purchase,2025-02-07,822.51
+XNGSY,Josh Gottheimer,Sale,2025-02-07,1905.67
+MDLZ,Thomas H. Kean Jr,Purchase,2025-02-07,1036.78
+BWIN,Scott Scott Franklin,Sale,2025-02-07,385.71
+PRNDY,Thomas H. Kean Jr,Sale,2025-02-07,-115.61
+HURC,Debbie Wasserman Schultz,Sale,2025-02-06,-2843.75
+BRO,April Mcclain Delaney,Sale,2025-02-06,997.49
+SMCYY,Tim Moore,Sale,2025-02-06,
+ABEV,Josh Gottheimer,Sale,2025-02-06,2826.09
+CPAY,April Mcclain Delaney,Purchase,2025-02-06,-1100.24
+IRBT,Ron Wyden,Sale (Full),2025-02-06,-5789.47
+TWLO,Josh Gottheimer,Purchase,2025-02-06,-2983.11
+AVGO,Josh Gottheimer,Purchase,2025-02-06,-1715.94
+F,Tim Moore,Purchase,2025-02-06,799.14
+PYPL,Josh Gottheimer,Sale,2025-02-06,-1066.56
+SOLV,Ron Wyden,Sale (Full),2025-02-06,-108.32
+HOG,Tim Moore,Purchase,2025-02-06,-752.25
+BWIN,Scott Scott Franklin,Sale,2025-02-06,676.23
+D,Gerald E. Connolly,Sale,2025-02-05,83.18
+ACN,William R. Keating,Purchase,2025-02-05,-2333.46
+JPM,John Boozman,Sale (Partial),2025-02-05,-1064.97
+AAPL,Shelley Moore Capito,Sale (Partial),2025-02-05,-610.83
+TSLA,Josh Gottheimer,Purchase,2025-02-05,-3423.33
+HOG,Tim Moore,Sale,2025-02-05,-640.15
+BRO,April Mcclain Delaney,Sale,2025-02-05,1098.42
+NXPI,Julie Johnson,Purchase,2025-02-05,-590.88
+MCHP,Julie Johnson,Sale,2025-02-05,-332.71
+PAYX,April Mcclain Delaney,Purchase,2025-02-05,-520.32
+BAC,John Boozman,Sale (Partial),2025-02-05,-984.93
+LDOS,Gerald E. Connolly,Sale,2025-02-05,-527.99
+MA,John Boozman,Purchase,2025-02-05,-540.36
+NVDA,Cleo Fields,Sale,2025-02-05,-571.18
+LH,April Mcclain Delaney,Purchase,2025-02-05,-631.23
+"GLAS FUNDS, LP",Max Miller,Purchase,2025-02-05,
+F,Tim Moore,Sale,2025-02-05,-9.99
+SAIC,Gerald E. Connolly,Sale,2025-02-05,-105.58
+MSFT,William R. Keating,Purchase,2025-02-05,-533.04
+AXP,John Boozman,Purchase,2025-02-05,-1560.54
+MSFT,John Boozman,Purchase,2025-02-05,-533.04
+ARMK,William R. Keating,Purchase,2025-02-05,-911.01
+LRCX,John Boozman,Sale (Partial),2025-02-05,-744.45
+PEP,William R. Keating,Purchase,2025-02-05,-14.42
+TTD,James Comer,Sale,2025-02-04,-5040.51
+SMCYY,Tim Moore,Purchase,2025-02-04,
+AMZN,John Boozman,Purchase,2025-02-04,-1894.16
+CEG,Shelley Moore Capito,Purchase,2025-02-04,-2737.24
+HOG,Tim Moore,Purchase,2025-02-04,-786.73
+F,Tim Moore,Purchase,2025-02-04,-157.48
+QSR,John Boozman,Sale (Full),2025-02-04,818.67
+MSFT,Shelley Moore Capito,Sale (Partial),2025-02-04,-511.92
+TDG,Josh Gottheimer,Sale,2025-02-04,294.11
+INTC,Rob Bresnahan,Purchase,2025-02-03,2518.06
+AIT,Markwayne Mullin,Purchase,2025-02-03,-1312.39
+ETN,Julie Johnson,Purchase,2025-02-03,-633.14
+UNP,Josh Gottheimer,Purchase,2025-02-03,-376.1
+SPG,Victoria Spartz,Purchase,2025-02-03,-652.21
+NOW,Rob Bresnahan,Purchase,2025-02-03,-1892.28
+INTC,Rob Bresnahan,Purchase,2025-02-03,2518.06
+MTZ,Markwayne Mullin,Purchase,2025-02-03,-1240.2
+TTWO,Rob Bresnahan,Purchase,2025-02-03,1472.56
+INTC,Rob Bresnahan,Purchase,2025-02-03,2518.06
+TTWO,Rob Bresnahan,Purchase,2025-02-03,1472.56
+TTWO,Rob Bresnahan,Purchase,2025-02-03,1472.56
+NOW,Rob Bresnahan,Purchase,2025-02-03,-1892.28
+DELL,Markwayne Mullin,Purchase,2025-02-03,-251.77
+NGL,Mark Dr Green,Sale,2025-02-03,-1386.32
+CRDO,Markwayne Mullin,Purchase,2025-02-03,-3546.86
+ICFI,Gilbert Cisneros,Sale,2025-02-03,-2862.24
+LRN,Markwayne Mullin,Purchase,2025-02-03,-1140.49
+IRM,Markwayne Mullin,Purchase,2025-02-03,-1301.67
+GS,Markwayne Mullin,Purchase,2025-02-03,-1063.14
+AAPL,Josh Gottheimer,Sale,2025-02-03,-427.17
+COHR,Markwayne Mullin,Purchase,2025-02-03,-2201.14
+WMT,Josh Gottheimer,Purchase,2025-02-03,-1362.27
+XYZ,Josh Gottheimer,Purchase,2025-02-03,-3225.06
+PRMB,Markwayne Mullin,Purchase,2025-02-03,-179.44
+SHOP,Josh Gottheimer,Purchase,2025-02-03,-889.94
+WAB,Markwayne Mullin,Purchase,2025-02-03,-970.48
+MSFT,Thomas H. Kean Jr,Purchase,2025-01-31,-573.41
+BABA,Josh Gottheimer,Purchase,2025-01-31,3672.6
+MA,Josh Gottheimer,Purchase,2025-01-31,-355.4
+HE,Gilbert Cisneros,Purchase,2025-01-31,1980.31
+CACI,Gilbert Cisneros,Purchase,2025-01-31,-521.41
+MSFT,Josh Gottheimer,Sale,2025-01-31,-573.41
+ANET,Josh Gottheimer,Sale,2025-01-31,-2785.73
+V,Josh Gottheimer,Purchase,2025-01-31,-179.64
+TSLA,Josh Gottheimer,Purchase,2025-01-31,-3852.94
+ICFI,Josh Gottheimer,Sale,2025-01-31,-2799.25
+CVS,James French Hill,Sale,2025-01-31,1871.46
+TWLO,Josh Gottheimer,Purchase,2025-01-31,-2942.42
+NGL,Mark Dr Green,Sale,2025-01-30,-1618.71
+MSFT,Rob Bresnahan,Sale,2025-01-30,-571.82
+MMM,Josh Gottheimer,Purchase,2025-01-30,-261.66
+GLW,Josh Gottheimer,Purchase,2025-01-30,-292.06
+MSFT,Rob Bresnahan,Sale,2025-01-30,-571.82
+ISRG,Gilbert Cisneros,Purchase,2025-01-30,-1511.43
+MA,Josh Gottheimer,Purchase,2025-01-30,-535.68
+BABA,Rob Bresnahan,Purchase,2025-01-30,3153.59
+TT,Josh Gottheimer,Sale,2025-01-30,-523.59
+AVGO,Gilbert Cisneros,Sale,2025-01-30,-1112.86
+V,Josh Gottheimer,Purchase,2025-01-30,-215.42
+HOG,Tim Moore,Purchase,2025-01-30,-1050.34
+TSLA,Josh Gottheimer,Purchase,2025-01-30,-3786.6
+NVDA,Rob Bresnahan,Sale,2025-01-29,-485.04
+UNP,Josh Gottheimer,Purchase,2025-01-29,-627.93
+HOG,Tim Moore,Purchase,2025-01-29,-1017.81
+BABA,Rob Bresnahan,Purchase,2025-01-29,3972.29
+HOOD,Rob Bresnahan,Sale,2025-01-29,-1327.47
+CRM,Josh Gottheimer,Purchase,2025-01-29,-2072.88
+MANH,Rob Bresnahan,Sale,2025-01-29,-2322.74
+CRDO,Rob Bresnahan,Sale,2025-01-29,-2117.71
+UBER,Josh Gottheimer,Sale,2025-01-29,1361.8
+USPH,Gilbert Cisneros,Purchase,2025-01-29,-1779.79
+SWTX,Gilbert Cisneros,Purchase,2025-01-29,3661.01
+AVGO,Gilbert Cisneros,Purchase,2025-01-29,-711.9
+MANH,Rob Bresnahan,Sale,2025-01-29,-2322.74
+CRNX,Gilbert Cisneros,Purchase,2025-01-29,-1259.52
+CRDO,Rob Bresnahan,Sale,2025-01-29,-2117.71
+PWR,Josh Gottheimer,Sale,2025-01-29,-993.28
+HOOD,Rob Bresnahan,Sale,2025-01-29,-1327.47
+NVDA,Rob Bresnahan,Sale,2025-01-29,-485.04
+AGIO,Gilbert Cisneros,Purchase,2025-01-29,-720.43
+HOOD,Rob Bresnahan,Sale,2025-01-29,-1327.47
+FNA,Gilbert Cisneros,Purchase,2025-01-29,15.4
+ABT,Josh Gottheimer,Purchase,2025-01-29,-118.88
+AVGO,Josh Gottheimer,Sale,2025-01-29,-711.9
+ETN,Josh Gottheimer,Sale,2025-01-29,-697.73
+CRDO,Rob Bresnahan,Sale,2025-01-29,-2117.71
+ISRG,Josh Gottheimer,Sale,2025-01-29,-1400.71
+NVDA,Josh Gottheimer,Sale,2025-01-29,-485.04
+BABA,Rob Bresnahan,Purchase,2025-01-29,3972.29
+BABA,Rob Bresnahan,Purchase,2025-01-29,3972.29
+META,Rob Bresnahan,Sale,2025-01-29,-1186.12
+MANH,Rob Bresnahan,Sale,2025-01-29,-2322.74
+META,Rob Bresnahan,Sale,2025-01-29,-1186.12
+LRCX,Gilbert Cisneros,Sale,2025-01-28,178.5
+V,Josh Gottheimer,Purchase,2025-01-28,35.28
+INTU,Julie Johnson,Sale,2025-01-28,56.27
+ORCL,Josh Gottheimer,Sale,2025-01-28,-717.68
+CRWD,Rob Bresnahan,Purchase,2025-01-28,-1136.34
+ANET,Josh Gottheimer,Sale,2025-01-28,-2197.3
+TEAM,Rob Bresnahan,Purchase,2025-01-28,-1724.36
+NVDA,Rob Bresnahan,Sale,2025-01-28,-875.26
+AVGO,Josh Gottheimer,Sale,2025-01-28,-757.14
+TSM,Josh Gottheimer,Sale,2025-01-28,-1268.28
+AVGO,Rob Bresnahan,Sale,2025-01-28,-757.14
+NGL,Mark Dr Green,Sale,2025-01-28,-1480.8
+PEP,Julie Johnson,Sale,2025-01-28,-319.47
+ZM,Rob Bresnahan,Purchase,2025-01-28,-1429.38
+TSLA,Josh Gottheimer,Purchase,2025-01-28,-3752.42
+LNTH,Gilbert Cisneros,Purchase,2025-01-28,722.05
+IVW,John Boozman,Sale (Partial),2025-01-28,-915.96
+COST,Scott Scott Franklin,Sale,2025-01-28,-515.4
+COST,Scott Scott Franklin,Sale,2025-01-28,-515.4
+TBLL,John Boozman,Purchase,2025-01-28,28.43
+HPQ,John Boozman,Sale (Full),2025-01-28,-1240.07
+TEAM,Rob Bresnahan,Purchase,2025-01-28,-1724.36
+DELL,Julie Johnson,Sale,2025-01-28,-367.26
+ZM,Rob Bresnahan,Purchase,2025-01-28,-1429.38
+ZM,Rob Bresnahan,Purchase,2025-01-28,-1429.38
+COST,Scott Scott Franklin,Sale,2025-01-28,-515.4
+TEAM,Rob Bresnahan,Purchase,2025-01-28,-1724.36
+WTW,Gilbert Cisneros,Purchase,2025-01-28,203.64
+ALE,Julie Johnson,Sale,2025-01-28,19.83
+CRWD,Rob Bresnahan,Purchase,2025-01-28,-1136.34
+NVDA,Josh Gottheimer,Sale,2025-01-28,-875.26
+ABT,Josh Gottheimer,Purchase,2025-01-28,-82.42
+NRG,John Boozman,Purchase,2025-01-28,-20.82
+CRWD,Rob Bresnahan,Purchase,2025-01-28,-1136.34
+PPG,Julie Johnson,Sale,2025-01-27,-1091.0
+GLA,Max Miller,Purchase,2025-01-27,
+CDRE,Josh Gottheimer,Purchase,2025-01-27,-2176.2
+GBOOY,Josh Gottheimer,Purchase,2025-01-27,284.06
+MRK,Josh Gottheimer,Sale,2025-01-27,-493.16
+CLPBY,Josh Gottheimer,Purchase,2025-01-27,-840.48
+GLW,Josh Gottheimer,Purchase,2025-01-27,-201.9
+MELI,Josh Gottheimer,Sale,2025-01-27,1350.33
+FICO,Josh Gottheimer,Sale,2025-01-27,57.8
+"3.MONTH, MATURE",Rudy C. Yakym Iii,Purchase,2025-01-27,
+ABEV,Josh Gottheimer,Purchase,2025-01-27,2896.17
+CCI,Gilbert Cisneros,Purchase,2025-01-24,2022.83
+ABNB,Gilbert Cisneros,Sale,2025-01-24,134.55
+MRK,Gilbert Cisneros,Sale,2025-01-24,-255.36
+K,Gilbert Cisneros,Purchase,2025-01-24,78.17
+GS,Julie Johnson,Purchase,2025-01-24,-1126.71
+PFE,Gilbert Cisneros,Sale,2025-01-24,72.82
+JNJ,Gilbert Cisneros,Sale,2025-01-24,1144.94
+KLAC,William R. Keating,Purchase,2025-01-24,-577.87
+UNH,Gilbert Cisneros,Purchase,2025-01-24,-294.08
+DG,Gilbert Cisneros,Sale,2025-01-24,1655.06
+LUV,Gilbert Cisneros,Purchase,2025-01-24,826.86
+MCK,Gilbert Cisneros,Sale,2025-01-24,1176.34
+ITCI,Josh Gottheimer,Sale,2025-01-24,337.65
+EIX,Gilbert Cisneros,Sale,2025-01-24,-118.91
+CI,Gilbert Cisneros,Sale,2025-01-24,783.61
+SJM,Gilbert Cisneros,Sale,2025-01-24,577.57
+MS,Julie Johnson,Sale,2025-01-24,-1282.83
+MDLZ,Gilbert Cisneros,Sale,2025-01-24,1234.76
+PCG,Gilbert Cisneros,Sale,2025-01-24,205.56
+HOG,Tim Moore,Purchase,2025-01-24,-1296.23
+PLTR,Gilbert Cisneros,Purchase,2025-01-24,1516.84
+HOG,Tim Moore,Sale,2025-01-24,-1296.23
+JNJ,Josh Gottheimer,Purchase,2025-01-24,1144.94
+REGN,Josh Gottheimer,Sale,2025-01-24,-256.14
+V,Josh Gottheimer,Purchase,2025-01-24,165.35
+LRCX,William R. Keating,Sale,2025-01-24,-481.93
+CVS,Gilbert Cisneros,Purchase,2025-01-24,2291.48
+PGR,Julie Johnson,Purchase,2025-01-24,1425.34
+CB,Julie Johnson,Sale,2025-01-24,927.26
+BA,Gilbert Cisneros,Sale,2025-01-24,116.44
+MSFT,Gilbert Cisneros,Purchase,2025-01-24,-1189.03
+D,Gilbert Cisneros,Sale,2025-01-24,200.07
+F,Gilbert Cisneros,Purchase,2025-01-24,-118.58
+TEL,Josh Gottheimer,Purchase,2025-01-23,-688.62
+V,Josh Gottheimer,Purchase,2025-01-23,226.99
+UBER,Josh Gottheimer,Sale,2025-01-23,1103.95
+TT,Josh Gottheimer,Sale,2025-01-23,-1327.79
+ETN,Josh Gottheimer,Sale,2025-01-23,-2008.44
+LLY,Ron Wyden,Purchase,2025-01-22,1108.65
+WMT,Josh Gottheimer,Purchase,2025-01-22,-777.65
+HWM,Ashley B. Moody,Purchase,2025-01-22,326.73
+PAR,Gilbert Cisneros,Purchase,2025-01-22,-1426.19
+AMAT,Ashley B. Moody,Purchase,2025-01-22,-2219.32
+INTA,Gilbert Cisneros,Sale,2025-01-22,-1252.87
+ORCL,Josh Gottheimer,Sale,2025-01-22,-1736.51
+NFLX,Josh Gottheimer,Sale,2025-01-22,66.04
+MU,Ashley B. Moody,Purchase,2025-01-22,-1328.39
+NSC,Marjorie Taylor Greene,Purchase,2025-01-21,-798.09
+GOOG,Rob Bresnahan,Sale,2025-01-21,-1672.09
+NVDA,Marjorie Taylor Greene,Purchase,2025-01-21,-1642.41
+OKTA,Ashley B. Moody,Sale (Full),2025-01-21,2722.6
+ISRG,Josh Gottheimer,Sale,2025-01-21,-1847.81
+KMI,Marjorie Taylor Greene,Purchase,2025-01-21,-1053.81
+DVN,Marjorie Taylor Greene,Purchase,2025-01-21,-157.91
+CSGP,William R. Keating,Purchase,2025-01-21,579.83
+ODFL,Marjorie Taylor Greene,Purchase,2025-01-21,-1323.85
+PWR,Josh Gottheimer,Sale,2025-01-21,-2507.82
+LLY,Marjorie Taylor Greene,Purchase,2025-01-21,1282.68
+AMD,Marjorie Taylor Greene,Purchase,2025-01-21,-1295.39
+PANW,Marjorie Taylor Greene,Purchase,2025-01-21,-64.85
+F,Tim Moore,Sale,2025-01-21,-412.27
+DIS,Rob Bresnahan,Sale,2025-01-21,-850.05
+MMM,Josh Gottheimer,Purchase,2025-01-21,236.23
+NEE,Marjorie Taylor Greene,Purchase,2025-01-21,4.23
+KO,Rob Bresnahan,Sale,2025-01-21,1001.28
+MSFT,Josh Gottheimer,Sale,2025-01-21,-869.08
+KO,Josh Gottheimer,Purchase,2025-01-21,1001.28
+META,Marjorie Taylor Greene,Purchase,2025-01-21,-327.84
+FCNCA,Byron Donalds,Purchase,2025-01-21,-1702.9
+PLTR,James Comer,Purchase,2025-01-21,2448.34
+CAH,Marjorie Taylor Greene,Purchase,2025-01-21,317.61
+JNJ,Josh Gottheimer,Purchase,2025-01-21,1044.89
+AMZN,Marjorie Taylor Greene,Purchase,2025-01-21,-1495.38
+RLI,Byron Donalds,Sale,2025-01-21,-229.58
+V,Marjorie Taylor Greene,Purchase,2025-01-21,371.72
+CRM,Rob Bresnahan,Sale,2025-01-21,-1414.15
+ORCL,Josh Gottheimer,Sale,2025-01-21,-1178.65
+GDDY,Byron Donalds,Purchase,2025-01-21,-1228.66
+FCNCA,Byron Donalds,Purchase,2025-01-21,-1702.9
+OXY,Marjorie Taylor Greene,Purchase,2025-01-21,-516.32
+GDDY,Byron Donalds,Purchase,2025-01-21,-1228.66
+FMAO,Robert E. Latta,Purchase,2025-01-20,-1110.7
+AZO,Richard W. Allen,Purchase,2025-01-17,1170.67
+AAPL,Shelley Moore Capito,Sale (Partial),2025-01-17,-509.17
+GWW,Shelley Moore Capito,Sale (Partial),2025-01-17,-1261.76
+LOW,Shelley Moore Capito,Sale (Partial),2025-01-17,-1302.0
+INTA,Josh Gottheimer,Sale,2025-01-17,-967.69
+ITW,Shelley Moore Capito,Sale (Partial),2025-01-17,-196.58
+GLA,Max Miller,Purchase,2025-01-17,
+CB,Shelley Moore Capito,Sale (Partial),2025-01-17,814.53
+PSX,Shelley Moore Capito,Sale (Partial),2025-01-17,411.52
+AFL,Shelley Moore Capito,Sale (Partial),2025-01-17,164.33
+BLK,Shelley Moore Capito,Sale (Partial),2025-01-17,-529.67
+JPM,Shelley Moore Capito,Sale (Partial),2025-01-17,-676.42
+MRK,Julie Johnson,Purchase,2025-01-17,-491.22
+NVDA,Josh Gottheimer,Sale,2025-01-17,-1453.05
+MSFT,Shelley Moore Capito,Sale (Partial),2025-01-17,-880.36
+PAR,Josh Gottheimer,Purchase,2025-01-17,-1565.57
+WMT,Julie Johnson,Sale,2025-01-17,-648.25
+NVDA,Josh Gottheimer,Sale,2025-01-16,-1188.14
+LRCX,Rob Bresnahan,Purchase,2025-01-16,-426.66
+DHI,Josh Gottheimer,Purchase,2025-01-16,-1211.46
+FCNCA,Byron Donalds,Purchase,2025-01-16,-1413.77
+TDG,Josh Gottheimer,Sale,2025-01-16,182.3
+GDDY,Byron Donalds,Purchase,2025-01-16,-1021.66
+GDDY,Byron Donalds,Purchase,2025-01-16,-1021.66
+RLI,Byron Donalds,Sale,2025-01-16,-212.0
+D,Josh Gottheimer,Purchase,2025-01-16,-92.63
+RLI,Byron Donalds,Sale,2025-01-16,-212.0
+UNICY,Josh Gottheimer,Purchase,2025-01-16,-2141.41
+AMZN,Thomas H. Kean Jr,Purchase,2025-01-16,-1108.04
+JNJ,Josh Gottheimer,Purchase,2025-01-16,1073.29
+HOG,Tim Moore,Sale,2025-01-16,-1663.29
+SPY,John Boozman,Sale (Full),2025-01-16,-467.51
+MSFT,Josh Gottheimer,Sale,2025-01-16,-784.78
+TLK,Josh Gottheimer,Purchase,2025-01-16,-1222.98
+BRK.B,Josh Gottheimer,Purchase,2025-01-16,1276.98
+KO,Josh Gottheimer,Purchase,2025-01-16,1031.33
+META,Josh Gottheimer,Sale,2025-01-16,-246.2
+MA,Josh Gottheimer,Sale,2025-01-16,239.9
+TBLL,John Boozman,Purchase,2025-01-16,4.72
+MRK,Byron Donalds,Sale,2025-01-16,-753.72
+GMAB,Josh Gottheimer,Purchase,2025-01-16,-688.03
+RUM,David H. McCormick,Sale (Full),2025-01-16,-3681.63
+RLI,Byron Donalds,Sale,2025-01-16,-212.0
+SHEL,Josh Gottheimer,Purchase,2025-01-16,686.23
+NSRGY,Josh Gottheimer,Purchase,2025-01-16,2721.13
+MRK,Byron Donalds,Sale,2025-01-16,-753.72
+PANW,Josh Gottheimer,Sale,2025-01-16,290.68
+GOOG,Josh Gottheimer,Sale,2025-01-16,-1448.49
+CRL,Julie Johnson,Purchase,2025-01-15,-381.23
+DHR,Julie Johnson,Sale,2025-01-15,-1118.21
+MNST,Julie Johnson,Sale,2025-01-15,1634.19
+PFE,Julie Johnson,Sale,2025-01-15,22.88
+AVGO,Julie Johnson,Sale,2025-01-15,-1593.86
+BRK.B,Rob Bresnahan,Sale,2025-01-15,1382.74
+CI,Julie Johnson,Purchase,2025-01-15,1126.92
+UBER,Julie Johnson,Purchase,2025-01-15,1316.03
+HAS,Julie Johnson,Purchase,2025-01-15,785.26
+DLTR,Julie Johnson,Purchase,2025-01-15,-510.38
+ES,Julie Johnson,Purchase,2025-01-15,763.12
+BA,Julie Johnson,Purchase,2025-01-15,716.61
+ENPH,Julie Johnson,Purchase,2025-01-15,-651.68
+MKTX,Julie Johnson,Purchase,2025-01-15,-43.61
+SBAC,Julie Johnson,Purchase,2025-01-15,1237.64
+QRVO,Julie Johnson,Sale,2025-01-15,-318.23
+COP,Julie Johnson,Purchase,2025-01-15,-337.5
+PLTR,Julie Johnson,Purchase,2025-01-15,3348.99
+EL,Julie Johnson,Purchase,2025-01-15,-1015.83
+DG,Julie Johnson,Purchase,2025-01-15,2200.67
+MRK,Jared Moskowitz,Sale,2025-01-15,-697.37
+NKE,Julie Johnson,Sale,2025-01-15,-440.41
+MSCI,Julie Johnson,Purchase,2025-01-15,-639.6
+MRK,Jared Moskowitz,Sale,2025-01-15,-697.37
+REGN,Julie Johnson,Purchase,2025-01-15,-639.01
+SYK,Jared Moskowitz,Purchase,2025-01-15,67.82
+LW,Julie Johnson,Sale,2025-01-15,-1006.44
+CNI,Jared Moskowitz,Sale,2025-01-15,-385.34
+SOLV,Julie Johnson,Sale,2025-01-15,269.33
+SMCI,Julie Johnson,Purchase,2025-01-15,3601.16
+ABBV,Jared Moskowitz,Purchase,2025-01-15,2256.2
+CAG,Julie Johnson,Sale,2025-01-15,66.64
+CSGP,Julie Johnson,Sale,2025-01-15,715.65
+ABBV,Jared Moskowitz,Purchase,2025-01-15,2256.2
+BRK.B,Rob Bresnahan,Sale,2025-01-15,1382.74
+CNI,Jared Moskowitz,Sale,2025-01-15,-385.34
+BMY,Julie Johnson,Purchase,2025-01-15,922.91
+DOW,Julie Johnson,Purchase,2025-01-15,-1047.03
+JNPR,Julie Johnson,Purchase,2025-01-15,-677.53
+GS,Jared Moskowitz,Purchase,2025-01-15,-673.03
+VZ,Julie Johnson,Sale,2025-01-15,1521.74
+DIS,Debbie Dingell,Purchase,2025-01-15,-806.06
+SYK,Jared Moskowitz,Purchase,2025-01-15,67.82
+CNI,Jared Moskowitz,Sale,2025-01-15,-385.34
+STZ,Julie Johnson,Sale,2025-01-15,-182.6
+CVS,Julie Johnson,Sale,2025-01-15,2859.61
+HSY,Julie Johnson,Purchase,2025-01-15,1016.8
+ABT,Jared Moskowitz,Sale,2025-01-15,1371.74
+BRK.B,Rob Bresnahan,Purchase,2025-01-15,1382.74
+MRNA,Julie Johnson,Sale,2025-01-15,-606.84
+ABT,Jared Moskowitz,Sale,2025-01-15,1371.74
+NEE,Julie Johnson,Purchase,2025-01-15,229.47
+MCK,Jared Moskowitz,Purchase,2025-01-15,1332.08
+WBA,Julie Johnson,Purchase,2025-01-15,-1141.26
+MCK,Jared Moskowitz,Purchase,2025-01-15,1332.08
+PEP,Julie Johnson,Purchase,2025-01-15,46.28
+AMT,Julie Johnson,Sale,2025-01-15,1991.46
+ABT,Jared Moskowitz,Sale,2025-01-15,1371.74
+GS,Jared Moskowitz,Purchase,2025-01-15,-673.03
+GS,Jared Moskowitz,Purchase,2025-01-15,-673.03
+TEM,Nancy Pelosi,Purchase,2025-01-14,6132.58
+NVDA,John Boozman,Purchase,2025-01-14,-1067.09
+CRM,John Boozman,Purchase,2025-01-14,-1326.57
+MA,John Boozman,Purchase,2025-01-14,523.95
+CMPO,Brad Knott,Purchase,2025-01-14,-1991.5
+NVDA,Nancy Pelosi,Purchase,2025-01-14,-1067.09
+CSCO,John Boozman,Sale (Full),2025-01-14,163.49
+EBAY,John Boozman,Sale (Full),2025-01-14,212.7
+GOOGL,Nancy Pelosi,Purchase,2025-01-14,-1353.47
+VST,Nancy Pelosi,Purchase,2025-01-14,-2341.8
+AMZN,Nancy Pelosi,Purchase,2025-01-14,-989.62
+QQQ,John Boozman,Sale (Full),2025-01-14,-479.92
+GOOG,Rob Bresnahan,Sale,2025-01-13,-1354.2
+WBD,August Lee Pfluger Ii,Sale,2025-01-13,914.63
+PANW,Rob Bresnahan,Sale,2025-01-13,864.02
+SNPS,Rob Bresnahan,Sale,2025-01-13,-796.63
+BRO,Rob Bresnahan,Sale,2025-01-13,1557.29
+SMCI,Rob Bresnahan,Sale,2025-01-13,3561.78
+PWR,Rob Bresnahan,Sale,2025-01-13,-1464.21
+CDW,Rob Bresnahan,Sale,2025-01-13,-848.44
+BRK.B,Rob Bresnahan,Purchase,2025-01-13,1757.11
+AAON,Rob Bresnahan,Sale,2025-01-13,-3545.38
+PCTY,Rob Bresnahan,Sale,2025-01-13,91.5
+ICE,Rob Bresnahan,Sale,2025-01-13,2119.67
+BA,Rob Bresnahan,Sale,2025-01-13,442.05
+RCL,Rob Bresnahan,Sale,2025-01-13,-516.66
+DIS,Rob Bresnahan,Sale,2025-01-13,-797.56
+DBX,Rob Bresnahan,Sale,2025-01-13,-1050.32
+CMG,Rob Bresnahan,Sale,2025-01-13,-1373.98
+AMD,Rob Bresnahan,Sale,2025-01-13,-927.38
+TMUS,Rob Bresnahan,Sale,2025-01-13,1985.38
+NFLX,Rob Bresnahan,Sale,2025-01-13,1428.08
+WSC,Rob Bresnahan,Sale,2025-01-13,-1565.07
+TDG,Rob Bresnahan,Sale,2025-01-13,529.23
+APPF,Rob Bresnahan,Sale,2025-01-13,-1120.59
+DRI,Rob Bresnahan,Sale,2025-01-13,938.88
+FIX,Rob Bresnahan,Sale,2025-01-13,-1981.28
+WTW,Gilbert Cisneros,Purchase,2025-01-13,689.13
+GDDY,Rob Bresnahan,Sale,2025-01-13,-680.14
+MOH,Rob Bresnahan,Sale,2025-01-13,525.73
+KMX,Gilbert Cisneros,Purchase,2025-01-13,-914.65
+CI,Rob Bresnahan,Sale,2025-01-13,1210.83
+HEI,Rob Bresnahan,Sale,2025-01-13,1555.46
+HEI,Rob Bresnahan,Sale,2025-01-13,1555.46
+MANH,Rob Bresnahan,Sale,2025-01-13,-3552.18
+CDNS,Rob Bresnahan,Sale,2025-01-13,-1028.38
+IR,Rob Bresnahan,Sale,2025-01-13,-818.78
+LIN,Rob Bresnahan,Sale,2025-01-13,875.59
+CELH,Rob Bresnahan,Sale,2025-01-13,2137.85
+ZS,Rob Bresnahan,Sale,2025-01-13,1003.27
+NVR,Rob Bresnahan,Sale,2025-01-13,-976.15
+BRK.B,Rob Bresnahan,Purchase,2025-01-13,1757.11
+MSCI,Rob Bresnahan,Sale,2025-01-13,-309.38
+AXON,Rob Bresnahan,Sale,2025-01-13,-152.63
+KLAC,Gilbert Cisneros,Sale,2025-01-13,224.32
+BRK.B,Rob Bresnahan,Sale,2025-01-13,1757.11
+CVX,Rob Bresnahan,Sale,2025-01-13,605.09
+MEDP,Rob Bresnahan,Sale,2025-01-13,-789.18
+PPG,Julie Johnson,Sale,2025-01-13,-354.53
+SAIA,Rob Bresnahan,Sale,2025-01-13,-2159.79
+ADBE,Rob Bresnahan,Sale,2025-01-13,-519.95
+BRK.B,Rob Bresnahan,Purchase,2025-01-13,1757.11
+UNH,Rob Bresnahan,Sale,2025-01-13,-448.87
+ANET,Rob Bresnahan,Sale,2025-01-13,-2619.85
+ELV,Rob Bresnahan,Sale,2025-01-13,774.29
+MA,Rob Bresnahan,Sale,2025-01-13,609.61
+EME,Rob Bresnahan,Sale,2025-01-13,-1552.87
+ACN,Rob Bresnahan,Sale,2025-01-13,-1255.08
+FTNT,Rob Bresnahan,Sale,2025-01-13,513.69
+WMS,Rob Bresnahan,Sale,2025-01-13,-587.93
+WAB,Gilbert Cisneros,Sale,2025-01-13,-368.02
+NTNX,Rob Bresnahan,Sale,2025-01-13,1665.87
+PSTG,Rob Bresnahan,Sale,2025-01-13,-1827.77
+PFGC,Rob Bresnahan,Sale,2025-01-13,-931.0
+DECK,Rob Bresnahan,Sale,2025-01-13,-4239.21
+BR,Rob Bresnahan,Sale,2025-01-13,359.86
+LULU,Rob Bresnahan,Sale,2025-01-13,-1911.45
+CLH,Rob Bresnahan,Sale,2025-01-13,-1458.08
+PAYX,Rob Bresnahan,Sale,2025-01-13,177.19
+INTU,Rob Bresnahan,Sale,2025-01-13,-149.7
+LNTH,Gilbert Cisneros,Purchase,2025-01-13,323.3
+MPWR,Rob Bresnahan,Sale,2025-01-13,61.8
+BAH,Rob Bresnahan,Sale,2025-01-13,-2292.78
+PCAR,Rob Bresnahan,Sale,2025-01-13,-1021.63
+AAON,Rob Bresnahan,Sale,2025-01-13,-3545.38
+RMD,Rob Bresnahan,Sale,2025-01-13,-458.61
+F,Tim Moore,Purchase,2025-01-13,298.66
+SBAC,Rob Bresnahan,Sale,2025-01-13,1368.49
+WAB,Rob Bresnahan,Sale,2025-01-13,-368.02
+NOW,Rob Bresnahan,Sale,2025-01-13,-1850.77
+ELF,Rob Bresnahan,Sale,2025-01-13,-5242.96
+BERY,Rob Bresnahan,Sale,2025-01-13,315.01
+LW,Rob Bresnahan,Sale,2025-01-13,-1276.91
+GPK,Rob Bresnahan,Sale,2025-01-13,-573.98
+CHDN,Rob Bresnahan,Sale,2025-01-13,-1255.85
+ANSS,Rob Bresnahan,Sale,2025-01-13,-385.24
+STZ,Gilbert Cisneros,Purchase,2025-01-13,-456.67
+URI,Rob Bresnahan,Sale,2025-01-13,-885.0
+MSFT,Rob Bresnahan,Sale,2025-01-13,-621.54
+HOG,Tim Moore,Purchase,2025-01-13,-1246.9
+CRWD,Rob Bresnahan,Sale,2025-01-13,608.56
+HQY,Rob Bresnahan,Sale,2025-01-13,-1663.72
+CRM,Rob Bresnahan,Sale,2025-01-13,-1205.06
+IBP,Rob Bresnahan,Sale,2025-01-13,-157.15
+AAPL,Tommy Tuberville,Sale (Full),2025-01-10,-784.46
+CARR,Tommy Tuberville,Sale (Full),2025-01-10,-51.12
+TXN,Tommy Tuberville,Sale (Full),2025-01-10,-586.38
+DEO,Tommy Tuberville,Sale (Full),2025-01-10,-946.46
+MSFT,Tommy Tuberville,Sale (Full),2025-01-10,-660.94
+CMPO,Brad Knott,Purchase,2025-01-10,-1858.79
+TSCO,Tommy Tuberville,Sale (Full),2025-01-10,-390.18
+ORMP,Brad Knott,Sale,2025-01-10,-251.05
+ISRG,Josh Gottheimer,Sale,2025-01-10,-1004.26
+TCTZF,Gilbert Cisneros,Sale,2025-01-09,3736.95
+HOG,Tim Moore,Purchase,2025-01-09,-1111.51
+JPM,Marjorie Taylor Greene,Purchase,2025-01-08,-61.7
+JPM,Marjorie Taylor Greene,Purchase,2025-01-08,-61.7
+NVDA,Marjorie Taylor Greene,Purchase,2025-01-08,-1599.46
+BRK.B,Marjorie Taylor Greene,Purchase,2025-01-08,1550.77
+CAT,Marjorie Taylor Greene,Purchase,2025-01-08,-700.42
+AMZN,Marjorie Taylor Greene,Purchase,2025-01-08,-1166.88
+TSLA,Marjorie Taylor Greene,Purchase,2025-01-08,-3702.59
+JPM,Marjorie Taylor Greene,Purchase,2025-01-08,-61.7
+TSLA,Marjorie Taylor Greene,Purchase,2025-01-08,-3702.59
+TSLA,Marjorie Taylor Greene,Purchase,2025-01-08,-3702.59
+AMZN,Marjorie Taylor Greene,Purchase,2025-01-08,-1166.88
+TSLA,Marjorie Taylor Greene,Purchase,2025-01-08,-3702.59
+AMZN,Marjorie Taylor Greene,Purchase,2025-01-08,-1166.88
+HD,Marjorie Taylor Greene,Purchase,2025-01-08,-931.04
+JNJ,Marjorie Taylor Greene,Purchase,2025-01-08,1501.37
+JNJ,Marjorie Taylor Greene,Purchase,2025-01-08,1501.37
+GOOG,Marjorie Taylor Greene,Purchase,2025-01-08,-1491.38
+INTC,Marjorie Taylor Greene,Purchase,2025-01-08,2203.22
+INTC,Marjorie Taylor Greene,Purchase,2025-01-08,2203.22
+UPS,Marjorie Taylor Greene,Purchase,2025-01-08,-919.85
+HSY,Marjorie Taylor Greene,Purchase,2025-01-08,305.76
+XRAY,Gilbert Cisneros,Sale,2025-01-08,-1745.36
+BRK.B,Marjorie Taylor Greene,Purchase,2025-01-08,1550.77
+AMD,Marjorie Taylor Greene,Purchase,2025-01-08,-1263.95
+IBIT,Marjorie Taylor Greene,Purchase,2025-01-08,-1057.37
+AMD,Marjorie Taylor Greene,Purchase,2025-01-08,-1263.95
+ABT,Markwayne Mullin,Sale (Full),2025-01-08,1058.21
+ASML,Marjorie Taylor Greene,Purchase,2025-01-08,-373.13
+PANW,Marjorie Taylor Greene,Purchase,2025-01-08,549.09
+F,Tim Moore,Purchase,2025-01-08,266.94
+CAT,Marjorie Taylor Greene,Purchase,2025-01-08,-700.42
+EZU,Markwayne Mullin,Sale (Partial),2025-01-08,1449.18
+JPM,Marjorie Taylor Greene,Purchase,2025-01-08,-61.7
+AMZN,Marjorie Taylor Greene,Purchase,2025-01-08,-1166.88
+BRK.B,Marjorie Taylor Greene,Purchase,2025-01-08,1550.77
+LNTH,Gilbert Cisneros,Purchase,2025-01-08,394.68
+JNJ,Marjorie Taylor Greene,Purchase,2025-01-08,1501.37
+AMD,Marjorie Taylor Greene,Purchase,2025-01-08,-1263.95
+SCCO,Marjorie Taylor Greene,Purchase,2025-01-08,579.81
+GOOG,Marjorie Taylor Greene,Purchase,2025-01-08,-1491.38
+PANW,Marjorie Taylor Greene,Purchase,2025-01-08,549.09
+LLY,Josh Gottheimer,Sale,2025-01-08,639.59
+IEFA,Markwayne Mullin,Sale (Partial),2025-01-08,950.16
+AMD,Marjorie Taylor Greene,Purchase,2025-01-08,-1263.95
+CAT,Marjorie Taylor Greene,Purchase,2025-01-08,-700.42
+UPS,Marjorie Taylor Greene,Purchase,2025-01-08,-919.85
+GOOG,Emily Randall,Sale,2025-01-07,-1548.47
+APG,Gilbert Cisneros,Purchase,2025-01-07,40.55
+CCK,Thomas H. Kean Jr,Purchase,2025-01-07,916.11
+CTAS,Rick Larsen,Purchase,2025-01-07,129.82
+ABNB,William R. Keating,Sale,2025-01-07,-189.66
+UNH,Rick Larsen,Sale,2025-01-07,50.56
+FI,William R. Keating,Purchase,2025-01-07,700.13
+CSCO,Marco Rubio,Sale (Full),2025-01-07,232.48
+HOG,Tim Moore,Sale,2025-01-07,-1612.36
+FTV,Gilbert Cisneros,Purchase,2025-01-07,-242.66
+BR,Rick Larsen,Purchase,2025-01-07,290.74
+KO,Marco Rubio,Sale (Full),2025-01-07,1286.98
+AMZN,William R. Keating,Purchase,2025-01-07,-1166.09
+FERG,Gilbert Cisneros,Purchase,2025-01-07,-573.72
+VRSK,Rick Larsen,Purchase,2025-01-07,425.56
+WAB,Gilbert Cisneros,Sale,2025-01-07,-230.52
+GOOGL,Rick Larsen,Purchase,2025-01-07,-1611.34
+GDDY,Gilbert Cisneros,Sale,2025-01-07,-779.26
+F,Tim Moore,Sale,2025-01-07,245.9
+BAH,Rick Larsen,Sale,2025-01-07,-1942.12
+GD,Rick Larsen,Sale,2025-01-07,144.81
+CMCSA,Rick Larsen,Sale,2025-01-07,-115.65
+LNTH,Gilbert Cisneros,Purchase,2025-01-07,81.51
+XRAY,Gilbert Cisneros,Sale,2025-01-07,-1638.9
+VZ,Emily Randall,Sale,2025-01-06,1105.78
+ABT,Emily Randall,Sale,2025-01-06,1176.57
+PEP,Emily Randall,Sale,2025-01-06,-56.06
+NVDA,Sheldon Whitehouse,Sale (Partial),2025-01-06,-2123.4
+WFC,Emily Randall,Sale,2025-01-06,68.03
+F,Tim Moore,Purchase,2025-01-06,80.65
+XOM,Emily Randall,Sale,2025-01-06,720.25
+AMGN,Emily Randall,Sale,2025-01-06,2221.66
+MDT,Emily Randall,Sale,2025-01-06,1313.88
+FTV,Emily Randall,Sale,2025-01-06,-226.08
+MDLZ,Emily Randall,Sale,2025-01-06,1080.38
+PG,Emily Randall,Sale,2025-01-06,379.2
+HOG,Tim Moore,Purchase,2025-01-03,-1766.08
+F,Tim Moore,Purchase,2025-01-03,121.46
+MSFT,Shelley Moore Capito,Sale (Partial),2025-01-03,-758.0
+SOFI,James Comer,Purchase,2025-01-02,-891.72
+AVGO,James Comer,Purchase,2025-01-02,-1738.08
+COST,James Comer,Purchase,2025-01-02,-6.05
+ANET,James Comer,Purchase,2025-01-02,-2563.74
+VRSN,James Comer,Purchase,2025-01-02,1921.5
+PRMB,Markwayne Mullin,Purchase,2025-01-02,419.49
+HD,James Comer,Purchase,2025-01-02,-960.46
+TTD,James Comer,Purchase,2025-01-02,-5217.02
+MSFT,James Comer,Purchase,2025-01-02,-652.68
+AMZN,James Comer,Purchase,2025-01-02,-1090.27
+PANW,James Comer,Purchase,2025-01-02,87.42
+NVDA,James Comer,Purchase,2025-01-02,-1490.13
+AHL.C,Bill Hagerty,Sale (Full),2025-01-02,
+WAB,Markwayne Mullin,Purchase,2025-01-02,-221.73
+AAPL,James Comer,Purchase,2025-01-02,-1049.01
+CRDO,Markwayne Mullin,Purchase,2025-01-02,-3466.8
+T,James Comer,Purchase,2025-01-02,1835.3
+COST,James Comer,Purchase,2025-01-02,-6.05
+CHDN,James Comer,Purchase,2025-01-02,-1481.12
+CRM,James Comer,Purchase,2025-01-02,-1513.34
+GS,Markwayne Mullin,Purchase,2025-01-02,-170.97
+GS,Markwayne Mullin,Purchase,2025-01-02,-170.97
+APH,James Comer,Purchase,2025-01-02,-349.22
+LRN,Markwayne Mullin,Purchase,2025-01-02,1468.87
+HD,James Comer,Purchase,2025-01-02,-960.46
+WAB,Markwayne Mullin,Purchase,2025-01-02,-221.73
+GOOG,James Comer,Purchase,2025-01-02,-1278.92
+SOFI,James Comer,Purchase,2025-01-02,-891.72
+DOV,James Comer,Purchase,2025-01-02,-323.21
+NFLX,James Comer,Purchase,2025-01-02,829.56
+NGL,Mark Dr Green,Sale,2025-01-02,-1003.86
+COHR,Markwayne Mullin,Purchase,2025-01-02,-3216.03
+UBER,James Comer,Purchase,2025-01-02,2005.7
+AIT,Markwayne Mullin,Purchase,2025-01-02,-589.67
+AIT,Markwayne Mullin,Purchase,2025-01-02,-589.67
+IRM,Markwayne Mullin,Purchase,2025-01-02,-1642.16
+PYPL,James Comer,Purchase,2025-01-02,-1855.42
+DELL,Markwayne Mullin,Purchase,2025-01-02,-1627.05
+IRM,Markwayne Mullin,Purchase,2025-01-02,-1642.16
+COHR,Markwayne Mullin,Purchase,2025-01-02,-3216.03
+BLK,James Comer,Purchase,2025-01-02,-645.47
+DELL,Markwayne Mullin,Purchase,2025-01-02,-1627.05
+PRMB,Markwayne Mullin,Purchase,2025-01-02,419.49
+MTZ,Markwayne Mullin,Purchase,2025-01-02,-1140.08
+AMZN,James Comer,Purchase,2025-01-02,-1090.27
+LRN,Markwayne Mullin,Purchase,2025-01-02,1468.87
+CRDO,Markwayne Mullin,Purchase,2025-01-02,-3466.8
+BLK,James Comer,Purchase,2025-01-02,-645.47
+MTZ,Markwayne Mullin,Purchase,2025-01-02,-1140.08
+NVDA,Nancy Pelosi,Sale,2024-12-31,-1235.39
+JNJ,Kevin Hern,Sale,2024-12-31,1314.48
+DVN,Kevin Hern,Sale,2024-12-31,1044.91
+DXCM,Kevin Hern,Sale,2024-12-31,-510.48
+AAPL,Nancy Pelosi,Sale,2024-12-31,-1283.84
+INTC,Kevin Hern,Sale,2024-12-31,2099.75
+EL,Kevin Hern,Sale,2024-12-31,-1070.95
+AGCO,Kevin Hern,Sale,2024-12-31,-41.72
+EFC$D,Virginia Foxx,Purchase,2024-12-30,
+GS,Josh Gottheimer,Purchase,2024-12-30,-146.63
+SQ,Josh Gottheimer,Purchase,2024-12-30,-59.44
+ABEV,Josh Gottheimer,Sale,2024-12-27,2620.32
+GBOOY,Josh Gottheimer,Sale,2024-12-27,1248.87
+GE,Shelley Moore Capito,Purchase,2024-12-27,2002.0
+CLPBY,Josh Gottheimer,Sale,2024-12-27,-334.84
+PRNDY,Thomas H. Kean Jr,Purchase,2024-12-27,-1039.3
+CP,Thomas H. Kean Jr,Purchase,2024-12-27,-82.69
+CDRE,Josh Gottheimer,Sale,2024-12-27,-274.57
+IEMG,Markwayne Mullin,Purchase,2024-12-26,402.27
+PDBC,Markwayne Mullin,Sale (Full),2024-12-26,517.24
+VNQ,Markwayne Mullin,Purchase,2024-12-26,69.16
+GICIX,Markwayne Mullin,Purchase,2024-12-26,
+PCLPX,Markwayne Mullin,Purchase,2024-12-26,
+CFSSX,Markwayne Mullin,Purchase,2024-12-26,
+ADBE,Marjorie Taylor Mrs Greene,Purchase,2024-12-24,-1354.65
+GILD,Marjorie Taylor Mrs Greene,Purchase,2024-12-24,1397.55
+MSFT,Marjorie Taylor Mrs Greene,Purchase,2024-12-24,-1094.17
+LLY,Marjorie Taylor Mrs Greene,Purchase,2024-12-24,526.6
+HSY,Marjorie Taylor Mrs Greene,Purchase,2024-12-24,-194.15
+AMAT,Marjorie Taylor Mrs Greene,Purchase,2024-12-24,-965.14
+NVDA,Marjorie Taylor Mrs Greene,Purchase,2024-12-24,-1606.05
+CAT,Marjorie Taylor Mrs Greene,Purchase,2024-12-24,-864.87
+NOW,Marjorie Taylor Mrs Greene,Purchase,2024-12-24,-2512.84
+META,Marjorie Taylor Mrs Greene,Purchase,2024-12-24,-189.22
+JNJ,Marjorie Taylor Mrs Greene,Purchase,2024-12-24,1219.06
+DUK,Marjorie Taylor Mrs Greene,Purchase,2024-12-24,929.61
+NSC,Marjorie Taylor Mrs Greene,Purchase,2024-12-24,-259.33
+AMZN,Marjorie Taylor Mrs Greene,Purchase,2024-12-24,-1433.75
+AMAT,John Boozman,Sale (Partial),2024-12-23,-916.04
+BITCOIN,Guy Mr Reschenthaler,Purchase,2024-12-23,
+TT,Josh Gottheimer,Sale,2024-12-23,-803.99
+ISRG,Josh Gottheimer,Sale,2024-12-23,-658.74
+NVDA,Nancy Pelosi,Purchase,2024-12-20,-1262.06
+MSFT,Josh Gottheimer,Sale,2024-12-20,-1038.48
+WMT,Josh Gottheimer,Purchase,2024-12-20,-678.66
+PANW,Nancy Pelosi,Purchase,2024-12-20,-238.78
+MSFT,Josh Gottheimer,Purchase,2024-12-20,-1038.48
+UNH,Shelley Moore Capito,Sale (Partial),2024-12-20,334.31
+MSFT,Josh Gottheimer,Sale,2024-12-20,-1038.48
+MSFT,Josh Gottheimer,Purchase,2024-12-20,-1038.48
+MSFT,Josh Gottheimer,Purchase,2024-12-20,-1038.48
+MSFT,Josh Gottheimer,Purchase,2024-12-20,-1038.48
+MSFT,Josh Gottheimer,Sale,2024-12-20,-1038.48
+MSFT,Josh Gottheimer,Sale,2024-12-20,-1038.48
+BLK,Greg Landsman,Purchase,2024-12-19,-635.62
+GOOG,Thomas H. Kean Jr,Sale,2024-12-19,-1236.16
+NVDA,Josh Gottheimer,Sale,2024-12-19,-993.27
+WMT,Josh Gottheimer,Purchase,2024-12-19,-794.43
+LRCX,Sheldon Whitehouse,Sale (Full),2024-12-19,650.19
+URI,Greg Landsman,Sale,2024-12-19,-1164.37
+"GLAS FUNDS, LP",Max Miller,Sale,2024-12-19,
+AAPL,Sheldon Whitehouse,Sale (Partial),2024-12-19,-1261.86
+AAPL,Josh Gottheimer,Purchase,2024-12-19,-1261.86
+CYBR,Markwayne Mullin,Sale (Full),2024-12-18,1530.09
+ELF,Markwayne Mullin,Sale (Full),2024-12-18,-5058.96
+FRPT,Markwayne Mullin,Sale (Full),2024-12-18,-3840.9
+LRN,Markwayne Mullin,Sale (Full),2024-12-18,1583.25
+LRN,Markwayne Mullin,Sale (Full),2024-12-18,1583.25
+WMT,Josh Gottheimer,Purchase,2024-12-18,-809.19
+GS,Markwayne Mullin,Sale (Full),2024-12-18,270.6
+BMI,Markwayne Mullin,Sale (Full),2024-12-18,-1365.23
+CYBR,Markwayne Mullin,Sale (Full),2024-12-18,1530.09
+UBER,Josh Gottheimer,Sale,2024-12-18,2386.09
+SFM,Markwayne Mullin,Sale (Full),2024-12-18,532.58
+AXON,Markwayne Mullin,Sale (Full),2024-12-18,-819.07
+AXON,Markwayne Mullin,Sale (Full),2024-12-18,-819.07
+BMI,Markwayne Mullin,Sale (Full),2024-12-18,-1365.23
+ETN,Markwayne Mullin,Sale (Full),2024-12-18,-1184.05
+ETN,Markwayne Mullin,Sale (Full),2024-12-18,-1184.05
+GS,Markwayne Mullin,Sale (Full),2024-12-18,270.6
+MSFT,Pete Sessions,Purchase,2024-12-18,-1054.67
+ORCL,Josh Gottheimer,Sale,2024-12-18,-796.81
+SFM,Markwayne Mullin,Sale (Full),2024-12-18,532.58
+OLLI,Markwayne Mullin,Sale (Full),2024-12-18,-664.69
+ELF,Markwayne Mullin,Sale (Full),2024-12-18,-5058.96
+LLY,Josh Gottheimer,Sale,2024-12-18,952.78
+OLLI,Markwayne Mullin,Sale (Full),2024-12-18,-664.69
+FRPT,Markwayne Mullin,Sale (Full),2024-12-18,-3840.9
+GMAB,Josh Gottheimer,Sale,2024-12-16,-129.87
+TLK,Josh Gottheimer,Sale,2024-12-16,-1387.88
+LLY,Josh Gottheimer,Sale,2024-12-16,751.86
+MSFT,Shelley Moore Capito,Sale (Partial),2024-12-16,-1335.95
+PLD,Thomas H. Kean Jr,Purchase,2024-12-16,-41.33
+ORLY,Jonathan Jackson,Purchase,2024-12-16,553.49
+BEN,Thomas H. Kean Jr,Sale,2024-12-16,-926.94
+NSRGY,Josh Gottheimer,Sale,2024-12-16,2513.6
+D,Josh Gottheimer,Sale,2024-12-16,190.55
+BRK.B,Jerry Moran,Purchase,2024-12-16,1465.51
+GD,Jonathan Jackson,Sale,2024-12-16,-99.97
+SHEL,Josh Gottheimer,Sale,2024-12-16,1425.58
+DHI,Josh Gottheimer,Sale,2024-12-16,-1271.59
+UNICY,Josh Gottheimer,Sale,2024-12-16,-645.22
+KO,Josh Gottheimer,Sale,2024-12-16,978.42
+BABA,Josh Gottheimer,Sale,2024-12-16,5703.0
+KO,Lloyd Doggett,Purchase,2024-12-16,978.42
+ABT,Thomas H. Kean Jr,Purchase,2024-12-16,1218.26
+ADI,Thomas H. Kean Jr,Purchase,2024-12-13,-563.69
+LOW,Shelley Moore Capito,Sale (Partial),2024-12-13,-1346.09
+CRM,Josh Gottheimer,Purchase,2024-12-13,-2079.82
+UNP,Josh Gottheimer,Purchase,2024-12-13,-46.81
+AY,Thomas R. Carper,Sale (Full),2024-12-13,
+LLY,Josh Gottheimer,Sale,2024-12-13,613.98
+EQC,Bill Hagerty,Sale (Full),2024-12-13,-532.54
+AVGO,Shelley Moore Capito,Purchase,2024-12-12,608.88
+HD,Kevin Hern,Purchase,2024-12-12,-1526.71
+HD,Lloyd Doggett,Purchase,2024-12-12,-1526.71
+GWW,Josh Gottheimer,Sale,2024-12-12,-1531.06
+PPG,Lloyd Doggett,Purchase,2024-12-12,-1071.6
+ROL,Richard W. Allen,Purchase,2024-12-12,586.43
+JNJ,Josh Gottheimer,Purchase,2024-12-12,1189.14
+LLY,Josh Gottheimer,Sale,2024-12-12,705.82
+PEP,Markwayne Mullin,Sale (Full),2024-12-11,-722.08
+SOLANA,Guy Mr Reschenthaler,Purchase,2024-12-11,
+RIPPLE,Guy Mr Reschenthaler,Purchase,2024-12-11,
+EBS,Steve Cohen,Sale,2024-12-11,-3325.55
+HST,Steve Cohen,Sale,2024-12-11,-2239.83
+LLY,Josh Gottheimer,Sale,2024-12-11,521.84
+AMAT,Markwayne Mullin,Purchase,2024-12-11,-1110.85
+ETN,Josh Gottheimer,Sale,2024-12-11,-1836.64
+ABT,Markwayne Mullin,Sale (Partial),2024-12-11,1068.86
+XOM,Kevin Hern,Purchase,2024-12-10,251.18
+JNJ,Lloyd Doggett,Purchase,2024-12-10,964.95
+IBM,Lloyd Doggett,Purchase,2024-12-10,524.34
+LLY,Josh Gottheimer,Sale,2024-12-10,475.12
+UBER,Josh Gottheimer,Sale,2024-12-09,1536.36
+META,Jonathan Jackson,Purchase,2024-12-09,-282.28
+SNPS,Josh Gottheimer,Sale,2024-12-09,-1177.8
+TIMB,Jonathan Jackson,Sale,2024-12-09,1815.34
+LLY,Josh Gottheimer,Sale,2024-12-09,422.98
+ARLP,Virginia Foxx,Sale,2024-12-06,-83.11
+SPXC,Josh Gottheimer,Sale,2024-12-06,-1578.12
+THR,Josh Gottheimer,Purchase,2024-12-06,-832.03
+GBCI,Josh Gottheimer,Sale,2024-12-06,-2247.11
+PSA,Virginia Foxx,Purchase,2024-12-06,-1283.23
+PGNY,Josh Gottheimer,Sale,2024-12-06,4810.3
+T$A,Virginia Foxx,Sale,2024-12-06,
+ABBV,Virginia Foxx,Purchase,2024-12-06,1919.52
+DUK,Virginia Foxx,Purchase,2024-12-06,624.44
+JNJ,Virginia Foxx,Purchase,2024-12-06,959.08
+ET,Virginia Foxx,Sale,2024-12-06,-342.68
+TXRH,Josh Gottheimer,Sale,2024-12-06,-1357.35
+ASC,Virginia Foxx,Sale,2024-12-06,-1165.05
+AEP,Virginia Foxx,Purchase,2024-12-06,966.09
+PRIM,Josh Gottheimer,Sale,2024-12-06,-2302.48
+FLNG,Virginia Foxx,Sale,2024-12-06,200.64
+AMGN,Virginia Foxx,Purchase,2024-12-06,1594.39
+VIASP,Virginia Foxx,Sale,2024-12-06,907.86
+CDRE,Josh Gottheimer,Purchase,2024-12-06,-1227.13
+BMY,Virginia Foxx,Purchase,2024-12-06,284.61
+PBA,Virginia Foxx,Sale,2024-12-06,48.17
+TT,Josh Gottheimer,Sale,2024-12-05,-1636.39
+91282CJP7,Richard W. Allen,Purchase,2024-12-03,
+TSLA,Josh Gottheimer,Purchase,2024-12-03,-2922.71
+912797KJ5,Richard W. Allen,Purchase,2024-12-03,
+NGL,Mark Dr Green,Sale,2024-12-03,-210.08
+91282CJS1,Richard W. Allen,Purchase,2024-12-03,
+WFC,A. Mitchell Jr. McConnell,Purchase,2024-12-02,-366.63
+REGN,Josh Gottheimer,Sale,2024-11-29,-1222.84
+WBD,Laurel Lee,Sale,2024-11-29,248.09
+AMZN,Jonathan Jackson,Purchase,2024-11-27,-463.21
+TSLA,Josh Gottheimer,Purchase,2024-11-27,-2528.76
+IEFA,Markwayne Mullin,Purchase,2024-11-27,686.14
+EZU,Markwayne Mullin,Purchase,2024-11-27,1575.05
+IEMG,Markwayne Mullin,Purchase,2024-11-27,179.26
+VRT,Josh Gottheimer,Sale,2024-11-27,-3017.96
+AMAT,Jonathan Jackson,Sale,2024-11-27,-1120.71
+NFLX,Josh Gottheimer,Sale,2024-11-27,945.47
+D,Josh Gottheimer,Purchase,2024-11-26,-773.0
+TSLA,Josh Gottheimer,Purchase,2024-11-26,-2646.72
+JNJ,Josh Gottheimer,Purchase,2024-11-26,589.57
+GLAS,Max Miller,Purchase,2024-11-26,
+"4.WEEK, MATURE",Rudy Yakym Iii,Purchase,2024-11-26,
+MSFT,Marjorie Taylor Mrs Greene,Purchase,2024-11-25,-657.37
+SCHW,Marjorie Taylor Mrs Greene,Purchase,2024-11-25,-413.35
+LRCX,Marjorie Taylor Mrs Greene,Purchase,2024-11-25,288.97
+NVDA,Marjorie Taylor Mrs Greene,Purchase,2024-11-25,-1346.86
+GOOG,Marjorie Taylor Mrs Greene,Purchase,2024-11-25,-187.69
+JNJ,Marjorie Taylor Mrs Greene,Purchase,2024-11-25,503.92
+HD,Marjorie Taylor Mrs Greene,Purchase,2024-11-25,-1808.38
+NEE,Marjorie Taylor Mrs Greene,Purchase,2024-11-25,-751.57
+COST,Marjorie Taylor Mrs Greene,Purchase,2024-11-25,-537.31
+ETN,Josh Gottheimer,Sale,2024-11-25,-2156.74
+ASML,Marjorie Taylor Mrs Greene,Purchase,2024-11-25,463.86
+BRK.B,Marjorie Taylor Mrs Greene,Purchase,2024-11-25,931.65
+NSRGY,Marjorie Taylor Mrs Greene,Purchase,2024-11-25,2133.82
+AMD,Marjorie Taylor Mrs Greene,Purchase,2024-11-25,-2458.02
+HURA,Laurel Lee,Purchase,2024-11-25,-89.29
+UPS,Marjorie Taylor Mrs Greene,Purchase,2024-11-25,-1631.53
+GSK,Marjorie Taylor Mrs Greene,Purchase,2024-11-25,1490.48
+JPM,Marjorie Taylor Mrs Greene,Purchase,2024-11-25,-346.0
+DUK,Marjorie Taylor Mrs Greene,Purchase,2024-11-25,356.52
+COP,Josh Gottheimer,Sale,2024-11-22,-879.64
+JNJ,Josh Gottheimer,Purchase,2024-11-22,545.21
+ABBV,Marjorie Taylor Mrs Greene,Purchase,2024-11-20,2518.48
+AAXJ,John Boozman,Purchase,2024-11-20,197.85
+TSLA,Josh Gottheimer,Purchase,2024-11-20,-2728.42
+QCOM,Marjorie Taylor Mrs Greene,Purchase,2024-11-20,165.29
+AMAT,Marjorie Taylor Mrs Greene,Purchase,2024-11-20,-1077.48
+AMZN,Marjorie Taylor Mrs Greene,Purchase,2024-11-20,-328.77
+VWO,John Boozman,Sale (Partial),2024-11-20,92.19
+SCCO,Marjorie Taylor Mrs Greene,Purchase,2024-11-20,-180.29
+NTRA,Josh Gottheimer,Purchase,2024-11-20,-996.55
+SWKS,John Boozman,Sale (Full),2024-11-20,-1939.35
+BBEU,John Boozman,Sale (Partial),2024-11-20,1149.85
+ADBE,Marjorie Taylor Mrs Greene,Purchase,2024-11-20,-2247.05
+NSRGY,Marjorie Taylor Mrs Greene,Purchase,2024-11-20,1920.11
+OXY,Marjorie Taylor Mrs Greene,Purchase,2024-11-20,-583.38
+HTGC,Virginia Foxx,Purchase,2024-11-20,223.17
+REGN,Josh Gottheimer,Sale,2024-11-19,-1156.59
+MSFT,Josh Gottheimer,Purchase,2024-11-19,-635.01
+LLY,Josh Gottheimer,Sale,2024-11-19,1477.81
+FOXF,Josh Gottheimer,Sale,2024-11-19,-2146.89
+MSFT,Josh Gottheimer,Sale,2024-11-19,-635.01
+MSFT,Josh Gottheimer,Sale,2024-11-19,-635.01
+KKR,Josh Gottheimer,Purchase,2024-11-19,-2374.66
+MSFT,Josh Gottheimer,Purchase,2024-11-19,-635.01
+MSFT,Josh Gottheimer,Purchase,2024-11-19,-635.01
+MSFT,Josh Gottheimer,Sale,2024-11-19,-635.01
+ET,Virginia Foxx,Purchase,2024-11-19,356.35
+MET,Sheldon Whitehouse,Sale (Full),2024-11-19,-32.68
+STT,Jake Auchincloss,Sale,2024-11-18,-579.48
+BAX,Debbie Wasserman Schultz,Purchase,2024-11-18,51.48
+NGD,Debbie Wasserman Schultz,Sale,2024-11-18,2059.93
+KVUE,Sheldon Whitehouse,Sale (Full),2024-11-18,-172.85
+PG,Lloyd Doggett,Purchase,2024-11-15,-168.1
+NWN,Earl Blumenauer,Purchase,2024-11-15,29.16
+MELI,Josh Gottheimer,Purchase,2024-11-15,1145.05
+WAL,Lance Gooden,Sale,2024-11-15,-1431.73
+TSLA,Josh Gottheimer,Purchase,2024-11-14,-2007.52
+LLY,Josh Gottheimer,Sale,2024-11-14,652.99
+CRM,Josh Gottheimer,Purchase,2024-11-14,-1538.67
+ARLP,Virginia Foxx,Purchase,2024-11-14,-299.33
+MSFT,Josh Gottheimer,Sale,2024-11-14,-834.64
+SNRE,Thomas H. Kean Jr.,Exchange,2024-11-13,577.43
+NVDA,Morgan Mcgarvey,Sale,2024-11-13,-1953.24
+LBTYK,Thomas H. Kean Jr.,Exchange,2024-11-13,-49.14
+NVDA,Morgan Mcgarvey,Sale,2024-11-13,-1953.24
+IBKR,Morgan Mcgarvey,Sale,2024-11-13,-296.11
+NVDA,Morgan Mcgarvey,Sale,2024-11-13,-1953.24
+NVDA,Morgan Mcgarvey,Sale,2024-11-13,-1953.24
+SCHW,Morgan Mcgarvey,Sale,2024-11-13,17.89
+SHEL,Morgan Mcgarvey,Sale,2024-11-13,844.53
+NVDA,Morgan Mcgarvey,Sale,2024-11-13,-1953.24
+AMZN,Morgan Mcgarvey,Sale,2024-11-13,-835.59
+LBTYK,Thomas H. Kean Jr.,Exchange,2024-11-13,-49.14
+MSFT,Morgan Mcgarvey,Sale,2024-11-13,-798.21
+CRM,Josh Gottheimer,Purchase,2024-11-13,-1788.01
+TSLA,Morgan Mcgarvey,Sale,2024-11-13,-2468.81
+REGN,Jonathan Jackson,Sale,2024-11-13,-1813.31
+SHOP,Josh Gottheimer,Purchase,2024-11-13,-945.35
+SPY,John Boozman,Purchase,2024-11-13,-556.1
+CHD,Jonathan Jackson,Purchase,2024-11-13,-10.26
+NVDA,Josh Gottheimer,Sale,2024-11-12,-2062.85
+MSFT,Josh Gottheimer,Sale,2024-11-12,-751.01
+CRM,Josh Gottheimer,Purchase,2024-11-12,-1774.29
+PCLPX,Markwayne Mullin,Sale (Partial),2024-11-12,
+TSLA,Josh Gottheimer,Purchase,2024-11-12,-2428.69
+TCMD,Tina Smith,Purchase,2024-11-12,-1561.9
+TSLA,Josh Gottheimer,Purchase,2024-11-11,-2894.0
+APP,Josh Gottheimer,Purchase,2024-11-11,963.59
+ELV,Jared Moskowitz,Purchase,2024-11-08,108.13
+AMP,Greg Landsman,Purchase,2024-11-08,-1075.2
+LIN,Jared Moskowitz,Purchase,2024-11-08,-25.03
+PEP,Jared Moskowitz,Purchase,2024-11-08,-1190.72
+LIN,Jared Moskowitz,Purchase,2024-11-08,-25.03
+LMT,Jared Moskowitz,Purchase,2024-11-08,-2211.63
+CVX,Jared Moskowitz,Sale,2024-11-08,498.31
+ACN,Jared Moskowitz,Purchase,2024-11-08,-1412.26
+SBCF,Jared Moskowitz,Sale,2024-11-08,-1164.06
+GOOG,Jared Moskowitz,Purchase,2024-11-08,-756.7
+TSCO,Jared Moskowitz,Purchase,2024-11-08,-910.04
+UNP,Mike Kelly,Sale,2024-11-08,-315.13
+TMUS,Jared Moskowitz,Purchase,2024-11-08,872.47
+XLE,Jared Moskowitz,Purchase,2024-11-08,-131.2
+ORCL,Jared Moskowitz,Purchase,2024-11-08,-1956.14
+ADI,Jared Moskowitz,Purchase,2024-11-08,-947.74
+SHW,Jared Moskowitz,Purchase,2024-11-08,-1351.54
+AVGO,Jared Moskowitz,Purchase,2024-11-08,436.72
+ATO,Jared Moskowitz,Purchase,2024-11-08,307.93
+SBCF,Jared Moskowitz,Sale,2024-11-08,-1164.06
+AMZN,Jared Moskowitz,Purchase,2024-11-08,-574.98
+XOM,Jared Moskowitz,Sale,2024-11-08,-463.22
+MRK,Jared Moskowitz,Purchase,2024-11-08,-953.17
+TSLA,Michael Patrick Guest,Purchase,2024-11-08,-2257.33
+AMZN,Jared Moskowitz,Purchase,2024-11-08,-574.98
+BRK.B,Jared Moskowitz,Purchase,2024-11-08,1262.38
+AMZN,Michael Patrick Guest,Purchase,2024-11-08,-574.98
+PEP,Jared Moskowitz,Purchase,2024-11-08,-1190.72
+MNDY,Michael Patrick Guest,Purchase,2024-11-08,-1814.93
+AMZN,Jared Moskowitz,Purchase,2024-11-08,-574.98
+LLY,Greg Landsman,Sale,2024-11-08,72.52
+HD,Jared Moskowitz,Purchase,2024-11-08,-1348.85
+CMI,Jared Moskowitz,Purchase,2024-11-08,-963.92
+DJT,Morgan Mcgarvey,Sale,2024-11-08,-3654.03
+CMI,Jared Moskowitz,Purchase,2024-11-08,-963.92
+QCOM,Jared Moskowitz,Purchase,2024-11-08,-824.41
+MCD,Jared Moskowitz,Purchase,2024-11-08,216.41
+SHW,Jared Moskowitz,Purchase,2024-11-08,-1351.54
+JPM,Jared Moskowitz,Purchase,2024-11-08,196.22
+JNJ,Jared Moskowitz,Purchase,2024-11-08,524.86
+WST,Jared Moskowitz,Sale,2024-11-08,-2944.15
+AVGO,Jared Moskowitz,Purchase,2024-11-08,436.72
+INTC,Mike Kelly,Sale,2024-11-08,-740.46
+TXN,Jared Moskowitz,Purchase,2024-11-08,-1874.35
+GEV,Laurel Lee,Sale,2024-11-08,-214.26
+META,Jared Moskowitz,Purchase,2024-11-08,117.25
+TSCO,Jared Moskowitz,Purchase,2024-11-08,-910.04
+NVDA,Jared Moskowitz,Purchase,2024-11-08,-2027.37
+URI,Greg Landsman,Purchase,2024-11-08,-2821.11
+AOS,Jared Moskowitz,Sale,2024-11-08,-1116.75
+TSCO,Marjorie Taylor Mrs Greene,Purchase,2024-11-07,-932.97
+FDX,Marjorie Taylor Mrs Greene,Purchase,2024-11-07,-1867.17
+GS,Marjorie Taylor Mrs Greene,Purchase,2024-11-07,-292.53
+TSLA,Marjorie Taylor Mrs Greene,Purchase,2024-11-07,-1623.39
+PANW,Marjorie Taylor Mrs Greene,Purchase,2024-11-07,-577.78
+HQY,Josh Gottheimer,Sale,2024-11-07,-1267.49
+NEE,Marjorie Taylor Mrs Greene,Purchase,2024-11-07,-501.21
+SO,Marjorie Taylor Mrs Greene,Purchase,2024-11-07,279.54
+DELL,Marjorie Taylor Mrs Greene,Purchase,2024-11-07,-2923.04
+BRK.B,Marjorie Taylor Mrs Greene,Purchase,2024-11-07,1342.66
+HSY,Marjorie Taylor Mrs Greene,Purchase,2024-11-07,-328.03
+NOW,Marjorie Taylor Mrs Greene,Purchase,2024-11-07,-1847.08
+BX,Marjorie Taylor Mrs Greene,Purchase,2024-11-07,-1588.77
+DJT,Morgan Mcgarvey,Purchase,2024-11-06,-4367.96
+FTV,Thomas H. Kean Jr.,Purchase,2024-11-04,510.12
+PDRDF,Thomas H. Kean Jr.,Sale,2024-11-04,-1472.28
+REGN,Jonathan Jackson,Sale,2024-11-01,-2194.4
+AMD,Marjorie Taylor Mrs Greene,Purchase,2024-11-01,-2496.83
+GLW,Marjorie Taylor Mrs Greene,Purchase,2024-11-01,35.15
+T$A,Virginia Foxx,Purchase,2024-11-01,
+DHI,Josh Gottheimer,Purchase,2024-11-01,-2314.48
+META,Marjorie Taylor Mrs Greene,Purchase,2024-11-01,512.91
+GLA,Max Miller,Purchase,2024-11-01,
+DLR,Marjorie Taylor Mrs Greene,Purchase,2024-11-01,-1455.68
+HSY,Marjorie Taylor Mrs Greene,Purchase,2024-11-01,-673.88
+TSLA,Marjorie Taylor Mrs Greene,Purchase,2024-11-01,-10.84
+BRK.B,Marjorie Taylor Mrs Greene,Purchase,2024-11-01,1543.11
+INTC,Marjorie Taylor Mrs Greene,Purchase,2024-11-01,456.9
+AAPL,Marjorie Taylor Mrs Greene,Purchase,2024-11-01,-208.16
+DUK,Marjorie Taylor Mrs Greene,Purchase,2024-11-01,569.76
+NVDA,Pete Sessions,Purchase,2024-11-01,-1307.24
+ITT,Josh Gottheimer,Sale,2024-10-31,-361.83
+LW,Gary Peters,Sale (Full),2024-10-31,-3167.72
+AMZN,William R. Keating,Purchase,2024-10-31,526.29
+QCOM,William R. Keating,Purchase,2024-10-31,-365.55
+AMTM,William R. Keating,Sale,2024-10-31,-3839.95
+GTES,Josh Gottheimer,Purchase,2024-10-31,5.17
+GOOGL,William R. Keating,Purchase,2024-10-31,-416.11
+ICUI,Josh Gottheimer,Sale,2024-10-31,-1385.81
+APPF,Josh Gottheimer,Sale,2024-10-31,360.8
+SF,Josh Gottheimer,Sale,2024-10-31,-516.31
+TCBI,Josh Gottheimer,Purchase,2024-10-31,-139.05
+MSFT,William R. Keating,Purchase,2024-10-31,-371.35
+LEG,Gary Peters,Sale (Full),2024-10-31,-3150.0
+AR,Maria Elvira Salazar,Purchase,2024-10-31,5753.48
+LLY,Sheldon Whitehouse,Purchase,2024-10-30,-109.35
+TRV,Tommy Tuberville,Sale (Full),2024-10-29,322.92
+ADBE,Tommy Tuberville,Sale (Full),2024-10-29,-2021.67
+MA,Sheldon Whitehouse,Sale (Partial),2024-10-29,580.9
+HIYS,Markwayne Mullin,Purchase,2024-10-29,-93.67
+MA,Sheldon Whitehouse,Sale (Partial),2024-10-29,580.9
+SBUX,Sheldon Whitehouse,Sale (Partial),2024-10-29,-32.86
+KMB,Tommy Tuberville,Sale (Full),2024-10-29,309.27
+OC,Tommy Tuberville,Sale (Full),2024-10-29,-2018.13
+CTVA,Tommy Tuberville,Sale (Full),2024-10-29,152.99
+MCD,Kevin Hern,Purchase,2024-10-29,353.9
+VZ,Sheldon Whitehouse,Sale (Partial),2024-10-29,643.6
+VZ,Sheldon Whitehouse,Sale (Partial),2024-10-29,643.6
+SBUX,Sheldon Whitehouse,Sale (Partial),2024-10-29,-32.86
+MSFT,Tommy Tuberville,Sale (Full),2024-10-29,-942.01
+TTNDY,Josh Gottheimer,Purchase,2024-10-29,-1559.65
+JNJ,Tommy Tuberville,Sale (Full),2024-10-29,221.13
+HON,Tommy Tuberville,Sale (Full),2024-10-29,200.99
+MCD,Tommy Tuberville,Sale (Full),2024-10-29,353.9
+DIS,Sheldon Whitehouse,Sale (Full),2024-10-29,346.41
+HON,Sheldon Whitehouse,Sale (Partial),2024-10-29,200.99
+AAPL,Tommy Tuberville,Sale (Full),2024-10-29,-659.05
+TTNDY,Josh Gottheimer,Purchase,2024-10-28,-1753.65
+DSCSY,Josh Gottheimer,Purchase,2024-10-28,-1387.82
+ASML,Jonathan Jackson,Sale,2024-10-28,106.82
+TSLA,Sheldon Whitehouse,Sale (Full),2024-10-28,-525.69
+CRM,Jonathan Jackson,Purchase,2024-10-28,-447.63
+TSLA,Sheldon Whitehouse,Sale (Full),2024-10-28,-525.69
+CWEN,Maria Elvira Salazar,Sale,2024-10-25,1504.42
+ALG,Josh Gottheimer,Sale,2024-10-25,685.76
+DSCSY,Josh Gottheimer,Purchase,2024-10-25,-955.47
+EPAC,Josh Gottheimer,Purchase,2024-10-25,-562.88
+OXY,Maria Elvira Salazar,Purchase,2024-10-25,-705.7
+TSLA,Morgan Mcgarvey,Purchase,2024-10-25,-760.8
+GLW,Thomas R. Suozzi,Sale,2024-10-24,367.44
+NVDA,Thomas R. Suozzi,Purchase,2024-10-24,-1617.41
+NGL,Mark Dr Green,Sale,2024-10-24,1095.24
+CVS,Thomas R. Suozzi,Sale,2024-10-24,1947.61
+WY.Z,Thomas R. Suozzi,Sale,2024-10-24,
+BX,Josh Gottheimer,Purchase,2024-10-24,-1259.58
+BA,Thomas R. Suozzi,Sale,2024-10-24,1476.16
+PYPL,Josh Gottheimer,Purchase,2024-10-24,-1376.09
+TSM,Josh Gottheimer,Sale,2024-10-24,-1071.09
+NVDA,Thomas R. Suozzi,Sale,2024-10-24,-1617.41
+PTEN,Debbie Wasserman Schultz,Purchase,2024-10-23,743.59
+HTGC,Virginia Foxx,Purchase,2024-10-23,-312.19
+REGN,Josh Gottheimer,Sale,2024-10-23,-3005.24
+VSAT,Debbie Wasserman Schultz,Purchase,2024-10-23,-495.63
+LRCX,Josh Gottheimer,Sale,2024-10-22,389.04
+PFE,Laurel Lee,Purchase,2024-10-21,-916.0
+NSRGY,Marjorie Taylor Mrs Greene,Purchase,2024-10-21,391.37
+INTC,Marjorie Taylor Mrs Greene,Purchase,2024-10-21,621.72
+HD,Marjorie Taylor Mrs Greene,Purchase,2024-10-21,-1359.5
+TSLA,Marjorie Taylor Mrs Greene,Purchase,2024-10-21,1364.4
+V,Marjorie Taylor Mrs Greene,Purchase,2024-10-21,1701.59
+BRK.B,Marjorie Taylor Mrs Greene,Purchase,2024-10-21,1244.18
+MSFT,Marjorie Taylor Mrs Greene,Purchase,2024-10-21,-657.15
+CAT,Marjorie Taylor Mrs Greene,Purchase,2024-10-21,-1400.84
+ASML,Marjorie Taylor Mrs Greene,Purchase,2024-10-21,29.69
+BX,Marjorie Taylor Mrs Greene,Purchase,2024-10-21,-1316.39
+FMAO,Robert E. Latta,Purchase,2024-10-20,-1146.4
+HURA,Laurel Lee,Exchange,2024-10-18,-4714.29
+NFLX,Josh Gottheimer,Sale,2024-10-18,2571.05
+CHRD,Josh Gottheimer,Purchase,2024-10-17,-1598.25
+KKR,Josh Gottheimer,Sale,2024-10-17,-1548.17
+ALGM,Josh Gottheimer,Purchase,2024-10-17,2885.55
+XNGSY,Josh Gottheimer,Purchase,2024-10-17,1267.1
+TDG,Josh Gottheimer,Sale,2024-10-17,-398.3
+PPBI,Josh Gottheimer,Purchase,2024-10-17,-2100.84
+MDB,Josh Gottheimer,Sale,2024-10-17,-2917.94
+META,Josh Gottheimer,Sale,2024-10-17,334.88
+LRCX,Josh Gottheimer,Sale,2024-10-17,369.16
+BRK.B,Josh Gottheimer,Purchase,2024-10-17,1203.39
+NVDA,Josh Gottheimer,Sale,2024-10-17,-1404.37
+IVZ,Gary Peters,Sale (Full),2024-10-17,-1619.26
+GOOG,Josh Gottheimer,Purchase,2024-10-17,105.77
+VRT,Josh Gottheimer,Purchase,2024-10-17,-2244.49
+BKNG,Josh Gottheimer,Sale,2024-10-17,563.95
+USPH,Josh Gottheimer,Purchase,2024-10-17,-1380.7
+NGL,Mark Dr Green,Sale,2024-10-16,787.04
+BABA,Josh Gottheimer,Purchase,2024-10-16,3226.97
+LLY,Josh Gottheimer,Sale,2024-10-16,-860.41
+REGN,Greg Landsman,Sale,2024-10-15,-3522.28
+AMZN,Greg Landsman,Sale,2024-10-15,453.94
+NEE,Greg Landsman,Sale,2024-10-15,-1438.58
+AMZN,Greg Landsman,Sale,2024-10-15,453.94
+PFE,Greg Landsman,Sale,2024-10-15,-1073.37
+MFC,Josh Gottheimer,Purchase,2024-10-15,39.58
+MATURE,Rudy Yakym Iii,Purchase,2024-10-15,
+CRWD,Greg Landsman,Sale,2024-10-15,1982.4
+XOM,Greg Landsman,Sale,2024-10-15,-402.99
+FANG,Greg Landsman,Sale,2024-10-15,-1183.18
+MATURE,Rudy Yakym Iii,Purchase,2024-10-15,
+LNG,Greg Landsman,Sale,2024-10-15,2341.8
+PSX,Greg Landsman,Sale,2024-10-15,-449.77
+LIN,Greg Landsman,Sale,2024-10-15,-465.56
+NEE,Greg Landsman,Sale,2024-10-15,-1438.58
+TSLA,Josh Gottheimer,Sale,2024-10-14,1348.33
+TSLA,Sheldon Whitehouse,Sale (Partial),2024-10-11,1419.19
+IBM,Josh Gottheimer,Purchase,2024-10-10,465.63
+SAIC,Gerald E. Connolly,Sale,2024-10-10,-2580.92
+LDOS,Gerald E. Connolly,Sale,2024-10-10,-1866.91
+IWM,John Boozman,Sale (Partial),2024-10-09,-654.41
+CELH,Sheldon Whitehouse,Sale (Full),2024-10-08,1457.9
+KO,Sheldon Whitehouse,Purchase,2024-10-08,-73.72
+CSL,Shelley Moore Capito,Purchase,2024-10-08,-2696.65
+NOW,Josh Gottheimer,Purchase,2024-10-08,-1022.23
+AAPL,Laurel Lee,Purchase,2024-10-07,-154.27
+AAPL,Thomas R. Suozzi,Sale,2024-10-07,-154.27
+IVV,John Boozman,Sale (Partial),2024-10-06,-69.23
+ASML,Marjorie Taylor Mrs Greene,Purchase,2024-10-04,-1401.92
+JPM,Marjorie Taylor Mrs Greene,Purchase,2024-10-04,1439.73
+MFC,Josh Gottheimer,Sale,2024-10-04,66.14
+NOW,Josh Gottheimer,Purchase,2024-10-04,-979.97
+COST,Marjorie Taylor Mrs Greene,Purchase,2024-10-04,296.11
+V,Marjorie Taylor Mrs Greene,Purchase,2024-10-04,2077.14
+FDX,Marjorie Taylor Mrs Greene,Purchase,2024-10-04,-1169.68
+AMAT,Marjorie Taylor Mrs Greene,Purchase,2024-10-04,-2468.19
+LRCX,Marjorie Taylor Mrs Greene,Purchase,2024-10-04,-699.04
+TEL,Josh Gottheimer,Purchase,2024-10-04,49.5
+DELL,Marjorie Taylor Mrs Greene,Purchase,2024-10-04,-1897.53
+TSM,Josh Gottheimer,Sale,2024-10-04,-244.54
+MSFT,Josh Gottheimer,Sale,2024-10-03,-606.9
+AVGO,Josh Gottheimer,Sale,2024-10-03,1150.15
+TEL,Josh Gottheimer,Purchase,2024-10-03,102.99
+HD,Josh Gottheimer,Purchase,2024-10-03,-1468.24
+MSFT,Josh Gottheimer,Sale,2024-10-02,-620.19
+AAPL,Josh Gottheimer,Purchase,2024-10-02,-375.25
+NVDA,Thomas R. Suozzi,Sale,2024-10-02,-96.76
+NU,Byron Donalds,Purchase,2024-10-01,-1370.07
+SNPS,Byron Donalds,Sale,2024-10-01,-947.61
+APPF,Byron Donalds,Sale,2024-10-01,-724.81
+APPF,Byron Donalds,Sale,2024-10-01,-724.81
+KO,Lloyd Doggett,Purchase,2024-10-01,-423.93
+MCK,Byron Donalds,Purchase,2024-10-01,3263.72
+NU,Byron Donalds,Purchase,2024-10-01,-1370.07
+SNPS,Byron Donalds,Sale,2024-10-01,-947.61
+MCK,Byron Donalds,Purchase,2024-10-01,3263.72
+J,Thomas H. Kean Jr.,Exchange,2024-09-30,-737.2
+AMTM,Thomas H. Kean Jr.,Exchange,2024-09-30,-4319.38
+AMTM,Thomas H. Kean Jr.,Exchange,2024-09-30,-4319.38
+EFC,Virginia Foxx,Purchase,2024-09-30,263.77
+J,Thomas H. Kean Jr.,Exchange,2024-09-30,-737.2
+J,Thomas H. Kean Jr.,Exchange,2024-09-30,-737.2
+J,Thomas H. Kean Jr.,Exchange,2024-09-30,-737.2
+J,Thomas H. Kean Jr.,Exchange,2024-09-30,-737.2
+AMTM,Thomas H. Kean Jr.,Exchange,2024-09-30,-4319.38
+AMTM,Thomas H. Kean Jr.,Exchange,2024-09-30,-4319.38
+J,Thomas H. Kean Jr.,Exchange,2024-09-30,-737.2
+NGL,Mark Dr Green,Sale,2024-09-30,355.56
+J,Thomas H. Kean Jr.,Exchange,2024-09-30,-737.2
+J,Thomas H. Kean Jr.,Exchange,2024-09-30,-737.2
+"GLAS FUNDS, LP",Max Miller,Sale,2024-09-29,
+APH,Josh Gottheimer,Sale,2024-09-27,243.0
+TT,Josh Gottheimer,Sale,2024-09-27,-958.72
+MATURE,Rudy Yakym Iii,Purchase,2024-09-26,
+PYPL,Josh Gottheimer,Purchase,2024-09-26,-1235.01
+FI,John Boozman,Sale (Partial),2024-09-26,2293.69
+CNS,Josh Gottheimer,Sale,2024-09-25,-1743.91
+ICFI,Josh Gottheimer,Sale,2024-09-25,-4977.29
+ALG,Josh Gottheimer,Sale,2024-09-25,303.1
+ITW,C. Scott Franklin,Purchase,2024-09-25,-260.4
+ITW,C. Scott Franklin,Purchase,2024-09-25,-260.4
+BOOT,Josh Gottheimer,Sale,2024-09-25,-3655.8
+META,Josh Gottheimer,Sale,2024-09-25,491.63
+NSC,Shelley Moore Capito,Sale (Full),2024-09-25,-474.72
+CRNX,Josh Gottheimer,Purchase,2024-09-25,-3177.4
+FCX,Josh Gottheimer,Sale,2024-09-24,-1738.51
+GD,Jonathan Jackson,Purchase,2024-09-24,-1354.25
+SNPS,Josh Gottheimer,Sale,2024-09-24,-1148.91
+ADP,C. Scott Franklin,Purchase,2024-09-24,675.25
+HDB,Josh Gottheimer,Purchase,2024-09-24,-236.08
+ADP,C. Scott Franklin,Purchase,2024-09-24,675.25
+MRK,Jonathan Jackson,Sale,2024-09-24,-1900.66
+LRCX,Josh Gottheimer,Sale,2024-09-23,-327.52
+NOW,Josh Gottheimer,Purchase,2024-09-23,-1056.67
+HDB,Josh Gottheimer,Purchase,2024-09-23,-228.68
+ASML,Josh Gottheimer,Sale,2024-09-23,-1086.25
+IBM,Josh Gottheimer,Purchase,2024-09-23,1059.86
+IBN,Josh Gottheimer,Sale,2024-09-23,-25.51
+TSM,Josh Gottheimer,Sale,2024-09-23,112.73
+AAPL,Shelley Moore Capito,Sale (Partial),2024-09-20,-435.14
+INTC,Marjorie Taylor Mrs Greene,Purchase,2024-09-20,1108.06
+UPS,Marjorie Taylor Mrs Greene,Purchase,2024-09-20,-1049.77
+NKE,Shelley Moore Capito,Sale (Partial),2024-09-20,-2147.48
+CRWD,Marjorie Taylor Mrs Greene,Purchase,2024-09-20,2080.71
+LRCX,Marjorie Taylor Mrs Greene,Purchase,2024-09-20,-191.29
+SPG,Victoria Spartz,Sale,2024-09-20,-267.19
+BX,Josh Gottheimer,Purchase,2024-09-20,-621.68
+SCCO,Marjorie Taylor Mrs Greene,Purchase,2024-09-20,-176.64
+ACN,Shelley Moore Capito,Sale (Partial),2024-09-20,-919.04
+CAH,Marjorie Taylor Mrs Greene,Purchase,2024-09-20,1792.74
+GOOG,Marjorie Taylor Mrs Greene,Purchase,2024-09-20,97.79
+HDB,Josh Gottheimer,Purchase,2024-09-20,-184.09
+IBN,Josh Gottheimer,Sale,2024-09-20,-31.87
+BX,Marjorie Taylor Mrs Greene,Purchase,2024-09-20,-621.68
+BRK.B,Marjorie Taylor Mrs Greene,Purchase,2024-09-20,1462.74
+GWW,Shelley Moore Capito,Sale (Partial),2024-09-20,-572.84
+MSFT,Shelley Moore Capito,Sale (Partial),2024-09-20,-1011.1
+VTR,Earl Blumenauer,Sale,2024-09-19,747.59
+ARMK,Jonathan Jackson,Purchase,2024-09-19,-1153.95
+AES,Jonathan Jackson,Sale,2024-09-19,-3095.24
+MA,Josh Gottheimer,Purchase,2024-09-18,827.27
+IBM,Josh Gottheimer,Purchase,2024-09-17,1388.88
+NGL,Mark Dr Green,Sale,2024-09-17,-21.41
+AMGN,Sheldon Whitehouse,Sale (Partial),2024-09-17,-503.61
+CHRD,Josh Gottheimer,Sale,2024-09-16,-1837.66
+VRT,Josh Gottheimer,Sale,2024-09-16,188.53
+ALGM,Josh Gottheimer,Sale,2024-09-16,1715.17
+PPBI,Josh Gottheimer,Sale,2024-09-16,-1157.46
+ETN,Josh Gottheimer,Sale,2024-09-16,-362.42
+XNGSY,Josh Gottheimer,Sale,2024-09-16,3364.65
+CELH,Josh Gottheimer,Sale,2024-09-16,-75.35
+USPH,Josh Gottheimer,Sale,2024-09-16,-1331.43
+GOOG,Josh Gottheimer,Sale,2024-09-16,456.63
+NVDA,Pete Sessions,Purchase,2024-09-16,78.78
+IBM,Josh Gottheimer,Purchase,2024-09-13,1353.88
+CMG,John Hickenlooper,Sale (Partial),2024-09-12,-1387.76
+AAPL,Josh Gottheimer,Purchase,2024-09-12,-202.0
+HD,Lloyd Doggett,Purchase,2024-09-12,-621.75
+SCHW,Richard W. Allen,Sale,2024-09-12,2696.79
+AVGO,Josh Gottheimer,Sale,2024-09-12,1646.82
+MSFT,Josh Gottheimer,Sale,2024-09-12,-837.0
+ETN,Josh Gottheimer,Sale,2024-09-12,-261.72
+MCK,Josh Gottheimer,Sale,2024-09-12,2934.44
+PPG,Lloyd Doggett,Purchase,2024-09-12,-1176.19
+NXPI,William R. Keating,Sale,2024-09-11,-1309.39
+AVGO,Josh Gottheimer,Sale,2024-09-11,2109.69
+CAT,William R. Keating,Sale,2024-09-11,23.28
+NKE,Thomas H. Kean Jr.,Sale,2024-09-11,-1334.18
+TMO,Josh Gottheimer,Purchase,2024-09-10,-1706.0
+MCD,Josh Gottheimer,Purchase,2024-09-10,486.49
+SIRI,Thomas H. Kean Jr.,Exchange,2024-09-10,-1428.05
+NEE,Greg Landsman,Purchase,2024-09-10,-1387.61
+MO,Pete Sessions,Sale,2024-09-10,650.89
+NVDA,Pete Sessions,Purchase,2024-09-10,888.07
+GLA,Max Miller,Purchase,2024-09-10,
+MATURE,Rudy Yakym Iii,Purchase,2024-09-10,
+FANG,Greg Landsman,Sale,2024-09-10,-757.48
+JNJ,Lloyd Doggett,Purchase,2024-09-10,-224.04
+JPM,Laurel Lee,Purchase,2024-09-10,1754.72
+LSXMA,Thomas H. Kean Jr.,Exchange,2024-09-10,
+LSXMK,Thomas H. Kean Jr.,Exchange,2024-09-10,
+IBM,Lloyd Doggett,Purchase,2024-09-10,1877.56
+SSMXY,Josh Gottheimer,Purchase,2024-09-09,102.67
+LSXMK,John Hickenlooper,Exchange,2024-09-09,0.0
+HALO,Josh Gottheimer,Sale,2024-09-09,999.32
+RHP,Josh Gottheimer,Sale,2024-09-09,-503.57
+IRT,Josh Gottheimer,Purchase,2024-09-09,480.28
+AVGO,Josh Gottheimer,Sale,2024-09-09,3610.28
+MDY,John Boozman,Sale (Partial),2024-09-09,-45.71
+MSFT,Pete Sessions,Purchase,2024-09-09,-356.4
+VEA,John Boozman,Sale (Partial),2024-09-09,223.92
+EFA,John Boozman,Sale (Partial),2024-09-09,379.65
+PALL,John Boozman,Purchase,2024-09-06,443.38
+IEF,John Boozman,Purchase,2024-09-06,-339.57
+VNQI,John Boozman,Sale (Partial),2024-09-06,-895.42
+TLH,John Boozman,Purchase,2024-09-06,-595.29
+TBLL,John Boozman,Purchase,2024-09-06,7.57
+SHY,John Boozman,Purchase,2024-09-06,-45.81
+SAP,Josh Gottheimer,Sale,2024-09-06,2895.94
+JMBS,John Boozman,Purchase,2024-09-06,-327.76
+FTGC,John Boozman,Purchase,2024-09-06,1323.2
+IEI,John Boozman,Purchase,2024-09-06,-158.78
+SCHP,John Boozman,Purchase,2024-09-06,35.76
+GIGB,John Boozman,Purchase,2024-09-06,-267.23
+AGZ,John Boozman,Purchase,2024-09-06,-96.11
+WWSYX,John Boozman,Sale (Partial),2024-09-06,
+LSXMK,John Hickenlooper,Sale (Partial),2024-09-06,-115.3
+MBB,John Boozman,Purchase,2024-09-06,-246.06
+PPLT,John Boozman,Purchase,2024-09-06,632.54
+TPYP,John Boozman,Sale (Partial),2024-09-06,1735.06
+EMLP,John Boozman,Sale (Partial),2024-09-06,1493.55
+CMBS,John Boozman,Purchase,2024-09-06,-119.29
+IVV,John Boozman,Purchase,2024-09-06,427.15
+TLT,John Boozman,Purchase,2024-09-06,-889.92
+NSRGY,Josh Gottheimer,Purchase,2024-09-05,-100.38
+MATURE,Rudy Yakym Iii,Purchase,2024-09-05,
+SAP,Josh Gottheimer,Sale,2024-09-05,2818.91
+ABT,John James,Sale,2024-09-04,1043.71
+LIN,John James,Sale,2024-09-04,-292.29
+PEG,John James,Sale,2024-09-04,245.71
+MU,John James,Sale,2024-09-04,608.13
+ICLR,John James,Sale,2024-09-04,-4084.54
+OTIS,John James,Sale,2024-09-04,737.32
+TT,John James,Sale,2024-09-04,17.6
+BRK.B,John James,Sale,2024-09-04,905.61
+WAB,John James,Sale,2024-09-04,1264.33
+NOC,John James,Sale,2024-09-04,-629.39
+AVGO,John James,Sale,2024-09-04,2435.76
+GPC,John James,Sale,2024-09-04,-1587.82
+EOG,John James,Sale,2024-09-04,194.66
+MCD,John James,Sale,2024-09-04,604.45
+NEE,John James,Sale,2024-09-04,-1258.02
+CCI,John James,Sale,2024-09-04,-653.61
+BP,John James,Sale,2024-09-04,660.29
+AEE,John James,Sale,2024-09-04,1800.29
+GIS,John James,Sale,2024-09-04,-2030.44
+ICE,John James,Sale,2024-09-04,736.32
+CVX,John James,Sale,2024-09-04,1596.4
+SO,John James,Sale,2024-09-04,25.81
+VLO,John James,Sale,2024-09-04,-581.54
+GOOGL,John James,Sale,2024-09-04,481.94
+UNH,John James,Sale,2024-09-04,-1445.43
+EA,John James,Sale,2024-09-04,-189.01
+KO,John James,Sale,2024-09-04,-536.11
+MDLZ,John James,Sale,2024-09-04,-1429.52
+KLAC,John James,Sale,2024-09-04,-518.31
+WMT,John James,Sale,2024-09-04,1131.54
+PPG,John James,Sale,2024-09-04,-1258.39
+MSFT,John James,Sale,2024-09-04,-431.4
+CSCO,John James,Sale,2024-09-04,2132.8
+MMC,John James,Sale,2024-09-04,38.46
+AAPL,John James,Sale,2024-09-04,-116.82
+SKX,John James,Sale,2024-09-04,-1678.29
+MDT,John James,Sale,2024-09-04,-76.9
+CMCSA,John James,Sale,2024-09-04,-496.51
+ADI,John James,Sale,2024-09-04,-784.49
+WM,John James,Sale,2024-09-04,744.79
+RGA,John James,Sale,2024-09-04,-1262.81
+FNF,John James,Sale,2024-09-04,742.31
+GOOG,John James,Sale,2024-09-04,534.82
+ADP,John James,Sale,2024-09-04,730.32
+CB,John James,Sale,2024-09-04,16.84
+TJX,John James,Sale,2024-09-04,-119.13
+CMI,John James,Sale,2024-09-04,675.11
+WFC,John James,Sale,2024-09-04,2477.63
+PLD,John James,Sale,2024-09-04,-1547.52
+ETR,John James,Sale,2024-09-04,3691.34
+T,John James,Sale,2024-09-04,3135.63
+RTX,John James,Sale,2024-09-04,929.73
+BLK,John James,Sale,2024-09-04,735.94
+APD,John James,Sale,2024-09-04,618.2
+MRVL,John James,Sale,2024-09-04,-67.73
+AMAT,John James,Sale,2024-09-04,-1659.17
+PSA,John James,Sale,2024-09-04,-1535.4
+THC,John James,Sale,2024-09-04,-2400.69
+CAH,John James,Sale,2024-09-04,1578.44
+SNY,John James,Sale,2024-09-04,-278.49
+PKG,John James,Sale,2024-09-04,-496.19
+CME,John James,Sale,2024-09-04,2192.13
+DEO,John James,Sale,2024-09-04,-1728.61
+TKO,John James,Sale,2024-09-04,2706.0
+MCHP,John James,Sale,2024-09-04,-3273.51
+DNB,John James,Sale,2024-09-04,-2639.12
+ACN,John James,Sale,2024-09-04,-1124.16
+BAC,John James,Sale,2024-09-04,486.42
+CDW,John James,Sale,2024-09-04,-2280.4
+DIS,John James,Sale,2024-09-04,1143.98
+MRK,John James,Sale,2024-09-04,-1959.41
+AMD,John James,Sale,2024-09-04,-2444.1
+APTV,John James,Sale,2024-09-04,-1009.21
+ELV,John James,Sale,2024-09-04,-2194.73
+AVTR,John James,Sale,2024-09-04,-3399.84
+DLTR,John James,Sale,2024-09-04,501.89
+CTVA,John James,Sale,2024-09-04,1120.72
+AMZN,John James,Sale,2024-09-04,1320.03
+SHEL,John James,Sale,2024-09-04,364.91
+NVDA,John James,Sale,2024-09-04,1081.82
+UBER,John James,Sale,2024-09-04,598.1
+PH,John James,Sale,2024-09-04,782.56
+AEP,John James,Sale,2024-09-04,261.64
+JNJ,John James,Sale,2024-09-04,-222.87
+BK,John James,Sale,2024-09-04,2333.92
+CTSH,John James,Sale,2024-09-04,-116.4
+HD,John James,Sale,2024-09-04,-370.75
+AVY,John James,Sale,2024-09-04,-2024.67
+PG,John James,Sale,2024-09-04,-523.59
+NVO,John James,Sale,2024-09-04,-4286.78
+BX,John James,Sale,2024-09-04,757.34
+MS,John James,Sale,2024-09-04,1996.01
+AVB,John James,Sale,2024-09-04,-774.78
+HUM,John James,Sale,2024-09-04,-2833.33
+DFS,John James,Sale,2024-09-04,2202.4
+JPM,John James,Sale,2024-09-04,1016.73
+FTV,John James,Sale,2024-09-04,432.42
+PEP,John James,Sale,2024-09-04,-1852.45
+META,John James,Sale,2024-09-04,1628.7
+BAH,John James,Sale,2024-09-04,-3358.42
+ABBV,John James,Sale,2024-09-04,659.86
+SONY,John James,Sale,2024-09-04,3354.86
+TMO,John James,Sale,2024-09-04,-1539.14
+LRCX,John James,Sale,2024-09-04,-79.01
+ZBRA,John James,Sale,2024-09-04,-1182.23
+LMT,John James,Sale,2024-09-04,-2350.12
+PNC,John James,Sale,2024-09-04,-479.82
+CIEN,John James,Sale,2024-09-04,1935.19
+TXN,John James,Sale,2024-09-04,-1225.49
+IBM,John James,Sale,2024-09-04,1947.97
+EBAY,John James,Sale,2024-09-04,1158.61
+V,John James,Sale,2024-09-04,1966.92
+HON,John James,Sale,2024-09-04,222.83
+BDX,John James,Sale,2024-09-04,-258.53
+COP,John James,Sale,2024-09-04,-611.64
+WEC,John James,Sale,2024-09-04,1297.86
+AAPL,Marjorie Taylor Mrs Greene,Purchase,2024-09-03,-202.0
+AMZN,Marjorie Taylor Mrs Greene,Purchase,2024-09-03,1132.48
+UPS,Marjorie Taylor Mrs Greene,Purchase,2024-09-03,-972.55
+NVDA,Marjorie Taylor Mrs Greene,Purchase,2024-09-03,898.15
+SSMXY,Josh Gottheimer,Purchase,2024-09-03,-93.41
+PANW,Marjorie Taylor Mrs Greene,Purchase,2024-09-03,269.52
+CRWD,Marjorie Taylor Mrs Greene,Purchase,2024-09-03,3587.4
+GLW,Marjorie Taylor Mrs Greene,Purchase,2024-09-03,1932.63
+DLR,Marjorie Taylor Mrs Greene,Purchase,2024-09-03,39.39
+TSLA,Marjorie Taylor Mrs Greene,Purchase,2024-09-03,1809.59
+ILMN,Michael C. Burgess,Sale,2024-09-03,-3270.38
+GOOG,Marjorie Taylor Mrs Greene,Purchase,2024-09-03,481.68
+LULU,Marjorie Taylor Mrs Greene,Purchase,2024-09-03,2500.77
+QCOM,Marjorie Taylor Mrs Greene,Purchase,2024-09-03,-393.29
+BNTX,Josh Gottheimer,Sale,2024-09-03,838.64
+SCHW,Marjorie Taylor Mrs Greene,Purchase,2024-09-03,2099.09
+WFC,A. Mitchell Jr. McConnell,Purchase,2024-09-01,2424.19
+MSFT,Suzan K. Delbene,Sale,2024-08-31,-444.02
+LOW,Josh Gottheimer,Sale,2024-08-30,-862.37
+SNPS,Josh Gottheimer,Sale,2024-08-30,-1366.1
+BATRK,John Hickenlooper,Sale (Full),2024-08-30,-816.23
+BRK.B,Josh Gottheimer,Purchase,2024-08-30,966.34
+ETN,Josh Gottheimer,Sale,2024-08-30,-374.35
+APD,Josh Gottheimer,Sale,2024-08-30,459.03
+NSC,Josh Gottheimer,Sale,2024-08-30,-952.92
+ILMN,Michael C. Burgess,Sale,2024-08-30,-3328.77
+TXN,Josh Gottheimer,Sale,2024-08-30,-1648.78
+BNTX,Josh Gottheimer,Sale,2024-08-30,811.61
+NKE,Shelley Moore Capito,Purchase,2024-08-28,-1793.69
+BATRK,John Hickenlooper,Purchase,2024-08-28,-1043.89
+ROST,John James,Sale,2024-08-28,-1758.51
+GOOG,John James,Sale,2024-08-28,106.38
+UBER,John James,Purchase,2024-08-28,555.32
+BATRK,John Hickenlooper,Sale (Full),2024-08-28,-1043.89
+UPS,John James,Sale,2024-08-28,-950.55
+NGL,Mark Dr Green,Sale,2024-08-28,1393.64
+TSLA,Josh Gottheimer,Sale,2024-08-28,2087.97
+BRK.B,Eleanor Holmes Norton,Sale,2024-08-27,1330.35
+AVGO,Shelley Moore Capito,Purchase,2024-08-27,1875.58
+LRCX,Jonathan Jackson,Sale,2024-08-26,-738.91
+SPG,Jonathan Jackson,Purchase,2024-08-26,-314.29
+AAPL,Tommy Tuberville,Sale (Full),2024-08-26,-392.2
+EIBLX,Tommy Tuberville,Sale (Full),2024-08-26,
+UPS,Tommy Tuberville,Sale (Full),2024-08-26,-1095.47
+MDT,Tommy Tuberville,Sale (Full),2024-08-26,110.81
+CVS,Tommy Tuberville,Sale (Full),2024-08-26,1422.49
+ABNFX,Tommy Tuberville,Purchase,2024-08-26,
+GLA,Max Miller,Purchase,2024-08-22,
+NSC,Shelley Moore Capito,Sale (Partial),2024-08-22,-225.64
+AMZN,Greg Landsman,Sale,2024-08-21,893.9
+KMI,Marjorie Taylor Mrs Greene,Purchase,2024-08-21,3319.03
+GOOG,Marjorie Taylor Mrs Greene,Purchase,2024-08-21,-82.32
+FDX,Marjorie Taylor Mrs Greene,Purchase,2024-08-21,-2099.0
+INTC,Marjorie Taylor Mrs Greene,Purchase,2024-08-21,1331.15
+AMZN,Marjorie Taylor Mrs Greene,Purchase,2024-08-21,893.9
+ANET,Greg Landsman,Purchase,2024-08-21,-656.66
+NVDA,Marjorie Taylor Mrs Greene,Purchase,2024-08-21,-840.47
+HTGC,Virginia Foxx,Purchase,2024-08-20,530.93
+TJX,Markwayne Mullin,Purchase,2024-08-20,247.99
+IQV,Markwayne Mullin,Purchase,2024-08-20,-2472.26
+EW,Markwayne Mullin,Sale (Partial),2024-08-20,155.66
+SBUX,Markwayne Mullin,Sale (Partial),2024-08-20,436.51
+ABT,Josh Gottheimer,Purchase,2024-08-19,1290.44
+ET,Virginia Foxx,Purchase,2024-08-19,1411.04
+AAPL,Morgan Mcgarvey,Sale,2024-08-19,-337.33
+STT,Jake Auchincloss,Sale,2024-08-16,1154.23
+NWN,Earl Blumenauer,Purchase,2024-08-15,680.64
+PG,Lloyd Doggett,Purchase,2024-08-15,-73.25
+SNOW,Sheldon Whitehouse,Sale (Full),2024-08-15,2466.75
+SBUX,C. Scott Franklin,Sale,2024-08-14,337.59
+SBUX,Josh Gottheimer,Purchase,2024-08-14,337.59
+SBUX,C. Scott Franklin,Sale,2024-08-14,337.59
+SBUX,C. Scott Franklin,Sale,2024-08-14,337.59
+ADBE,Greg Landsman,Sale,2024-08-14,-2825.73
+SBUX,C. Scott Franklin,Sale,2024-08-14,337.59
+ANET,Greg Landsman,Purchase,2024-08-14,-462.64
+DE,Richard W. Allen,Sale,2024-08-14,3448.82
+ARLP,Virginia Foxx,Purchase,2024-08-14,1314.66
+ULTA,Greg Landsman,Sale,2024-08-14,654.0
+ROST,John James,Sale,2024-08-13,-1278.5
+AAPL,Morgan Mcgarvey,Purchase,2024-08-13,-135.58
+MSFT,Josh Gottheimer,Purchase,2024-08-12,-382.24
+WBD,Carol Devine Miller,Sale,2024-08-12,6005.96
+MSFT,Josh Gottheimer,Sale,2024-08-12,-382.24
+SBUX,Kathy Manning,Sale,2024-08-09,2927.15
+PFE,Kathy Manning,Sale,2024-08-09,-795.1
+HL,Debbie Wasserman Schultz,Purchase,2024-08-09,1428.57
+HSHCY,Josh Gottheimer,Sale,2024-08-08,747.97
+YUM,James E Hon Banks,Purchase,2024-08-08,1433.26
+MCD,C. Scott Franklin,Purchase,2024-08-07,1339.05
+FBKWX,C. Scott Franklin,Purchase,2024-08-07,
+ACN,C. Scott Franklin,Purchase,2024-08-07,-399.35
+SBUX,C. Scott Franklin,Purchase,2024-08-07,2892.81
+QQQM,C. Scott Franklin,Purchase,2024-08-07,1065.72
+JNJ,C. Scott Franklin,Purchase,2024-08-07,297.67
+APD,C. Scott Franklin,Purchase,2024-08-07,512.18
+LSYIX,C. Scott Franklin,Purchase,2024-08-07,
+GD,C. Scott Franklin,Purchase,2024-08-07,-827.38
+HSY,C. Scott Franklin,Purchase,2024-08-07,-1633.47
+CB,C. Scott Franklin,Purchase,2024-08-07,967.97
+UPS,C. Scott Franklin,Purchase,2024-08-07,-666.56
+AMGN,C. Scott Franklin,Purchase,2024-08-07,113.28
+NEE,C. Scott Franklin,Sale,2024-08-06,-791.22
+PFE,C. Scott Franklin,Sale,2024-08-06,-1036.83
+JPM,C. Scott Franklin,Sale,2024-08-06,2061.0
+FQAL,C. Scott Franklin,Sale,2024-08-06,868.49
+CHUY,Josh Gottheimer,Sale,2024-08-06,132.47
+AMD,Josh Gottheimer,Sale,2024-08-06,-1823.63
+COST,C. Scott Franklin,Sale,2024-08-06,1130.89
+ONEQ,C. Scott Franklin,Sale,2024-08-06,857.76
+KVUE,C. Scott Franklin,Sale,2024-08-06,1174.5
+FWRG,Josh Gottheimer,Purchase,2024-08-06,302.65
+FFRHX,C. Scott Franklin,Sale,2024-08-06,
+BRKB,C. Scott Franklin,Sale,2024-08-06,
+LUBYX,C. Scott Franklin,Sale,2024-08-06,
+IJR,C. Scott Franklin,Sale,2024-08-06,-325.04
+AAPL,C. Scott Franklin,Sale,2024-08-06,532.74
+IJR,C. Scott Franklin,Sale,2024-08-06,-325.04
+DFS,C. Scott Franklin,Sale,2024-08-06,3157.98
+WMT,C. Scott Franklin,Sale,2024-08-06,2692.65
+MSFT,C. Scott Franklin,Sale,2024-08-06,-208.95
+QQQ,C. Scott Franklin,Sale,2024-08-06,939.87
+DGRO,C. Scott Franklin,Sale,2024-08-06,581.36
+TNDM,Josh Gottheimer,Purchase,2024-08-05,-5025.74
+KO,Josh Gottheimer,Purchase,2024-08-05,83.7
+SPOT,Josh Gottheimer,Purchase,2024-08-05,8514.95
+NOW,Josh Gottheimer,Purchase,2024-08-05,594.93
+GL,Susan M. Collins,Sale (Full),2024-08-05,4310.05
+NGL,Mark Dr Green,Sale,2024-08-05,1365.85
+CB,C. Scott Franklin,Purchase,2024-08-02,741.19
+GD,C. Scott Franklin,Purchase,2024-08-02,-991.14
+ORCL,Josh Gottheimer,Sale,2024-08-02,1421.82
+JNJ,C. Scott Franklin,Purchase,2024-08-02,-31.07
+KO,Josh Gottheimer,Purchase,2024-08-02,-95.2
+MAR,Josh Gottheimer,Sale,2024-08-02,1114.8
+MRK,C. Scott Franklin,Purchase,2024-08-02,-1917.53
+PG,C. Scott Franklin,Purchase,2024-08-02,-199.32
+LSYIX,C. Scott Franklin,Purchase,2024-08-02,
+FTV,Thomas H. Kean Jr.,Purchase,2024-08-02,927.82
+QQQM,C. Scott Franklin,Purchase,2024-08-02,722.37
+MCD,C. Scott Franklin,Purchase,2024-08-02,1039.07
+UPS,C. Scott Franklin,Purchase,2024-08-02,-1012.03
+FBKWX,C. Scott Franklin,Purchase,2024-08-02,
+SBUX,C. Scott Franklin,Purchase,2024-08-02,2792.57
+PEP,C. Scott Franklin,Purchase,2024-08-02,-1830.49
+APD,C. Scott Franklin,Purchase,2024-08-02,351.74
+ACN,C. Scott Franklin,Purchase,2024-08-02,-551.76
+GS,Josh Gottheimer,Purchase,2024-08-02,2007.9
+BKNG,Josh Gottheimer,Sale,2024-08-02,3873.44
+JBL,Josh Gottheimer,Sale,2024-08-02,4577.39
+AR,Maria Elvira Salazar,Purchase,2024-08-02,5384.91
+AMGN,C. Scott Franklin,Purchase,2024-08-02,-537.44
+T$A,Virginia Foxx,Purchase,2024-08-01,
+AMD,Josh Gottheimer,Sale,2024-08-01,-1969.22
+DFS,C. Scott Franklin,Sale,2024-08-01,2104.72
+BRKB,C. Scott Franklin,Sale,2024-08-01,
+LMT,C. Scott Franklin,Sale,2024-08-01,-1988.85
+NEE,C. Scott Franklin,Sale,2024-08-01,-958.03
+AAPL,Josh Gottheimer,Purchase,2024-08-01,-4.12
+GOOG,C. Scott Franklin,Sale,2024-08-01,-359.52
+COST,C. Scott Franklin,Sale,2024-08-01,1130.75
+CSCO,C. Scott Franklin,Sale,2024-08-01,2724.2
+WMT,C. Scott Franklin,Sale,2024-08-01,2319.82
+SHOP,Josh Gottheimer,Sale,2024-08-01,7914.73
+AAPL,C. Scott Franklin,Sale,2024-08-01,-4.12
+UBER,Josh Gottheimer,Sale,2024-08-01,2428.71
+KVUE,C. Scott Franklin,Sale,2024-08-01,2512.08
+PFE,C. Scott Franklin,Sale,2024-08-01,-1425.77
+GS,Josh Gottheimer,Purchase,2024-08-01,1300.09
+JPM,C. Scott Franklin,Sale,2024-08-01,1619.06
+TLK,Josh Gottheimer,Purchase,2024-07-31,-2034.75
+ABEV,Josh Gottheimer,Purchase,2024-07-31,1456.31
+DHI,Josh Gottheimer,Purchase,2024-07-31,-2839.44
+MA,Josh Gottheimer,Purchase,2024-07-31,1552.26
+AMD,Josh Gottheimer,Sale,2024-07-31,-2632.89
+AAPL,Laurel Lee,Purchase,2024-07-31,-171.56
+"4.WEEK, MATURE",Rudy Yakym Iii,Purchase,2024-07-30,
+CAG,Sheldon Whitehouse,Sale (Full),2024-07-30,-1547.07
+LRCX,John James,Sale,2024-07-30,-1128.37
+LRN,Markwayne Mullin,Purchase,2024-07-30,6036.82
+LRN,Markwayne Mullin,Purchase,2024-07-30,6036.82
+CAG,Sheldon Whitehouse,Sale (Full),2024-07-30,-1547.07
+BRK.B,Jerry Moran,Sale (Partial),2024-07-29,1907.33
+ABT,Josh Gottheimer,Purchase,2024-07-29,2058.8
+BRK.B,Jerry Moran,Sale (Partial),2024-07-29,1907.33
+ANET,Josh Gottheimer,Sale,2024-07-29,373.42
+BRK.B,Jerry Moran,Sale (Partial),2024-07-29,1907.33
+TSLA,Josh Gottheimer,Sale,2024-07-29,715.64
+BRK.B,Jerry Moran,Sale (Partial),2024-07-29,1907.33
+NVDA,Nancy Pelosi,Purchase,2024-07-26,410.4
+MSFT,Nancy Pelosi,Sale,2024-07-26,-799.73
+SNDR,Josh Gottheimer,Purchase,2024-07-26,-1224.41
+MEDP,Josh Gottheimer,Sale,2024-07-26,-1500.51
+MSI,John Boozman,Purchase,2024-07-26,736.58
+LRCX,John Boozman,Sale (Partial),2024-07-26,-1522.85
+MMM,Josh Gottheimer,Purchase,2024-07-26,1824.47
+GOOGL,John Boozman,Purchase,2024-07-26,-180.24
+HTLD,Josh Gottheimer,Sale,2024-07-26,-2959.03
+DIS,Sheldon Whitehouse,Sale (Full),2024-07-25,1148.97
+PEP,Shelley Moore Capito,Sale (Partial),2024-07-25,-1495.15
+RY,Michael C. Burgess,Sale,2024-07-25,365.91
+LOW,Shelley Moore Capito,Sale (Partial),2024-07-25,-327.98
+LINE,John Hickenlooper,Purchase,2024-07-25,-2770.49
+NGL,Mark Dr Green,Sale,2024-07-24,-168.78
+ONEW,Katie Britt,Sale (Full),2024-07-24,-3566.9
+TSLA,Josh Gottheimer,Sale,2024-07-24,1514.88
+SQ,Josh Gottheimer,Sale,2024-07-24,4091.72
+RHHBY,Josh Gottheimer,Purchase,2024-07-23,1439.79
+DAL,Morgan Mcgarvey,Sale,2024-07-23,724.6
+JPM,Marjorie Taylor Mrs Greene,Purchase,2024-07-23,1488.14
+SOHO,Lance Gooden,Sale,2024-07-23,-4031.47
+GLW,Marjorie Taylor Mrs Greene,Purchase,2024-07-23,1014.53
+DUK,Marjorie Taylor Mrs Greene,Purchase,2024-07-23,1118.37
+ABCB,Earl Leroy Carter,Sale,2024-07-23,-535.63
+MRO,Lance Gooden,Sale,2024-07-23,255.03
+TECK,Jonathan Jackson,Sale,2024-07-23,-945.41
+ABT,Thomas H. Kean Jr.,Purchase,2024-07-23,2157.43
+UPS,Marjorie Taylor Mrs Greene,Purchase,2024-07-23,-985.28
+DELL,Marjorie Taylor Mrs Greene,Purchase,2024-07-23,-2247.12
+AMAT,Marjorie Taylor Mrs Greene,Purchase,2024-07-23,-3074.44
+ISRG,Josh Gottheimer,Purchase,2024-07-22,680.3
+UPS,Michael C. Burgess,Sale,2024-07-22,-2071.91
+CRM,Josh Gottheimer,Sale,2024-07-22,1044.55
+FMAO,Robert E. Latta,Purchase,2024-07-20,-690.98
+FNA,Josh Gottheimer,Purchase,2024-07-19,6061.73
+FLYW,Josh Gottheimer,Purchase,2024-07-19,-4524.46
+FCX,Josh Gottheimer,Purchase,2024-07-19,-1230.94
+ABEV,Josh Gottheimer,Purchase,2024-07-19,1184.83
+NOC,Josh Gottheimer,Purchase,2024-07-19,1205.19
+ATRC,Josh Gottheimer,Purchase,2024-07-19,3876.71
+SGIOY,Josh Gottheimer,Purchase,2024-07-19,722.38
+PPBI,Josh Gottheimer,Purchase,2024-07-19,-2066.06
+SWTX,Josh Gottheimer,Purchase,2024-07-19,3226.41
+ABCB,Earl Leroy Carter,Sale,2024-07-19,-143.3
+DHI,Josh Gottheimer,Purchase,2024-07-19,-2588.59
+AMD,Josh Gottheimer,Purchase,2024-07-19,-2977.97
+TLK,Josh Gottheimer,Purchase,2024-07-19,-2823.23
+VIAV,Josh Gottheimer,Purchase,2024-07-19,5597.32
+SHLS,Josh Gottheimer,Purchase,2024-07-19,-4977.24
+GMAB,Josh Gottheimer,Purchase,2024-07-19,-2879.28
+ABCB,Earl Leroy Carter,Sale,2024-07-19,-143.3
+SQ,Josh Gottheimer,Purchase,2024-07-19,2769.46
+MDY,John Boozman,Sale (Partial),2024-07-18,-297.45
+DFS,John James,Purchase,2024-07-18,1535.45
+LPLA,John James,Sale,2024-07-18,4978.07
+MA,Josh Gottheimer,Purchase,2024-07-18,1938.18
+ABCB,Earl Leroy Carter,Sale,2024-07-18,-191.82
+VEA,John Boozman,Purchase,2024-07-18,282.5
+XOM,Shelley Moore Capito,Sale (Partial),2024-07-17,-181.91
+OTIS,Gary Peters,Sale (Full),2024-07-17,230.47
+MSFT,Shelley Moore Capito,Sale (Partial),2024-07-17,-1178.3
+C,Shelley Moore Capito,Sale (Partial),2024-07-17,646.35
+FANG,Greg Landsman,Purchase,2024-07-17,-2486.01
+ISRG,Greg Landsman,Sale,2024-07-17,1554.56
+CMCSA,Jared Moskowitz,Sale,2024-07-17,-946.05
+LHX,Greg Landsman,Purchase,2024-07-17,-1270.51
+ISRG,Greg Landsman,Sale,2024-07-17,1554.56
+VEEV,John James,Sale,2024-07-16,2650.67
+RY,Michael C. Burgess,Sale,2024-07-16,276.82
+RY,Michael C. Burgess,Purchase,2024-07-16,276.82
+AZO,Richard W. Allen,Purchase,2024-07-16,2080.21
+LZB,Josh Gottheimer,Purchase,2024-07-16,-893.58
+JNJ,Richard W. Allen,Sale,2024-07-16,835.71
+BRK.B,Kathy Castor,Sale,2024-07-15,2013.95
+HELE,Josh Gottheimer,Sale,2024-07-12,-1751.21
+ASC,Virginia Foxx,Purchase,2024-07-11,-4979.94
+"3.MONTH, MATURE",Rudy Yakym Iii,Purchase,2024-07-11,
+BAX,Earl Blumenauer,Purchase,2024-07-09,-241.11
+TECK,Jonathan Jackson,Purchase,2024-07-09,-1410.52
+ALIZY,Josh Gottheimer,Sale,2024-07-09,3584.43
+MAR,Josh Gottheimer,Sale,2024-07-09,-1.26
+CRM,Jonathan Jackson,Sale,2024-07-09,1116.75
+ASC,Virginia Foxx,Purchase,2024-07-09,-4995.0
+AES,Jonathan Jackson,Purchase,2024-07-09,-2618.78
+WBD,Earl Blumenauer,Sale,2024-07-09,4632.15
+ABNB,Josh Gottheimer,Sale,2024-07-09,-1551.33
+MCD,Josh Gottheimer,Purchase,2024-07-09,2425.35
+MDT,Earl Blumenauer,Sale,2024-07-09,1749.48
+ASC,Virginia Foxx,Purchase,2024-07-08,-5090.73
+CB,Kevin Hern,Purchase,2024-07-08,1519.43
+DBSDY,Josh Gottheimer,Sale,2024-07-08,2313.35
+AAPL,Laurel Mrs Lee,Sale,2024-07-05,-356.54
+SO,Jared Moskowitz,Purchase,2024-07-05,1450.54
+NOC,Jared Moskowitz,Sale,2024-07-05,1287.93
+SHW,Jared Moskowitz,Purchase,2024-07-05,1309.1
+AAPL,Laurel Mrs Lee,Purchase,2024-07-05,-356.54
+WEC,Jared Moskowitz,Sale,2024-07-05,3719.97
+FDS,Jared Moskowitz,Sale,2024-07-05,223.19
+AMZN,Jared Moskowitz,Purchase,2024-07-05,-189.5
+AVGO,Jared Moskowitz,Purchase,2024-07-05,1252.21
+TSM,Josh Gottheimer,Sale,2024-07-05,-394.59
+AMZN,Jared Moskowitz,Purchase,2024-07-05,-189.5
+BRK.B,Jared Moskowitz,Purchase,2024-07-05,2693.29
+TD,Jared Moskowitz,Sale,2024-07-05,778.56
+FDS,Jared Moskowitz,Sale,2024-07-05,223.19
+TD,Jared Moskowitz,Sale,2024-07-05,778.56
+ALL,Jared Moskowitz,Sale,2024-07-05,3032.25
+MDLZ,Jared Moskowitz,Sale,2024-07-05,-368.77
+ROP,Jared Moskowitz,Purchase,2024-07-05,171.0
+NVDA,Jared Moskowitz,Purchase,2024-07-05,-646.11
+CB,Jared Moskowitz,Purchase,2024-07-05,1541.33
+FDS,Jared Moskowitz,Sale,2024-07-05,223.19
+AMZN,Jared Moskowitz,Purchase,2024-07-05,-189.5
+COP,Jonathan Jackson,Sale,2024-07-05,-944.47
+ALL,Jared Moskowitz,Sale,2024-07-05,3032.25
+SHEL,Josh Gottheimer,Purchase,2024-07-05,-305.8
+VOYA,John James,Sale,2024-07-05,-293.11
+MA,Jared Moskowitz,Sale,2024-07-05,1917.73
+LOW,Jared Moskowitz,Sale,2024-07-05,616.2
+SHW,Jared Moskowitz,Purchase,2024-07-05,1309.1
+MA,Jared Moskowitz,Sale,2024-07-05,1917.73
+PNC,Jared Moskowitz,Sale,2024-07-05,1092.58
+JPM,Jared Moskowitz,Purchase,2024-07-05,1798.92
+PNC,Jared Moskowitz,Sale,2024-07-05,1092.58
+AVGO,Jared Moskowitz,Purchase,2024-07-05,1252.21
+WM,Jared Moskowitz,Sale,2024-07-05,693.2
+ZTS,Jared Moskowitz,Sale,2024-07-05,-681.87
+MA,Jared Moskowitz,Sale,2024-07-05,1917.73
+AMZN,Jared Moskowitz,Purchase,2024-07-05,-189.5
+WM,Jared Moskowitz,Purchase,2024-07-05,693.2
+CMCSA,Jared Moskowitz,Sale,2024-07-05,-293.19
+ELV,Jared Moskowitz,Purchase,2024-07-05,-1944.52
+ORCL,Jared Moskowitz,Purchase,2024-07-05,510.94
+LIN,Jared Moskowitz,Purchase,2024-07-05,518.91
+SNA,Jared Moskowitz,Sale,2024-07-05,2843.94
+WEC,Jared Moskowitz,Sale,2024-07-05,3719.97
+MDLZ,Jared Moskowitz,Sale,2024-07-05,-368.77
+JPM,Jared Moskowitz,Purchase,2024-07-05,1798.92
+SHW,Jared Moskowitz,Purchase,2024-07-05,1309.1
+SO,Jared Moskowitz,Purchase,2024-07-05,1450.54
+BRK.B,Jared Moskowitz,Purchase,2024-07-05,2693.29
+ATO,Jared Moskowitz,Purchase,2024-07-05,2967.2
+ZTS,Jared Moskowitz,Sale,2024-07-05,-681.87
+ABT,Jared Moskowitz,Purchase,2024-07-05,2145.74
+SO,Jared Moskowitz,Purchase,2024-07-05,1450.54
+GWW,Jared Moskowitz,Purchase,2024-07-05,663.42
+ALL,Jared Moskowitz,Sale,2024-07-05,3032.25
+NVDA,Jared Moskowitz,Purchase,2024-07-05,-646.11
+LIN,Jared Moskowitz,Purchase,2024-07-05,518.91
+ORCL,Jared Moskowitz,Purchase,2024-07-05,510.94
+NOC,Jared Moskowitz,Sale,2024-07-05,1287.93
+CMCSA,Jared Moskowitz,Sale,2024-07-05,-293.19
+AVGO,Jared Moskowitz,Purchase,2024-07-05,1252.21
+ZTS,Jared Moskowitz,Sale,2024-07-05,-681.87
+IVV,John Boozman,Sale (Partial),2024-07-04,158.13
+JNJ,Sheldon Whitehouse,Sale (Full),2024-07-03,1231.38
+ACI,Jonathan Jackson,Sale,2024-07-03,633.8
+MCD,Sheldon Whitehouse,Sale (Full),2024-07-03,2217.6
+JNJ,Sheldon Whitehouse,Sale (Full),2024-07-03,1231.38
+CPNG,Jonathan Jackson,Purchase,2024-07-03,1162.12
+NKE,Kathy Manning,Sale,2024-07-02,-1065.23
+CRM,Kathy Manning,Purchase,2024-07-02,953.59
+CRM,Kathy Manning,Purchase,2024-07-02,953.59
+AON,Kathy Manning,Sale,2024-07-02,3206.69
+NVDA,Kathy Manning,Sale,2024-07-02,-405.15
+MSCI,Kathy Manning,Purchase,2024-07-02,1447.64
+ODFL,Rick Larsen,Purchase,2024-07-02,-930.45
+TJX,Kathy Manning,Purchase,2024-07-02,537.21
+AMGN,Kathy Manning,Purchase,2024-07-02,169.58
+GRMN,Kathy Manning,Purchase,2024-07-02,3015.67
+GRMN,Kathy Manning,Purchase,2024-07-02,3015.67
+APD,Kathy Manning,Sale,2024-07-02,1619.52
+GOOG,Kathy Manning,Sale,2024-07-02,-1091.05
+MSFT,Kathy Manning,Purchase,2024-07-02,-1481.01
+MRK,Kathy Manning,Purchase,2024-07-02,-2709.83
+GOOGL,Kathy Manning,Sale,2024-07-02,-1147.16
+JNJ,Kathy Manning,Purchase,2024-07-02,1205.23
+NVDA,Kathy Manning,Sale,2024-07-02,-405.15
+QCOM,Kathy Manning,Purchase,2024-07-02,-2165.27
+GOOGL,Kathy Manning,Sale,2024-07-02,-1147.16
+GOOGL,Kathy Manning,Sale,2024-07-02,-1147.16
+CME,Kathy Manning,Sale,2024-07-02,3362.59
+HIG,Rick Larsen,Sale,2024-07-02,1921.42
+MA,Kathy Manning,Purchase,2024-07-02,2047.45
+CB,Kathy Manning,Sale,2024-07-02,1403.14
+MA,Kathy Manning,Purchase,2024-07-02,2047.45
+COST,Kathy Manning,Purchase,2024-07-02,580.66
+MICRD,Kathy Manning,Purchase,2024-07-02,-9998.18
+LRCX,Kathy Manning,Purchase,2024-07-02,-2930.78
+APD,Kathy Manning,Sale,2024-07-02,1619.52
+PG,Kathy Manning,Purchase,2024-07-02,170.23
+ABT,Kathy Manning,Purchase,2024-07-02,2242.25
+MSFT,Kathy Manning,Purchase,2024-07-02,-1481.01
+CME,Kathy Manning,Sale,2024-07-02,3362.59
+PKG,Kathy Manning,Purchase,2024-07-02,952.06
+CAT,Kathy Manning,Sale,2024-07-02,244.69
+LDOS,Gerald E. Connolly,Sale,2024-07-02,-824.76
+SAIC,Gerald E. Connolly,Sale,2024-07-02,-906.75
+CRM,Kathy Manning,Purchase,2024-07-02,953.59
+ACN,Kathy Manning,Sale,2024-07-02,49.04
+ACN,Kathy Manning,Sale,2024-07-02,49.04
+MSCI,Kathy Manning,Purchase,2024-07-02,1447.64
+GOOG,Kathy Manning,Sale,2024-07-02,-1091.05
+CNC,Kathy Manning,Purchase,2024-07-02,-1101.37
+CNC,Kathy Manning,Purchase,2024-07-02,-1101.37
+SYY,Kathy Manning,Purchase,2024-07-02,73.66
+HD,Kathy Manning,Purchase,2024-07-02,483.03
+AAPL,Kathy Manning,Purchase,2024-07-02,-90.8
+GRMN,Kathy Manning,Purchase,2024-07-02,3015.67
+NKE,Kathy Manning,Sale,2024-07-02,-1065.23
+V,Kathy Manning,Purchase,2024-07-02,2513.89
+LMT,Kathy Manning,Sale,2024-07-02,-558.3
+D,Gerald E. Connolly,Sale,2024-07-02,1238.15
+INTU,Kathy Manning,Sale,2024-07-02,-795.16
+AON,Kathy Manning,Sale,2024-07-02,3206.69
+NKE,Kathy Manning,Sale,2024-07-02,-1065.23
+IXNZF,Jamie Raskin,Sale,2024-07-02,
+ABT,Kathy Manning,Purchase,2024-07-02,2242.25
+V,Kathy Manning,Purchase,2024-07-02,2513.89
+MDT,Kathy Manning,Sale,2024-07-02,1675.07
+MSFT,Kathy Manning,Purchase,2024-07-02,-1481.01
+AON,Kathy Manning,Sale,2024-07-02,3206.69
+HD,Kathy Manning,Purchase,2024-07-02,483.03
+EXPD,Kathy Manning,Purchase,2024-07-02,-405.87
+AAPL,Kathy Manning,Purchase,2024-07-02,-90.8
+LMT,Kathy Manning,Sale,2024-07-02,-558.3
+NVDA,Kathy Manning,Sale,2024-07-02,-405.15
+JNJ,Kathy Manning,Purchase,2024-07-02,1205.23
+WMT,Kathy Manning,Sale,2024-07-02,2631.12
+GS,Rick Larsen,Purchase,2024-07-02,2137.63
+CB,Kathy Manning,Sale,2024-07-02,1403.14
+CB,Kathy Manning,Sale,2024-07-02,1403.14
+AAPL,Kathy Manning,Purchase,2024-07-02,-90.8
+WM,Rick Larsen,Sale,2024-07-02,737.1
+HD,Kathy Manning,Purchase,2024-07-02,483.03
+ABBV,Kathy Manning,Purchase,2024-07-02,2654.25
+GOOG,Josh Gottheimer,Purchase,2024-07-01,-988.67
+JNJ,Jared Moskowitz,Purchase,2024-07-01,1173.86
+V,Nancy Pelosi,Sale,2024-07-01,2751.1
+META,Josh Gottheimer,Sale,2024-07-01,1814.42
+TD,Jared Moskowitz,Sale,2024-07-01,914.92
+NFLX,Josh Gottheimer,Sale,2024-07-01,4255.88
+SNA,Jared Moskowitz,Purchase,2024-07-01,2766.45
+GOOG,Jared Moskowitz,Purchase,2024-07-01,-988.67
+LLY,Josh Gottheimer,Sale,2024-07-01,-839.92
+HUBS,Josh Gottheimer,Sale,2024-07-01,231.02
+MA,Josh Gottheimer,Sale,2024-07-01,2241.27
+MDLZ,Jared Moskowitz,Purchase,2024-07-01,-111.89
+TT,Josh Gottheimer,Sale,2024-07-01,802.22
+WEC,Jared Moskowitz,Sale,2024-07-01,3748.23
+ELV,Jared Moskowitz,Purchase,2024-07-01,-2008.42
+BBY,Jared Moskowitz,Sale,2024-07-01,-1060.88
+AVGO,Shelley Moore Capito,Purchase,2024-07-01,1680.89
+EFC$D,Virginia Foxx,Purchase,2024-07-01,
+NGL,Mark Dr Green,Sale,2024-07-01,-790.51
+TSCO,Jared Moskowitz,Purchase,2024-07-01,-203.18
+TSLA,Josh Gottheimer,Sale,2024-07-01,1851.23
+REGN,Josh Gottheimer,Sale,2024-07-01,-3770.41
+APH,Josh Gottheimer,Sale,2024-07-01,-136.26
+FDS,Jared Moskowitz,Purchase,2024-07-01,527.78
+JPM,Jared Moskowitz,Purchase,2024-07-01,1761.01
+INTU,Josh Gottheimer,Sale,2024-07-01,-718.07
+LMT,Jared Moskowitz,Purchase,2024-07-01,-573.28
+NOC,Jared Moskowitz,Sale,2024-07-01,1280.92
+PNC,Jared Moskowitz,Sale,2024-07-01,1118.87
+NEE,Jared Moskowitz,Purchase,2024-07-01,140.2
+MCK,Josh Gottheimer,Sale,2024-07-01,1276.22
+AZO,Josh Gottheimer,Sale,2024-07-01,2730.7
+KO,Lloyd Doggett,Purchase,2024-07-01,851.77
+MAR,Josh Gottheimer,Sale,2024-06-28,-177.03
+LMT,Kevin Hern,Purchase,2024-06-28,-586.6
+MSFT,Josh Gottheimer,Purchase,2024-06-28,-1246.0
+LOW,Josh Gottheimer,Sale,2024-06-28,299.83
+NVDA,Josh Gottheimer,Purchase,2024-06-28,-472.72
+AVGO,Josh Gottheimer,Purchase,2024-06-28,1937.49
+DE,Josh Gottheimer,Sale,2024-06-28,2644.33
+AAPL,Josh Gottheimer,Purchase,2024-06-28,363.21
+DVN,Kevin Hern,Purchase,2024-06-28,-2373.42
+DVN,Kevin Hern,Purchase,2024-06-28,-2373.42
+DAL,Morgan Mcgarvey,Purchase,2024-06-28,-141.23
+SPG,Victoria Spartz,Purchase,2024-06-28,678.52
+AEIS,Josh Gottheimer,Purchase,2024-06-27,-223.83
+APD,Shelley Moore Capito,Sale (Full),2024-06-27,1086.4
+SPXC,Josh Gottheimer,Sale,2024-06-27,-488.1
+STRL,Josh Gottheimer,Purchase,2024-06-27,611.75
+PRIM,Josh Gottheimer,Sale,2024-06-27,2428.21
+GS,Sheldon Whitehouse,Purchase,2024-06-27,2672.44
+CVS,Earl Blumenauer,Sale,2024-06-27,1489.03
+TLH,John Boozman,Purchase,2024-06-26,-15.44
+KLAC,John James,Sale,2024-06-26,-1313.29
+IEF,John Boozman,Sale (Partial),2024-06-26,114.97
+SCHP,John Boozman,Purchase,2024-06-26,236.13
+TEL,Josh Gottheimer,Purchase,2024-06-26,-112.96
+NVDA,Nancy Pelosi,Purchase,2024-06-26,-688.29
+JMBS,John Boozman,Purchase,2024-06-26,84.88
+CRM,Josh Gottheimer,Sale,2024-06-26,1541.02
+SHY,John Boozman,Sale (Partial),2024-06-26,122.58
+ABNB,Josh Gottheimer,Sale,2024-06-26,-1413.33
+UNH,Kevin Hern,Purchase,2024-06-25,667.7
+"1.MONTH, MATURE",Rudy Yakym Iii,Purchase,2024-06-25,
+TEL,Josh Gottheimer,Purchase,2024-06-25,-222.09
+VZ,Josh Gottheimer,Sale,2024-06-25,708.37
+ISRG,Josh Gottheimer,Purchase,2024-06-25,1134.5
+AVGO,Nancy Pelosi,Purchase,2024-06-24,2037.36
+CRWD,Marjorie Taylor Mrs Greene,Purchase,2024-06-24,-415.16
+NSRGY,Marjorie Taylor Mrs Greene,Purchase,2024-06-24,-220.06
+NMVZX,John Boozman,Sale (Full),2024-06-24,
+LULU,Marjorie Taylor Mrs Greene,Purchase,2024-06-24,331.11
+ASML,Marjorie Taylor Mrs Greene,Purchase,2024-06-24,-2852.17
+WMB,Kevin Hern,Purchase,2024-06-24,3825.1
+COST,Marjorie Taylor Mrs Greene,Purchase,2024-06-24,720.38
+NEE,Marjorie Taylor Mrs Greene,Purchase,2024-06-24,-402.17
+DALCX,John Boozman,Purchase,2024-06-24,
+TSLA,Nancy Pelosi,Sale,2024-06-24,3621.97
+HQY,Josh Gottheimer,Sale,2024-06-21,148.25
+TXN,Josh Gottheimer,Sale,2024-06-21,-845.39
+ALFVY,Josh Gottheimer,Sale,2024-06-21,209.76
+DBSDY,Josh Gottheimer,Sale,2024-06-21,2999.33
+LOW,Josh Gottheimer,Sale,2024-06-21,-66.49
+ATLKY,Josh Gottheimer,Sale,2024-06-21,-1173.96
+NSRGY,Josh Gottheimer,Sale,2024-06-21,-130.58
+LIN,Josh Gottheimer,Sale,2024-06-21,351.89
+TSM,Josh Gottheimer,Sale,2024-06-21,159.23
+IBN,Josh Gottheimer,Sale,2024-06-21,1292.42
+UPS,Josh Gottheimer,Sale,2024-06-21,-1573.94
+CENTA,Josh Gottheimer,Sale,2024-06-21,-945.3
+CCI,Josh Gottheimer,Sale,2024-06-21,1024.87
+ITT,Josh Gottheimer,Sale,2024-06-21,392.46
+AIQUY,Josh Gottheimer,Sale,2024-06-21,869.53
+SF,Josh Gottheimer,Sale,2024-06-21,2243.96
+IFNNY,Josh Gottheimer,Sale,2024-06-21,-112.85
+BRK.B,Josh Gottheimer,Sale,2024-06-21,2741.32
+ALIZY,Josh Gottheimer,Sale,2024-06-21,3711.71
+HSHCY,Josh Gottheimer,Sale,2024-06-21,-630.76
+NSC,Josh Gottheimer,Sale,2024-06-21,305.95
+TXRH,Josh Gottheimer,Sale,2024-06-21,-31.1
+MSFT,Josh Gottheimer,Sale,2024-06-21,-1301.08
+AAPL,Josh Gottheimer,Sale,2024-06-21,519.54
+FIS,Josh Gottheimer,Sale,2024-06-21,-343.6
+PAYX,Josh Gottheimer,Sale,2024-06-21,1354.4
+D,Josh Gottheimer,Sale,2024-06-21,1085.15
+BBVA,Josh Gottheimer,Sale,2024-06-21,4517.45
+HLN,Josh Gottheimer,Sale,2024-06-21,1995.33
+APD,Josh Gottheimer,Sale,2024-06-21,686.67
+BHP,Josh Gottheimer,Sale,2024-06-21,-1313.18
+RHP,Josh Gottheimer,Sale,2024-06-21,-515.96
+MTDR,Josh Gottheimer,Sale,2024-06-21,-978.98
+VZ,Josh Gottheimer,Sale,2024-06-21,931.91
+DSGX,Josh Gottheimer,Sale,2024-06-21,716.18
+FAST,Josh Gottheimer,Sale,2024-06-21,1437.1
+NTDOY,Josh Gottheimer,Sale,2024-06-21,3710.41
+SONVY,Josh Gottheimer,Sale,2024-06-21,26.41
+ASAZY,Josh Gottheimer,Sale,2024-06-21,804.02
+TCEHY,Josh Gottheimer,Sale,2024-06-21,3489.33
+HDB,Josh Gottheimer,Sale,2024-06-21,175.05
+RIO,Josh Gottheimer,Sale,2024-06-21,-664.16
+CSCO,Josh Gottheimer,Sale,2024-06-21,2751.11
+SHEL,Josh Gottheimer,Sale,2024-06-21,152.99
+RHHBY,Josh Gottheimer,Sale,2024-06-21,2278.73
+LRLCY,Josh Gottheimer,Sale,2024-06-21,-1909.81
+XNGSY,Josh Gottheimer,Sale,2024-06-21,-742.38
+BLK,Josh Gottheimer,Sale,2024-06-21,2083.93
+PGR,Josh Gottheimer,Sale,2024-06-21,3043.64
+SAP,Josh Gottheimer,Sale,2024-06-21,4036.36
+PRIM,Josh Gottheimer,Sale,2024-06-21,1871.62
+ITCI,Josh Gottheimer,Sale,2024-06-21,7191.17
+INSM,Josh Gottheimer,Sale,2024-06-21,1754.67
+JNJ,Josh Gottheimer,Sale,2024-06-21,1000.34
+SYIEY,Josh Gottheimer,Sale,2024-06-21,-1791.81
+SKY,Josh Gottheimer,Sale,2024-06-21,3195.57
+APPF,Josh Gottheimer,Sale,2024-06-21,-709.6
+MRK,Josh Gottheimer,Sale,2024-06-21,-2877.14
+ALC,Josh Gottheimer,Sale,2024-06-21,161.58
+MTX,Josh Gottheimer,Sale,2024-06-21,-2234.41
+LIN,Kevin Hern,Purchase,2024-06-21,351.89
+MTSI,Josh Gottheimer,Sale,2024-06-21,105.89
+SBGSY,Josh Gottheimer,Sale,2024-06-21,344.54
+CHGCY,Josh Gottheimer,Sale,2024-06-21,4333.75
+MFC,Josh Gottheimer,Sale,2024-06-21,1848.97
+CINF,Josh Gottheimer,Sale,2024-06-21,2639.53
+FMX,Josh Gottheimer,Sale,2024-06-21,-876.81
+AAGIY,Josh Gottheimer,Sale,2024-06-21,922.48
+EPOKY,Josh Gottheimer,Sale,2024-06-21,245.34
+SPXC,Josh Gottheimer,Sale,2024-06-21,-695.72
+SCHW,Josh Gottheimer,Sale,2024-06-21,688.57
+MELI,Josh Gottheimer,Sale,2024-06-21,3095.03
+MEDP,Josh Gottheimer,Sale,2024-06-21,-1975.1
+CVX,Josh Gottheimer,Sale,2024-06-21,609.87
+ISRG,Greg Landsman,Purchase,2024-06-20,1385.74
+CMCSA,John Boozman,Sale (Full),2024-06-20,-290.62
+URI,Greg Landsman,Sale,2024-06-20,-173.02
+AGCO,Kevin Hern,Purchase,2024-06-20,-777.69
+MSFT,John Boozman,Purchase,2024-06-20,-1221.45
+XP,Josh Gottheimer,Sale,2024-06-18,-1304.6
+SBUX,Josh Gottheimer,Sale,2024-06-18,2103.49
+MDT,John James,Purchase,2024-06-18,1326.65
+DASTY,Josh Gottheimer,Sale,2024-06-18,895.64
+SONY,Josh Gottheimer,Sale,2024-06-18,5842.02
+SWTX,Josh Gottheimer,Sale,2024-06-18,3777.96
+FCX,Josh Gottheimer,Sale,2024-06-18,-1560.08
+AMD,Josh Gottheimer,Sale,2024-06-18,-3116.47
+DEO,Josh Gottheimer,Sale,2024-06-18,-1727.34
+FLYW,Josh Gottheimer,Sale,2024-06-18,-3528.27
+ALGT,Josh Gottheimer,Sale,2024-06-18,399.24
+ABEV,Josh Gottheimer,Sale,2024-06-18,1346.15
+IART,Josh Gottheimer,Sale,2024-06-18,-2244.83
+ATRC,Josh Gottheimer,Sale,2024-06-18,5820.75
+SQ,Josh Gottheimer,Sale,2024-06-18,4048.47
+SHLS,Josh Gottheimer,Sale,2024-06-18,-5188.95
+DHI,Josh Gottheimer,Sale,2024-06-18,-757.53
+NOC,Josh Gottheimer,Sale,2024-06-18,1523.85
+VIAV,Josh Gottheimer,Sale,2024-06-18,5431.61
+PPBI,Josh Gottheimer,Sale,2024-06-18,261.03
+DAVA,Josh Gottheimer,Sale,2024-06-18,-1263.16
+GMAB,Josh Gottheimer,Sale,2024-06-18,-2341.09
+SGIOY,Josh Gottheimer,Sale,2024-06-18,1828.12
+NEE,Kevin Hern,Purchase,2024-06-17,-197.76
+"GLAS FUNDS, LP",Max Miller,Purchase,2024-06-14,
+PYCR,Josh Gottheimer,Sale,2024-06-14,9235.4
+JNJ,Richard W. Allen,Sale,2024-06-13,1249.91
+RTX,Kevin Hern,Purchase,2024-06-13,2603.07
+HD,Kevin Hern,Purchase,2024-06-13,94.0
+IWB,Markwayne Mullin,Sale (Partial),2024-06-13,477.88
+AAPL,Debbie Dingell,Sale,2024-06-13,188.11
+HD,Sheldon Whitehouse,Purchase,2024-06-13,94.0
+MSFT,Sheldon Whitehouse,Purchase,2024-06-13,-1139.54
+WU,Kathy Manning,Sale,2024-06-13,-1460.67
+HD,Lloyd Doggett,Purchase,2024-06-13,94.0
+HD,Kevin Hern,Purchase,2024-06-13,94.0
+ADBE,Josh Gottheimer,Sale,2024-06-13,-1558.18
+PH,Markwayne Mullin,Purchase,2024-06-12,1672.55
+ICLR,John James,Purchase,2024-06-12,-4218.84
+PPG,Lloyd Doggett,Purchase,2024-06-12,-1509.09
+IFNNY,Josh Gottheimer,Sale,2024-06-12,-1346.66
+IWB,Markwayne Mullin,Sale (Partial),2024-06-12,483.55
+AAPL,Debbie Dingell,Sale,2024-06-12,244.05
+NKE,Markwayne Mullin,Sale (Partial),2024-06-12,-2747.65
+GBOOY,Josh Gottheimer,Purchase,2024-06-12,289.74
+AAPL,Debbie Dingell,Sale,2024-06-12,244.05
+CMCSA,Markwayne Mullin,Sale (Partial),2024-06-12,-285.49
+IBM,Lloyd Doggett,Purchase,2024-06-10,4313.3
+EMR,Kevin Hern,Purchase,2024-06-10,402.83
+ROK,Kevin Hern,Purchase,2024-06-10,139.48
+XOM,Kevin Hern,Purchase,2024-06-10,214.01
+XOM,Kevin Hern,Purchase,2024-06-10,214.01
+MAR,Josh Gottheimer,Sale,2024-06-07,276.5
+BOOT,Josh Gottheimer,Sale,2024-06-06,-1862.47
+IBKR,Morgan Mcgarvey,Purchase,2024-06-06,4139.14
+FMAO,Robert E. Latta,Purchase,2024-06-06,1846.6
+NKE,Thomas H. Kean Jr.,Purchase,2024-06-06,-2902.21
+NVST,Pete Sessions,Sale,2024-06-06,-965.29
+JNJ,Kevin Hern,Purchase,2024-06-04,1071.04
+GEM,John Boozman,Purchase,2024-06-04,614.88
+JNJ,Lloyd Doggett,Purchase,2024-06-04,1071.04
+LHX,Abigail Spanberger,Sale,2024-06-04,-825.36
+MDY,John Boozman,Sale (Partial),2024-06-04,68.32
+EFA,John Boozman,Sale (Partial),2024-06-04,289.02
+VEA,John Boozman,Purchase,2024-06-04,266.27
+NMVZX,John Boozman,Purchase,2024-06-04,
+SPY,John Boozman,Purchase,2024-06-04,673.56
+WFC,A. Mitchell Jr. McConnell,Purchase,2024-06-04,2354.34
+LLY,Greg Landsman,Sale,2024-06-03,75.91
+DG,John James,Sale,2024-06-03,-4005.45
+MNST,John James,Sale,2024-06-03,1044.52
+APD,John James,Purchase,2024-06-03,765.57
+FWONK,John Hickenlooper,Sale (Full),2024-06-03,1367.31
+AXP,John James,Sale,2024-06-03,1419.71
+AMZN,Greg Landsman,Purchase,2024-06-03,1002.02
+CAH,John James,Purchase,2024-06-03,3253.94
+NGL,Mark Dr Green,Sale,2024-06-03,-1965.52
+URI,Greg Landsman,Purchase,2024-06-03,-146.66
+PH,Greg Landsman,Purchase,2024-06-03,2124.81
+MDT,John James,Sale,2024-06-03,999.76
+FWONK,John Hickenlooper,Purchase,2024-06-03,1367.31
+NVDA,Greg Landsman,Sale,2024-06-03,234.78
+NVDA,Morgan Mcgarvey,Purchase,2024-05-31,735.82
+EFA,John Boozman,Sale (Partial),2024-05-31,305.49
+GIGB,John Boozman,Purchase,2024-05-31,147.12
+IVW,John Boozman,Sale (Partial),2024-05-31,959.58
+CRM,Josh Gottheimer,Sale,2024-05-30,2871.89
+NVDA,Greg Landsman,Sale,2024-05-29,250.38
+BWIN,Josh Gottheimer,Purchase,2024-05-29,2612.07
+AXP,John James,Sale,2024-05-29,1465.2
+COR,Greg Landsman,Purchase,2024-05-29,2208.07
+AAPL,Greg Landsman,Sale,2024-05-29,1470.39
+MSFT,Greg Landsman,Sale,2024-05-29,-883.33
+APD,John James,Purchase,2024-05-29,1205.67
+XOM,Greg Landsman,Sale,2024-05-29,164.57
+AMSF,Josh Gottheimer,Sale,2024-05-29,1900.6
+TEL,Greg Landsman,Purchase,2024-05-29,-122.98
+ULTA,Greg Landsman,Purchase,2024-05-29,-732.53
+VLTO,Greg Landsman,Sale,2024-05-29,-78.14
+GOOGL,Greg Landsman,Sale,2024-05-29,-677.09
+INSM,Josh Gottheimer,Sale,2024-05-28,6629.21
+BDX,Thomas H. Kean Jr.,Purchase,2024-05-24,62.94
+META,Josh Gottheimer,Sale,2024-05-23,2801.11
+NTDOY,Josh Gottheimer,Purchase,2024-05-22,3638.41
+UMBF,Josh Gottheimer,Purchase,2024-05-22,2129.65
+NVDA,Stephen F. Lynch,Purchase,2024-05-22,2396.0
+TGT,Thomas R. Carper,Purchase,2024-05-22,-2736.79
+FI,Thomas H. Kean Jr.,Purchase,2024-05-22,4294.42
+KMI,Marjorie Taylor Mrs Greene,Purchase,2024-05-21,4148.94
+SCHW,Marjorie Taylor Mrs Greene,Purchase,2024-05-21,-64.64
+SO,Marjorie Taylor Mrs Greene,Purchase,2024-05-21,1200.8
+CAT,Marjorie Taylor Mrs Greene,Purchase,2024-05-21,-648.62
+"4.WEEK, MATURE",Rudy Yakym Iii,Purchase,2024-05-21,
+HTGC,Virginia Foxx,Purchase,2024-05-21,-203.67
+TXN,Kevin Hern,Purchase,2024-05-21,-1005.48
+NVDA,Pete Sessions,Sale,2024-05-21,2339.34
+TXN,Kevin Hern,Purchase,2024-05-21,-1005.48
+AAPL,Marjorie Taylor Mrs Greene,Purchase,2024-05-21,1347.54
+AMD,Marjorie Taylor Mrs Greene,Purchase,2024-05-21,-3535.77
+BX,Josh Gottheimer,Sale,2024-05-20,1799.95
+CTAS,Richard W. Allen,Purchase,2024-05-20,963.78
+ALGN,Josh Gottheimer,Sale,2024-05-20,-3695.41
+FWONK,John Hickenlooper,Purchase,2024-05-20,1914.54
+ET,Virginia Foxx,Purchase,2024-05-20,1531.31
+FWONK,John Hickenlooper,Sale (Full),2024-05-20,1914.54
+BKNG,Josh Gottheimer,Purchase,2024-05-20,2251.86
+AESI,Chip Roy,Sale,2024-05-20,-2646.34
+SBUX,Richard W. Allen,Sale,2024-05-20,2518.7
+HLN,Josh Gottheimer,Purchase,2024-05-20,2079.91
+MNST,Josh Gottheimer,Sale,2024-05-20,696.16
+MSFT,William R. Keating,Sale,2024-05-17,-688.94
+CVS,William R. Keating,Sale,2024-05-17,1624.48
+J,William R. Keating,Sale,2024-05-17,-1113.31
+AMZN,William R. Keating,Purchase,2024-05-17,623.17
+AZO,William R. Keating,Sale,2024-05-17,2361.06
+ACN,Kevin Hern,Purchase,2024-05-17,56.98
+ACN,William R. Keating,Sale,2024-05-17,56.98
+CLPBY,Josh Gottheimer,Purchase,2024-05-17,-1496.82
+GOOGL,William R. Keating,Sale,2024-05-17,-685.56
+LOW,William R. Keating,Sale,2024-05-17,-174.81
+ABNB,William R. Keating,Sale,2024-05-17,-1157.49
+VIG,Thomas R. Carper,Purchase,2024-05-16,573.98
+PRF,Thomas R. Carper,Sale (Full),2024-05-16,527.68
+ICOW,Thomas R. Carper,Purchase,2024-05-16,-210.62
+EFAD,Thomas R. Carper,Sale (Full),2024-05-16,120.44
+EFAD,Thomas R. Carper,Sale (Full),2024-05-16,120.44
+CCI,John James,Purchase,2024-05-16,227.84
+COWZ,Thomas R. Carper,Purchase,2024-05-16,-160.97
+PERI,Debbie Wasserman Schultz,Purchase,2024-05-16,-3244.81
+VEA,Thomas R. Carper,Purchase,2024-05-16,221.92
+VEA,Thomas R. Carper,Purchase,2024-05-16,221.92
+FDRR,Thomas R. Carper,Sale (Partial),2024-05-16,698.25
+UBER,Greg Landsman,Sale,2024-05-15,1383.97
+FNFV.V,John James,Purchase,2024-05-15,
+NWN,Earl Blumenauer,Purchase,2024-05-15,817.82
+OKE,Kevin Hern,Purchase,2024-05-15,2172.53
+SMDV,Thomas R. Carper,Sale (Full),2024-05-15,82.77
+OKE,Kevin Hern,Purchase,2024-05-15,2172.53
+MMC,Kevin Hern,Purchase,2024-05-15,1259.15
+CALF,Thomas R. Carper,Purchase,2024-05-15,-1926.02
+ARLP,Virginia Foxx,Purchase,2024-05-15,1508.11
+PG,Lloyd Doggett,Purchase,2024-05-15,10.81
+COST,Greg Landsman,Purchase,2024-05-15,1552.91
+RPD,Josh Gottheimer,Sale,2024-05-15,-2816.15
+MSFT,Josh Gottheimer,Sale,2024-05-14,-607.36
+MSFT,Josh Gottheimer,Purchase,2024-05-14,-607.36
+UBS,Mikie Sherrill,Sale,2024-05-14,855.44
+MSFT,Josh Gottheimer,Purchase,2024-05-14,-607.36
+MOO,Thomas R. Carper,Sale (Full),2024-05-14,-811.46
+SLB,Gary Peters,Sale (Full),2024-05-14,-1569.31
+CCL,Gary Peters,Sale (Full),2024-05-14,4421.49
+MSFT,Josh Gottheimer,Sale,2024-05-14,-607.36
+SOLV,Gary Peters,Sale (Full),2024-05-14,1362.52
+IFF,Gary Peters,Sale (Full),2024-05-14,-1944.53
+SRVR,Thomas R. Carper,Purchase,2024-05-14,896.23
+UBS,Mikie Sherrill,Sale,2024-05-13,1031.0
+CLF,Tommy Tuberville,Sale (Full),2024-05-13,-4677.97
+CLF,Tommy Tuberville,Sale (Partial),2024-05-13,-4677.97
+INTC,Tommy Tuberville,Sale (Full),2024-05-13,-2048.51
+INTC,Tommy Tuberville,Sale (Partial),2024-05-13,-2048.51
+GILD,Tommy Tuberville,Purchase,2024-05-10,6234.08
+GILD,Tommy Tuberville,Purchase,2024-05-10,6234.08
+INTC,Tommy Tuberville,Sale (Partial),2024-05-10,-1872.7
+GILD,Tommy Tuberville,Purchase,2024-05-10,6234.08
+RNMBY,Susie Lee,Purchase,2024-05-10,14666.55
+CCI,Sheldon Whitehouse,Purchase,2024-05-10,691.39
+KKR,Josh Gottheimer,Purchase,2024-05-10,1296.42
+NGL,Mark Dr Green,Sale,2024-05-10,-1867.36
+CLF,Tommy Tuberville,Purchase,2024-05-10,-4561.2
+CLF,Tommy Tuberville,Sale (Partial),2024-05-10,-4561.2
+CLF,Tommy Tuberville,Sale (Partial),2024-05-10,-4561.2
+EXAS,Josh Gottheimer,Sale,2024-05-10,-1474.49
+CLF,Tommy Tuberville,Sale (Partial),2024-05-10,-4561.2
+CLF,Tommy Tuberville,Purchase,2024-05-10,-4561.2
+CLF,Tommy Tuberville,Purchase,2024-05-10,-4561.2
+CLF,Tommy Tuberville,Sale (Partial),2024-05-10,-4561.2
+CLF,Tommy Tuberville,Purchase,2024-05-10,-4561.2
+CLF,Tommy Tuberville,Sale (Partial),2024-05-10,-4561.2
+CLF,Tommy Tuberville,Purchase,2024-05-10,-4561.2
+PARA,Tommy Tuberville,Sale (Full),2024-05-10,-911.88
+ARKK,Tommy Tuberville,Purchase,2024-05-10,1999.07
+CLF,Tommy Tuberville,Purchase,2024-05-10,-4561.2
+CLF,Tommy Tuberville,Purchase,2024-05-10,-4561.2
+SBUX,Thomas R. Carper,Sale (Full),2024-05-09,2826.37
+INTC,Tommy Tuberville,Purchase,2024-05-09,-1937.52
+EMR,Thomas R. Carper,Purchase,2024-05-09,-214.55
+INTA,Josh Gottheimer,Purchase,2024-05-09,6495.26
+TTE,Thomas R. Carper,Sale (Full),2024-05-09,-1404.15
+OXY,Thomas R. Carper,Purchase,2024-05-09,-2537.36
+ATKR,Thomas R. Carper,Sale (Full),2024-05-09,-6114.56
+KEY,Tommy Tuberville,Purchase,2024-05-09,709.55
+SWTX,Josh Gottheimer,Purchase,2024-05-09,1615.83
+SWKS,Tommy Tuberville,Sale (Full),2024-05-08,-2787.43
+COKE,Carol Devine Miller,Sale,2024-05-08,3766.05
+YUM,Carol Devine Miller,Sale,2024-05-08,1444.95
+XBI,Tommy Tuberville,Purchase,2024-05-08,-223.32
+IWB,Markwayne Mullin,Sale (Partial),2024-05-08,899.98
+GOLD,Tommy Tuberville,Purchase,2024-05-08,1285.89
+YUM,Carol Devine Miller,Sale,2024-05-08,1444.95
+XBI,Tommy Tuberville,Purchase,2024-05-08,-223.32
+INTC,Tommy Tuberville,Purchase,2024-05-08,-1913.33
+BRP,C. Scott Franklin,Sale,2024-05-08,397.96
+COKE,Carol Devine Miller,Sale,2024-05-08,3766.05
+T,Carol Devine Miller,Sale,2024-05-08,5791.93
+CMCSA,Carol Devine Miller,Sale,2024-05-08,-588.99
+DEO,Sheldon Whitehouse,Sale (Full),2024-05-08,-2403.66
+T,Carol Devine Miller,Sale,2024-05-08,5791.93
+GILD,Tommy Tuberville,Sale (Full),2024-05-08,6494.15
+MCK,Carol Devine Miller,Sale,2024-05-08,2162.58
+CMCSA,Carol Devine Miller,Sale,2024-05-08,-588.99
+ADBE,Tommy Tuberville,Purchase,2024-05-08,-2065.97
+GOLD,Tommy Tuberville,Purchase,2024-05-08,1285.89
+MCK,Carol Devine Miller,Sale,2024-05-08,2162.58
+INTC,Tommy Tuberville,Purchase,2024-05-07,-2092.57
+FITB,Tommy Tuberville,Purchase,2024-05-07,381.28
+CLF,Tommy Tuberville,Purchase,2024-05-07,-4558.06
+CLF,Tommy Tuberville,Purchase,2024-05-07,-4558.06
+CVX,Tommy Tuberville,Purchase,2024-05-07,127.87
+UBER,Josh Gottheimer,Sale,2024-05-07,768.14
+GOLD,Tommy Tuberville,Purchase,2024-05-07,1272.4
+FITB,Tommy Tuberville,Sale (Full),2024-05-07,381.28
+WMS,Tommy Tuberville,Sale (Full),2024-05-07,-3563.31
+GOLD,Tommy Tuberville,Sale (Full),2024-05-07,1272.4
+CCJ,Tommy Tuberville,Purchase,2024-05-07,-1395.17
+NGL,Mark Dr Green,Sale,2024-05-07,-2034.19
+LSCC,Tommy Tuberville,Sale (Full),2024-05-07,-1550.14
+ARKK,Tommy Tuberville,Purchase,2024-05-07,1306.26
+AON,Thomas H. Kean Jr.,Purchase,2024-05-06,3673.94
+SSMXY,Josh Gottheimer,Purchase,2024-05-06,921.05
+ALG,Josh Gottheimer,Sale,2024-05-06,-501.42
+LOPE,Josh Gottheimer,Purchase,2024-05-06,2205.91
+UL,John James,Sale,2024-05-06,1246.4
+TXRH,Josh Gottheimer,Sale,2024-05-06,127.58
+AXTA,John James,Sale,2024-05-06,-470.69
+DECK,Tommy Tuberville,Sale (Full),2024-05-03,-1604.82
+GRMN,Tommy Tuberville,Sale (Full),2024-05-03,2664.34
+PAYX,Tommy Tuberville,Sale (Full),2024-05-03,1908.41
+MSI,Tommy Tuberville,Sale (Full),2024-05-03,1951.09
+FDS,Tommy Tuberville,Sale (Full),2024-05-03,107.65
+SNPS,Tommy Tuberville,Sale (Full),2024-05-03,-1645.25
+RMD,Tommy Tuberville,Sale (Full),2024-05-03,125.36
+GOOG,Josh Gottheimer,Purchase,2024-05-03,-162.14
+XOM,Kevin Hern,Exchange,2024-05-03,-43.1
+GLPI,Tommy Tuberville,Sale (Full),2024-05-03,1620.37
+GGG,Tommy Tuberville,Sale (Full),2024-05-03,6.09
+CPRT,Tommy Tuberville,Sale (Full),2024-05-03,-284.42
+BRO,Tommy Tuberville,Sale (Full),2024-05-03,4194.01
+INFY,Tommy Tuberville,Sale (Full),2024-05-03,821.03
+ELS,Tommy Tuberville,Sale (Full),2024-05-03,811.62
+ODFL,Tommy Tuberville,Sale (Full),2024-05-03,-1072.08
+MA,Tommy Tuberville,Sale (Full),2024-05-03,2076.51
+CDNS,Tommy Tuberville,Sale (Full),2024-05-03,-682.1
+RELX,Tommy Tuberville,Sale (Full),2024-05-03,1861.95
+PYPL,Tommy Tuberville,Sale (Full),2024-05-03,683.41
+MCO,Tommy Tuberville,Sale (Full),2024-05-03,2074.05
+PXD,Kevin Hern,Exchange,2024-05-03,
+DOW,Tommy Tuberville,Sale (Full),2024-05-03,-3658.84
+VRSK,Tommy Tuberville,Sale (Full),2024-05-03,2015.34
+KLAC,Tommy Tuberville,Sale (Full),2024-05-03,142.12
+NXPI,Tommy Tuberville,Sale (Full),2024-05-03,-2218.73
+UI,Tommy Tuberville,Sale (Full),2024-05-03,18471.22
+PFE,Tommy Tuberville,Sale (Full),2024-05-03,-550.16
+TEL,Tommy Tuberville,Sale (Full),2024-05-03,293.66
+VRTX,Tommy Tuberville,Sale (Full),2024-05-03,2546.13
+ITW,Tommy Tuberville,Sale (Full),2024-05-03,304.2
+CTAS,Tommy Tuberville,Sale (Full),2024-05-03,1344.73
+V,Tommy Tuberville,Sale (Full),2024-05-03,2501.77
+LULU,Tommy Tuberville,Sale (Full),2024-05-03,-915.95
+SOLV,Tommy Tuberville,Purchase,2024-05-03,1441.61
+HSY,Tommy Tuberville,Sale (Full),2024-05-03,-1553.15
+NFLX,Tommy Tuberville,Sale (Full),2024-05-03,6575.59
+ASML,Tommy Tuberville,Sale (Full),2024-05-03,-2056.39
+A,Tommy Tuberville,Sale (Full),2024-05-03,-1340.98
+QLYS,Tommy Tuberville,Sale (Full),2024-05-03,-2264.92
+PEP,Tommy Tuberville,Sale (Full),2024-05-03,-1742.83
+TER,Tommy Tuberville,Sale (Full),2024-05-03,-2734.14
+HUMA,Tommy Tuberville,Sale (Partial),2024-05-03,-2471.66
+HUMA,Tommy Tuberville,Sale (Full),2024-05-03,-2471.66
+WAT,Tommy Tuberville,Sale (Full),2024-05-03,1376.19
+JKHY,Tommy Tuberville,Sale (Full),2024-05-03,540.26
+CBSH,Tommy Tuberville,Sale (Full),2024-05-03,1453.86
+PG,Tommy Tuberville,Sale (Full),2024-05-03,135.6
+NDSN,Tommy Tuberville,Sale (Full),2024-05-03,-2324.84
+MPWR,Tommy Tuberville,Sale (Full),2024-05-03,-1643.62
+CAH,John James,Purchase,2024-05-02,2807.34
+PH,Greg Landsman,Purchase,2024-05-02,1722.7
+CCI,John James,Purchase,2024-05-02,1031.73
+PGR,John James,Sale,2024-05-02,3053.63
+SSMXY,Josh Gottheimer,Purchase,2024-05-02,1157.22
+ET,Virginia Foxx,Purchase,2024-05-02,1787.07
+CRWD,Greg Landsman,Sale,2024-05-02,1933.85
+TSLA,Josh Gottheimer,Purchase,2024-05-01,3817.99
+T$A,Virginia Foxx,Purchase,2024-05-01,
+NFE,Maria Elvira Salazar,Sale,2024-05-01,-5673.9
+DTM,Maria Elvira Salazar,Purchase,2024-05-01,5735.84
+LOW,Josh Gottheimer,Sale,2024-05-01,-19.78
+MELI,Josh Gottheimer,Sale,2024-05-01,4385.55
+ET,Virginia Foxx,Purchase,2024-05-01,2015.5
+GOGL,Tommy Tuberville,Sale (Full),2024-04-30,-4549.33
+OXY,Tommy Tuberville,Sale (Full),2024-04-30,-2751.74
+WBA,Tommy Tuberville,Sale (Full),2024-04-30,-3739.42
+TCEHY,Josh Gottheimer,Purchase,2024-04-30,5021.71
+HUMA,Tommy Tuberville,Sale (Partial),2024-04-30,-1530.61
+JPM,Kevin Hern,Purchase,2024-04-30,2601.96
+CVX,Tommy Tuberville,Sale (Full),2024-04-30,215.79
+PYPL,Tommy Tuberville,Purchase,2024-04-30,334.22
+NVDA,Tommy Tuberville,Sale (Full),2024-04-30,3622.37
+KEY,Tommy Tuberville,Sale (Full),2024-04-30,1145.62
+ET,Virginia Foxx,Purchase,2024-04-30,1824.54
+XOM,Tommy Tuberville,Sale (Full),2024-04-30,-234.21
+SBLK,Tommy Tuberville,Sale (Full),2024-04-30,-3182.57
+SSBK,Tommy Tuberville,Sale (Full),2024-04-30,3471.25
+QCOM,Tommy Tuberville,Purchase,2024-04-29,-731.68
+WDAY,Josh Gottheimer,Sale,2024-04-29,28.94
+LSCC,Tommy Tuberville,Purchase,2024-04-29,-2106.43
+LSCC,Tommy Tuberville,Purchase,2024-04-29,-2106.43
+LSCC,Tommy Tuberville,Purchase,2024-04-29,-2106.43
+CCL,Tommy Tuberville,Purchase,2024-04-29,3840.05
+SWKS,Tommy Tuberville,Purchase,2024-04-29,-3765.07
+SHOP,Josh Gottheimer,Sale,2024-04-29,4377.76
+ADBE,Josh Gottheimer,Sale,2024-04-29,-1813.9
+GOOG,Josh Gottheimer,Purchase,2024-04-29,-98.27
+LSCC,Tommy Tuberville,Purchase,2024-04-29,-2106.43
+CTSH,Josh Gottheimer,Sale,2024-04-29,1486.55
+VRT,Josh Gottheimer,Purchase,2024-04-29,-650.84
+FICO,Josh Gottheimer,Purchase,2024-04-29,6213.41
+PAC,Tommy Tuberville,Sale (Full),2024-04-29,70.86
+CVX,Tommy Tuberville,Purchase,2024-04-29,-94.99
+FCX,Josh Gottheimer,Purchase,2024-04-29,-2320.17
+QCOM,Tommy Tuberville,Purchase,2024-04-29,-731.68
+MMM,Tommy Tuberville,Sale (Full),2024-04-29,6315.1
+CLX,Tommy Tuberville,Purchase,2024-04-29,-273.97
+TSLA,Josh Gottheimer,Purchase,2024-04-29,2816.8
+GOOG,Josh Gottheimer,Purchase,2024-04-26,-428.35
+CWEN,Maria Elvira Salazar,Purchase,2024-04-26,2921.35
+TEX,Josh Gottheimer,Sale,2024-04-25,-3474.12
+NGL,Mark Dr Green,Sale,2024-04-25,-2088.29
+TJX,John James,Purchase,2024-04-25,2043.14
+HLMN,Josh Gottheimer,Purchase,2024-04-25,-723.14
+GS,Marjorie Taylor Mrs Greene,Purchase,2024-04-24,3359.02
+TSLA,Josh Gottheimer,Purchase,2024-04-24,5340.16
+BRK.B,Marjorie Taylor Mrs Greene,Purchase,2024-04-24,2856.51
+MSFT,Marjorie Taylor Mrs Greene,Purchase,2024-04-24,-435.14
+JPM,Jonathan Jackson,Purchase,2024-04-24,2514.5
+HSY,Marjorie Taylor Mrs Greene,Purchase,2024-04-24,-1114.06
+TSCO,Marjorie Taylor Mrs Greene,Purchase,2024-04-24,161.55
+UBER,Josh Gottheimer,Sale,2024-04-24,934.26
+QCOM,Marjorie Taylor Mrs Greene,Purchase,2024-04-24,-416.18
+HD,Marjorie Taylor Mrs Greene,Purchase,2024-04-24,544.73
+HXL,Jonathan Jackson,Sale,2024-04-24,-1182.8
+91282CFK2,Richard W. Allen,Purchase,2024-04-23,
+MSFT,Shelley Moore Capito,Sale (Partial),2024-04-23,-400.18
+JPM,Shelley Moore Capito,Sale (Partial),2024-04-23,2575.73
+AAPL,Shelley Moore Capito,Sale (Partial),2024-04-23,3077.89
+FMAO,Robert E. Latta,Purchase,2024-04-20,1503.8
+NKE,Thomas H. Kean Jr.,Sale,2024-04-19,-2812.86
+ILMN,Thomas H. Kean Jr.,Purchase,2024-04-19,-2535.13
+KMB,Tommy Tuberville,Purchase,2024-04-18,1039.73
+NTES,Tommy Tuberville,Sale (Full),2024-04-18,491.89
+ZTO,Josh Gottheimer,Purchase,2024-04-17,383.22
+MSFT,Deborah Ross,Sale,2024-04-17,-499.71
+JMBS,John Boozman,Purchase,2024-04-16,367.39
+ZTO,Josh Gottheimer,Purchase,2024-04-16,356.4
+HTGC,Virginia Foxx,Purchase,2024-04-16,694.83
+CMBS,John Boozman,Sale (Partial),2024-04-16,438.94
+BNTX,Josh Gottheimer,Purchase,2024-04-15,852.2
+INTA,Josh Gottheimer,Purchase,2024-04-15,9610.68
+ADC,Josh Gottheimer,Purchase,2024-04-15,3551.8
+OCFC,Josh Gottheimer,Purchase,2024-04-15,1599.73
+FOXF,Josh Gottheimer,Purchase,2024-04-15,-4068.28
+SHLS,Josh Gottheimer,Purchase,2024-04-15,-6204.13
+DAVA,Josh Gottheimer,Purchase,2024-04-15,-2947.71
+GS,Ted Cruz,Sale (Partial),2024-04-15,4097.49
+CDNS,Greg Landsman,Sale,2024-04-12,-1419.98
+UNH,Mike Kelly,Sale,2024-04-12,1767.99
+CVX,Mike Kelly,Sale,2024-04-12,364.24
+META,Mike Kelly,Sale,2024-04-12,1647.78
+VZ,Mike Kelly,Sale,2024-04-12,1075.03
+AMZN,Greg Landsman,Purchase,2024-04-12,541.56
+EW,Mike Kelly,Sale,2024-04-11,-2291.87
+USB,Mike Kelly,Sale,2024-04-11,219.47
+EFA,John Boozman,Sale (Partial),2024-04-11,655.97
+SCZ,John Boozman,Purchase,2024-04-11,392.47
+ENB,Thomas R. Carper,Purchase,2024-04-11,2697.54
+VLO,Thomas R. Carper,Sale (Partial),2024-04-11,-2571.74
+T,Mike Kelly,Sale,2024-04-11,6455.54
+BAC$I,Dan Newhouse,Purchase,2024-04-10,
+ABBV,Michael C. Burgess,Sale,2024-04-10,2424.42
+PEP,Dan Newhouse,Purchase,2024-04-10,-1390.94
+ET,Chip Roy,Sale,2024-04-10,1787.07
+NFLX,Dan Newhouse,Sale,2024-04-10,5524.1
+CRM,Dan Newhouse,Sale,2024-04-10,-634.14
+INTU,Dan Newhouse,Sale,2024-04-10,-387.04
+XOM,Chip Roy,Sale,2024-04-10,-548.28
+HON,Dan Newhouse,Purchase,2024-04-10,739.59
+NS,Chip Roy,Sale,2024-04-10,157.26
+KMI,Chip Roy,Sale,2024-04-10,5287.36
+ELV,Dan Newhouse,Purchase,2024-04-10,-1586.44
+CSX,Dan Newhouse,Purchase,2024-04-10,-1649.25
+RTX,Dan Newhouse,Purchase,2024-04-10,3059.39
+ADI,Dan Newhouse,Purchase,2024-04-10,411.04
+PG,Dan Newhouse,Sale,2024-04-10,600.99
+DE,Dan Newhouse,Purchase,2024-04-10,1467.58
+MRK,Michael C. Burgess,Sale,2024-04-10,-2654.04
+NKE,Dan Newhouse,Purchase,2024-04-10,-2366.29
+DHR,Dan Newhouse,Purchase,2024-04-10,-1403.59
+IBM,Michael C. Burgess,Sale,2024-04-10,3108.47
+FMC,Dan Newhouse,Purchase,2024-04-10,-3328.51
+NI,Dan Newhouse,Purchase,2024-04-10,4369.96
+HSY,Dan Newhouse,Purchase,2024-04-10,-1294.07
+NSRGY,Josh Gottheimer,Purchase,2024-04-10,87.68
+LLY,Dan Newhouse,Sale,2024-04-10,992.02
+NVDA,Dan Newhouse,Sale,2024-04-10,3522.67
+ITIP,Michael C. Burgess,Sale,2024-04-10,
+DG,Dan Newhouse,Purchase,2024-04-10,-4589.67
+ACN,Dan Newhouse,Purchase,2024-04-10,-588.16
+FTNT,Dan Newhouse,Purchase,2024-04-10,4479.67
+MPC,Dan Newhouse,Sale,2024-04-10,-2900.29
+NOW,Dan Newhouse,Sale,2024-04-10,761.32
+EL,Dan Newhouse,Purchase,2024-04-10,-5378.62
+PGR,John James,Sale,2024-04-10,3235.99
+MSFT,Dan Newhouse,Sale,2024-04-10,-756.04
+BKNG,Dan Newhouse,Sale,2024-04-10,2875.33
+CVX,Chip Roy,Sale,2024-04-10,127.87
+VFC,Dan Newhouse,Purchase,2024-04-10,2125.93
+AVGO,Dan Newhouse,Sale,2024-04-10,4493.67
+T,Chip Roy,Sale,2024-04-10,6150.63
+NVS,Sheldon Whitehouse,Sale (Partial),2024-04-09,1703.37
+RTX,Sheldon Whitehouse,Sale (Full),2024-04-09,3028.54
+DHR,Sheldon Whitehouse,Sale (Full),2024-04-09,-1538.83
+ASC,Virginia Foxx,Purchase,2024-04-09,-3636.36
+BRP,C. Scott Franklin,Sale,2024-04-09,1395.67
+AAPL,Shelley Moore Capito,Sale (Partial),2024-04-09,2864.38
+PM,John James,Sale,2024-04-09,6633.36
+GWW,Shelley Moore Capito,Sale (Partial),2024-04-09,-343.55
+AMP,Richard W. Allen,Purchase,2024-04-09,1467.68
+UL,Sheldon Whitehouse,Sale (Full),2024-04-09,2117.77
+MSFT,Shelley Moore Capito,Sale (Partial),2024-04-09,-821.53
+SPGI,Shelley Moore Capito,Sale (Partial),2024-04-09,1445.52
+IR,Sheldon Whitehouse,Sale (Full),2024-04-09,-1341.18
+CIVI,Maria Elvira Salazar,Sale,2024-04-08,-5405.44
+BRK.B,Eleanor Holmes Norton,Sale,2024-04-08,2546.82
+CBSH,Tommy Tuberville,Purchase,2024-04-05,2146.21
+SNPS,Tommy Tuberville,Purchase,2024-04-05,-2204.36
+LULU,Tommy Tuberville,Purchase,2024-04-05,-959.73
+TEL,Tommy Tuberville,Purchase,2024-04-05,105.08
+MSI,Tommy Tuberville,Purchase,2024-04-05,1998.58
+SWKS,Tommy Tuberville,Purchase,2024-04-05,-3624.38
+IART,Josh Gottheimer,Sale,2024-04-05,-3385.29
+FNA,Josh Gottheimer,Purchase,2024-04-05,2521.66
+SWKS,Tommy Tuberville,Sale (Full),2024-04-05,-3624.38
+NFLX,Tommy Tuberville,Purchase,2024-04-05,5094.63
+PAC,Tommy Tuberville,Purchase,2024-04-05,838.86
+ODFL,Tommy Tuberville,Purchase,2024-04-05,-2642.83
+QLYS,Tommy Tuberville,Purchase,2024-04-05,-2240.05
+FAST,Josh Gottheimer,Sale,2024-04-05,-247.94
+JKHY,Tommy Tuberville,Purchase,2024-04-05,177.62
+BRO,Tommy Tuberville,Purchase,2024-04-05,3918.97
+NTES,Tommy Tuberville,Purchase,2024-04-05,25.83
+DECK,Tommy Tuberville,Purchase,2024-04-05,-1963.08
+A,Tommy Tuberville,Purchase,2024-04-05,-1621.57
+LSCC,Tommy Tuberville,Purchase,2024-04-05,-1908.51
+GILD,Tommy Tuberville,Purchase,2024-04-05,5389.48
+ODFL,Tommy Tuberville,Purchase,2024-04-05,-2642.83
+AMAT,Tommy Tuberville,Purchase,2024-04-04,-2520.77
+CAT,Earl Blumenauer,Sale,2024-04-04,-919.71
+FDX,Rick Larsen,Purchase,2024-04-04,-1639.87
+KEYS,Tommy Tuberville,Sale (Full),2024-04-04,-18.73
+BRK.B,Eleanor Holmes Norton,Sale,2024-04-04,2566.45
+REGN,Tommy Tuberville,Sale (Full),2024-04-04,-2972.62
+AMAT,Tommy Tuberville,Purchase,2024-04-04,-2520.77
+SSD,Tommy Tuberville,Sale (Full),2024-04-04,-1905.33
+MGA,Earl Blumenauer,Sale,2024-04-04,-3036.33
+QSR,Tommy Tuberville,Sale (Full),2024-04-04,-1015.15
+UPS,Rick Larsen,Sale,2024-04-04,-2326.67
+SO,Earl Blumenauer,Purchase,2024-04-04,2756.6
+PAYC,Tommy Tuberville,Sale (Full),2024-04-04,1039.19
+V,Earl Blumenauer,Purchase,2024-04-04,2250.36
+TEL,Earl Blumenauer,Sale,2024-04-04,116.97
+RTX,Earl Blumenauer,Purchase,2024-04-04,3328.97
+CHGCY,Josh Gottheimer,Sale,2024-04-04,2683.2
+AMAT,Tommy Tuberville,Purchase,2024-04-04,-2520.77
+KR,Earl Blumenauer,Sale,2024-04-04,1385.79
+BX,Earl Blumenauer,Sale,2024-04-04,1768.11
+PHM,Tommy Tuberville,Sale (Full),2024-04-04,-976.81
+DGX,Earl Blumenauer,Sale,2024-04-04,2707.98
+NKE,Earl Blumenauer,Purchase,2024-04-04,-2372.29
+WU,Tommy Tuberville,Sale (Full),2024-04-04,-2083.33
+PODD,Tina Smith,Sale (Partial),2024-04-04,6436.14
+ROK,Tommy Tuberville,Sale (Full),2024-04-04,-634.75
+MCK,Earl Blumenauer,Sale,2024-04-04,2363.17
+ERJ,Earl Blumenauer,Sale,2024-04-04,10522.42
+NEE,Tina Smith,Sale (Partial),2024-04-04,1121.92
+NDAQ,Tommy Tuberville,Sale (Full),2024-04-04,2373.08
+ZTS,Markwayne Mullin,Sale (Partial),2024-04-03,3.68
+IEX,Tommy Tuberville,Sale (Full),2024-04-03,-2397.93
+EXR,Tommy Tuberville,Sale (Full),2024-04-03,-86.86
+BMY,Tommy Tuberville,Sale (Full),2024-04-03,1703.72
+GILD,Tommy Tuberville,Sale (Full),2024-04-03,5105.09
+FTNT,Tommy Tuberville,Sale (Full),2024-04-03,3832.02
+MCHP,Tommy Tuberville,Sale (Full),2024-04-03,-4132.06
+LSCC,Tommy Tuberville,Sale (Full),2024-04-03,-1922.51
+ABBV,Tommy Tuberville,Purchase,2024-04-03,1842.89
+ZTS,Markwayne Mullin,Sale (Partial),2024-04-03,3.68
+MCHP,Tommy Tuberville,Purchase,2024-04-03,-4132.06
+LLY,Tommy Tuberville,Sale (Full),2024-04-03,793.57
+LSCC,Tommy Tuberville,Sale (Full),2024-04-03,-1922.51
+CCJ,Tommy Tuberville,Sale (Full),2024-04-03,-1068.99
+MCHP,Tommy Tuberville,Purchase,2024-04-03,-4132.06
+AVGO,Tommy Tuberville,Sale (Full),2024-04-03,4059.46
+BMY,Tommy Tuberville,Purchase,2024-04-03,1703.72
+BRK.B,Shri Thanedar,Sale,2024-04-02,2458.46
+GOOGL,Shri Thanedar,Sale,2024-04-02,610.12
+AAPL,Shri Thanedar,Sale,2024-04-02,2927.62
+GOOG,Shri Thanedar,Sale,2024-04-02,665.94
+GOOGL,Shri Thanedar,Sale,2024-04-02,610.12
+LULU,Jonathan Jackson,Sale,2024-04-02,-1466.43
+AAPL,Shri Thanedar,Sale,2024-04-02,2927.62
+BRK.B,Shri Thanedar,Sale,2024-04-02,2458.46
+912797KJ5,Richard W. Allen,Purchase,2024-04-02,
+GOOG,Shri Thanedar,Sale,2024-04-02,665.94
+AMZN,Shri Thanedar,Sale,2024-04-02,858.93
+COP,Jonathan Jackson,Purchase,2024-04-02,-2200.2
+EFC$D,Virginia Foxx,Purchase,2024-04-02,
+MSFT,Shri Thanedar,Sale,2024-04-02,-716.12
+AMZN,Shri Thanedar,Sale,2024-04-02,858.93
+MSFT,Shri Thanedar,Sale,2024-04-02,-716.12
+NGL,Mark Dr Green,Sale,2024-04-01,-1965.52
+KO,Lloyd Doggett,Purchase,2024-04-01,1316.74
+LMT,Kevin Hern,Purchase,2024-03-29,-289.1
+SNV,Greg Steube,Sale,2024-03-28,1842.24
+CLF,Mike Kelly,Purchase,2024-03-28,-5857.52
+DVN,Kevin Hern,Purchase,2024-03-28,-2795.93
+D,Thomas R. Carper,Purchase,2024-03-28,1089.65
+MOS,Thomas R. Carper,Sale (Full),2024-03-28,-1426.37
+AMAT,John Boozman,Purchase,2024-03-28,-2623.77
+DVN,Kevin Hern,Purchase,2024-03-28,-2795.93
+LIN,Kevin Hern,Purchase,2024-03-28,-129.01
+BRK.B,Kathy Castor,Sale,2024-03-28,2411.06
+NTR,Thomas R. Carper,Purchase,2024-03-28,-336.95
+HES,John Boozman,Sale (Full),2024-03-28,258.12
+UPS,Ron Wyden,Sale (Full),2024-03-27,-2187.61
+XNGSY,Josh Gottheimer,Purchase,2024-03-26,188.8
+VZ,John James,Sale,2024-03-26,768.67
+WMB,Kevin Hern,Purchase,2024-03-25,5598.01
+PXD,Kevin Hern,Purchase,2024-03-22,551.4
+AAPL,Josh Gottheimer,Sale,2024-03-22,2669.49
+UL,Sheldon Whitehouse,Sale (Full),2024-03-22,1732.35

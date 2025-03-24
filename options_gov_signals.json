@@ -1,0 +1,11 @@
+[
+  {
+    "symbol": "CAH",
+    "direction": "CALL",
+    "source": "Gov Contract - Department of Veterans Affairs",
+    "buy_date": "2025-03-23",
+    "estimated_amount": 250,
+    "expected_gain": 50.0,
+    "signal_strength": "MEDIUM"
+  }
+]

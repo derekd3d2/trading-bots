@@ -1,96 +1,99 @@
-from dotenv import load_dotenv
-import subprocess
-import time
-from datetime import datetime
-import pytz
-import alpaca_trade_api as tradeapi
+import requests
 import json
+from datetime import datetime, timedelta
 import os
+from dotenv import load_dotenv
 
-# ✅ Define log function FIRST
-def log(message):
-    log_file = "/home/ubuntu/trading-bots/main.log"
-    try:
-        with open(log_file, "a") as f:
-            f.write(f"{datetime.now()} - {message}\n")
-    except Exception as e:
-        print(f"⚠️ Log write failed: {e}")
-
-# ✅ Load API Key from Environment
+# ✅ Load API Key
+load_dotenv("/home/ubuntu/.bashrc_custom")
 api_key = os.getenv("QUIVER_API_KEY")
-
 if not api_key:
-    # Fallback: Load from .bashrc_custom
-    load_dotenv("/home/ubuntu/.bashrc_custom")
-    api_key = os.getenv("QUIVER_API_KEY")
+    raise ValueError("❌ API Key not found. Make sure it's in your environment or .bashrc_custom")
 
-if not api_key:
-    raise ValueError("❌ API Key not found! Make sure it is set in the environment.")
+headers = {"Authorization": f"Bearer {api_key}"}
+CONGRESS_LOOKBACK_DAYS = 14
+SAVE_PATH = "/home/ubuntu/trading-bots/congress_signals.json"
 
-log(f"✅ API Key successfully loaded in ms_congress.py")
+# ✅ Get today's date and cutoff window
+now = datetime.now()
+cutoff_date = now - timedelta(days=CONGRESS_LOOKBACK_DAYS)
 
-# ✅ Load Congress Trading Data
-def load_congress_trades():
+# ✅ Fetch Congress Data
+print("📱 Fetching Congress trading data from QuiverQuant...")
+url = "https://api.quiverquant.com/beta/bulk/congresstrading"
+resp = requests.get(url, headers=headers)
+
+if resp.status_code != 200:
+    print(f"❌ Failed to fetch Congress data: {resp.status_code}")
+    exit()
+
+raw_data = resp.json()
+longs = {}
+shorts = {}
+options = {}
+
+# ✅ Filter and score data
+for trade in raw_data:
     try:
-        with open("/home/ubuntu/trading-bots/congress_signals.json", "r") as file:
-            congress_data = json.load(file)
-        return {trade["ticker"]: trade.get("congress_score", 0) for trade in congress_data}
-    except FileNotFoundError:
-        log("❌ Congress trading data not found.")
-        return {}
+        date_str = trade.get("TransactionDate")
+        if not date_str:
+            continue
+        trade_date = datetime.strptime(date_str, "%Y-%m-%d")
+        if trade_date < cutoff_date:
+            continue
 
-# ✅ Main Execution
-if __name__ == "__main__":
-    congress_trades = load_congress_trades()
-    print(f"✅ {len(congress_trades)} trade signals saved to congress_signals.json")
+        ticker = trade.get("Ticker")
+        if not ticker:
+            continue
 
+        size = trade.get("Range", "")
+        score = 1
+        if "$50,001 - $100,000" in size:
+            score = 2
+        elif "$100,001 - $250,000" in size:
+            score = 3
+        elif "$250,001 - $500,000" in size:
+            score = 4
+        elif "$500,001 - $1,000,000" in size:
+            score = 5
+        elif "$1,000,001 - $5,000,000" in size:
+            score = 6
+        elif "$5,000,001 - $25,000,000" in size:
+            score = 7
 
-# ✅ Load Day Trading Signals
-def load_trade_signals():
-    try:
-        with open("/home/ubuntu/trading-bots/day_trading_signals.json", "r") as file:
-            signals = json.load(file)
-        return signals
-    except FileNotFoundError:
-        log("❌ No day trading signals file found.")
-        return []
+        days_ago = (now - trade_date).days
+        if days_ago <= 3:
+            score += 1
 
-# ✅ Select Best 10-15 Stocks from Signals
-def filter_top_stocks():
-    signals = load_trade_signals()
-    congress_scores = load_congress_trades()
+        # Categorize by trade type
+        tx_type = trade.get("Transaction")
+        desc = trade.get("Description") or ""
+        desc = desc.lower()
 
-    for stock in signals:
-        ticker = stock["ticker"]
-        stock["congress_score"] = congress_scores.get(ticker, 0)  # Default to 0 if not found
-        stock["total_score"] = (
-            (stock["congress_score"] * 0.4) +  # 40% Weight: Congress trades
-            (stock.get("insider_score", 0) * 0.3) + (stock.get("ai_score", 0) * 0.2) +   # 30% Weight: Insider buying or AI score fallback
-            (stock.get("ai_score", 0) * 0.2) +  # 20% Weight: AI Sentiment
-            (stock.get("momentum_score", 0) * 0.05) +  # 5% Weight: Stock momentum
-            (stock.get("volume_score", 0) * 0.05)      # 5% Weight: Trading volume
-        )
+        if "option" in desc:
+            if ticker not in options:
+                options[ticker] = {"ticker": ticker, "options_score": 0, "last_trade": date_str}
+            options[ticker]["options_score"] += score
+        elif tx_type == "Purchase":
+            if ticker not in longs:
+                longs[ticker] = {"ticker": ticker, "congress_score": 0, "last_trade": date_str}
+            longs[ticker]["congress_score"] += score
+        elif tx_type == "Sale":
+            if ticker not in shorts:
+                shorts[ticker] = {"ticker": ticker, "short_score": 0, "last_trade": date_str}
+            shorts[ticker]["short_score"] += score
 
-    # Sort by highest AI score
-    sorted_stocks = sorted(signals, key=lambda x: x['total_score'], reverse=True)
+    except Exception as e:
+        print(f"⚠️ Error parsing trade: {e}")
 
-    # Select top 10-15 stocks
-    selected_stocks = sorted_stocks[:15]
+# ✅ Save combined results to file
+final_output = {
+    "buy_signals": sorted(longs.values(), key=lambda x: x["congress_score"], reverse=True),
+    "short_signals": sorted(shorts.values(), key=lambda x: x["short_score"], reverse=True),
+    "options_signals": sorted(options.values(), key=lambda x: x["options_score"], reverse=True)
+}
 
-    with open("/home/ubuntu/trading-bots/day_trading_signals.json", "w") as file:
-        json.dump(selected_stocks, file, indent=4)
-    
-    log(f"✅ Selected {len(selected_stocks)} high-confidence trades for today.")
-    return selected_stocks
+with open(SAVE_PATH, "w") as f:
+    json.dump(final_output, f, indent=2)
 
-# ✅ Main Execution
-if __name__ == "__main__":
-    # Convert to Eastern Time (ET)
-    et = pytz.timezone("America/New_York")
-    now_et = datetime.now(et)
-    market_open_time = now_et.replace(hour=9, minute=30, second=0, microsecond=0)
-    log(f"📅 Market open set for {market_open_time}")
-
-    selected_stocks = filter_top_stocks()
-    if selected_stocks:
-        log("🚀 High-confidence trades selected and ready for execution.")
+print(f"✅ Saved Congress signals to {SAVE_PATH} with {len(longs)} buys, {len(shorts)} shorts, and {len(options)} options trades.")

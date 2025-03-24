@@ -1,26 +1,67 @@
-[
+{
+  "buy_signals": [
     {
-        "ticker": "GS",
-        "action": "BUY",
-        "strategy": "LONG",
-        "congress_score": 1.001
+      "ticker": "ABBV",
+      "congress_score": 1,
+      "last_trade": "2025-03-17"
     },
     {
-        "ticker": "CRWD",
-        "action": "BUY",
-        "strategy": "LONG",
-        "congress_score": 1.001
+      "ticker": "NVDA",
+      "congress_score": 1,
+      "last_trade": "2025-03-17"
     },
     {
-        "ticker": "TSLA",
-        "action": "BUY",
-        "strategy": "LONG",
-        "congress_score": 1.001
+      "ticker": "AMAT",
+      "congress_score": 1,
+      "last_trade": "2025-03-17"
     },
     {
-        "ticker": "DG",
-        "action": "BUY",
-        "strategy": "LONG",
-        "congress_score": 1.001
+      "ticker": "KMI",
+      "congress_score": 1,
+      "last_trade": "2025-03-17"
+    },
+    {
+      "ticker": "GOOG",
+      "congress_score": 1,
+      "last_trade": "2025-03-17"
+    },
+    {
+      "ticker": "AAPL",
+      "congress_score": 1,
+      "last_trade": "2025-03-17"
+    },
+    {
+      "ticker": "DLR",
+      "congress_score": 1,
+      "last_trade": "2025-03-17"
+    },
+    {
+      "ticker": "CAT",
+      "congress_score": 1,
+      "last_trade": "2025-03-17"
+    },
+    {
+      "ticker": "CAH",
+      "congress_score": 1,
+      "last_trade": "2025-03-17"
+    },
+    {
+      "ticker": "BX",
+      "congress_score": 1,
+      "last_trade": "2025-03-17"
+    },
+    {
+      "ticker": "UPS",
+      "congress_score": 1,
+      "last_trade": "2025-03-17"
     }
-]
+  ],
+  "short_signals": [
+    {
+      "ticker": "FLL",
+      "short_score": 1,
+      "last_trade": "2025-03-12"
+    }
+  ],
+  "options_signals": []
+}

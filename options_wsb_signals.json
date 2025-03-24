@@ -1,0 +1,274 @@
+[
+  {
+    "symbol": "SLB",
+    "direction": "CALL",
+    "source": "WSB",
+    "buy_date": "2025-03-23",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "GLD",
+    "direction": "CALL",
+    "source": "WSB",
+    "buy_date": "2025-03-23",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "LOVE",
+    "direction": "CALL",
+    "source": "WSB",
+    "buy_date": "2025-03-23",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "SEA",
+    "direction": "CALL",
+    "source": "WSB",
+    "buy_date": "2025-03-23",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "FUND",
+    "direction": "CALL",
+    "source": "WSB",
+    "buy_date": "2025-03-23",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "IBKR",
+    "direction": "CALL",
+    "source": "WSB",
+    "buy_date": "2025-03-23",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "BRO",
+    "direction": "CALL",
+    "source": "WSB",
+    "buy_date": "2025-03-23",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "WELL",
+    "direction": "CALL",
+    "source": "WSB",
+    "buy_date": "2025-03-23",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "ADD",
+    "direction": "CALL",
+    "source": "WSB",
+    "buy_date": "2025-03-23",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "WANT",
+    "direction": "CALL",
+    "source": "WSB",
+    "buy_date": "2025-03-23",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "EPS",
+    "direction": "CALL",
+    "source": "WSB",
+    "buy_date": "2025-03-23",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "LIVE",
+    "direction": "CALL",
+    "source": "WSB",
+    "buy_date": "2025-03-23",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "IMO",
+    "direction": "CALL",
+    "source": "WSB",
+    "buy_date": "2025-03-23",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "CQQQ",
+    "direction": "CALL",
+    "source": "WSB",
+    "buy_date": "2025-03-23",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "FXI",
+    "direction": "CALL",
+    "source": "WSB",
+    "buy_date": "2025-03-23",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "KWEB",
+    "direction": "CALL",
+    "source": "WSB",
+    "buy_date": "2025-03-23",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "XPEV",
+    "direction": "CALL",
+    "source": "WSB",
+    "buy_date": "2025-03-23",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "BBWI",
+    "direction": "CALL",
+    "source": "WSB",
+    "buy_date": "2025-03-23",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "COST",
+    "direction": "CALL",
+    "source": "WSB",
+    "buy_date": "2025-03-23",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "NFLX",
+    "direction": "CALL",
+    "source": "WSB",
+    "buy_date": "2025-03-23",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "WOW",
+    "direction": "CALL",
+    "source": "WSB",
+    "buy_date": "2025-03-23",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "KOLD",
+    "direction": "CALL",
+    "source": "WSB",
+    "buy_date": "2025-03-23",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "LCID",
+    "direction": "CALL",
+    "source": "WSB",
+    "buy_date": "2025-03-23",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "TSLZ",
+    "direction": "CALL",
+    "source": "WSB",
+    "buy_date": "2025-03-23",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "NIO",
+    "direction": "CALL",
+    "source": "WSB",
+    "buy_date": "2025-03-23",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "UBS",
+    "direction": "CALL",
+    "source": "WSB",
+    "buy_date": "2025-03-23",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "UNH",
+    "direction": "CALL",
+    "source": "WSB",
+    "buy_date": "2025-03-23",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "SMCL",
+    "direction": "CALL",
+    "source": "WSB",
+    "buy_date": "2025-03-23",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "BEST",
+    "direction": "CALL",
+    "source": "WSB",
+    "buy_date": "2025-03-23",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "DAY",
+    "direction": "CALL",
+    "source": "WSB",
+    "buy_date": "2025-03-23",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "RATE",
+    "direction": "CALL",
+    "source": "WSB",
+    "buy_date": "2025-03-23",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "SBLK",
+    "direction": "CALL",
+    "source": "WSB",
+    "buy_date": "2025-03-23",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "RTH",
+    "direction": "CALL",
+    "source": "WSB",
+    "buy_date": "2025-03-23",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "GMS",
+    "direction": "CALL",
+    "source": "WSB",
+    "buy_date": "2025-03-23",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  }
+]

@@ -6,8 +6,8 @@ import pytz
 
 # Set up Alpaca API
 api = tradeapi.REST(
-    os.getenv("APCA_API_KEY_ID")
-    as.getenv("APCA_API_SECRET_KEY")
+    os.getenv("APCA_API_KEY_ID"),
+    os.getenv("APCA_API_SECRET_KEY"),
     "https://paper-api.alpaca.markets",
     api_version="v2"
 )
@@ -42,14 +42,13 @@ for order in orders:
 net_profit = sold_total - spent_total
 
 # Prepare email content clearly
-subject = f"📊 Daily Trading Summary for {now_ny.strftime('%Y-%m-%d')}"
-content = f"""
-Daily Trading Summary ({now_ny.strftime('%Y-%m-%d')})
-
-Total Spent (Buys): ${spent_total:.2f}
-Total Earned (Sells): ${sold_total:.2f}
-Net Profit/Loss: ${net_profit:.2f}
-"""
+# Load full summary from file
+summary_file = f"/home/ubuntu/trading-bots/daily_summary_{now_ny.strftime('%Y-%m-%d')}.txt"
+if os.path.exists(summary_file):
+    with open(summary_file, "r") as f:
+        content = f.read()
+else:
+    content = f"No summary file found for {now_ny.strftime('%Y-%m-%d')}."
 
 # Email sender details (replace clearly)
 sender_email = "derekd3d2@gmail.com"
@@ -57,7 +56,14 @@ receiver_email = "derekd3d2@Gmail.com"
 email_password = os.getenv('EMAIL_PASSWORD')
 
 # Send email explicitly
+subject = f"📈 Full Daily Trading Summary – {now_ny.strftime('%Y-%m-%d')}"
 yag = yagmail.SMTP(sender_email, email_password)
-yag.send(to=receiver_email, subject=subject, contents=content)
+yag.send(
+    to=receiver_email,
+    subject=subject,
+    contents=content,
+    attachments=[os.path.abspath(summary_file)]
+)
+
 
 print("✅ Trading summary email sent successfully!")

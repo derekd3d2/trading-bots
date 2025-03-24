@@ -23,48 +23,57 @@ INSIDER_API_URL = "https://api.quiverquant.com/beta/live/insiders"
 
 # ✅ Filter Parameters
 MIN_SHARES_THRESHOLD = 10
-AI_THRESHOLD = 4.0
-
-# ✅ Check Recent Purchases
-def recently_bought(ticker, days, strategy):
-    cutoff_date = (datetime.utcnow() - timedelta(days=days)).strftime('%Y-%m-%d')
-    trade_cursor.execute("""
-        SELECT buy_date FROM trades
-        WHERE ticker=? AND buy_date>=? AND bot_strategy=? AND status='OPEN'
-    """, (ticker, cutoff_date, strategy))
-    return trade_cursor.fetchone() is not None
+INSIDER_LOOKBACK_DAYS = 14
+SAVE_PATH = "/home/ubuntu/trading-bots/ms_insider_signals.json"
 
 # ✅ Fetch Insider Trading Data
-def fetch_insider_trades():
-    headers = {"accept": "application/json", "Authorization": f"Bearer {QUIVER_API_KEY}"}
-    response = requests.get(INSIDER_API_URL, headers=headers)
-    response.raise_for_status()
-    trades = response.json()
+print("📊 Fetching Insider trading data from QuiverQuant...")
+headers = {"accept": "application/json", "Authorization": f"Bearer {QUIVER_API_KEY}"}
+resp = requests.get(INSIDER_API_URL, headers=headers)
 
-    relevant_trades = {}
-    for trade in trades:
-        ticker = trade["Ticker"]
-        shares = trade["Shares"]
-        ai_score = trade.get("ai_score", 0)
-        if shares >= MIN_SHARES_THRESHOLD and ai_score >= AI_THRESHOLD:
-            if not recently_bought(ticker, 3, "DAY_TRADING"):
-                relevant_trades[ticker] = ai_score
+if resp.status_code != 200:
+    print(f"❌ Failed to fetch Insider data: {resp.status_code}")
+    exit()
 
-    return relevant_trades
+raw_data = resp.json()
+longs = {}
+shorts = {}
 
-# ✅ Save Insider trading signals
-def save_signals(signals, filename="insider_signals.json"):
-    trade_signals = []
-    for ticker, ai_score in signals.items():
-        trade_signals.append({"ticker": ticker, "ai_score": ai_score, "action": "BUY", "strategy": "DAY_TRADING"})
+now = datetime.utcnow()
+cutoff_date = now - timedelta(days=INSIDER_LOOKBACK_DAYS)
 
-    with open(filename, "w") as f:
-        json.dump(trade_signals, f, indent=4)
-    print(f"✅ {len(trade_signals)} Insider trading signals saved to {filename}")
+for trade in raw_data:
+    try:
+        date_str = trade.get("Date")
+        if not date_str:
+            continue
+        trade_date = datetime.strptime(date_str.split("T")[0], "%Y-%m-%d")
+        if trade_date < cutoff_date:
+            continue
 
-# ✅ Main execution
-if __name__ == "__main__":
-    print("📊 Running AI-Enhanced Insider Trading Market Research...")
-    insider_signals = fetch_insider_trades()
-    print("Tracked tickers from QuiverQuant Insider Trading API:", list(insider_signals.keys()))
-    save_signals(insider_signals)
+        ticker = trade.get("Ticker")
+        shares = trade.get("Shares", 0)
+        tx_code = trade.get("TransactionCode", "")
+        if shares < MIN_SHARES_THRESHOLD:
+            continue
+
+        if tx_code == "P":  # Purchase
+            if ticker not in longs:
+                longs[ticker] = {"ticker": ticker, "insider_score": 0, "last_trade": date_str}
+            longs[ticker]["insider_score"] += 1
+        elif tx_code == "S":  # Sale
+            if ticker not in shorts:
+                shorts[ticker] = {"ticker": ticker, "short_score": 0, "last_trade": date_str}
+            shorts[ticker]["short_score"] += 1
+    except Exception as e:
+        print(f"⚠️ Error parsing insider trade: {e}")
+
+final_output = {
+    "buy_signals": sorted(longs.values(), key=lambda x: x["insider_score"], reverse=True),
+    "short_signals": sorted(shorts.values(), key=lambda x: x["short_score"], reverse=True)
+}
+
+with open(SAVE_PATH, "w") as f:
+    json.dump(final_output, f, indent=2)
+
+print(f"✅ Saved insider signals to {SAVE_PATH} with {len(longs)} buys and {len(shorts)} shorts.")

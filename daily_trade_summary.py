@@ -1,70 +1,100 @@
-import alpaca_trade_api as tradeapi
-from datetime import datetime, timedelta
-import pandas as pd
 import os
+import json
+import csv
+from datetime import datetime, date
+from alpaca_trade_api.rest import REST
 
-# Setup Alpaca API
-api = tradeapi.REST(
-    os.getenv('APCA_API_KEY_ID'),
-    os.getenv('APCA_API_SECRET_KEY'),
-    base_url='https://paper-api.alpaca.markets'
-)
+# === Alpaca API Setup ===
+ALPACA_API_KEY = os.getenv("APCA_API_KEY_ID")
+ALPACA_SECRET = os.getenv("APCA_API_SECRET_KEY")
+BASE_URL = "https://paper-api.alpaca.markets"
+api = REST(ALPACA_API_KEY, ALPACA_SECRET, BASE_URL)
 
-today = datetime.now().date()
-orders = api.list_orders(status='all', after=pd.Timestamp(today).strftime('%Y-%m-%dT%H:%M:%SZ'), direction='asc')
+# === Config ===
+TRADE_LOG = "trade_history.csv"
+OPTION_LOG = "option_trade_log.csv"
+POSITION_FILE = "options_positions.json"
+SUMMARY_FILE = f"daily_summary_{date.today()}.txt"
 
-buy_total = 0.0
-sell_total = 0.0
-buy_prices = {}
+# === Load Trade History ===
+def load_csv_trades(filepath):
+    if not os.path.exists(filepath):
+        return []
+    with open(filepath, "r") as f:
+        reader = csv.DictReader(f)
+        return [row for row in reader if row['timestamp'].startswith(str(date.today()))]
 
-for order in orders:
-    filled_qty = float(order.filled_qty)
-    avg_price = float(order.filled_avg_price)
+# === Load Options Positions ===
+def load_open_positions():
+    if not os.path.exists(POSITION_FILE):
+        return []
+    with open(POSITION_FILE, "r") as f:
+        return json.load(f)
 
-    if order.side == 'buy':
-        buy_total += filled_qty * avg_price
-        if order.symbol in buy_prices:
-            buy_prices[order.symbol]['qty'] += filled_qty
-            buy_prices[order.symbol]['total_spent'] += filled_qty * avg_price
-        else:
-            buy_prices[order.symbol] = {
-                'qty': filled_qty,
-                'total_spent': filled_qty * avg_price
-            }
+# === Calculate Current Option PnL ===
+def calculate_option_pnl(positions):
+    option_details = []
+    total_value = 0
+    for pos in positions:
+        symbol = pos["symbol"]
+        contracts = float(pos["qty"])
+        fill_price = float(pos.get("fill_price") or pos["estimated_cost_per_contract"])
+        try:
+            trade = api.get_latest_trade(symbol)
+            current_price = float(trade.price)
+            change = (current_price - fill_price) / fill_price
+            total_value += current_price * contracts
+            option_details.append((symbol, fill_price, current_price, round(change * 100, 2), contracts))
+        except:
+            continue
+    return option_details, total_value
 
-    elif order.side == 'sell':
-        sell_total += filled_qty * avg_price
+# === Get Alpaca Cash ===
+def get_alpaca_balance():
+    account = api.get_account()
+    return float(account.cash), float(account.portfolio_value)
 
-# Get current market value at end-of-day prices
-market_close = datetime.now().replace(hour=15, minute=59)
-stock_value_end_of_day = 0.0
-for symbol, data in buy_prices.items():
-    bars = api.get_bars(symbol, timeframe='1Min', start=market_close.isoformat(), limit=1).df
-    if not bars.empty:
-        closing_price = bars.iloc[-1]['close']
-        current_value = data['qty'] * closing_price
-        buy_prices[symbol]['closing_price'] = closing_price
-        stock_value_end_of_day += current_value
-    else:
-        print(f"⚠️ No market data available for {symbol}")
-        buy_prices[symbol]['closing_price'] = None
+# === Main Summary ===
+def generate_summary():
+    trades = load_csv_trades(TRADE_LOG)
+    option_trades = load_csv_trades(OPTION_LOG)
+    open_options = load_open_positions()
+    options_pnl, open_option_value = calculate_option_pnl(open_options)
+    alpaca_cash, alpaca_portfolio = get_alpaca_balance()
 
-net_profit_loss = sell_total + stock_value_end_of_day - buy_total
+    # === Beginning balances (for now, we use portfolio as starting point)
+    beginning_balance = alpaca_portfolio  # placeholder assumption
+    longs, shorts, options = 0, 0, open_option_value
 
-# Summary Display
-print("\n========== Daily Trade Summary ==========")
-print(f"Total Spent (Buys): ${buy_total:.2f}")
-print(f"Total Earned (Sells): ${sell_total:.2f}")
-print(f"End of Day Stock Value (Today's Buys): ${stock_value_end_of_day:.2f}")
-print(f"Net Profit/Loss: ${net_profit_loss:.2f}")
+    # === Trade activity ===
+    stock_buys = [t for t in trades if t["action"] == "BUY"]
+    stock_sells = [t for t in trades if t["action"] == "SELL"]
+    option_buys = [t for t in option_trades if t["action"] == "BUY"]
+    option_sells = [t for t in option_trades if t["action"] == "SELL"]
 
-print("\n--- Today's Stocks Summary ---")
-for symbol, data in buy_prices.items():
-    if data['closing_price']:
-        gain_loss = (data['closing_price'] - data['total_spent']/data['qty']) * data['qty']
-        status = "🔼" if gain_loss >= 0 else "🔽"
-        print(f"{symbol}: Bought at ${data['total_spent']/data['qty']:.2f}, "
-              f"End of Day ${data['closing_price']:.2f}, "
-              f"{status} ${gain_loss:.2f}")
-    else:
-        print(f"{symbol}: Bought at ${data['total_spent']/data['qty']:.2f}, No end-of-day price available.")
+    # === Output Summary ===
+    with open(SUMMARY_FILE, "w") as f:
+        f.write(f"===== DAILY TRADING SUMMARY ({date.today()}) =====\n\n")
+        f.write(f"Beginning Balance (Est.): ${beginning_balance:,.2f}\n")
+        f.write(f"- Longs: ${longs:,.2f}  Shorts: ${shorts:,.2f}  Options: ${options:,.2f}\n\n")
+
+        f.write(f"🟩 Stock Activity:\n")
+        f.write(f"  Buys: {len(stock_buys)} totaling ${sum(float(t['price']) * float(t['shares']) for t in stock_buys):,.2f}\n")
+        f.write(f"  Sells: {len(stock_sells)} totaling ${sum(float(t['price']) * float(t['shares']) for t in stock_sells):,.2f}\n\n")
+
+        f.write(f"🟦 Option Activity:\n")
+        f.write(f"  Buys: {len(option_buys)} totaling ${sum(float(t['price']) * float(t['contracts']) for t in option_buys):,.2f}\n")
+        f.write(f"  Sells: {len(option_sells)} totaling ${sum(float(t['price']) * float(t['contracts']) for t in option_sells):,.2f}\n\n")
+
+        f.write(f"📈 Open Option Positions:\n")
+        for sym, fill, current, change, qty in options_pnl:
+            f.write(f"  {sym}: {qty} contracts | Entry: ${fill} → Now: ${current} ({change}%)\n")
+
+        f.write(f"\n💰 Ending Cash Balance: ${alpaca_cash:,.2f}\n")
+        f.write(f"📊 Ending Portfolio Value: ${alpaca_portfolio:,.2f}\n")
+        f.write(f"=============================================\n")
+
+    print(f"✅ Daily summary written to {SUMMARY_FILE}")
+
+if __name__ == "__main__":
+    generate_summary()

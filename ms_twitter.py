@@ -3,7 +3,6 @@ import requests
 import sqlite3
 import json
 from datetime import datetime, timedelta
-import time
 from dotenv import load_dotenv
 
 # ✅ Load API Key from Environment
@@ -22,69 +21,64 @@ else:
 # ✅ QuiverQuant Twitter API Endpoint
 TWITTER_API_URL = "https://api.quiverquant.com/beta/live/twitter"
 
-# ✅ Setup SQLite Database
-DB_FILE = "twitter_sentiment.db"
-conn = sqlite3.connect(DB_FILE)
-cursor = conn.cursor()
-
-# ✅ Create Table
-cursor.execute("""
-CREATE TABLE IF NOT EXISTS twitter_followers (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
-    ticker TEXT,
-    date TEXT,
-    followers INTEGER,
-    pct_change REAL,
-    pct_change_week REAL,
-    pct_change_daily REAL,
-    ai_score REAL,
-    timestamp DATETIME DEFAULT CURRENT_TIMESTAMP
-)
-""")
-conn.commit()
-
 # ✅ Filter Parameters
-TWITTER_GROWTH_THRESHOLD = 4.0
-AI_THRESHOLD = 4.0
+TWITTER_GROWTH_THRESHOLD = 2.5
+AI_THRESHOLD = 3.0
+LOOKBACK_DAYS = 21
+SAVE_PATH = "/home/ubuntu/trading-bots/ms_twitter_signals.json"
 
-# ✅ Fetch & Store Twitter Data
+# ✅ Fetch Twitter Sentiment Data
+print("📊 Fetching Twitter sentiment data from QuiverQuant...")
+headers = {"accept": "application/json", "Authorization": f"Bearer {QUIVER_API_KEY}"}
+resp = requests.get(TWITTER_API_URL, headers=headers)
 
-def fetch_twitter_data():
-    headers = {"accept": "application/json", "Authorization": f"Bearer {QUIVER_API_KEY}"}
-    response = requests.get(TWITTER_API_URL, headers=headers)
-    response.raise_for_status()
-    twitter_data = response.json()
+if resp.status_code != 200:
+    print(f"❌ Failed to fetch Twitter data: {resp.status_code}")
+    exit()
 
-    relevant_tickers = {}
-    for entry in twitter_data:
-        ticker = entry["Ticker"]
-        pct_change = entry["pct_change"]
+data = resp.json()
+now = datetime.utcnow()
+cutoff_date = now - timedelta(days=LOOKBACK_DAYS)
+
+print("\n🔍 Previewing first 10 entries from QuiverQuant:")
+for entry in data[:10]:
+    print({
+        "ticker": entry.get("Ticker"),
+        "pct_change": entry.get("pct_change"),
+        "ai_score": entry.get("ai_score"),
+        "date": entry.get("Date")
+    })
+
+buy_signals = []
+
+for entry in data:
+    try:
+        ticker = entry.get("Ticker")
+        pct_change = entry.get("pct_change", 0)
         ai_score = entry.get("ai_score", 0)
+        date_str = entry.get("Date")
+        if not (ticker and date_str):
+            continue
+
+        entry_date = datetime.strptime(date_str.split("T")[0], "%Y-%m-%d")
+        if entry_date < cutoff_date:
+            continue
+
         if pct_change >= TWITTER_GROWTH_THRESHOLD and ai_score >= AI_THRESHOLD:
-            relevant_tickers[ticker] = ai_score
-            cursor.execute("""
-                INSERT INTO twitter_followers (ticker, date, followers, pct_change, pct_change_week, pct_change_daily, ai_score)
-                VALUES (?, ?, ?, ?, ?, ?, ?)
-            """, (ticker, entry["Date"], entry["Followers"], pct_change, entry["pct_change_week"], entry["pct_change_daily"], ai_score))
-    conn.commit()
-    return relevant_tickers
+            buy_signals.append({
+                "ticker": ticker,
+                "twitter_score": round(ai_score, 2),
+                "pct_change": round(pct_change, 2),
+                "followers": entry.get("Followers"),
+                "last_updated": date_str
+            })
+    except Exception as e:
+        print(f"⚠️ Error parsing Twitter entry: {e}")
 
-# ✅ Save Twitter sentiment trading signals
+# ✅ Save output
+output = {"buy_signals": sorted(buy_signals, key=lambda x: x["twitter_score"], reverse=True)}
 
-def save_signals(signals, filename="twitter_signals.json"):
-    trade_signals = []
-    for ticker, ai_score in signals.items():
-        trade_signals.append({"ticker": ticker, "ai_score": ai_score, "action": "BUY"})
-    
-    with open(filename, "w") as f:
-        json.dump(trade_signals, f, indent=4)
-    print(f"✅ {len(trade_signals)} Twitter sentiment trade signals saved to {filename}")
+with open(SAVE_PATH, "w") as f:
+    json.dump(output, f, indent=2)
 
-if __name__ == "__main__":
-    print("📊 Fetching full list of tickers from Twitter sentiment data...")
-    response = requests.get(TWITTER_API_URL, headers={"accept": "application/json", "Authorization": f"Bearer {QUIVER_API_KEY}"})
-    response.raise_for_status()
-    twitter_data = response.json()
-
-    tickers = [entry["Ticker"] for entry in twitter_data]
-    print("Tracked tickers from QuiverQuant Twitter API:", tickers)
+print(f"✅ Saved Twitter sentiment signals to {SAVE_PATH} with {len(buy_signals)} entries.")

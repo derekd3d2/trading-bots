@@ -1,0 +1,110 @@
+import os
+import json
+import requests
+import datetime
+import time
+import csv
+from collections import defaultdict
+from alpaca_trade_api.rest import REST
+from tqdm import tqdm
+
+# Environment variables
+ALPACA_API_KEY = os.getenv("APCA_API_KEY_ID")
+ALPACA_SECRET = os.getenv("APCA_API_SECRET_KEY")
+QUANT_API_KEY = os.getenv("QUANT_API_KEY")
+
+# Alpaca setup
+alpaca = REST(ALPACA_API_KEY, ALPACA_SECRET, "https://paper-api.alpaca.markets")
+
+# Get date range
+end_date = datetime.date.today()
+start_date = end_date - datetime.timedelta(days=365)
+
+# Pull Congress trades from QuiverQuant
+def fetch_congress_trades():
+    headers = {"Authorization": f"Bearer {QUANT_API_KEY}"}
+    url = "https://api.quiverquant.com/beta/historical/congresstrading"
+    r = requests.get(url, headers=headers)
+    return r.json()
+
+# Get stock closing price on a specific day
+def get_price_on_date(ticker, target_date):
+    try:
+        bars = alpaca.get_bars(ticker, "1Day", start=target_date, end=target_date).df
+        if not bars.empty:
+            return bars["close"].iloc[0]
+    except Exception as e:
+        return None
+
+# Main logic
+def analyze_congress_traders():
+    trades = fetch_congress_trades()
+    returns_by_rep = defaultdict(list)
+    all_trade_logs = []
+
+    print(f"Analyzing {len(trades)} trades over 12 months...")
+
+    for trade in tqdm(trades):
+        try:
+            ticker = trade["Ticker"]
+            rep = trade["Representative"]
+            direction = trade["Transaction"]
+            date_str = trade["TransactionDate"]
+
+            if direction not in ["Purchase", "Sale (Full)", "Sale (Partial)"]:
+                continue
+
+            trade_date = datetime.datetime.strptime(date_str, "%Y-%m-%d").date()
+            if trade_date < start_date:
+                continue
+
+            day_0 = get_price_on_date(ticker, trade_date.isoformat())
+            day_7 = get_price_on_date(ticker, (trade_date + datetime.timedelta(days=7)).isoformat())
+
+            if day_0 and day_7:
+                change = (day_7 - day_0) / day_0
+                if direction.startswith("Sale"):
+                    change *= -1  # Flip return for sells
+
+                returns_by_rep[rep].append(change)
+                all_trade_logs.append({
+                    "ticker": ticker,
+                    "representative": rep,
+                    "transaction_type": direction,
+                    "transaction_date": date_str,
+                    "day_0": round(day_0, 2),
+                    "day_7": round(day_7, 2),
+                    "return_7d": round(change * 100, 2)
+                })
+
+            time.sleep(0.25)  # Rate-limit buffer
+        except Exception as e:
+            continue
+
+    # Build top 25
+    top_traders = []
+    for rep, returns in returns_by_rep.items():
+        avg_return = sum(returns) / len(returns)
+        win_rate = sum(1 for r in returns if r > 0) / len(returns)
+        top_traders.append({
+            "representative": rep,
+            "avg_return": avg_return,
+            "win_rate": round(win_rate * 100, 2),
+            "num_trades": len(returns)
+        })
+
+    top_25 = sorted(top_traders, key=lambda x: x["avg_return"], reverse=True)[:25]
+
+    with open("top_25_congress.json", "w") as f:
+        json.dump(top_25, f, indent=4)
+
+    with open("congress_trade_returns.csv", "w", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=all_trade_logs[0].keys())
+        writer.writeheader()
+        writer.writerows(all_trade_logs)
+
+    print("\n✅ Top 25 Congress traders saved to top_25_congress.json")
+    print("✅ Trade logs saved to congress_trade_returns.csv")
+
+if __name__ == "__main__":
+    analyze_congress_traders()

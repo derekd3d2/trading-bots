@@ -1,0 +1,149 @@
+{
+  "buy_signals": [
+    {
+      "ticker": "EPS",
+      "wsb_score": 0.6385,
+      "mentions": 5
+    },
+    {
+      "ticker": "YEAR",
+      "wsb_score": 0.5334,
+      "mentions": 5
+    },
+    {
+      "ticker": "ETSY",
+      "wsb_score": 0.3463,
+      "mentions": 5
+    },
+    {
+      "ticker": "E",
+      "wsb_score": 0.3261,
+      "mentions": 6
+    },
+    {
+      "ticker": "SOUN",
+      "wsb_score": 0.2995,
+      "mentions": 10
+    },
+    {
+      "ticker": "RSI",
+      "wsb_score": 0.2537,
+      "mentions": 8
+    },
+    {
+      "ticker": "BB",
+      "wsb_score": 0.232,
+      "mentions": 10
+    },
+    {
+      "ticker": "R",
+      "wsb_score": 0.2277,
+      "mentions": 7
+    },
+    {
+      "ticker": "RGTI",
+      "wsb_score": 0.2083,
+      "mentions": 13
+    },
+    {
+      "ticker": "MRNA",
+      "wsb_score": 0.1887,
+      "mentions": 5
+    },
+    {
+      "ticker": "BKSY",
+      "wsb_score": 0.1696,
+      "mentions": 6
+    },
+    {
+      "ticker": "BA",
+      "wsb_score": 0.1565,
+      "mentions": 5
+    },
+    {
+      "ticker": "BMBL",
+      "wsb_score": 0.1527,
+      "mentions": 5
+    },
+    {
+      "ticker": "ANET",
+      "wsb_score": 0.1419,
+      "mentions": 15
+    },
+    {
+      "ticker": "V",
+      "wsb_score": 0.133,
+      "mentions": 43
+    },
+    {
+      "ticker": "META",
+      "wsb_score": 0.1074,
+      "mentions": 29
+    },
+    {
+      "ticker": "QBTS",
+      "wsb_score": 0.1052,
+      "mentions": 7
+    },
+    {
+      "ticker": "MGNI",
+      "wsb_score": 0.1019,
+      "mentions": 5
+    },
+    {
+      "ticker": "WMT",
+      "wsb_score": 0.0973,
+      "mentions": 18
+    },
+    {
+      "ticker": "BABA",
+      "wsb_score": 0.0852,
+      "mentions": 6
+    },
+    {
+      "ticker": "CELH",
+      "wsb_score": 0.0842,
+      "mentions": 16
+    },
+    {
+      "ticker": "MSTR",
+      "wsb_score": 0.0841,
+      "mentions": 15
+    },
+    {
+      "ticker": "X",
+      "wsb_score": 0.0821,
+      "mentions": 6
+    },
+    {
+      "ticker": "QQQ",
+      "wsb_score": 0.0744,
+      "mentions": 25
+    },
+    {
+      "ticker": "BBAI",
+      "wsb_score": 0.0693,
+      "mentions": 19
+    },
+    {
+      "ticker": "EU",
+      "wsb_score": 0.0631,
+      "mentions": 9
+    },
+    {
+      "ticker": "SMCI",
+      "wsb_score": 0.0553,
+      "mentions": 373
+    },
+    {
+      "ticker": "VKTX",
+      "wsb_score": 0.0546,
+      "mentions": 7
+    },
+    {
+      "ticker": "CVNA",
+      "wsb_score": 0.0525,
+      "mentions": 60
+    }
+  ]
+}

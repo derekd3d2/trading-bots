@@ -1,0 +1,42 @@
+import yagmail
+import os
+import openai
+from datetime import datetime
+import pytz
+
+# === Load API Key ===
+openai.api_key = os.getenv("OPENAI_API_KEY")
+
+# === Email Config ===
+sender_email = "derekd3d2@gmail.com"
+receiver_email = "johnson3@ah.org"  # Replace with Nick's actual email if needed
+email_password = os.getenv("EMAIL_PASSWORD")
+
+# === Generate Weekly Progress Update ===
+ny_tz = pytz.timezone("America/New_York")
+now_ny = datetime.now(ny_tz)
+
+date_str = now_ny.strftime("%B %d, %Y")
+prompt = f"""
+Write a humorous and friendly weekly update email from Derek's AI trading assistant to Nick, the CFO of his workplace. Nick is Derek's boss and friend. The email should summarize major milestones completed in building a fully automated day trading system using AI, APIs, options, and auto-sell logic. It should highlight that the system now runs daily without Derek, logs everything, emails reports, and manages trades automatically. The tone should be playful but smart, and include a friendly jab at how long it will be before Derek can quit his job to trade full-time. End with a progress rating like: 'Chance of quitting job this year: 12% (and rising).'"""
+
+response = openai.ChatCompletion.create(
+    model="gpt-4",
+    messages=[
+        {"role": "system", "content": "You are a witty AI trading bot assistant."},
+        {"role": "user", "content": prompt}
+    ]
+)
+
+content = response["choices"][0]["message"]["content"]
+subject = f"🚀  – {date_str}"
+
+# === Send Email ===
+yag = yagmail.SMTP(sender_email, email_password)
+yag.send(
+    to=receiver_email,
+    subject=subject,
+    contents=content
+)
+
+print("✅ Weekly update sent to Nick!")

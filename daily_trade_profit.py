@@ -7,8 +7,8 @@ from dotenv import load_dotenv
 # Load API keys from environment
 load_dotenv('/home/ubuntu/.bashrc_custom')
 api = tradeapi.REST(
-    os.getenv('ALPACA_API_KEY'),
-    os.getenv('ALPACA_SECRET_KEY'),
+    os.getenv('APCA_API_KEY'),
+    os.getenv('APCA_SECRET_KEY'),
     base_url='https://paper-api.alpaca.markets'
 )
 
