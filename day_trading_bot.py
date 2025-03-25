@@ -21,7 +21,7 @@ api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_vers
 # ✅ Trading Strategy Parameters
 PROFIT_TARGET = 0.015  # 1.5% profit target
 STOP_LOSS = 0.015      # 1.5% stop-loss
-CAPITAL_USAGE = 0.75   # 75% of total capital
+CAPITAL_USAGE = 0.50   # 50% of total capital
 MAX_TRADES = 15        # Limit trades to top 15 stocks
 TRADE_HISTORY_FILE = "/home/ubuntu/trading-bots/trade_history.json"
 

@@ -11166,3 +11166,1722 @@ sleep 3 seconds and retrying https://paper-api.alpaca.markets/v2/orders 1 more t
 2025-03-24 12:57:11 - ✅ AI Auto-Update completed.
 2025-03-24 12:57:11 - ✅ All tasks complete. main.py finished.
 
+2025-03-24 13:00:01 - 🚀 main.py started.
+2025-03-24 13:00:01 - 🕒 Current Eastern Time: 2025-03-24 13:00:01 EDT
+2025-03-24 13:00:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-24 13:00:01 - 📥 Starting Day Trading Bot...
+2025-03-24 13:00:02 - ✅ Day Trading Bot completed.
+2025-03-24 13:00:02 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $18271.60 for day trading (75% of $24362.14)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+⚠️ Skipping ALHC: no shares held.
+⚠️ Skipping APP: no shares held.
+⚠️ Skipping AVAH: no shares held.
+⚠️ Skipping DUOL: no shares held.
+⚠️ Skipping INTU: no shares held.
+⚠️ Skipping IOT: no shares held.
+⚠️ Skipping IRON: no shares held.
+⚠️ Skipping MGPI: no shares held.
+⚠️ Skipping RDDT: no shares held.
+⚠️ Skipping SFM: no shares held.
+⚠️ Skipping TEAM: no shares held.
+✅ Day trading execution complete.
+2025-03-24 13:00:02 - 📥 Starting Short Trading Bot...
+2025-03-24 13:00:11 - ✅ Short Trading Bot completed.
+2025-03-24 13:00:11 - 📤 Short Trading Bot stdout:
+⚠️ Already shorting TEAM, skipping.
+⚠️ Already shorting APP, skipping.
+💵 Capital per trade: 478.48, Price: 852.33, Qty: 0
+⚠️ Skipping EQIX: not enough capital for 1 full share
+💵 Capital per trade: 478.48, Price: 1377.57, Qty: 0
+⚠️ Skipping TDG: not enough capital for 1 full share
+💵 Capital per trade: 478.48, Price: 1889.15, Qty: 0
+⚠️ Skipping FICO: not enough capital for 1 full share
+⚠️ Already shorting IRON, skipping.
+⚠️ Already shorting ALHC, skipping.
+⚠️ Already shorting INTU, skipping.
+⚠️ Already shorting IOT, skipping.
+⚠️ Already shorting RDDT, skipping.
+⚠️ Already shorting SFM, skipping.
+⚠️ Already shorting DUOL, skipping.
+💵 Capital per trade: 478.48, Price: 57.44, Qty: 8
+❌ Failed to short TEM: asset "TEM" cannot be sold short
+⚠️ Already shorting AVAH, skipping.
+⚠️ Already shorting MGPI, skipping.
+❌ Failed to cover APP: qty must be > 0
+❌ Failed to cover AVAH: qty must be > 0
+❌ Failed to cover DUOL: qty must be > 0
+❌ Failed to cover IRON: qty must be > 0
+2025-03-24 13:00:11 - 📥 Starting AI Auto-Update...
+2025-03-24 13:00:11 - ✅ AI Auto-Update completed.
+2025-03-24 13:00:11 - ✅ All tasks complete. main.py finished.
+
+2025-03-24 13:03:01 - 🚀 main.py started.
+2025-03-24 13:03:01 - 🕒 Current Eastern Time: 2025-03-24 13:03:01 EDT
+2025-03-24 13:03:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-24 13:03:01 - 📥 Starting Day Trading Bot...
+2025-03-24 13:03:02 - ✅ Day Trading Bot completed.
+2025-03-24 13:03:02 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $18271.22 for day trading (75% of $24361.62)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+⚠️ Skipping ALHC: no shares held.
+⚠️ Skipping APP: no shares held.
+⚠️ Skipping AVAH: no shares held.
+⚠️ Skipping DUOL: no shares held.
+⚠️ Skipping INTU: no shares held.
+⚠️ Skipping IOT: no shares held.
+⚠️ Skipping IRON: no shares held.
+⚠️ Skipping MGPI: no shares held.
+⚠️ Skipping RDDT: no shares held.
+⚠️ Skipping SFM: no shares held.
+⚠️ Skipping TEAM: no shares held.
+✅ Day trading execution complete.
+2025-03-24 13:03:02 - 📥 Starting Short Trading Bot...
+2025-03-24 13:03:11 - ✅ Short Trading Bot completed.
+2025-03-24 13:03:11 - 📤 Short Trading Bot stdout:
+⚠️ Already shorting TEAM, skipping.
+⚠️ Already shorting APP, skipping.
+💵 Capital per trade: 478.23, Price: 852.45, Qty: 0
+⚠️ Skipping EQIX: not enough capital for 1 full share
+💵 Capital per trade: 478.23, Price: 1377.57, Qty: 0
+⚠️ Skipping TDG: not enough capital for 1 full share
+💵 Capital per trade: 478.23, Price: 1889.15, Qty: 0
+⚠️ Skipping FICO: not enough capital for 1 full share
+⚠️ Already shorting IRON, skipping.
+⚠️ Already shorting ALHC, skipping.
+⚠️ Already shorting INTU, skipping.
+⚠️ Already shorting IOT, skipping.
+⚠️ Already shorting RDDT, skipping.
+⚠️ Already shorting SFM, skipping.
+⚠️ Already shorting DUOL, skipping.
+💵 Capital per trade: 478.23, Price: 57.65, Qty: 8
+❌ Failed to short TEM: asset "TEM" cannot be sold short
+⚠️ Already shorting AVAH, skipping.
+⚠️ Already shorting MGPI, skipping.
+❌ Failed to cover APP: qty must be > 0
+❌ Failed to cover AVAH: qty must be > 0
+❌ Failed to cover DUOL: qty must be > 0
+❌ Failed to cover IRON: qty must be > 0
+❌ Failed to cover RDDT: qty must be > 0
+2025-03-24 13:03:11 - 📥 Starting AI Auto-Update...
+2025-03-24 13:03:11 - ✅ AI Auto-Update completed.
+2025-03-24 13:03:11 - ✅ All tasks complete. main.py finished.
+
+2025-03-24 13:06:01 - 🚀 main.py started.
+2025-03-24 13:06:01 - 🕒 Current Eastern Time: 2025-03-24 13:06:01 EDT
+2025-03-24 13:06:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-24 13:06:01 - 📥 Starting Day Trading Bot...
+2025-03-24 13:06:02 - ✅ Day Trading Bot completed.
+2025-03-24 13:06:02 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $18266.99 for day trading (75% of $24355.98)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+⚠️ Skipping ALHC: no shares held.
+⚠️ Skipping APP: no shares held.
+⚠️ Skipping AVAH: no shares held.
+⚠️ Skipping DUOL: no shares held.
+⚠️ Skipping INTU: no shares held.
+⚠️ Skipping IOT: no shares held.
+⚠️ Skipping IRON: no shares held.
+⚠️ Skipping MGPI: no shares held.
+⚠️ Skipping RDDT: no shares held.
+⚠️ Skipping SFM: no shares held.
+⚠️ Skipping TEAM: no shares held.
+✅ Day trading execution complete.
+2025-03-24 13:06:02 - 📥 Starting Short Trading Bot...
+2025-03-24 13:06:11 - ✅ Short Trading Bot completed.
+2025-03-24 13:06:11 - 📤 Short Trading Bot stdout:
+⚠️ Already shorting TEAM, skipping.
+⚠️ Already shorting APP, skipping.
+💵 Capital per trade: 477.52, Price: 853.61, Qty: 0
+⚠️ Skipping EQIX: not enough capital for 1 full share
+💵 Capital per trade: 477.52, Price: 1377.57, Qty: 0
+⚠️ Skipping TDG: not enough capital for 1 full share
+💵 Capital per trade: 477.52, Price: 1889.46, Qty: 0
+⚠️ Skipping FICO: not enough capital for 1 full share
+⚠️ Already shorting IRON, skipping.
+⚠️ Already shorting ALHC, skipping.
+⚠️ Already shorting INTU, skipping.
+⚠️ Already shorting IOT, skipping.
+⚠️ Already shorting RDDT, skipping.
+⚠️ Already shorting SFM, skipping.
+⚠️ Already shorting DUOL, skipping.
+💵 Capital per trade: 477.52, Price: 57.86, Qty: 8
+❌ Failed to short TEM: asset "TEM" cannot be sold short
+⚠️ Already shorting AVAH, skipping.
+⚠️ Already shorting MGPI, skipping.
+❌ Failed to cover APP: qty must be > 0
+❌ Failed to cover AVAH: qty must be > 0
+❌ Failed to cover DUOL: qty must be > 0
+❌ Failed to cover IRON: qty must be > 0
+❌ Failed to cover RDDT: qty must be > 0
+2025-03-24 13:06:11 - 📥 Starting AI Auto-Update...
+2025-03-24 13:06:11 - ✅ AI Auto-Update completed.
+2025-03-24 13:06:11 - ✅ All tasks complete. main.py finished.
+
+2025-03-24 13:09:01 - 🚀 main.py started.
+2025-03-24 13:09:01 - 🕒 Current Eastern Time: 2025-03-24 13:09:01 EDT
+2025-03-24 13:09:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-24 13:09:01 - 📥 Starting Day Trading Bot...
+2025-03-24 13:09:02 - ✅ Day Trading Bot completed.
+2025-03-24 13:09:02 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $18267.86 for day trading (75% of $24357.15)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+⚠️ Skipping ALHC: no shares held.
+⚠️ Skipping APP: no shares held.
+⚠️ Skipping AVAH: no shares held.
+⚠️ Skipping DUOL: no shares held.
+⚠️ Skipping INTU: no shares held.
+⚠️ Skipping IOT: no shares held.
+⚠️ Skipping IRON: no shares held.
+⚠️ Skipping MGPI: no shares held.
+⚠️ Skipping RDDT: no shares held.
+⚠️ Skipping SFM: no shares held.
+⚠️ Skipping TEAM: no shares held.
+✅ Day trading execution complete.
+2025-03-24 13:09:02 - 📥 Starting Short Trading Bot...
+2025-03-24 13:09:11 - ✅ Short Trading Bot completed.
+2025-03-24 13:09:11 - 📤 Short Trading Bot stdout:
+⚠️ Already shorting TEAM, skipping.
+⚠️ Already shorting APP, skipping.
+💵 Capital per trade: 477.97, Price: 853.77, Qty: 0
+⚠️ Skipping EQIX: not enough capital for 1 full share
+💵 Capital per trade: 477.97, Price: 1373.46, Qty: 0
+⚠️ Skipping TDG: not enough capital for 1 full share
+💵 Capital per trade: 477.97, Price: 1889.46, Qty: 0
+⚠️ Skipping FICO: not enough capital for 1 full share
+⚠️ Already shorting IRON, skipping.
+⚠️ Already shorting ALHC, skipping.
+⚠️ Already shorting INTU, skipping.
+⚠️ Already shorting IOT, skipping.
+⚠️ Already shorting RDDT, skipping.
+⚠️ Already shorting SFM, skipping.
+⚠️ Already shorting DUOL, skipping.
+💵 Capital per trade: 477.97, Price: 57.71, Qty: 8
+❌ Failed to short TEM: asset "TEM" cannot be sold short
+⚠️ Already shorting AVAH, skipping.
+⚠️ Already shorting MGPI, skipping.
+❌ Failed to cover APP: qty must be > 0
+❌ Failed to cover AVAH: qty must be > 0
+❌ Failed to cover DUOL: qty must be > 0
+❌ Failed to cover IRON: qty must be > 0
+❌ Failed to cover RDDT: qty must be > 0
+2025-03-24 13:09:11 - 📥 Starting AI Auto-Update...
+2025-03-24 13:09:11 - ✅ AI Auto-Update completed.
+2025-03-24 13:09:11 - ✅ All tasks complete. main.py finished.
+
+2025-03-24 13:12:01 - 🚀 main.py started.
+2025-03-24 13:12:01 - 🕒 Current Eastern Time: 2025-03-24 13:12:01 EDT
+2025-03-24 13:12:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-24 13:12:01 - 📥 Starting Day Trading Bot...
+2025-03-24 13:12:01 - ✅ Day Trading Bot completed.
+2025-03-24 13:12:01 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $18256.33 for day trading (75% of $24341.78)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+⚠️ Skipping ALHC: no shares held.
+⚠️ Skipping APP: no shares held.
+⚠️ Skipping AVAH: no shares held.
+⚠️ Skipping DUOL: no shares held.
+⚠️ Skipping INTU: no shares held.
+⚠️ Skipping IOT: no shares held.
+⚠️ Skipping IRON: no shares held.
+⚠️ Skipping MGPI: no shares held.
+⚠️ Skipping RDDT: no shares held.
+⚠️ Skipping SFM: no shares held.
+⚠️ Skipping TEAM: no shares held.
+✅ Day trading execution complete.
+2025-03-24 13:12:01 - 📥 Starting Short Trading Bot...
+2025-03-24 13:12:10 - ✅ Short Trading Bot completed.
+2025-03-24 13:12:10 - 📤 Short Trading Bot stdout:
+⚠️ Already shorting TEAM, skipping.
+⚠️ Already shorting APP, skipping.
+💵 Capital per trade: 476.08, Price: 852.96, Qty: 0
+⚠️ Skipping EQIX: not enough capital for 1 full share
+💵 Capital per trade: 476.08, Price: 1373.46, Qty: 0
+⚠️ Skipping TDG: not enough capital for 1 full share
+💵 Capital per trade: 476.08, Price: 1889.13, Qty: 0
+⚠️ Skipping FICO: not enough capital for 1 full share
+⚠️ Already shorting IRON, skipping.
+⚠️ Already shorting ALHC, skipping.
+⚠️ Already shorting INTU, skipping.
+⚠️ Already shorting IOT, skipping.
+⚠️ Already shorting RDDT, skipping.
+⚠️ Already shorting SFM, skipping.
+⚠️ Already shorting DUOL, skipping.
+💵 Capital per trade: 476.08, Price: 57.77, Qty: 8
+❌ Failed to short TEM: asset "TEM" cannot be sold short
+⚠️ Already shorting AVAH, skipping.
+⚠️ Already shorting MGPI, skipping.
+❌ Failed to cover APP: qty must be > 0
+❌ Failed to cover AVAH: qty must be > 0
+❌ Failed to cover DUOL: qty must be > 0
+❌ Failed to cover IRON: qty must be > 0
+❌ Failed to cover RDDT: qty must be > 0
+2025-03-24 13:12:10 - 📥 Starting AI Auto-Update...
+2025-03-24 13:12:10 - ✅ AI Auto-Update completed.
+2025-03-24 13:12:10 - ✅ All tasks complete. main.py finished.
+
+2025-03-24 13:15:01 - 🚀 main.py started.
+2025-03-24 13:15:01 - 🕒 Current Eastern Time: 2025-03-24 13:15:01 EDT
+2025-03-24 13:15:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-24 13:15:01 - 📥 Starting Day Trading Bot...
+2025-03-24 13:15:02 - ✅ Day Trading Bot completed.
+2025-03-24 13:15:02 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $18271.17 for day trading (75% of $24361.56)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+⚠️ Skipping ALHC: no shares held.
+⚠️ Skipping APP: no shares held.
+⚠️ Skipping AVAH: no shares held.
+⚠️ Skipping DUOL: no shares held.
+⚠️ Skipping INTU: no shares held.
+⚠️ Skipping IOT: no shares held.
+⚠️ Skipping IRON: no shares held.
+⚠️ Skipping MGPI: no shares held.
+⚠️ Skipping RDDT: no shares held.
+⚠️ Skipping SFM: no shares held.
+⚠️ Skipping TEAM: no shares held.
+✅ Day trading execution complete.
+2025-03-24 13:15:02 - 📥 Starting Short Trading Bot...
+2025-03-24 13:15:11 - ✅ Short Trading Bot completed.
+2025-03-24 13:15:11 - 📤 Short Trading Bot stdout:
+⚠️ Already shorting TEAM, skipping.
+⚠️ Already shorting APP, skipping.
+💵 Capital per trade: 477.78, Price: 852.96, Qty: 0
+⚠️ Skipping EQIX: not enough capital for 1 full share
+💵 Capital per trade: 477.78, Price: 1373.46, Qty: 0
+⚠️ Skipping TDG: not enough capital for 1 full share
+💵 Capital per trade: 477.78, Price: 1887.49, Qty: 0
+⚠️ Skipping FICO: not enough capital for 1 full share
+⚠️ Already shorting IRON, skipping.
+⚠️ Already shorting ALHC, skipping.
+⚠️ Already shorting INTU, skipping.
+⚠️ Already shorting IOT, skipping.
+⚠️ Already shorting RDDT, skipping.
+⚠️ Already shorting SFM, skipping.
+⚠️ Already shorting DUOL, skipping.
+💵 Capital per trade: 477.78, Price: 57.71, Qty: 8
+❌ Failed to short TEM: asset "TEM" cannot be sold short
+⚠️ Already shorting AVAH, skipping.
+⚠️ Already shorting MGPI, skipping.
+❌ Failed to cover APP: qty must be > 0
+❌ Failed to cover AVAH: qty must be > 0
+❌ Failed to cover DUOL: qty must be > 0
+❌ Failed to cover IRON: qty must be > 0
+❌ Failed to cover RDDT: qty must be > 0
+2025-03-24 13:15:11 - 📥 Starting AI Auto-Update...
+2025-03-24 13:15:11 - ✅ AI Auto-Update completed.
+2025-03-24 13:15:11 - ✅ All tasks complete. main.py finished.
+
+2025-03-24 13:18:01 - 🚀 main.py started.
+2025-03-24 13:18:01 - 🕒 Current Eastern Time: 2025-03-24 13:18:01 EDT
+2025-03-24 13:18:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-24 13:18:01 - 📥 Starting Day Trading Bot...
+2025-03-24 13:18:02 - ✅ Day Trading Bot completed.
+2025-03-24 13:18:02 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $18256.71 for day trading (75% of $24342.28)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+⚠️ Skipping ALHC: no shares held.
+⚠️ Skipping APP: no shares held.
+⚠️ Skipping AVAH: no shares held.
+⚠️ Skipping DUOL: no shares held.
+⚠️ Skipping INTU: no shares held.
+⚠️ Skipping IOT: no shares held.
+⚠️ Skipping IRON: no shares held.
+⚠️ Skipping MGPI: no shares held.
+⚠️ Skipping RDDT: no shares held.
+⚠️ Skipping SFM: no shares held.
+⚠️ Skipping TEAM: no shares held.
+✅ Day trading execution complete.
+2025-03-24 13:18:02 - 📥 Starting Short Trading Bot...
+2025-03-24 13:18:11 - ✅ Short Trading Bot completed.
+2025-03-24 13:18:11 - 📤 Short Trading Bot stdout:
+⚠️ Already shorting TEAM, skipping.
+⚠️ Already shorting APP, skipping.
+💵 Capital per trade: 475.89, Price: 853.17, Qty: 0
+⚠️ Skipping EQIX: not enough capital for 1 full share
+💵 Capital per trade: 475.89, Price: 1374.97, Qty: 0
+⚠️ Skipping TDG: not enough capital for 1 full share
+💵 Capital per trade: 475.89, Price: 1888.00, Qty: 0
+⚠️ Skipping FICO: not enough capital for 1 full share
+⚠️ Already shorting IRON, skipping.
+⚠️ Already shorting ALHC, skipping.
+⚠️ Already shorting INTU, skipping.
+⚠️ Already shorting IOT, skipping.
+⚠️ Already shorting RDDT, skipping.
+⚠️ Already shorting SFM, skipping.
+⚠️ Already shorting DUOL, skipping.
+💵 Capital per trade: 475.89, Price: 57.58, Qty: 8
+❌ Failed to short TEM: asset "TEM" cannot be sold short
+⚠️ Already shorting AVAH, skipping.
+⚠️ Already shorting MGPI, skipping.
+❌ Failed to cover APP: qty must be > 0
+❌ Failed to cover AVAH: qty must be > 0
+❌ Failed to cover DUOL: qty must be > 0
+❌ Failed to cover IRON: qty must be > 0
+❌ Failed to cover RDDT: qty must be > 0
+2025-03-24 13:18:11 - 📥 Starting AI Auto-Update...
+2025-03-24 13:18:11 - ✅ AI Auto-Update completed.
+2025-03-24 13:18:11 - ✅ All tasks complete. main.py finished.
+
+2025-03-24 13:21:01 - 🚀 main.py started.
+2025-03-24 13:21:01 - 🕒 Current Eastern Time: 2025-03-24 13:21:01 EDT
+2025-03-24 13:21:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-24 13:21:01 - 📥 Starting Day Trading Bot...
+2025-03-24 13:21:01 - ✅ Day Trading Bot completed.
+2025-03-24 13:21:01 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $18284.50 for day trading (75% of $24379.33)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+⚠️ Skipping ALHC: no shares held.
+⚠️ Skipping APP: no shares held.
+⚠️ Skipping AVAH: no shares held.
+⚠️ Skipping DUOL: no shares held.
+⚠️ Skipping INTU: no shares held.
+⚠️ Skipping IOT: no shares held.
+⚠️ Skipping IRON: no shares held.
+⚠️ Skipping MGPI: no shares held.
+⚠️ Skipping RDDT: no shares held.
+⚠️ Skipping SFM: no shares held.
+⚠️ Skipping TEAM: no shares held.
+✅ Day trading execution complete.
+2025-03-24 13:21:01 - 📥 Starting Short Trading Bot...
+2025-03-24 13:21:10 - ✅ Short Trading Bot completed.
+2025-03-24 13:21:10 - 📤 Short Trading Bot stdout:
+⚠️ Already shorting TEAM, skipping.
+⚠️ Already shorting APP, skipping.
+💵 Capital per trade: 480.24, Price: 852.81, Qty: 0
+⚠️ Skipping EQIX: not enough capital for 1 full share
+💵 Capital per trade: 480.24, Price: 1373.69, Qty: 0
+⚠️ Skipping TDG: not enough capital for 1 full share
+💵 Capital per trade: 480.24, Price: 1888.00, Qty: 0
+⚠️ Skipping FICO: not enough capital for 1 full share
+⚠️ Already shorting IRON, skipping.
+⚠️ Already shorting ALHC, skipping.
+⚠️ Already shorting INTU, skipping.
+⚠️ Already shorting IOT, skipping.
+⚠️ Already shorting RDDT, skipping.
+⚠️ Already shorting SFM, skipping.
+⚠️ Already shorting DUOL, skipping.
+💵 Capital per trade: 480.24, Price: 57.48, Qty: 8
+❌ Failed to short TEM: asset "TEM" cannot be sold short
+⚠️ Already shorting AVAH, skipping.
+⚠️ Already shorting MGPI, skipping.
+❌ Failed to cover APP: qty must be > 0
+❌ Failed to cover AVAH: qty must be > 0
+❌ Failed to cover DUOL: qty must be > 0
+❌ Failed to cover IRON: qty must be > 0
+❌ Failed to cover RDDT: qty must be > 0
+2025-03-24 13:21:10 - 📥 Starting AI Auto-Update...
+2025-03-24 13:21:11 - ✅ AI Auto-Update completed.
+2025-03-24 13:21:11 - ✅ All tasks complete. main.py finished.
+
+2025-03-24 13:24:01 - 🚀 main.py started.
+2025-03-24 13:24:01 - 🕒 Current Eastern Time: 2025-03-24 13:24:01 EDT
+2025-03-24 13:24:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-24 13:24:01 - 📥 Starting Day Trading Bot...
+2025-03-24 13:24:01 - ✅ Day Trading Bot completed.
+2025-03-24 13:24:01 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $18239.98 for day trading (75% of $24319.97)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+⚠️ Skipping ALHC: no shares held.
+⚠️ Skipping APP: no shares held.
+⚠️ Skipping AVAH: no shares held.
+⚠️ Skipping DUOL: no shares held.
+⚠️ Skipping INTU: no shares held.
+⚠️ Skipping IOT: no shares held.
+⚠️ Skipping IRON: no shares held.
+⚠️ Skipping MGPI: no shares held.
+⚠️ Skipping RDDT: no shares held.
+⚠️ Skipping SFM: no shares held.
+⚠️ Skipping TEAM: no shares held.
+✅ Day trading execution complete.
+2025-03-24 13:24:01 - 📥 Starting Short Trading Bot...
+2025-03-24 13:24:10 - ✅ Short Trading Bot completed.
+2025-03-24 13:24:10 - 📤 Short Trading Bot stdout:
+⚠️ Already shorting TEAM, skipping.
+⚠️ Already shorting APP, skipping.
+💵 Capital per trade: 473.44, Price: 852.91, Qty: 0
+⚠️ Skipping EQIX: not enough capital for 1 full share
+💵 Capital per trade: 473.44, Price: 1374.50, Qty: 0
+⚠️ Skipping TDG: not enough capital for 1 full share
+💵 Capital per trade: 473.44, Price: 1888.00, Qty: 0
+⚠️ Skipping FICO: not enough capital for 1 full share
+⚠️ Already shorting IRON, skipping.
+⚠️ Already shorting ALHC, skipping.
+⚠️ Already shorting INTU, skipping.
+⚠️ Already shorting IOT, skipping.
+⚠️ Already shorting RDDT, skipping.
+⚠️ Already shorting SFM, skipping.
+⚠️ Already shorting DUOL, skipping.
+💵 Capital per trade: 473.44, Price: 57.61, Qty: 8
+❌ Failed to short TEM: asset "TEM" cannot be sold short
+⚠️ Already shorting AVAH, skipping.
+⚠️ Already shorting MGPI, skipping.
+❌ Failed to cover APP: qty must be > 0
+❌ Failed to cover AVAH: qty must be > 0
+❌ Failed to cover DUOL: qty must be > 0
+❌ Failed to cover IRON: qty must be > 0
+❌ Failed to cover RDDT: qty must be > 0
+2025-03-24 13:24:10 - 📥 Starting AI Auto-Update...
+2025-03-24 13:24:10 - ✅ AI Auto-Update completed.
+2025-03-24 13:24:10 - ✅ All tasks complete. main.py finished.
+
+2025-03-24 13:25:02.298562 - 📅 Market open set for 2025-03-24 09:30:00-04:00
+2025-03-24 13:25:02.298719 - ❌ Congress trading data not found.
+2025-03-24 13:25:02.300984 - ✅ Selected 30 high-confidence trades for today.
+2025-03-24 13:25:02.301034 - 🚀 High-confidence trades selected and ready for execution.
+2025-03-24 13:27:01 - 🚀 main.py started.
+2025-03-24 13:27:01 - 🕒 Current Eastern Time: 2025-03-24 13:27:01 EDT
+2025-03-24 13:27:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-24 13:27:01 - 📥 Starting Day Trading Bot...
+2025-03-24 13:27:02 - ✅ Day Trading Bot completed.
+2025-03-24 13:27:02 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $18238.34 for day trading (75% of $24317.79)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+⚠️ Skipping ALHC: no shares held.
+⚠️ Skipping APP: no shares held.
+⚠️ Skipping AVAH: no shares held.
+⚠️ Skipping DUOL: no shares held.
+⚠️ Skipping INTU: no shares held.
+⚠️ Skipping IOT: no shares held.
+⚠️ Skipping IRON: no shares held.
+⚠️ Skipping MGPI: no shares held.
+⚠️ Skipping RDDT: no shares held.
+⚠️ Skipping SFM: no shares held.
+⚠️ Skipping TEAM: no shares held.
+✅ Day trading execution complete.
+2025-03-24 13:27:02 - 📥 Starting Short Trading Bot...
+2025-03-24 13:27:11 - ✅ Short Trading Bot completed.
+2025-03-24 13:27:11 - 📤 Short Trading Bot stdout:
+⚠️ Already shorting TEAM, skipping.
+⚠️ Already shorting APP, skipping.
+💵 Capital per trade: 472.87, Price: 852.97, Qty: 0
+⚠️ Skipping EQIX: not enough capital for 1 full share
+💵 Capital per trade: 472.87, Price: 1374.34, Qty: 0
+⚠️ Skipping TDG: not enough capital for 1 full share
+💵 Capital per trade: 472.87, Price: 1888.00, Qty: 0
+⚠️ Skipping FICO: not enough capital for 1 full share
+⚠️ Already shorting IRON, skipping.
+⚠️ Already shorting ALHC, skipping.
+⚠️ Already shorting INTU, skipping.
+⚠️ Already shorting IOT, skipping.
+⚠️ Already shorting RDDT, skipping.
+⚠️ Already shorting SFM, skipping.
+⚠️ Already shorting DUOL, skipping.
+💵 Capital per trade: 472.87, Price: 57.85, Qty: 8
+❌ Failed to short TEM: asset "TEM" cannot be sold short
+⚠️ Already shorting AVAH, skipping.
+⚠️ Already shorting MGPI, skipping.
+❌ Failed to cover APP: qty must be > 0
+❌ Failed to cover AVAH: qty must be > 0
+❌ Failed to cover DUOL: qty must be > 0
+❌ Failed to cover IRON: qty must be > 0
+❌ Failed to cover RDDT: qty must be > 0
+2025-03-24 13:27:11 - 📥 Starting AI Auto-Update...
+2025-03-24 13:27:11 - ✅ AI Auto-Update completed.
+2025-03-24 13:27:11 - ✅ All tasks complete. main.py finished.
+
+2025-03-24 13:31:16 - 🚀 main.py started.
+2025-03-24 13:31:16 - 🕒 Current Eastern Time: 2025-03-24 13:31:16 EDT
+2025-03-24 13:31:16 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-24 13:31:16 - 📥 Starting Day Trading Bot...
+2025-03-24 13:31:46 - ✅ Day Trading Bot completed.
+2025-03-24 13:31:46 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $18202.88 for day trading (75% of $24270.5)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+🚀 Buying 685.6074 shares of BUKS at 1.7699999809265137
+❌ Error executing buy for BUKS: asset BUKS is not active
+🚀 Buying 472.2071 shares of RCG at 2.5699000358581543
+🖍 Logged BUY of RCG at 2.5699000358581543
+🚀 Buying 173.1134 shares of WEST at 7.010000228881836
+🖍 Logged BUY of WEST at 7.010000228881836
+🚀 Buying 150.3749 shares of NL at 8.069999694824219
+🖍 Logged BUY of NL at 8.069999694824219
+🚀 Buying 102.1486 shares of SRBK at 11.880000114440918
+🖍 Logged BUY of SRBK at 11.880000114440918
+🚀 Buying 2105.3523 shares of EONR at 0.5763999819755554
+🖍 Logged BUY of EONR at 0.5763999819755554
+🚀 Buying 670.4558 shares of MCVT at 1.809999942779541
+🖍 Logged BUY of MCVT at 1.809999942779541
+🚀 Buying 105.5239 shares of VG at 11.5
+🖍 Logged BUY of VG at 11.5
+🚀 Buying 155.5741 shares of KRO at 7.800300121307373
+🖍 Logged BUY of KRO at 7.800300121307373
+🚀 Buying 287.5720 shares of PSEC at 4.219900131225586
+🖍 Logged BUY of PSEC at 4.219900131225586
+🚀 Buying 186.1235 shares of TTSH at 6.519999980926514
+🖍 Logged BUY of TTSH at 6.519999980926514
+🚀 Buying 74.3117 shares of ECAT at 16.3302001953125
+🖍 Logged BUY of ECAT at 16.3302001953125
+🚀 Buying 648.9438 shares of BLNE at 1.8700000047683716
+🖍 Logged BUY of BLNE at 1.8700000047683716
+🚀 Buying 224.7268 shares of CULP at 5.400000095367432
+🖍 Logged BUY of CULP at 5.400000095367432
+🖍 Logged SELL of BLNE at 1.8700000047683716
+✅ Selling BLNE due to Stop-loss triggered.
+🖍 Logged SELL of MCVT at 1.809999942779541
+✅ Selling MCVT due to Stop-loss triggered.
+✅ Day trading execution complete.
+2025-03-24 13:31:46 - ⚠️ Day Trading Bot stderr:
+$ZOM: possibly delisted; no price data found  (period=1d)
+2025-03-24 13:31:46 - 📥 Starting Short Trading Bot...
+2025-03-24 13:32:01 - ✅ Short Trading Bot completed.
+2025-03-24 13:32:01 - 📤 Short Trading Bot stdout:
+💵 Capital per trade: 1301.66, Price: 233.82, Qty: 5
+🔻 Shorted 5 shares of TEAM at 233.82
+💵 Capital per trade: 1301.66, Price: 336.65, Qty: 3
+🔻 Shorted 3 shares of APP at 336.65
+💵 Capital per trade: 1301.66, Price: 854.74, Qty: 1
+🔻 Shorted 1 shares of EQIX at 854.74
+💵 Capital per trade: 1301.66, Price: 1372.98, Qty: 0
+⚠️ Skipping TDG: not enough capital for 1 full share
+💵 Capital per trade: 1301.66, Price: 1887.10, Qty: 0
+⚠️ Skipping FICO: not enough capital for 1 full share
+💵 Capital per trade: 1301.66, Price: 53.67, Qty: 24
+🔻 Shorted 24 shares of IRON at 53.67
+💵 Capital per trade: 1301.66, Price: 17.47, Qty: 74
+🔻 Shorted 74 shares of ALHC at 17.47
+💵 Capital per trade: 1301.66, Price: 612.63, Qty: 2
+🔻 Shorted 2 shares of INTU at 612.63
+💵 Capital per trade: 1301.66, Price: 41.95, Qty: 31
+🔻 Shorted 31 shares of IOT at 41.95
+💵 Capital per trade: 1301.66, Price: 123.33, Qty: 10
+🔻 Shorted 10 shares of RDDT at 123.33
+💵 Capital per trade: 1301.66, Price: 145.45, Qty: 8
+🔻 Shorted 8 shares of SFM at 145.45
+💵 Capital per trade: 1301.66, Price: 329.20, Qty: 3
+🔻 Shorted 3 shares of DUOL at 329.20
+💵 Capital per trade: 1301.66, Price: 57.72, Qty: 22
+❌ Failed to short TEM: asset "TEM" cannot be sold short
+💵 Capital per trade: 1301.66, Price: 5.56, Qty: 234
+🔻 Shorted 234 shares of AVAH at 5.56
+💵 Capital per trade: 1301.66, Price: 29.20, Qty: 44
+🔻 Shorted 44 shares of MGPI at 29.20
+2025-03-24 13:32:01 - 📥 Starting AI Auto-Update...
+2025-03-24 13:32:01 - ✅ AI Auto-Update completed.
+2025-03-24 13:32:01 - ✅ All tasks complete. main.py finished.
+
+2025-03-24 13:45:01 - 🚀 main.py started.
+2025-03-24 13:45:01 - 🕒 Current Eastern Time: 2025-03-24 13:45:01 EDT
+2025-03-24 13:45:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-24 13:45:01 - 📥 Starting Day Trading Bot...
+2025-03-24 13:45:14 - ✅ Day Trading Bot completed.
+2025-03-24 13:45:14 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $18058.65 for day trading (75% of $24078.2)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+✅ Day trading execution complete.
+2025-03-24 13:45:14 - 📥 Starting AI Auto-Update...
+2025-03-24 13:45:14 - ✅ AI Auto-Update completed.
+2025-03-24 13:45:14 - ✅ All tasks complete. main.py finished.
+
+2025-03-24 13:48:01 - 🚀 main.py started.
+2025-03-24 13:48:01 - 🕒 Current Eastern Time: 2025-03-24 13:48:01 EDT
+2025-03-24 13:48:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-24 13:48:01 - 📥 Starting Day Trading Bot...
+2025-03-24 13:48:15 - ✅ Day Trading Bot completed.
+2025-03-24 13:48:15 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $18014.51 for day trading (75% of $24019.35)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+🖍 Logged SELL of CULP at 5.304999828338623
+✅ Selling CULP due to Stop-loss triggered.
+✅ Day trading execution complete.
+2025-03-24 13:48:15 - 📥 Starting AI Auto-Update...
+2025-03-24 13:48:15 - ✅ AI Auto-Update completed.
+2025-03-24 13:48:15 - ✅ All tasks complete. main.py finished.
+
+2025-03-24 13:51:01 - 🚀 main.py started.
+2025-03-24 13:51:01 - 🕒 Current Eastern Time: 2025-03-24 13:51:01 EDT
+2025-03-24 13:51:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-24 13:51:01 - 📥 Starting Day Trading Bot...
+2025-03-24 13:51:13 - ✅ Day Trading Bot completed.
+2025-03-24 13:51:13 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $17998.83 for day trading (75% of $23998.44)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+🖍 Logged SELL of BLNE at 1.8300000429153442
+✅ Selling BLNE due to Stop-loss triggered.
+✅ Day trading execution complete.
+2025-03-24 13:51:13 - 📥 Starting AI Auto-Update...
+2025-03-24 13:51:13 - ✅ AI Auto-Update completed.
+2025-03-24 13:51:13 - ✅ All tasks complete. main.py finished.
+
+2025-03-24 13:52:18 - 🚀 main.py started.
+2025-03-24 13:52:18 - 🕒 Current Eastern Time: 2025-03-24 13:52:18 EDT
+2025-03-24 13:52:18 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-24 13:52:18 - 📥 Starting Day Trading Bot...
+2025-03-24 13:52:37 - ✅ Day Trading Bot completed.
+2025-03-24 13:52:37 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $17994.35 for day trading (75% of $23992.46)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+🚀 Buying 677.7531 shares of BUKS at 1.7699999809265137
+❌ Error executing buy for BUKS: asset BUKS is not active
+⚠️ Skipping RCG: Already in position.
+⚠️ Skipping WEST: Already in position.
+⚠️ Skipping NL: Already in position.
+⚠️ Skipping SRBK: Already in position.
+⚠️ Skipping EONR: Already in position.
+🚀 Buying 662.7752 shares of MCVT at 1.809999942779541
+🖍 Logged BUY of MCVT at 1.809999942779541
+⚠️ Skipping VG: Already in position.
+⚠️ Skipping KRO: Already in position.
+⚠️ Skipping PSEC: Already in position.
+⚠️ Skipping TTSH: Already in position.
+⚠️ Skipping ECAT: Already in position.
+🚀 Buying 655.7825 shares of BLNE at 1.829300045967102
+🖍 Logged BUY of BLNE at 1.829300045967102
+🚀 Buying 226.1306 shares of CULP at 5.304999828338623
+🖍 Logged BUY of CULP at 5.304999828338623
+🖍 Logged SELL of MCVT at 1.809999942779541
+✅ Selling MCVT due to Stop-loss triggered.
+✅ Day trading execution complete.
+2025-03-24 13:52:37 - ⚠️ Day Trading Bot stderr:
+$ZOM: possibly delisted; no price data found  (period=1d)
+2025-03-24 13:52:37 - 📥 Starting AI Auto-Update...
+2025-03-24 13:52:37 - ✅ AI Auto-Update completed.
+2025-03-24 13:52:37 - ✅ All tasks complete. main.py finished.
+
+2025-03-24 13:54:01 - 🚀 main.py started.
+2025-03-24 13:54:01 - 🕒 Current Eastern Time: 2025-03-24 13:54:01 EDT
+2025-03-24 13:54:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-24 13:54:01 - 📥 Starting Day Trading Bot...
+2025-03-24 13:54:15 - ✅ Day Trading Bot completed.
+2025-03-24 13:54:15 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $17963.40 for day trading (75% of $23951.2)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+✅ Day trading execution complete.
+2025-03-24 13:54:15 - 📥 Starting AI Auto-Update...
+2025-03-24 13:54:15 - ✅ AI Auto-Update completed.
+2025-03-24 13:54:15 - ✅ All tasks complete. main.py finished.
+
+2025-03-24 13:55:01.671208 - 📅 Market open set for 2025-03-24 09:30:00-04:00
+2025-03-24 13:55:01.671368 - ❌ Congress trading data not found.
+2025-03-24 13:55:01.673602 - ✅ Selected 30 high-confidence trades for today.
+2025-03-24 13:55:01.673644 - 🚀 High-confidence trades selected and ready for execution.
+2025-03-24 13:55:08 - 🚀 main.py started.
+2025-03-24 13:55:08 - 🕒 Current Eastern Time: 2025-03-24 13:55:08 EDT
+2025-03-24 13:55:08 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-24 13:55:08 - 📥 Starting Day Trading Bot...
+2025-03-24 13:55:33 - ✅ Day Trading Bot completed.
+2025-03-24 13:55:33 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $17904.75 for day trading (75% of $23873.0)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+🚀 Buying 464.4733 shares of RCG at 2.5699000358581543
+🖍 Logged BUY of RCG at 2.5699000358581543
+🚀 Buying 103.1677 shares of VG at 11.569999694824219
+🖍 Logged BUY of VG at 11.569999694824219
+🚀 Buying 2091.5543 shares of EONR at 0.5706999897956848
+🖍 Logged BUY of EONR at 0.5706999897956848
+⚠️ Skipping PSEC: Already in position.
+🚀 Buying 674.3785 shares of BUKS at 1.7699999809265137
+❌ Error executing buy for BUKS: asset BUKS is not active
+⚠️ Skipping KRO: Already in position.
+⚠️ Skipping NL: Already in position.
+🚀 Buying 659.4752 shares of MCVT at 1.809999942779541
+🖍 Logged BUY of MCVT at 1.809999942779541
+🚀 Buying 100.3067 shares of SRBK at 11.899999618530273
+🖍 Logged BUY of SRBK at 11.899999618530273
+⚠️ Skipping WEST: Already in position.
+🚀 Buying 72.9169 shares of ECAT at 16.3700008392334
+🖍 Logged BUY of ECAT at 16.3700008392334
+🚀 Buying 661.3020 shares of BLNE at 1.8049999475479126
+🖍 Logged BUY of BLNE at 1.8049999475479126
+⚠️ Skipping TTSH: Already in position.
+🚀 Buying 21.9962 shares of TREE at 54.2661018371582
+🖍 Logged BUY of TREE at 54.2661018371582
+🖍 Logged SELL of EONR at 0.5706999897956848
+✅ Selling EONR due to Stop-loss triggered.
+🖍 Logged SELL of MCVT at 1.809999942779541
+✅ Selling MCVT due to Stop-loss triggered.
+✅ Day trading execution complete.
+2025-03-24 13:55:33 - ⚠️ Day Trading Bot stderr:
+$ZOM: possibly delisted; no price data found  (period=1d)
+2025-03-24 13:55:33 - 📥 Starting AI Auto-Update...
+2025-03-24 13:55:33 - ✅ AI Auto-Update completed.
+2025-03-24 13:55:33 - ✅ All tasks complete. main.py finished.
+
+2025-03-24 13:57:01 - 🚀 main.py started.
+2025-03-24 13:57:01 - 🕒 Current Eastern Time: 2025-03-24 13:57:01 EDT
+2025-03-24 13:57:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-24 13:57:01 - 📥 Starting Day Trading Bot...
+2025-03-24 13:57:15 - ✅ Day Trading Bot completed.
+2025-03-24 13:57:15 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $17853.51 for day trading (75% of $23804.68)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+🖍 Logged SELL of RCG at 2.549999952316284
+✅ Selling RCG due to Stop-loss triggered.
+✅ Day trading execution complete.
+2025-03-24 13:57:15 - 📥 Starting AI Auto-Update...
+2025-03-24 13:57:15 - ✅ AI Auto-Update completed.
+2025-03-24 13:57:15 - ✅ All tasks complete. main.py finished.
+
+2025-03-24 14:00:01 - 🚀 main.py started.
+2025-03-24 14:00:01 - 🕒 Current Eastern Time: 2025-03-24 14:00:01 EDT
+2025-03-24 14:00:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-24 14:00:01 - 📥 Starting Day Trading Bot...
+2025-03-24 14:00:14 - ✅ Day Trading Bot completed.
+2025-03-24 14:00:14 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $17811.49 for day trading (75% of $23748.65)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+✅ Day trading execution complete.
+2025-03-24 14:00:14 - 📥 Starting AI Auto-Update...
+2025-03-24 14:00:14 - ✅ AI Auto-Update completed.
+2025-03-24 14:00:14 - ✅ All tasks complete. main.py finished.
+
+2025-03-24 14:03:01 - 🚀 main.py started.
+2025-03-24 14:03:01 - 🕒 Current Eastern Time: 2025-03-24 14:03:01 EDT
+2025-03-24 14:03:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-24 14:03:01 - 📥 Starting Day Trading Bot...
+2025-03-24 14:03:13 - ✅ Day Trading Bot completed.
+2025-03-24 14:03:13 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $17826.14 for day trading (75% of $23768.18)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+🖍 Logged SELL of BLNE at 1.8487999439239502
+✅ Selling BLNE due to Target hit.
+✅ Day trading execution complete.
+2025-03-24 14:03:13 - 📥 Starting AI Auto-Update...
+2025-03-24 14:03:13 - ✅ AI Auto-Update completed.
+2025-03-24 14:03:13 - ✅ All tasks complete. main.py finished.
+
+2025-03-24 14:06:01 - 🚀 main.py started.
+2025-03-24 14:06:02 - 🕒 Current Eastern Time: 2025-03-24 14:06:02 EDT
+2025-03-24 14:06:02 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-24 14:06:02 - 📥 Starting Day Trading Bot...
+2025-03-24 14:06:13 - ✅ Day Trading Bot completed.
+2025-03-24 14:06:13 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $17804.23 for day trading (75% of $23738.97)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+✅ Day trading execution complete.
+2025-03-24 14:06:13 - 📥 Starting AI Auto-Update...
+2025-03-24 14:06:13 - ✅ AI Auto-Update completed.
+2025-03-24 14:06:13 - ✅ All tasks complete. main.py finished.
+
+2025-03-24 14:09:01 - 🚀 main.py started.
+2025-03-24 14:09:01 - 🕒 Current Eastern Time: 2025-03-24 14:09:01 EDT
+2025-03-24 14:09:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-24 14:09:01 - 📥 Starting Day Trading Bot...
+2025-03-24 14:09:12 - ✅ Day Trading Bot completed.
+2025-03-24 14:09:12 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $17806.51 for day trading (75% of $23742.01)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+✅ Day trading execution complete.
+2025-03-24 14:09:12 - 📥 Starting AI Auto-Update...
+2025-03-24 14:09:12 - ✅ AI Auto-Update completed.
+2025-03-24 14:09:12 - ✅ All tasks complete. main.py finished.
+
+2025-03-24 14:11:05 - 🚀 main.py started.
+2025-03-24 14:11:05 - 🕒 Current Eastern Time: 2025-03-24 14:11:05 EDT
+2025-03-24 14:11:05 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-24 14:11:05 - 📥 Starting Day Trading Bot...
+2025-03-24 14:11:26 - ✅ Day Trading Bot completed.
+2025-03-24 14:11:26 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $17797.86 for day trading (75% of $23730.48)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+🚀 Buying 484.2955 shares of RCG at 2.450000047683716
+🖍 Logged BUY of RCG at 2.450000047683716
+⚠️ Skipping VG: Already in position.
+🚀 Buying 2079.0678 shares of EONR at 0.5706999897956848
+🖍 Logged BUY of EONR at 0.5706999897956848
+⚠️ Skipping PSEC: Already in position.
+🚀 Buying 674.1614 shares of BUKS at 1.7599999904632568
+❌ Error executing buy for BUKS: asset BUKS is not active
+⚠️ Skipping KRO: Already in position.
+⚠️ Skipping NL: Already in position.
+🚀 Buying 648.3738 shares of MCVT at 1.8300000429153442
+🖍 Logged BUY of MCVT at 1.8300000429153442
+⚠️ Skipping SRBK: Already in position.
+⚠️ Skipping WEST: Already in position.
+⚠️ Skipping ECAT: Already in position.
+🚀 Buying 650.1501 shares of BLNE at 1.8250000476837158
+🖍 Logged BUY of BLNE at 1.8250000476837158
+⚠️ Skipping TTSH: Already in position.
+⚠️ Skipping TREE: Already in position.
+🖍 Logged SELL of RCG at 2.450000047683716
+✅ Selling RCG due to Stop-loss triggered.
+✅ Day trading execution complete.
+2025-03-24 14:11:26 - ⚠️ Day Trading Bot stderr:
+$ZOM: possibly delisted; no price data found  (period=1d)
+2025-03-24 14:11:26 - 📥 Starting AI Auto-Update...
+2025-03-24 14:11:26 - ✅ AI Auto-Update completed.
+2025-03-24 14:11:26 - ✅ All tasks complete. main.py finished.
+
+2025-03-24 14:12:01 - 🚀 main.py started.
+2025-03-24 14:12:01 - 🕒 Current Eastern Time: 2025-03-24 14:12:01 EDT
+2025-03-24 14:12:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-24 14:12:01 - 📥 Starting Day Trading Bot...
+2025-03-24 14:12:16 - ✅ Day Trading Bot completed.
+2025-03-24 14:12:16 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $17722.08 for day trading (75% of $23629.44)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+✅ Day trading execution complete.
+2025-03-24 14:12:16 - 📥 Starting AI Auto-Update...
+2025-03-24 14:12:16 - ✅ AI Auto-Update completed.
+2025-03-24 14:12:16 - ✅ All tasks complete. main.py finished.
+
+2025-03-24 14:15:01 - 🚀 main.py started.
+2025-03-24 14:15:01 - 🕒 Current Eastern Time: 2025-03-24 14:15:01 EDT
+2025-03-24 14:15:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-24 14:15:01 - 📥 Starting Day Trading Bot...
+2025-03-24 14:15:15 - ✅ Day Trading Bot completed.
+2025-03-24 14:15:15 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $17709.91 for day trading (75% of $23613.21)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+✅ Day trading execution complete.
+2025-03-24 14:15:15 - 📥 Starting AI Auto-Update...
+2025-03-24 14:15:15 - ✅ AI Auto-Update completed.
+2025-03-24 14:15:15 - ✅ All tasks complete. main.py finished.
+
+2025-03-24 14:18:01 - 🚀 main.py started.
+2025-03-24 14:18:01 - 🕒 Current Eastern Time: 2025-03-24 14:18:01 EDT
+2025-03-24 14:18:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-24 14:18:01 - 📥 Starting Day Trading Bot...
+2025-03-24 14:18:16 - ✅ Day Trading Bot completed.
+2025-03-24 14:18:16 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $17720.06 for day trading (75% of $23626.74)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+✅ Day trading execution complete.
+2025-03-24 14:18:16 - 📥 Starting AI Auto-Update...
+2025-03-24 14:18:16 - ✅ AI Auto-Update completed.
+2025-03-24 14:18:16 - ✅ All tasks complete. main.py finished.
+
+2025-03-24 14:21:01 - 🚀 main.py started.
+2025-03-24 14:21:01 - 🕒 Current Eastern Time: 2025-03-24 14:21:01 EDT
+2025-03-24 14:21:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-24 14:21:01 - 📥 Starting Day Trading Bot...
+2025-03-24 14:21:15 - ✅ Day Trading Bot completed.
+2025-03-24 14:21:15 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $17708.88 for day trading (75% of $23611.84)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+🖍 Logged SELL of BLNE at 1.7999999523162842
+✅ Selling BLNE due to Stop-loss triggered.
+✅ Day trading execution complete.
+2025-03-24 14:21:15 - 📥 Starting AI Auto-Update...
+2025-03-24 14:21:15 - ✅ AI Auto-Update completed.
+2025-03-24 14:21:15 - ✅ All tasks complete. main.py finished.
+
+2025-03-24 14:24:01 - 🚀 main.py started.
+2025-03-24 14:24:01 - 🕒 Current Eastern Time: 2025-03-24 14:24:01 EDT
+2025-03-24 14:24:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-24 14:24:01 - 📥 Starting Day Trading Bot...
+2025-03-24 14:24:15 - ✅ Day Trading Bot completed.
+2025-03-24 14:24:15 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $17683.67 for day trading (75% of $23578.22)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+✅ Day trading execution complete.
+2025-03-24 14:24:15 - 📥 Starting AI Auto-Update...
+2025-03-24 14:24:15 - ✅ AI Auto-Update completed.
+2025-03-24 14:24:15 - ✅ All tasks complete. main.py finished.
+
+2025-03-24 14:25:01.656084 - 📅 Market open set for 2025-03-24 09:30:00-04:00
+2025-03-24 14:25:01.656242 - ❌ Congress trading data not found.
+2025-03-24 14:25:01.658468 - ✅ Selected 30 high-confidence trades for today.
+2025-03-24 14:25:01.658511 - 🚀 High-confidence trades selected and ready for execution.
+2025-03-24 14:27:01 - 🚀 main.py started.
+2025-03-24 14:27:01 - 🕒 Current Eastern Time: 2025-03-24 14:27:01 EDT
+2025-03-24 14:27:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-24 14:27:01 - 📥 Starting Day Trading Bot...
+2025-03-24 14:27:14 - ✅ Day Trading Bot completed.
+2025-03-24 14:27:14 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $17681.83 for day trading (75% of $23575.77)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+✅ Day trading execution complete.
+2025-03-24 14:27:14 - 📥 Starting AI Auto-Update...
+2025-03-24 14:27:14 - ✅ AI Auto-Update completed.
+2025-03-24 14:27:14 - ✅ All tasks complete. main.py finished.
+
+2025-03-24 14:30:01 - 🚀 main.py started.
+2025-03-24 14:30:01 - 🕒 Current Eastern Time: 2025-03-24 14:30:01 EDT
+2025-03-24 14:30:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-24 14:30:01 - 📥 Starting Day Trading Bot...
+2025-03-24 14:30:14 - ✅ Day Trading Bot completed.
+2025-03-24 14:30:14 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $17690.01 for day trading (75% of $23586.68)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+✅ Day trading execution complete.
+2025-03-24 14:30:14 - 📥 Starting AI Auto-Update...
+2025-03-24 14:30:14 - ✅ AI Auto-Update completed.
+2025-03-24 14:30:14 - ✅ All tasks complete. main.py finished.
+
+2025-03-24 14:33:01 - 🚀 main.py started.
+2025-03-24 14:33:01 - 🕒 Current Eastern Time: 2025-03-24 14:33:01 EDT
+2025-03-24 14:33:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-24 14:33:01 - 📥 Starting Day Trading Bot...
+2025-03-24 14:33:14 - ✅ Day Trading Bot completed.
+2025-03-24 14:33:14 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $17691.97 for day trading (75% of $23589.3)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+✅ Day trading execution complete.
+2025-03-24 14:33:14 - 📥 Starting AI Auto-Update...
+2025-03-24 14:33:14 - ✅ AI Auto-Update completed.
+2025-03-24 14:33:14 - ✅ All tasks complete. main.py finished.
+
+2025-03-24 14:36:01 - 🚀 main.py started.
+2025-03-24 14:36:01 - 🕒 Current Eastern Time: 2025-03-24 14:36:01 EDT
+2025-03-24 14:36:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-24 14:36:01 - 📥 Starting Day Trading Bot...
+2025-03-24 14:36:15 - ✅ Day Trading Bot completed.
+2025-03-24 14:36:15 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $17692.85 for day trading (75% of $23590.47)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+✅ Day trading execution complete.
+2025-03-24 14:36:15 - 📥 Starting AI Auto-Update...
+2025-03-24 14:36:15 - ✅ AI Auto-Update completed.
+2025-03-24 14:36:15 - ✅ All tasks complete. main.py finished.
+
+2025-03-24 14:39:01 - 🚀 main.py started.
+2025-03-24 14:39:01 - 🕒 Current Eastern Time: 2025-03-24 14:39:01 EDT
+2025-03-24 14:39:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-24 14:39:01 - 📥 Starting Day Trading Bot...
+2025-03-24 14:39:14 - ✅ Day Trading Bot completed.
+2025-03-24 14:39:14 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $17691.97 for day trading (75% of $23589.3)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+✅ Day trading execution complete.
+2025-03-24 14:39:14 - 📥 Starting AI Auto-Update...
+2025-03-24 14:39:14 - ✅ AI Auto-Update completed.
+2025-03-24 14:39:14 - ✅ All tasks complete. main.py finished.
+
+2025-03-24 14:42:01 - 🚀 main.py started.
+2025-03-24 14:42:01 - 🕒 Current Eastern Time: 2025-03-24 14:42:01 EDT
+2025-03-24 14:42:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-24 14:42:01 - 📥 Starting Day Trading Bot...
+2025-03-24 14:42:15 - ✅ Day Trading Bot completed.
+2025-03-24 14:42:15 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $17705.73 for day trading (75% of $23607.64)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+✅ Day trading execution complete.
+2025-03-24 14:42:15 - 📥 Starting AI Auto-Update...
+2025-03-24 14:42:15 - ✅ AI Auto-Update completed.
+2025-03-24 14:42:15 - ✅ All tasks complete. main.py finished.
+
+2025-03-24 14:45:01 - 🚀 main.py started.
+2025-03-24 14:45:01 - 🕒 Current Eastern Time: 2025-03-24 14:45:01 EDT
+2025-03-24 14:45:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-24 14:45:01 - 📥 Starting Day Trading Bot...
+2025-03-24 14:45:15 - ✅ Day Trading Bot completed.
+2025-03-24 14:45:15 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $17717.27 for day trading (75% of $23623.03)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+✅ Day trading execution complete.
+2025-03-24 14:45:15 - 📥 Starting AI Auto-Update...
+2025-03-24 14:45:15 - ✅ AI Auto-Update completed.
+2025-03-24 14:45:15 - ✅ All tasks complete. main.py finished.
+
+2025-03-24 14:48:01 - 🚀 main.py started.
+2025-03-24 14:48:01 - 🕒 Current Eastern Time: 2025-03-24 14:48:01 EDT
+2025-03-24 14:48:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-24 14:48:01 - 📥 Starting Day Trading Bot...
+2025-03-24 14:48:14 - ✅ Day Trading Bot completed.
+2025-03-24 14:48:14 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $17718.14 for day trading (75% of $23624.19)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+✅ Day trading execution complete.
+2025-03-24 14:48:14 - 📥 Starting AI Auto-Update...
+2025-03-24 14:48:14 - ✅ AI Auto-Update completed.
+2025-03-24 14:48:14 - ✅ All tasks complete. main.py finished.
+
+2025-03-24 14:48:53 - 🚀 main.py started.
+2025-03-24 14:48:53 - 🕒 Current Eastern Time: 2025-03-24 14:48:53 EDT
+2025-03-24 14:48:53 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-24 14:48:53 - 📥 Starting Day Trading Bot...
+2025-03-24 14:49:14 - ✅ Day Trading Bot completed.
+2025-03-24 14:49:14 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $17721.35 for day trading (75% of $23628.47)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+🚀 Buying 671.2634 shares of BUKS at 1.7599999904632568
+❌ Error executing buy for BUKS: asset BUKS is not active
+⚠️ Skipping NL: Already in position.
+⚠️ Skipping KRO: Already in position.
+⚠️ Skipping MCVT: Already in position.
+⚠️ Skipping VG: Already in position.
+⚠️ Skipping EONR: Already in position.
+⚠️ Skipping WEST: Already in position.
+⚠️ Skipping SRBK: Already in position.
+⚠️ Skipping PSEC: Already in position.
+🚀 Buying 482.2137 shares of RCG at 2.450000047683716
+🖍 Logged BUY of RCG at 2.450000047683716
+⚠️ Skipping TTSH: Already in position.
+⚠️ Skipping ECAT: Already in position.
+🚀 Buying 649.7050 shares of BLNE at 1.8184000253677368
+🖍 Logged BUY of BLNE at 1.8184000253677368
+🚀 Buying 437.5643 shares of CUBA at 2.700000047683716
+🖍 Logged BUY of CUBA at 2.700000047683716
+🖍 Logged SELL of RCG at 2.450000047683716
+✅ Selling RCG due to Stop-loss triggered.
+✅ Day trading execution complete.
+2025-03-24 14:49:14 - ⚠️ Day Trading Bot stderr:
+$ZOM: possibly delisted; no price data found  (period=1d)
+2025-03-24 14:49:14 - 📥 Starting AI Auto-Update...
+2025-03-24 14:49:14 - ✅ AI Auto-Update completed.
+2025-03-24 14:49:14 - ✅ All tasks complete. main.py finished.
+
+2025-03-24 14:51:01 - 🚀 main.py started.
+2025-03-24 14:51:01 - 🕒 Current Eastern Time: 2025-03-24 14:51:01 EDT
+2025-03-24 14:51:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-24 14:51:01 - 📥 Starting Day Trading Bot...
+2025-03-24 14:51:17 - ✅ Day Trading Bot completed.
+2025-03-24 14:51:17 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $17687.49 for day trading (75% of $23583.32)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+✅ Day trading execution complete.
+2025-03-24 14:51:17 - 📥 Starting AI Auto-Update...
+2025-03-24 14:51:17 - ✅ AI Auto-Update completed.
+2025-03-24 14:51:17 - ✅ All tasks complete. main.py finished.
+
+2025-03-24 14:54:01 - 🚀 main.py started.
+2025-03-24 14:54:01 - 🕒 Current Eastern Time: 2025-03-24 14:54:01 EDT
+2025-03-24 14:54:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-24 14:54:01 - 📥 Starting Day Trading Bot...
+2025-03-24 14:54:17 - ✅ Day Trading Bot completed.
+2025-03-24 14:54:17 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $17699.99 for day trading (75% of $23599.98)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+✅ Day trading execution complete.
+2025-03-24 14:54:17 - 📥 Starting AI Auto-Update...
+2025-03-24 14:54:17 - ✅ AI Auto-Update completed.
+2025-03-24 14:54:17 - ✅ All tasks complete. main.py finished.
+
+2025-03-24 14:55:01 - 🚀 main.py started.
+2025-03-24 14:55:01 - 🕒 Current Eastern Time: 2025-03-24 14:55:01 EDT
+2025-03-24 14:55:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-24 14:55:01 - 📥 Starting Day Trading Bot...
+2025-03-24 14:55:01.624548 - 📅 Market open set for 2025-03-24 09:30:00-04:00
+2025-03-24 14:55:01.624716 - ❌ Congress trading data not found.
+2025-03-24 14:55:01.626938 - ✅ Selected 30 high-confidence trades for today.
+2025-03-24 14:55:01.627000 - 🚀 High-confidence trades selected and ready for execution.
+2025-03-24 14:55:16 - ✅ Day Trading Bot completed.
+2025-03-24 14:55:16 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $17682.69 for day trading (75% of $23576.92)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+🖍 Logged SELL of BLNE at 1.784999966621399
+✅ Selling BLNE due to Stop-loss triggered.
+✅ Day trading execution complete.
+2025-03-24 14:55:16 - 📥 Starting AI Auto-Update...
+2025-03-24 14:55:16 - ✅ AI Auto-Update completed.
+2025-03-24 14:55:16 - ✅ All tasks complete. main.py finished.
+
+2025-03-24 14:57:02 - 🚀 main.py started.
+2025-03-24 14:57:02 - 🕒 Current Eastern Time: 2025-03-24 14:57:02 EDT
+2025-03-24 14:57:02 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-24 14:57:02 - 📥 Starting Day Trading Bot...
+2025-03-24 14:57:16 - ✅ Day Trading Bot completed.
+2025-03-24 14:57:16 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $17665.33 for day trading (75% of $23553.78)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+✅ Day trading execution complete.
+2025-03-24 14:57:16 - 📥 Starting AI Auto-Update...
+2025-03-24 14:57:16 - ✅ AI Auto-Update completed.
+2025-03-24 14:57:16 - ✅ All tasks complete. main.py finished.
+
+2025-03-24 15:00:01 - 🚀 main.py started.
+2025-03-24 15:00:01 - 🕒 Current Eastern Time: 2025-03-24 15:00:01 EDT
+2025-03-24 15:00:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-24 15:00:01 - 📥 Starting Day Trading Bot...
+2025-03-24 15:00:16 - ✅ Day Trading Bot completed.
+2025-03-24 15:00:16 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $17649.76 for day trading (75% of $23533.01)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+✅ Day trading execution complete.
+2025-03-24 15:00:16 - 📥 Starting AI Auto-Update...
+2025-03-24 15:00:16 - ✅ AI Auto-Update completed.
+2025-03-24 15:00:16 - ✅ All tasks complete. main.py finished.
+
+2025-03-24 15:03:01 - 🚀 main.py started.
+2025-03-24 15:03:01 - 🕒 Current Eastern Time: 2025-03-24 15:03:01 EDT
+2025-03-24 15:03:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-24 15:03:01 - 📥 Starting Day Trading Bot...
+2025-03-24 15:03:15 - ✅ Day Trading Bot completed.
+2025-03-24 15:03:15 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $17653.68 for day trading (75% of $23538.24)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+✅ Day trading execution complete.
+2025-03-24 15:03:15 - 📥 Starting AI Auto-Update...
+2025-03-24 15:03:15 - ✅ AI Auto-Update completed.
+2025-03-24 15:03:15 - ✅ All tasks complete. main.py finished.
+
+2025-03-24 15:06:01 - 🚀 main.py started.
+2025-03-24 15:06:01 - 🕒 Current Eastern Time: 2025-03-24 15:06:01 EDT
+2025-03-24 15:06:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-24 15:06:01 - 📥 Starting Day Trading Bot...
+2025-03-24 15:06:16 - ✅ Day Trading Bot completed.
+2025-03-24 15:06:16 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $17654.59 for day trading (75% of $23539.45)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+🖍 Logged SELL of EONR at 0.5900999903678894
+✅ Selling EONR due to Target hit.
+🖍 Logged SELL of TREE at 55.529998779296875
+✅ Selling TREE due to Target hit.
+🖍 Logged SELL of VG at 11.364999771118164
+✅ Selling VG due to Stop-loss triggered.
+✅ Day trading execution complete.
+2025-03-24 15:06:16 - 📥 Starting AI Auto-Update...
+2025-03-24 15:06:16 - ✅ AI Auto-Update completed.
+2025-03-24 15:06:16 - ✅ All tasks complete. main.py finished.
+
+2025-03-24 15:09:01 - 🚀 main.py started.
+2025-03-24 15:09:01 - 🕒 Current Eastern Time: 2025-03-24 15:09:01 EDT
+2025-03-24 15:09:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-24 15:09:01 - 📥 Starting Day Trading Bot...
+2025-03-24 15:09:13 - ✅ Day Trading Bot completed.
+2025-03-24 15:09:13 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $17633.82 for day trading (75% of $23511.76)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+✅ Day trading execution complete.
+2025-03-24 15:09:13 - 📥 Starting AI Auto-Update...
+2025-03-24 15:09:13 - ✅ AI Auto-Update completed.
+2025-03-24 15:09:13 - ✅ All tasks complete. main.py finished.
+
+2025-03-24 15:12:01 - 🚀 main.py started.
+2025-03-24 15:12:01 - 🕒 Current Eastern Time: 2025-03-24 15:12:01 EDT
+2025-03-24 15:12:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-24 15:12:01 - 📥 Starting Day Trading Bot...
+2025-03-24 15:12:12 - ✅ Day Trading Bot completed.
+2025-03-24 15:12:12 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $17634.29 for day trading (75% of $23512.39)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+✅ Day trading execution complete.
+2025-03-24 15:12:12 - 📥 Starting AI Auto-Update...
+2025-03-24 15:12:12 - ✅ AI Auto-Update completed.
+2025-03-24 15:12:12 - ✅ All tasks complete. main.py finished.
+
+2025-03-24 15:15:01 - 🚀 main.py started.
+2025-03-24 15:15:01 - 🕒 Current Eastern Time: 2025-03-24 15:15:01 EDT
+2025-03-24 15:15:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-24 15:15:01 - 📥 Starting Day Trading Bot...
+2025-03-24 15:15:13 - ✅ Day Trading Bot completed.
+2025-03-24 15:15:13 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $17635.43 for day trading (75% of $23513.91)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+✅ Day trading execution complete.
+2025-03-24 15:15:13 - 📥 Starting AI Auto-Update...
+2025-03-24 15:15:13 - ✅ AI Auto-Update completed.
+2025-03-24 15:15:13 - ✅ All tasks complete. main.py finished.
+
+2025-03-24 15:18:01 - 🚀 main.py started.
+2025-03-24 15:18:01 - 🕒 Current Eastern Time: 2025-03-24 15:18:01 EDT
+2025-03-24 15:18:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-24 15:18:01 - 📥 Starting Day Trading Bot...
+2025-03-24 15:18:12 - ✅ Day Trading Bot completed.
+2025-03-24 15:18:12 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $17635.93 for day trading (75% of $23514.57)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+✅ Day trading execution complete.
+2025-03-24 15:18:12 - 📥 Starting AI Auto-Update...
+2025-03-24 15:18:12 - ✅ AI Auto-Update completed.
+2025-03-24 15:18:12 - ✅ All tasks complete. main.py finished.
+
+2025-03-24 15:21:01 - 🚀 main.py started.
+2025-03-24 15:21:01 - 🕒 Current Eastern Time: 2025-03-24 15:21:01 EDT
+2025-03-24 15:21:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-24 15:21:01 - 📥 Starting Day Trading Bot...
+2025-03-24 15:21:12 - ✅ Day Trading Bot completed.
+2025-03-24 15:21:12 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $17635.97 for day trading (75% of $23514.62)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+✅ Day trading execution complete.
+2025-03-24 15:21:12 - 📥 Starting AI Auto-Update...
+2025-03-24 15:21:12 - ✅ AI Auto-Update completed.
+2025-03-24 15:21:12 - ✅ All tasks complete. main.py finished.
+
+2025-03-24 15:24:01 - 🚀 main.py started.
+2025-03-24 15:24:01 - 🕒 Current Eastern Time: 2025-03-24 15:24:01 EDT
+2025-03-24 15:24:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-24 15:24:01 - 📥 Starting Day Trading Bot...
+2025-03-24 15:24:13 - ✅ Day Trading Bot completed.
+2025-03-24 15:24:13 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $17638.97 for day trading (75% of $23518.62)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+✅ Day trading execution complete.
+2025-03-24 15:24:13 - 📥 Starting AI Auto-Update...
+2025-03-24 15:24:13 - ✅ AI Auto-Update completed.
+2025-03-24 15:24:13 - ✅ All tasks complete. main.py finished.
+
+2025-03-24 15:25:01.815661 - 📅 Market open set for 2025-03-24 09:30:00-04:00
+2025-03-24 15:25:01.815832 - ❌ Congress trading data not found.
+2025-03-24 15:25:01.818150 - ✅ Selected 30 high-confidence trades for today.
+2025-03-24 15:25:01.818196 - 🚀 High-confidence trades selected and ready for execution.
+2025-03-24 15:26:09 - 🚀 main.py started.
+2025-03-24 15:26:09 - 🕒 Current Eastern Time: 2025-03-24 15:26:09 EDT
+2025-03-24 15:26:09 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-24 15:26:09 - 📥 Starting Day Trading Bot...
+2025-03-24 15:26:33 - ✅ Day Trading Bot completed.
+2025-03-24 15:26:33 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $17638.36 for day trading (75% of $23517.82)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ Skipping NL: Already in position.
+⚠️ Skipping KRO: Already in position.
+🚀 Buying 668.1199 shares of BUKS at 1.7599999904632568
+❌ Error executing buy for BUKS: asset BUKS is not active
+⚠️ Skipping PSEC: Already in position.
+⚠️ Skipping MCVT: Already in position.
+🚀 Buying 101.8087 shares of VG at 11.550000190734863
+🖍 Logged BUY of VG at 11.550000190734863
+⚠️ Skipping SRBK: Already in position.
+⚠️ Skipping WEST: Already in position.
+🚀 Buying 479.9555 shares of RCG at 2.450000047683716
+🖍 Logged BUY of RCG at 2.450000047683716
+🚀 Buying 2060.0753 shares of EONR at 0.5708000063896179
+🖍 Logged BUY of EONR at 0.5708000063896179
+⚠️ Skipping ECAT: Already in position.
+🚀 Buying 679.7058 shares of BLNE at 1.7300000190734863
+🖍 Logged BUY of BLNE at 1.7300000190734863
+⚠️ Skipping TTSH: Already in position.
+🚀 Buying 156.9948 shares of PESI at 7.489999771118164
+🖍 Logged BUY of PESI at 7.489999771118164
+🖍 Logged SELL of RCG at 2.450000047683716
+✅ Selling RCG due to Stop-loss triggered.
+✅ Day trading execution complete.
+2025-03-24 15:26:33 - ⚠️ Day Trading Bot stderr:
+$ZOM: possibly delisted; no price data found  (period=1d)
+2025-03-24 15:26:33 - 📥 Starting AI Auto-Update...
+2025-03-24 15:26:33 - ✅ AI Auto-Update completed.
+2025-03-24 15:26:33 - ✅ All tasks complete. main.py finished.
+
+2025-03-24 15:27:01 - 🚀 main.py started.
+2025-03-24 15:27:01 - 🕒 Current Eastern Time: 2025-03-24 15:27:01 EDT
+2025-03-24 15:27:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-24 15:27:01 - 📥 Starting Day Trading Bot...
+2025-03-24 15:27:17 - ✅ Day Trading Bot completed.
+2025-03-24 15:27:17 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $17562.03 for day trading (75% of $23416.04)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+✅ Day trading execution complete.
+2025-03-24 15:27:17 - 📥 Starting AI Auto-Update...
+2025-03-24 15:27:17 - ✅ AI Auto-Update completed.
+2025-03-24 15:27:17 - ✅ All tasks complete. main.py finished.
+
+2025-03-24 15:30:01 - 🚀 main.py started.
+2025-03-24 15:30:01 - 🕒 Current Eastern Time: 2025-03-24 15:30:01 EDT
+2025-03-24 15:30:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-24 15:30:01 - 📥 Starting Day Trading Bot...
+2025-03-24 15:30:17 - ✅ Day Trading Bot completed.
+2025-03-24 15:30:17 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $17567.86 for day trading (75% of $23423.82)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+🖍 Logged SELL of BLNE at 1.7098000049591064
+✅ Selling BLNE due to Stop-loss triggered.
+✅ Day trading execution complete.
+2025-03-24 15:30:17 - 📥 Starting AI Auto-Update...
+2025-03-24 15:30:17 - ✅ AI Auto-Update completed.
+2025-03-24 15:30:17 - ✅ All tasks complete. main.py finished.
+
+2025-03-24 15:33:01 - 🚀 main.py started.
+2025-03-24 15:33:01 - 🕒 Current Eastern Time: 2025-03-24 15:33:01 EDT
+2025-03-24 15:33:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-24 15:33:01 - 📥 Starting Day Trading Bot...
+2025-03-24 15:33:15 - ✅ Day Trading Bot completed.
+2025-03-24 15:33:15 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $17560.28 for day trading (75% of $23413.71)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+✅ Day trading execution complete.
+2025-03-24 15:33:15 - 📥 Starting AI Auto-Update...
+2025-03-24 15:33:15 - ✅ AI Auto-Update completed.
+2025-03-24 15:33:15 - ✅ All tasks complete. main.py finished.
+
+2025-03-24 15:36:01 - 🚀 main.py started.
+2025-03-24 15:36:01 - 🕒 Current Eastern Time: 2025-03-24 15:36:01 EDT
+2025-03-24 15:36:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-24 15:36:01 - 📥 Starting Day Trading Bot...
+2025-03-24 15:36:16 - ✅ Day Trading Bot completed.
+2025-03-24 15:36:16 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $17563.56 for day trading (75% of $23418.08)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+🖍 Logged SELL of EONR at 0.5799999833106995
+✅ Selling EONR due to Target hit.
+✅ Day trading execution complete.
+2025-03-24 15:36:16 - 📥 Starting AI Auto-Update...
+2025-03-24 15:36:16 - ✅ AI Auto-Update completed.
+2025-03-24 15:36:16 - ✅ All tasks complete. main.py finished.
+
+2025-03-24 15:39:01 - 🚀 main.py started.
+2025-03-24 15:39:01 - 🕒 Current Eastern Time: 2025-03-24 15:39:01 EDT
+2025-03-24 15:39:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-24 15:39:01 - 📥 Starting Day Trading Bot...
+2025-03-24 15:39:15 - ✅ Day Trading Bot completed.
+2025-03-24 15:39:15 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $17562.98 for day trading (75% of $23417.31)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+✅ Day trading execution complete.
+2025-03-24 15:39:15 - 📥 Starting AI Auto-Update...
+2025-03-24 15:39:15 - ✅ AI Auto-Update completed.
+2025-03-24 15:39:15 - ✅ All tasks complete. main.py finished.
+
+2025-03-24 15:42:01 - 🚀 main.py started.
+2025-03-24 15:42:01 - 🕒 Current Eastern Time: 2025-03-24 15:42:01 EDT
+2025-03-24 15:42:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-24 15:42:01 - 📥 Starting Day Trading Bot...
+2025-03-24 15:42:14 - ✅ Day Trading Bot completed.
+2025-03-24 15:42:14 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $17563.68 for day trading (75% of $23418.24)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+✅ Day trading execution complete.
+2025-03-24 15:42:14 - 📥 Starting AI Auto-Update...
+2025-03-24 15:42:14 - ✅ AI Auto-Update completed.
+2025-03-24 15:42:14 - ✅ All tasks complete. main.py finished.
+
+2025-03-24 15:45:01 - 🚀 main.py started.
+2025-03-24 15:45:01 - 🕒 Current Eastern Time: 2025-03-24 15:45:01 EDT
+2025-03-24 15:45:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-24 15:45:01 - 📥 Starting Day Trading Bot...
+2025-03-24 15:45:15 - ✅ Day Trading Bot completed.
+2025-03-24 15:45:15 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $17560.69 for day trading (75% of $23414.25)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+✅ Day trading execution complete.
+2025-03-24 15:45:15 - 📥 Starting AI Auto-Update...
+2025-03-24 15:45:15 - ✅ AI Auto-Update completed.
+2025-03-24 15:45:15 - ✅ All tasks complete. main.py finished.
+
+2025-03-24 15:48:01 - 🚀 main.py started.
+2025-03-24 15:48:01 - 🕒 Current Eastern Time: 2025-03-24 15:48:01 EDT
+2025-03-24 15:48:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-24 15:48:01 - 📥 Starting Day Trading Bot...
+2025-03-24 15:48:14 - ✅ Day Trading Bot completed.
+2025-03-24 15:48:14 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $17563.16 for day trading (75% of $23417.55)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+✅ Day trading execution complete.
+2025-03-24 15:48:14 - 📥 Starting AI Auto-Update...
+2025-03-24 15:48:14 - ✅ AI Auto-Update completed.
+2025-03-24 15:48:14 - ✅ All tasks complete. main.py finished.
+
+2025-03-24 15:51:01 - 🚀 main.py started.
+2025-03-24 15:51:01 - 🕒 Current Eastern Time: 2025-03-24 15:51:01 EDT
+2025-03-24 15:51:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-24 15:51:01 - 📥 Starting Day Trading Bot...
+2025-03-24 15:51:15 - ✅ Day Trading Bot completed.
+2025-03-24 15:51:15 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $17511.98 for day trading (75% of $23349.31)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+🖍 Logged SELL of CULP at 5.150000095367432
+✅ Selling CULP due to Stop-loss triggered.
+✅ Day trading execution complete.
+2025-03-24 15:51:15 - 📥 Starting AI Auto-Update...
+2025-03-24 15:51:15 - ✅ AI Auto-Update completed.
+2025-03-24 15:51:15 - ✅ All tasks complete. main.py finished.
+
+2025-03-24 15:54:01 - 🚀 main.py started.
+2025-03-24 15:54:01 - 🕒 Current Eastern Time: 2025-03-24 15:54:01 EDT
+2025-03-24 15:54:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-24 15:54:01 - 📥 Starting Day Trading Bot...
+2025-03-24 15:54:13 - ✅ Day Trading Bot completed.
+2025-03-24 15:54:13 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $17523.16 for day trading (75% of $23364.21)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+✅ Day trading execution complete.
+2025-03-24 15:54:13 - 📥 Starting AI Auto-Update...
+2025-03-24 15:54:13 - ✅ AI Auto-Update completed.
+2025-03-24 15:54:13 - ✅ All tasks complete. main.py finished.
+
+2025-03-24 15:55:02.475673 - 📅 Market open set for 2025-03-24 09:30:00-04:00
+2025-03-24 15:55:02.475840 - ❌ Congress trading data not found.
+2025-03-24 15:55:02.478115 - ✅ Selected 30 high-confidence trades for today.
+2025-03-24 15:55:02.478160 - 🚀 High-confidence trades selected and ready for execution.
+2025-03-24 15:57:01 - 🚀 main.py started.
+2025-03-24 15:57:01 - 🕒 Current Eastern Time: 2025-03-24 15:57:01 EDT
+2025-03-24 15:57:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-24 15:57:01 - 📥 Starting Day Trading Bot...
+2025-03-24 15:57:14 - ✅ Day Trading Bot completed.
+2025-03-24 15:57:14 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $17535.91 for day trading (75% of $23381.21)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+✅ Day trading execution complete.
+2025-03-24 15:57:14 - 📥 Starting AI Auto-Update...
+2025-03-24 15:57:14 - ✅ AI Auto-Update completed.
+2025-03-24 15:57:14 - ✅ All tasks complete. main.py finished.
+
+2025-03-24 16:00:01 - 🚀 main.py started.
+2025-03-24 16:00:01 - 🕒 Current Eastern Time: 2025-03-24 16:00:01 EDT
+2025-03-24 16:00:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-24 16:00:01 - 📥 Starting Day Trading Bot...
+2025-03-24 16:00:13 - ✅ Day Trading Bot completed.
+2025-03-24 16:00:13 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $17543.68 for day trading (75% of $23391.57)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+🖍 Logged SELL of TTSH at 6.670000076293945
+✅ Selling TTSH due to Target hit.
+✅ Day trading execution complete.
+2025-03-24 16:00:13 - 📥 Starting AI Auto-Update...
+2025-03-24 16:00:13 - ✅ AI Auto-Update completed.
+2025-03-24 16:00:13 - ✅ All tasks complete. main.py finished.
+
+2025-03-24 16:03:01 - 🚀 main.py started.
+2025-03-24 16:03:01 - 🕒 Current Eastern Time: 2025-03-24 16:03:01 EDT
+2025-03-24 16:03:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-24 16:03:01 - 📥 Starting Day Trading Bot...
+2025-03-24 16:03:14 - ✅ Day Trading Bot completed.
+2025-03-24 16:03:14 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $17544.26 for day trading (75% of $23392.34)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+⚠️ Skipping selling TTSH: open order detected.
+✅ Day trading execution complete.
+2025-03-24 16:03:14 - 📥 Starting AI Auto-Update...
+2025-03-24 16:03:14 - ✅ AI Auto-Update completed.
+2025-03-24 16:03:14 - ✅ All tasks complete. main.py finished.
+
+2025-03-24 16:06:01 - 🚀 main.py started.
+2025-03-24 16:06:01 - 🕒 Current Eastern Time: 2025-03-24 16:06:01 EDT
+2025-03-24 16:06:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-24 16:06:01 - 📥 Starting Day Trading Bot...
+2025-03-24 16:06:14 - ✅ Day Trading Bot completed.
+2025-03-24 16:06:14 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $17542.10 for day trading (75% of $23389.46)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+⚠️ Skipping selling TTSH: open order detected.
+✅ Day trading execution complete.
+2025-03-24 16:06:14 - 📥 Starting AI Auto-Update...
+2025-03-24 16:06:14 - ✅ AI Auto-Update completed.
+2025-03-24 16:06:14 - ✅ All tasks complete. main.py finished.
+
+2025-03-24 16:09:01 - 🚀 main.py started.
+2025-03-24 16:09:01 - 🕒 Current Eastern Time: 2025-03-24 16:09:01 EDT
+2025-03-24 16:09:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-24 16:09:01 - 📥 Starting Day Trading Bot...
+2025-03-24 16:09:13 - ✅ Day Trading Bot completed.
+2025-03-24 16:09:13 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $17542.10 for day trading (75% of $23389.46)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+⚠️ Skipping selling TTSH: open order detected.
+✅ Day trading execution complete.
+2025-03-24 16:09:13 - 📥 Starting AI Auto-Update...
+2025-03-24 16:09:13 - ✅ AI Auto-Update completed.
+2025-03-24 16:09:13 - ✅ All tasks complete. main.py finished.
+
+2025-03-24 16:12:01 - 🚀 main.py started.
+2025-03-24 16:12:01 - 🕒 Current Eastern Time: 2025-03-24 16:12:01 EDT
+2025-03-24 16:12:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-24 16:12:01 - 📥 Starting Day Trading Bot...
+2025-03-24 16:12:14 - ✅ Day Trading Bot completed.
+2025-03-24 16:12:14 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $17542.10 for day trading (75% of $23389.46)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+⚠️ Skipping selling TTSH: open order detected.
+✅ Day trading execution complete.
+2025-03-24 16:12:14 - 📥 Starting AI Auto-Update...
+2025-03-24 16:12:14 - ✅ AI Auto-Update completed.
+2025-03-24 16:12:14 - ✅ All tasks complete. main.py finished.
+
+2025-03-24 16:15:01 - 🚀 main.py started.
+2025-03-24 16:15:01 - 🕒 Current Eastern Time: 2025-03-24 16:15:01 EDT
+2025-03-24 16:15:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-24 16:15:01 - 📥 Starting Day Trading Bot...
+2025-03-24 16:15:13 - ✅ Day Trading Bot completed.
+2025-03-24 16:15:13 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $17542.10 for day trading (75% of $23389.46)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+⚠️ Skipping selling TTSH: open order detected.
+✅ Day trading execution complete.
+2025-03-24 16:15:13 - 📥 Starting AI Auto-Update...
+2025-03-24 16:15:13 - ✅ AI Auto-Update completed.
+2025-03-24 16:15:13 - ✅ All tasks complete. main.py finished.
+
+2025-03-24 16:18:01 - 🚀 main.py started.
+2025-03-24 16:18:01 - 🕒 Current Eastern Time: 2025-03-24 16:18:01 EDT
+2025-03-24 16:18:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-24 16:18:01 - 📥 Starting Day Trading Bot...
+2025-03-24 16:18:13 - ✅ Day Trading Bot completed.
+2025-03-24 16:18:13 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $17542.10 for day trading (75% of $23389.46)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+⚠️ Skipping selling TTSH: open order detected.
+✅ Day trading execution complete.
+2025-03-24 16:18:13 - 📥 Starting AI Auto-Update...
+2025-03-24 16:18:13 - ✅ AI Auto-Update completed.
+2025-03-24 16:18:13 - ✅ All tasks complete. main.py finished.
+
+2025-03-24 16:21:01 - 🚀 main.py started.
+2025-03-24 16:21:01 - 🕒 Current Eastern Time: 2025-03-24 16:21:01 EDT
+2025-03-24 16:21:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-24 16:21:01 - 📥 Starting Day Trading Bot...
+2025-03-24 16:21:14 - ✅ Day Trading Bot completed.
+2025-03-24 16:21:14 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $17542.10 for day trading (75% of $23389.47)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+⚠️ Skipping selling TTSH: open order detected.
+✅ Day trading execution complete.
+2025-03-24 16:21:14 - 📥 Starting AI Auto-Update...
+2025-03-24 16:21:14 - ✅ AI Auto-Update completed.
+2025-03-24 16:21:14 - ✅ All tasks complete. main.py finished.
+
+2025-03-24 16:24:01 - 🚀 main.py started.
+2025-03-24 16:24:01 - 🕒 Current Eastern Time: 2025-03-24 16:24:01 EDT
+2025-03-24 16:24:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-24 16:24:01 - 📥 Starting Day Trading Bot...
+2025-03-24 16:24:13 - ✅ Day Trading Bot completed.
+2025-03-24 16:24:13 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $17544.22 for day trading (75% of $23392.29)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+⚠️ Skipping selling TTSH: open order detected.
+✅ Day trading execution complete.
+2025-03-24 16:24:13 - 📥 Starting AI Auto-Update...
+2025-03-24 16:24:13 - ✅ AI Auto-Update completed.
+2025-03-24 16:24:13 - ✅ All tasks complete. main.py finished.
+
+2025-03-24 16:25:02.231798 - 📅 Market open set for 2025-03-24 09:30:00-04:00
+2025-03-24 16:25:02.231992 - ❌ Congress trading data not found.
+2025-03-24 16:25:02.234285 - ✅ Selected 30 high-confidence trades for today.
+2025-03-24 16:25:02.234330 - 🚀 High-confidence trades selected and ready for execution.
+2025-03-24 16:27:01 - 🚀 main.py started.
+2025-03-24 16:27:01 - 🕒 Current Eastern Time: 2025-03-24 16:27:01 EDT
+2025-03-24 16:27:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-24 16:27:01 - 📥 Starting Day Trading Bot...
+2025-03-24 16:27:14 - ✅ Day Trading Bot completed.
+2025-03-24 16:27:14 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $17583.33 for day trading (75% of $23444.44)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+⚠️ Skipping selling TTSH: open order detected.
+✅ Day trading execution complete.
+2025-03-24 16:27:14 - 📥 Starting AI Auto-Update...
+2025-03-24 16:27:14 - ✅ AI Auto-Update completed.
+2025-03-24 16:27:14 - ✅ All tasks complete. main.py finished.
+
+2025-03-24 16:30:01 - 🚀 main.py started.
+2025-03-24 16:30:01 - 🕒 Current Eastern Time: 2025-03-24 16:30:01 EDT
+2025-03-24 16:30:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-24 16:30:01 - 📥 Starting Day Trading Bot...
+2025-03-24 16:30:13 - ✅ Day Trading Bot completed.
+2025-03-24 16:30:13 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $17583.33 for day trading (75% of $23444.44)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+⚠️ Skipping selling TTSH: open order detected.
+✅ Day trading execution complete.
+2025-03-24 16:30:13 - 📥 Starting AI Auto-Update...
+2025-03-24 16:30:13 - ✅ AI Auto-Update completed.
+2025-03-24 16:30:13 - ✅ All tasks complete. main.py finished.
+
+2025-03-25 03:22:10 - 🚀 main.py started.
+2025-03-25 03:22:10 - 🕒 Current Eastern Time: 2025-03-25 03:22:10 EDT
+2025-03-25 04:07:24 - 🚀 main.py started.
+2025-03-25 04:07:24 - 🕒 Current Eastern Time: 2025-03-25 04:07:24 EDT
+2025-03-25 04:07:24 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-25 04:07:24 - 📥 Starting Day Trading Bot...
+2025-03-25 04:07:43 - ✅ Day Trading Bot completed.
+2025-03-25 04:07:43 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $11694.03 for day trading (75% of $23388.06)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+🚀 Buying 308.1431 shares of RCG at 2.5299999713897705
+🖍 Logged BUY of RCG at 2.5299999713897705
+🚀 Buying 1332.6530 shares of EONR at 0.5849999785423279
+🖍 Logged BUY of EONR at 0.5849999785423279
+🚀 Buying 440.4531 shares of BUKS at 1.7699999809265137
+❌ Error executing buy for BUKS: asset BUKS is not active
+⚠️ Skipping MCVT: Already in position.
+⚠️ Skipping NL: Already in position.
+⚠️ Skipping SRBK: Already in position.
+🚀 Buying 11993.8774 shares of ZOM at 0.06499999761581421
+❌ Error executing buy for ZOM: asset ZOM is not active
+⚠️ Skipping WEST: Already in position.
+⚠️ Skipping KRO: Already in position.
+⚠️ Skipping PSEC: Already in position.
+⚠️ Skipping VG: Already in position.
+⚠️ Skipping TTSH: Already in position.
+🚀 Buying 466.8276 shares of BLNE at 1.6699999570846558
+🖍 Logged BUY of BLNE at 1.6699999570846558
+⚠️ Skipping ECAT: Already in position.
+🚀 Buying 129.5020 shares of FLWS at 6.019999980926514
+🖍 Logged BUY of FLWS at 6.019999980926514
+⚠️ Skipping selling TTSH: open order detected.
+✅ Day trading execution complete.
+2025-03-25 04:08:43 - 📥 Starting Short Trading Bot...
+2025-03-25 04:08:52 - ✅ Short Trading Bot completed.
+2025-03-25 04:08:52 - 📤 Short Trading Bot stdout:
+💵 Capital per trade: 654.12, Price: 234.62, Qty: 2
+🔻 Shorted 2 shares of TEAM at 234.62
+💵 Capital per trade: 654.12, Price: 339.72, Qty: 1
+🔻 Shorted 1 shares of APP at 339.72
+💵 Capital per trade: 654.12, Price: 852.44, Qty: 0
+⚠️ Skipping EQIX: not enough capital for 1 full share
+💵 Capital per trade: 654.12, Price: 1380.35, Qty: 0
+⚠️ Skipping TDG: not enough capital for 1 full share
+💵 Capital per trade: 654.12, Price: 1897.66, Qty: 0
+⚠️ Skipping FICO: not enough capital for 1 full share
+💵 Capital per trade: 654.12, Price: 53.70, Qty: 12
+🔻 Shorted 12 shares of IRON at 53.70
+💵 Capital per trade: 654.12, Price: 17.46, Qty: 37
+🔻 Shorted 37 shares of ALHC at 17.46
+💵 Capital per trade: 654.12, Price: 613.09, Qty: 1
+🔻 Shorted 1 shares of INTU at 613.09
+💵 Capital per trade: 654.12, Price: 42.08, Qty: 15
+🔻 Shorted 15 shares of IOT at 42.08
+💵 Capital per trade: 654.12, Price: 124.94, Qty: 5
+🔻 Shorted 5 shares of RDDT at 124.94
+💵 Capital per trade: 654.12, Price: 145.42, Qty: 4
+🔻 Shorted 4 shares of SFM at 145.42
+💵 Capital per trade: 654.12, Price: 330.00, Qty: 1
+🔻 Shorted 1 shares of DUOL at 330.00
+💵 Capital per trade: 654.12, Price: 59.00, Qty: 11
+❌ Failed to short TEM: asset "TEM" cannot be sold short
+💵 Capital per trade: 654.12, Price: 5.58, Qty: 117
+🔻 Shorted 117 shares of AVAH at 5.58
+💵 Capital per trade: 654.12, Price: 29.32, Qty: 22
+🔻 Shorted 22 shares of MGPI at 29.32
+2025-03-25 04:08:52 - 📥 Starting AI Auto-Update...
+2025-03-25 04:08:52 - ✅ AI Auto-Update completed.
+2025-03-25 04:08:52 - ✅ All tasks complete. main.py finished.
+
+2025-03-25 04:20:39.556983 - 📅 Market open set for 2025-03-25 09:30:00-04:00
+2025-03-25 04:20:39.559453 - ✅ Selected 30 high-confidence trades for today.
+2025-03-25 04:20:39.559497 - 🚀 High-confidence trades selected and ready for execution.

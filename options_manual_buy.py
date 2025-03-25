@@ -1,51 +1,27 @@
-import os
-import requests
-import json
+from alpaca.trading.client import TradingClient
+from alpaca.trading.requests import MarketOrderRequest
+from alpaca.trading.enums import OrderSide, OrderType, TimeInForce
 
-# === Alpaca LIVE CREDENTIALS (replace with your actual keys) ===
-ALPACA_API_KEY = "AKQLAH7WUPSEO96MNH7T"
-ALPACA_SECRET = "AUzXSxevkdFAGs05xT6NzqNpG0e6bmHfiddjEY1v"
+# 🔑 Your real LIVE API keys
+API_KEY = "AKWQTTXXDSY7FJG6AR6E"
+SECRET_KEY = "Y67fyhzaohIM7dB4kjxemqwKp6MyPvfEthUdHNa0"
 
-# === Headers ===
-HEADERS = {
-    "APCA-API-KEY-ID": ALPACA_API_KEY,
-    "APCA-API-SECRET-KEY": ALPACA_SECRET
-}
+# 🛒 Option contract you want to buy
+OPTION_SYMBOL = "IONQ250328C00023500"
 
-# === Historical stock price fetch ===
-def get_stock_price_history(symbol, start_date, end_date):
-    BASE_URL = 'https://data.alpaca.markets/v2/stocks/bars'
-    params = {
-        'symbols': symbol,
-        'timeframe': '1D',
-        'start': start_date,
-        'end': end_date,
-        'limit': 1000
-    }
-    response = requests.get(BASE_URL, headers=HEADERS, params=params)
-    if response.status_code == 200:
-        return response.json()
-    else:
-        print("Error fetching data:", response.text)
-        return None
+# ⚙️ Setup client (set paper=False for live trading)
+trade_client = TradingClient(API_KEY, SECRET_KEY, paper=False)
 
-# === Test call ===
-symbol = "TQQQ"
-start_date = "2023-01-01"
-end_date = "2023-05-13"
+# 🧾 Create and send market order
+order = MarketOrderRequest(
+    symbol=OPTION_SYMBOL,
+    qty=1,
+    side=OrderSide.BUY,
+    type=OrderType.MARKET,
+    time_in_force=TimeInForce.DAY
+)
 
-historical_data = get_stock_price_history(symbol, start_date, end_date)
-
-if historical_data:
-    bars = historical_data.get("bars", [])
-    for bar in bars:
-        date = bar.get("t")
-        open_price = bar.get("o")
-        high_price = bar.get("h")
-        low_price = bar.get("l")
-        close_price = bar.get("c")
-        volume = bar.get("v")
-
-        print(f"Date: {date}")
-        print(f"Open: {open_price}, High: {high_price}, Low: {low_price}, Close: {close_price}")
-        print(f"Volume: {volume}\n")
+# 🚀 Submit the order and print result
+response = trade_client.submit_order(order)
+print("✅ ORDER SUBMITTED:")
+print(response)

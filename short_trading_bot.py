@@ -23,7 +23,7 @@ api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_vers
 # ✅ Shorting Rules
 SHORT_TARGET = 0.02  # 2% drop = cover profit
 SHORT_STOPLOSS = 0.02  # 2% rise = stop-loss
-CAPITAL_USAGE = 0.40  # Using 40% of total capital for shorting
+CAPITAL_USAGE = 0.25  # Using 25% of total capital for shorting
 
 SHORT_SIGNALS_FILE = "/home/ubuntu/trading-bots/short_signals.json"
 TRADE_LOG = "/home/ubuntu/trading-bots/trade_history.json"

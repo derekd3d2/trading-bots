@@ -11686,5 +11686,701 @@
         "shares": 105,
         "price": 5.51,
         "reason": "Short Signal"
+    },
+    {
+        "timestamp": "2025-03-24T13:31:19.067333",
+        "action": "BUY",
+        "ticker": "RCG",
+        "shares": 472.2071,
+        "price": 2.5699,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-24T13:31:20.139662",
+        "action": "BUY",
+        "ticker": "WEST",
+        "shares": 173.1134,
+        "price": 7.01,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-24T13:31:21.259091",
+        "action": "BUY",
+        "ticker": "NL",
+        "shares": 150.3749,
+        "price": 8.07,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-24T13:31:22.330192",
+        "action": "BUY",
+        "ticker": "SRBK",
+        "shares": 102.1486,
+        "price": 11.88,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-24T13:31:23.400485",
+        "action": "BUY",
+        "ticker": "EONR",
+        "shares": 2105.3523,
+        "price": 0.5764,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-24T13:31:24.534846",
+        "action": "BUY",
+        "ticker": "MCVT",
+        "shares": 670.4558,
+        "price": 1.81,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-24T13:31:25.600525",
+        "action": "BUY",
+        "ticker": "VG",
+        "shares": 105.5239,
+        "price": 11.5,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-24T13:31:26.940463",
+        "action": "BUY",
+        "ticker": "KRO",
+        "shares": 155.5741,
+        "price": 7.8003,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-24T13:31:28.057393",
+        "action": "BUY",
+        "ticker": "PSEC",
+        "shares": 287.572,
+        "price": 4.2199,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-24T13:31:30.208300",
+        "action": "BUY",
+        "ticker": "TTSH",
+        "shares": 186.1235,
+        "price": 6.52,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-24T13:31:31.285880",
+        "action": "BUY",
+        "ticker": "ECAT",
+        "shares": 74.3117,
+        "price": 16.3302,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-24T13:31:32.399858",
+        "action": "BUY",
+        "ticker": "BLNE",
+        "shares": 648.9438,
+        "price": 1.87,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-24T13:31:33.531751",
+        "action": "BUY",
+        "ticker": "CULP",
+        "shares": 224.7268,
+        "price": 5.4,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-24T13:31:34.579553",
+        "action": "SELL",
+        "ticker": "BLNE",
+        "shares": 649.0,
+        "price": 1.87,
+        "reason": "Stop-loss triggered"
+    },
+    {
+        "timestamp": "2025-03-24T13:31:38.778086",
+        "action": "SELL",
+        "ticker": "MCVT",
+        "shares": 670.0,
+        "price": 1.81,
+        "reason": "Stop-loss triggered"
+    },
+    {
+        "timestamp": "2025-03-24T13:31:47.426322",
+        "action": "SHORT",
+        "ticker": "TEAM",
+        "shares": 5,
+        "price": 233.82,
+        "reason": "Short Signal"
+    },
+    {
+        "timestamp": "2025-03-24T13:31:47.988495",
+        "action": "SHORT",
+        "ticker": "APP",
+        "shares": 3,
+        "price": 336.6499,
+        "reason": "Short Signal"
+    },
+    {
+        "timestamp": "2025-03-24T13:31:48.585252",
+        "action": "SHORT",
+        "ticker": "EQIX",
+        "shares": 1,
+        "price": 854.74,
+        "reason": "Short Signal"
+    },
+    {
+        "timestamp": "2025-03-24T13:31:50.344017",
+        "action": "SHORT",
+        "ticker": "IRON",
+        "shares": 24,
+        "price": 53.67,
+        "reason": "Short Signal"
+    },
+    {
+        "timestamp": "2025-03-24T13:31:50.907608",
+        "action": "SHORT",
+        "ticker": "ALHC",
+        "shares": 74,
+        "price": 17.47,
+        "reason": "Short Signal"
+    },
+    {
+        "timestamp": "2025-03-24T13:31:51.487270",
+        "action": "SHORT",
+        "ticker": "INTU",
+        "shares": 2,
+        "price": 612.63,
+        "reason": "Short Signal"
+    },
+    {
+        "timestamp": "2025-03-24T13:31:52.086462",
+        "action": "SHORT",
+        "ticker": "IOT",
+        "shares": 31,
+        "price": 41.95,
+        "reason": "Short Signal"
+    },
+    {
+        "timestamp": "2025-03-24T13:31:52.652056",
+        "action": "SHORT",
+        "ticker": "RDDT",
+        "shares": 10,
+        "price": 123.33,
+        "reason": "Short Signal"
+    },
+    {
+        "timestamp": "2025-03-24T13:31:53.212334",
+        "action": "SHORT",
+        "ticker": "SFM",
+        "shares": 8,
+        "price": 145.445,
+        "reason": "Short Signal"
+    },
+    {
+        "timestamp": "2025-03-24T13:31:53.878319",
+        "action": "SHORT",
+        "ticker": "DUOL",
+        "shares": 3,
+        "price": 329.195,
+        "reason": "Short Signal"
+    },
+    {
+        "timestamp": "2025-03-24T13:31:54.988299",
+        "action": "SHORT",
+        "ticker": "AVAH",
+        "shares": 234,
+        "price": 5.56,
+        "reason": "Short Signal"
+    },
+    {
+        "timestamp": "2025-03-24T13:31:55.589268",
+        "action": "SHORT",
+        "ticker": "MGPI",
+        "shares": 44,
+        "price": 29.205,
+        "reason": "Short Signal"
+    },
+    {
+        "timestamp": "2025-03-24T13:36:11.569020",
+        "action": "BUY",
+        "ticker": "MCVT",
+        "shares": 659.4041,
+        "price": 1.83,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-24T13:36:13.710555",
+        "action": "BUY",
+        "ticker": "BLNE",
+        "shares": 655.8204,
+        "price": 1.84,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-24T13:44:35.010922",
+        "action": "SELL",
+        "ticker": "MCVT",
+        "shares": 659.0,
+        "price": 1.81,
+        "reason": "Stop-loss triggered"
+    },
+    {
+        "timestamp": "2025-03-24T13:48:04.499272",
+        "action": "SELL",
+        "ticker": "CULP",
+        "shares": 224.7268,
+        "price": 5.305,
+        "reason": "Stop-loss triggered"
+    },
+    {
+        "timestamp": "2025-03-24T13:51:02.998738",
+        "action": "SELL",
+        "ticker": "BLNE",
+        "shares": 656.0,
+        "price": 1.83,
+        "reason": "Stop-loss triggered"
+    },
+    {
+        "timestamp": "2025-03-24T13:52:21.629528",
+        "action": "BUY",
+        "ticker": "MCVT",
+        "shares": 662.7752,
+        "price": 1.81,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-24T13:52:23.734361",
+        "action": "BUY",
+        "ticker": "BLNE",
+        "shares": 655.7825,
+        "price": 1.8293,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-24T13:52:24.886492",
+        "action": "BUY",
+        "ticker": "CULP",
+        "shares": 226.1306,
+        "price": 5.305,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-24T13:52:30.138889",
+        "action": "SELL",
+        "ticker": "MCVT",
+        "shares": 663.0,
+        "price": 1.81,
+        "reason": "Stop-loss triggered"
+    },
+    {
+        "timestamp": "2025-03-24T13:55:10.034158",
+        "action": "BUY",
+        "ticker": "RCG",
+        "shares": 464.4733,
+        "price": 2.5699,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-24T13:55:11.122548",
+        "action": "BUY",
+        "ticker": "VG",
+        "shares": 103.1677,
+        "price": 11.57,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-24T13:55:12.190479",
+        "action": "BUY",
+        "ticker": "EONR",
+        "shares": 2091.5543,
+        "price": 0.5707,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-24T13:55:15.385480",
+        "action": "BUY",
+        "ticker": "MCVT",
+        "shares": 659.4752,
+        "price": 1.81,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-24T13:55:16.478345",
+        "action": "BUY",
+        "ticker": "SRBK",
+        "shares": 100.3067,
+        "price": 11.9,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-24T13:55:17.554139",
+        "action": "BUY",
+        "ticker": "ECAT",
+        "shares": 72.9169,
+        "price": 16.37,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-24T13:55:18.634098",
+        "action": "BUY",
+        "ticker": "BLNE",
+        "shares": 661.302,
+        "price": 1.805,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-24T13:55:19.715288",
+        "action": "BUY",
+        "ticker": "TREE",
+        "shares": 21.9962,
+        "price": 54.2661,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-24T13:55:23.969530",
+        "action": "SELL",
+        "ticker": "EONR",
+        "shares": 2092.0,
+        "price": 0.5707,
+        "reason": "Stop-loss triggered"
+    },
+    {
+        "timestamp": "2025-03-24T13:55:26.140863",
+        "action": "SELL",
+        "ticker": "MCVT",
+        "shares": 659.0,
+        "price": 1.81,
+        "reason": "Stop-loss triggered"
+    },
+    {
+        "timestamp": "2025-03-24T13:57:09.969587",
+        "action": "SELL",
+        "ticker": "RCG",
+        "shares": 464.0,
+        "price": 2.55,
+        "reason": "Stop-loss triggered"
+    },
+    {
+        "timestamp": "2025-03-24T14:03:03.149309",
+        "action": "SELL",
+        "ticker": "BLNE",
+        "shares": 661.0,
+        "price": 1.8488,
+        "reason": "Target hit"
+    },
+    {
+        "timestamp": "2025-03-24T14:11:07.275137",
+        "action": "BUY",
+        "ticker": "RCG",
+        "shares": 484.2955,
+        "price": 2.45,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-24T14:11:08.344578",
+        "action": "BUY",
+        "ticker": "EONR",
+        "shares": 2079.0678,
+        "price": 0.5707,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-24T14:11:11.520049",
+        "action": "BUY",
+        "ticker": "MCVT",
+        "shares": 648.3738,
+        "price": 1.83,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-24T14:11:12.601023",
+        "action": "BUY",
+        "ticker": "BLNE",
+        "shares": 650.1501,
+        "price": 1.825,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-24T14:11:21.188452",
+        "action": "SELL",
+        "ticker": "RCG",
+        "shares": 484.0,
+        "price": 2.45,
+        "reason": "Stop-loss triggered"
+    },
+    {
+        "timestamp": "2025-03-24T14:21:02.772527",
+        "action": "SELL",
+        "ticker": "BLNE",
+        "shares": 650.0,
+        "price": 1.8,
+        "reason": "Stop-loss triggered"
+    },
+    {
+        "timestamp": "2025-03-24T14:48:57.256170",
+        "action": "BUY",
+        "ticker": "RCG",
+        "shares": 482.2137,
+        "price": 2.45,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-24T14:48:58.332848",
+        "action": "BUY",
+        "ticker": "BLNE",
+        "shares": 649.705,
+        "price": 1.8184,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-24T14:48:59.526414",
+        "action": "BUY",
+        "ticker": "CUBA",
+        "shares": 437.5643,
+        "price": 2.7,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-24T14:49:09.407423",
+        "action": "SELL",
+        "ticker": "RCG",
+        "shares": 482.0,
+        "price": 2.45,
+        "reason": "Stop-loss triggered"
+    },
+    {
+        "timestamp": "2025-03-24T14:55:03.046088",
+        "action": "SELL",
+        "ticker": "BLNE",
+        "shares": 650.0,
+        "price": 1.785,
+        "reason": "Stop-loss triggered"
+    },
+    {
+        "timestamp": "2025-03-24T15:06:06.914709",
+        "action": "SELL",
+        "ticker": "EONR",
+        "shares": 2079.0,
+        "price": 0.5901,
+        "reason": "Target hit"
+    },
+    {
+        "timestamp": "2025-03-24T15:06:13.454441",
+        "action": "SELL",
+        "ticker": "TREE",
+        "shares": 21.9962,
+        "price": 55.53,
+        "reason": "Target hit"
+    },
+    {
+        "timestamp": "2025-03-24T15:06:15.593884",
+        "action": "SELL",
+        "ticker": "VG",
+        "shares": 103.0,
+        "price": 11.365,
+        "reason": "Stop-loss triggered"
+    },
+    {
+        "timestamp": "2025-03-24T15:26:13.720354",
+        "action": "BUY",
+        "ticker": "VG",
+        "shares": 101.8087,
+        "price": 11.55,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-24T15:26:14.822106",
+        "action": "BUY",
+        "ticker": "RCG",
+        "shares": 479.9555,
+        "price": 2.45,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-24T15:26:15.890891",
+        "action": "BUY",
+        "ticker": "EONR",
+        "shares": 2060.0753,
+        "price": 0.5708,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-24T15:26:16.963481",
+        "action": "BUY",
+        "ticker": "BLNE",
+        "shares": 679.7058,
+        "price": 1.73,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-24T15:26:18.087297",
+        "action": "BUY",
+        "ticker": "PESI",
+        "shares": 156.9948,
+        "price": 7.49,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-24T15:26:28.815787",
+        "action": "SELL",
+        "ticker": "RCG",
+        "shares": 480.0,
+        "price": 2.45,
+        "reason": "Stop-loss triggered"
+    },
+    {
+        "timestamp": "2025-03-24T15:30:03.082654",
+        "action": "SELL",
+        "ticker": "BLNE",
+        "shares": 680.0,
+        "price": 1.7098,
+        "reason": "Stop-loss triggered"
+    },
+    {
+        "timestamp": "2025-03-24T15:36:06.733817",
+        "action": "SELL",
+        "ticker": "EONR",
+        "shares": 2060.0,
+        "price": 0.58,
+        "reason": "Target hit"
+    },
+    {
+        "timestamp": "2025-03-24T15:51:04.700426",
+        "action": "SELL",
+        "ticker": "CULP",
+        "shares": 226.1306,
+        "price": 5.15,
+        "reason": "Stop-loss triggered"
+    },
+    {
+        "timestamp": "2025-03-24T16:00:11.496399",
+        "action": "SELL",
+        "ticker": "TTSH",
+        "shares": 186.1235,
+        "price": 6.67,
+        "reason": "Target hit"
+    },
+    {
+        "timestamp": "2025-03-25T04:07:26.433433",
+        "action": "BUY",
+        "ticker": "RCG",
+        "shares": 308.1431,
+        "price": 2.53,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-25T04:07:27.508259",
+        "action": "BUY",
+        "ticker": "EONR",
+        "shares": 1332.653,
+        "price": 0.585,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-25T04:07:30.676104",
+        "action": "BUY",
+        "ticker": "BLNE",
+        "shares": 466.8276,
+        "price": 1.67,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-25T04:07:31.780564",
+        "action": "BUY",
+        "ticker": "FLWS",
+        "shares": 129.502,
+        "price": 6.02,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-25T04:08:44.782861",
+        "action": "SHORT",
+        "ticker": "TEAM",
+        "shares": 2,
+        "price": 234.62,
+        "reason": "Short Signal"
+    },
+    {
+        "timestamp": "2025-03-25T04:08:45.345008",
+        "action": "SHORT",
+        "ticker": "APP",
+        "shares": 1,
+        "price": 339.72,
+        "reason": "Short Signal"
+    },
+    {
+        "timestamp": "2025-03-25T04:08:47.582651",
+        "action": "SHORT",
+        "ticker": "IRON",
+        "shares": 12,
+        "price": 53.7,
+        "reason": "Short Signal"
+    },
+    {
+        "timestamp": "2025-03-25T04:08:48.144342",
+        "action": "SHORT",
+        "ticker": "ALHC",
+        "shares": 37,
+        "price": 17.46,
+        "reason": "Short Signal"
+    },
+    {
+        "timestamp": "2025-03-25T04:08:48.723564",
+        "action": "SHORT",
+        "ticker": "INTU",
+        "shares": 1,
+        "price": 613.09,
+        "reason": "Short Signal"
+    },
+    {
+        "timestamp": "2025-03-25T04:08:49.281383",
+        "action": "SHORT",
+        "ticker": "IOT",
+        "shares": 15,
+        "price": 42.08,
+        "reason": "Short Signal"
+    },
+    {
+        "timestamp": "2025-03-25T04:08:49.840437",
+        "action": "SHORT",
+        "ticker": "RDDT",
+        "shares": 5,
+        "price": 124.94,
+        "reason": "Short Signal"
+    },
+    {
+        "timestamp": "2025-03-25T04:08:50.418891",
+        "action": "SHORT",
+        "ticker": "SFM",
+        "shares": 4,
+        "price": 145.42,
+        "reason": "Short Signal"
+    },
+    {
+        "timestamp": "2025-03-25T04:08:50.979868",
+        "action": "SHORT",
+        "ticker": "DUOL",
+        "shares": 1,
+        "price": 330.0,
+        "reason": "Short Signal"
+    },
+    {
+        "timestamp": "2025-03-25T04:08:52.090688",
+        "action": "SHORT",
+        "ticker": "AVAH",
+        "shares": 117,
+        "price": 5.58,
+        "reason": "Short Signal"
+    },
+    {
+        "timestamp": "2025-03-25T04:08:52.692762",
+        "action": "SHORT",
+        "ticker": "MGPI",
+        "shares": 22,
+        "price": 29.32,
+        "reason": "Short Signal"
     }
 ]

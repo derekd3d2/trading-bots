@@ -10,10 +10,9 @@ import os
 import csv
 from datetime import datetime
 
-API_KEY = os.getenv("APCA_API_KEY_ID")
-SECRET_KEY = os.getenv("APCA_API_SECRET_KEY")
 
-client = TradingClient(API_KEY, SECRET_KEY, paper=True)
+
+client = TradingClient(API_KEY, SECRET_KEY, paper=False)  # Confirmed live trading
 
 TRADE_LOG_FILE = "option_trade_log.json"
 CSV_REPORT_FILE = "option_trade_log.csv"
@@ -39,7 +38,7 @@ if not open_trades:
 # --- Get buying power ---
 try:
     account = client.get_account()
-    buying_power = float(account.buying_power) * 0.20  # Reserve 20% of capital for options
+    buying_power = float(account.buying_power)
 except Exception as e:
     print(f"⚠️ Unable to fetch account info: {e}")
     buying_power = 0

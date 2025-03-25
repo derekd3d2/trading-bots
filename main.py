@@ -39,10 +39,10 @@ if __name__ == "__main__":
 
     market_open_time = now_et.replace(hour=9, minute=30, second=0, microsecond=0)
     # ✅ Wait until market opens at 9:30 AM ET
-    while now_et < market_open_time:
-        print(f"⏳ Waiting for market to open... Current ET: {now_et.strftime('%H:%M:%S')}")
-        time.sleep(30)
-        now_et = datetime.now(et)
+#    while now_et < market_open_time:
+ #       print(f"⏳ Waiting for market to open... Current ET: {now_et.strftime('%H:%M:%S')}")
+  #      time.sleep(30)
+   #     now_et = datetime.now(et)
 
     # ✅ ML Prediction Step
     if os.path.exists("/home/ubuntu/trading-bots/day_trade_model.pkl"):
@@ -54,6 +54,7 @@ if __name__ == "__main__":
     run_bot("/home/ubuntu/trading-bots/day_trading_bot.py", "Day Trading Bot")
 
     # ✅ Short Trading
+    time.sleep(60)  # ⏳ Wait 60 seconds before running short bot
     run_bot("/home/ubuntu/trading-bots/short_trading_bot.py", "Short Trading Bot")
 
     # ✅ AI Update

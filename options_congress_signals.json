@@ -3,7 +3,7 @@
     "symbol": "HLMN",
     "direction": "CALL",
     "source": "Congress - Gilbert Cisneros",
-    "buy_date": "2025-03-23",
+    "buy_date": "2025-03-25",
     "estimated_amount": 250,
     "expected_gain": 50.0
   },
@@ -11,7 +11,7 @@
     "symbol": "STRL",
     "direction": "CALL",
     "source": "Congress - Gilbert Cisneros",
-    "buy_date": "2025-03-23",
+    "buy_date": "2025-03-25",
     "estimated_amount": 250,
     "expected_gain": 50.0
   },
@@ -19,7 +19,7 @@
     "symbol": "LH",
     "direction": "CALL",
     "source": "Congress - April Mcclain Delaney",
-    "buy_date": "2025-03-23",
+    "buy_date": "2025-03-25",
     "estimated_amount": 250,
     "expected_gain": 50.0
   },
@@ -27,7 +27,7 @@
     "symbol": "CPAY",
     "direction": "CALL",
     "source": "Congress - April Mcclain Delaney",
-    "buy_date": "2025-03-23",
+    "buy_date": "2025-03-25",
     "estimated_amount": 250,
     "expected_gain": 50.0
   },
@@ -35,15 +35,7 @@
     "symbol": "V",
     "direction": "CALL",
     "source": "Congress - Josh Gottheimer",
-    "buy_date": "2025-03-23",
-    "estimated_amount": 250,
-    "expected_gain": 50.0
-  },
-  {
-    "symbol": "PAYX",
-    "direction": "CALL",
-    "source": "Congress - April Mcclain Delaney",
-    "buy_date": "2025-03-23",
+    "buy_date": "2025-03-25",
     "estimated_amount": 250,
     "expected_gain": 50.0
   },
@@ -51,7 +43,7 @@
     "symbol": "LH",
     "direction": "CALL",
     "source": "Congress - April Mcclain Delaney",
-    "buy_date": "2025-03-23",
+    "buy_date": "2025-03-25",
     "estimated_amount": 250,
     "expected_gain": 50.0
   },
@@ -59,439 +51,7 @@
     "symbol": "CACI",
     "direction": "CALL",
     "source": "Congress - April Mcclain Delaney",
-    "buy_date": "2025-03-23",
-    "estimated_amount": 250,
-    "expected_gain": 50.0
-  },
-  {
-    "symbol": "UBER",
-    "direction": "CALL",
-    "source": "Congress - Gilbert Cisneros",
-    "buy_date": "2025-03-23",
-    "estimated_amount": 250,
-    "expected_gain": 50.0
-  },
-  {
-    "symbol": "DG",
-    "direction": "CALL",
-    "source": "Congress - Gilbert Cisneros",
-    "buy_date": "2025-03-23",
-    "estimated_amount": 250,
-    "expected_gain": 50.0
-  },
-  {
-    "symbol": "EPAC",
-    "direction": "CALL",
-    "source": "Congress - Gilbert Cisneros",
-    "buy_date": "2025-03-23",
-    "estimated_amount": 250,
-    "expected_gain": 50.0
-  },
-  {
-    "symbol": "AMP",
-    "direction": "CALL",
-    "source": "Congress - Greg Landsman",
-    "buy_date": "2025-03-23",
-    "estimated_amount": 250,
-    "expected_gain": 50.0
-  },
-  {
-    "symbol": "AMZN",
-    "direction": "CALL",
-    "source": "Congress - Scott Scott Franklin",
-    "buy_date": "2025-03-23",
-    "estimated_amount": 250,
-    "expected_gain": 50.0
-  },
-  {
-    "symbol": "CRWD",
-    "direction": "CALL",
-    "source": "Congress - Greg Landsman",
-    "buy_date": "2025-03-23",
-    "estimated_amount": 250,
-    "expected_gain": 50.0
-  },
-  {
-    "symbol": "AMZN",
-    "direction": "CALL",
-    "source": "Congress - Scott Scott Franklin",
-    "buy_date": "2025-03-23",
-    "estimated_amount": 250,
-    "expected_gain": 50.0
-  },
-  {
-    "symbol": "HUM",
-    "direction": "CALL",
-    "source": "Congress - Gilbert Cisneros",
-    "buy_date": "2025-03-23",
-    "estimated_amount": 250,
-    "expected_gain": 50.0
-  },
-  {
-    "symbol": "FI",
-    "direction": "CALL",
-    "source": "Congress - Josh Gottheimer",
-    "buy_date": "2025-03-23",
-    "estimated_amount": 250,
-    "expected_gain": 50.0
-  },
-  {
-    "symbol": "AMZN",
-    "direction": "CALL",
-    "source": "Congress - Thomas H. Kean Jr",
-    "buy_date": "2025-03-23",
-    "estimated_amount": 250,
-    "expected_gain": 50.0
-  },
-  {
-    "symbol": "WYNN",
-    "direction": "CALL",
-    "source": "Congress - Gilbert Cisneros",
-    "buy_date": "2025-03-23",
-    "estimated_amount": 250,
-    "expected_gain": 50.0
-  },
-  {
-    "symbol": "AMZN",
-    "direction": "CALL",
-    "source": "Congress - Scott Scott Franklin",
-    "buy_date": "2025-03-23",
-    "estimated_amount": 250,
-    "expected_gain": 50.0
-  },
-  {
-    "symbol": "TSLA",
-    "direction": "CALL",
-    "source": "Congress - Gilbert Cisneros",
-    "buy_date": "2025-03-23",
-    "estimated_amount": 250,
-    "expected_gain": 50.0
-  },
-  {
-    "symbol": "PFE",
-    "direction": "CALL",
-    "source": "Congress - Gilbert Cisneros",
-    "buy_date": "2025-03-23",
-    "estimated_amount": 250,
-    "expected_gain": 50.0
-  },
-  {
-    "symbol": "MRK",
-    "direction": "CALL",
-    "source": "Congress - Gilbert Cisneros",
-    "buy_date": "2025-03-23",
-    "estimated_amount": 250,
-    "expected_gain": 50.0
-  },
-  {
-    "symbol": "MSFT",
-    "direction": "CALL",
-    "source": "Congress - Gilbert Cisneros",
-    "buy_date": "2025-03-23",
-    "estimated_amount": 250,
-    "expected_gain": 50.0
-  },
-  {
-    "symbol": "PLD",
-    "direction": "CALL",
-    "source": "Congress - Jefferson Shreve",
-    "buy_date": "2025-03-23",
-    "estimated_amount": 250,
-    "expected_gain": 50.0
-  },
-  {
-    "symbol": "UNP",
-    "direction": "CALL",
-    "source": "Congress - Jefferson Shreve",
-    "buy_date": "2025-03-23",
-    "estimated_amount": 250,
-    "expected_gain": 50.0
-  },
-  {
-    "symbol": "WTW",
-    "direction": "CALL",
-    "source": "Congress - Gilbert Cisneros",
-    "buy_date": "2025-03-23",
-    "estimated_amount": 250,
-    "expected_gain": 50.0
-  },
-  {
-    "symbol": "RTX",
-    "direction": "CALL",
-    "source": "Congress - Jefferson Shreve",
-    "buy_date": "2025-03-23",
-    "estimated_amount": 250,
-    "expected_gain": 50.0
-  },
-  {
-    "symbol": "JNJ",
-    "direction": "CALL",
-    "source": "Congress - Jefferson Shreve",
-    "buy_date": "2025-03-23",
-    "estimated_amount": 250,
-    "expected_gain": 50.0
-  },
-  {
-    "symbol": "QCOM",
-    "direction": "CALL",
-    "source": "Congress - Jefferson Shreve",
-    "buy_date": "2025-03-23",
-    "estimated_amount": 250,
-    "expected_gain": 50.0
-  },
-  {
-    "symbol": "CI",
-    "direction": "CALL",
-    "source": "Congress - Jefferson Shreve",
-    "buy_date": "2025-03-23",
-    "estimated_amount": 250,
-    "expected_gain": 50.0
-  },
-  {
-    "symbol": "OXY",
-    "direction": "CALL",
-    "source": "Congress - Jefferson Shreve",
-    "buy_date": "2025-03-23",
-    "estimated_amount": 250,
-    "expected_gain": 50.0
-  },
-  {
-    "symbol": "MSTR",
-    "direction": "CALL",
-    "source": "Congress - Jefferson Shreve",
-    "buy_date": "2025-03-23",
-    "estimated_amount": 250,
-    "expected_gain": 50.0
-  },
-  {
-    "symbol": "NVDA",
-    "direction": "CALL",
-    "source": "Congress - Jefferson Shreve",
-    "buy_date": "2025-03-23",
-    "estimated_amount": 250,
-    "expected_gain": 50.0
-  },
-  {
-    "symbol": "RGLD",
-    "direction": "CALL",
-    "source": "Congress - Jefferson Shreve",
-    "buy_date": "2025-03-23",
-    "estimated_amount": 250,
-    "expected_gain": 50.0
-  },
-  {
-    "symbol": "APD",
-    "direction": "CALL",
-    "source": "Congress - Jefferson Shreve",
-    "buy_date": "2025-03-23",
-    "estimated_amount": 250,
-    "expected_gain": 50.0
-  },
-  {
-    "symbol": "APP",
-    "direction": "CALL",
-    "source": "Congress - Jefferson Shreve",
-    "buy_date": "2025-03-23",
-    "estimated_amount": 250,
-    "expected_gain": 50.0
-  },
-  {
-    "symbol": "GE",
-    "direction": "CALL",
-    "source": "Congress - Jefferson Shreve",
-    "buy_date": "2025-03-23",
-    "estimated_amount": 250,
-    "expected_gain": 50.0
-  },
-  {
-    "symbol": "ADBE",
-    "direction": "CALL",
-    "source": "Congress - Jefferson Shreve",
-    "buy_date": "2025-03-23",
-    "estimated_amount": 250,
-    "expected_gain": 50.0
-  },
-  {
-    "symbol": "AMGN",
-    "direction": "CALL",
-    "source": "Congress - Jefferson Shreve",
-    "buy_date": "2025-03-23",
-    "estimated_amount": 250,
-    "expected_gain": 50.0
-  },
-  {
-    "symbol": "ORCL",
-    "direction": "CALL",
-    "source": "Congress - Jefferson Shreve",
-    "buy_date": "2025-03-23",
-    "estimated_amount": 250,
-    "expected_gain": 50.0
-  },
-  {
-    "symbol": "ELV",
-    "direction": "CALL",
-    "source": "Congress - Jefferson Shreve",
-    "buy_date": "2025-03-23",
-    "estimated_amount": 250,
-    "expected_gain": 50.0
-  },
-  {
-    "symbol": "CSGP",
-    "direction": "CALL",
-    "source": "Congress - Jefferson Shreve",
-    "buy_date": "2025-03-23",
-    "estimated_amount": 250,
-    "expected_gain": 50.0
-  },
-  {
-    "symbol": "AVGO",
-    "direction": "CALL",
-    "source": "Congress - Jefferson Shreve",
-    "buy_date": "2025-03-23",
-    "estimated_amount": 250,
-    "expected_gain": 50.0
-  },
-  {
-    "symbol": "PHM",
-    "direction": "CALL",
-    "source": "Congress - Jefferson Shreve",
-    "buy_date": "2025-03-23",
-    "estimated_amount": 250,
-    "expected_gain": 50.0
-  },
-  {
-    "symbol": "BUSE",
-    "direction": "CALL",
-    "source": "Congress - Jefferson Shreve",
-    "buy_date": "2025-03-23",
-    "estimated_amount": 250,
-    "expected_gain": 50.0
-  },
-  {
-    "symbol": "EXPO",
-    "direction": "CALL",
-    "source": "Congress - Jefferson Shreve",
-    "buy_date": "2025-03-23",
-    "estimated_amount": 250,
-    "expected_gain": 50.0
-  },
-  {
-    "symbol": "LOW",
-    "direction": "CALL",
-    "source": "Congress - Jefferson Shreve",
-    "buy_date": "2025-03-23",
-    "estimated_amount": 250,
-    "expected_gain": 50.0
-  },
-  {
-    "symbol": "MRK",
-    "direction": "CALL",
-    "source": "Congress - Jefferson Shreve",
-    "buy_date": "2025-03-23",
-    "estimated_amount": 250,
-    "expected_gain": 50.0
-  },
-  {
-    "symbol": "ACGL",
-    "direction": "CALL",
-    "source": "Congress - Jefferson Shreve",
-    "buy_date": "2025-03-23",
-    "estimated_amount": 250,
-    "expected_gain": 50.0
-  },
-  {
-    "symbol": "FIS",
-    "direction": "CALL",
-    "source": "Congress - Jefferson Shreve",
-    "buy_date": "2025-03-23",
-    "estimated_amount": 250,
-    "expected_gain": 50.0
-  },
-  {
-    "symbol": "XOM",
-    "direction": "CALL",
-    "source": "Congress - Jefferson Shreve",
-    "buy_date": "2025-03-23",
-    "estimated_amount": 250,
-    "expected_gain": 50.0
-  },
-  {
-    "symbol": "SHW",
-    "direction": "CALL",
-    "source": "Congress - Jefferson Shreve",
-    "buy_date": "2025-03-23",
-    "estimated_amount": 250,
-    "expected_gain": 50.0
-  },
-  {
-    "symbol": "ABBV",
-    "direction": "CALL",
-    "source": "Congress - Jefferson Shreve",
-    "buy_date": "2025-03-23",
-    "estimated_amount": 250,
-    "expected_gain": 50.0
-  },
-  {
-    "symbol": "VRTX",
-    "direction": "CALL",
-    "source": "Congress - Jefferson Shreve",
-    "buy_date": "2025-03-23",
-    "estimated_amount": 250,
-    "expected_gain": 50.0
-  },
-  {
-    "symbol": "NVT",
-    "direction": "CALL",
-    "source": "Congress - Jefferson Shreve",
-    "buy_date": "2025-03-23",
-    "estimated_amount": 250,
-    "expected_gain": 50.0
-  },
-  {
-    "symbol": "DVN",
-    "direction": "CALL",
-    "source": "Congress - Jefferson Shreve",
-    "buy_date": "2025-03-23",
-    "estimated_amount": 250,
-    "expected_gain": 50.0
-  },
-  {
-    "symbol": "BC",
-    "direction": "CALL",
-    "source": "Congress - Jefferson Shreve",
-    "buy_date": "2025-03-23",
-    "estimated_amount": 250,
-    "expected_gain": 50.0
-  },
-  {
-    "symbol": "HD",
-    "direction": "CALL",
-    "source": "Congress - Jefferson Shreve",
-    "buy_date": "2025-03-23",
-    "estimated_amount": 250,
-    "expected_gain": 50.0
-  },
-  {
-    "symbol": "PFE",
-    "direction": "CALL",
-    "source": "Congress - Jefferson Shreve",
-    "buy_date": "2025-03-23",
-    "estimated_amount": 250,
-    "expected_gain": 50.0
-  },
-  {
-    "symbol": "CPAY",
-    "direction": "CALL",
-    "source": "Congress - April Mcclain Delaney",
-    "buy_date": "2025-03-23",
-    "estimated_amount": 250,
-    "expected_gain": 50.0
-  },
-  {
-    "symbol": "FI",
-    "direction": "CALL",
-    "source": "Congress - Josh Gottheimer",
-    "buy_date": "2025-03-23",
+    "buy_date": "2025-03-25",
     "estimated_amount": 250,
     "expected_gain": 50.0
   },
@@ -499,23 +59,423 @@
     "symbol": "PAYX",
     "direction": "CALL",
     "source": "Congress - April Mcclain Delaney",
-    "buy_date": "2025-03-23",
+    "buy_date": "2025-03-25",
     "estimated_amount": 250,
     "expected_gain": 50.0
   },
   {
-    "symbol": "BABA",
+    "symbol": "EPAC",
     "direction": "CALL",
-    "source": "Congress - Rob Bresnahan",
-    "buy_date": "2025-03-23",
+    "source": "Congress - Gilbert Cisneros",
+    "buy_date": "2025-03-25",
     "estimated_amount": 250,
     "expected_gain": 50.0
   },
   {
-    "symbol": "SNOW",
+    "symbol": "DG",
+    "direction": "CALL",
+    "source": "Congress - Gilbert Cisneros",
+    "buy_date": "2025-03-25",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "AMZN",
+    "direction": "CALL",
+    "source": "Congress - Scott Scott Franklin",
+    "buy_date": "2025-03-25",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "AMP",
+    "direction": "CALL",
+    "source": "Congress - Greg Landsman",
+    "buy_date": "2025-03-25",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "UBER",
+    "direction": "CALL",
+    "source": "Congress - Gilbert Cisneros",
+    "buy_date": "2025-03-25",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "FI",
     "direction": "CALL",
     "source": "Congress - Josh Gottheimer",
-    "buy_date": "2025-03-23",
+    "buy_date": "2025-03-25",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "HUM",
+    "direction": "CALL",
+    "source": "Congress - Gilbert Cisneros",
+    "buy_date": "2025-03-25",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "AMZN",
+    "direction": "CALL",
+    "source": "Congress - Scott Scott Franklin",
+    "buy_date": "2025-03-25",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "AMZN",
+    "direction": "CALL",
+    "source": "Congress - Scott Scott Franklin",
+    "buy_date": "2025-03-25",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "CRWD",
+    "direction": "CALL",
+    "source": "Congress - Greg Landsman",
+    "buy_date": "2025-03-25",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "AMZN",
+    "direction": "CALL",
+    "source": "Congress - Thomas H. Kean Jr",
+    "buy_date": "2025-03-25",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "WYNN",
+    "direction": "CALL",
+    "source": "Congress - Gilbert Cisneros",
+    "buy_date": "2025-03-25",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "TSLA",
+    "direction": "CALL",
+    "source": "Congress - Gilbert Cisneros",
+    "buy_date": "2025-03-25",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "MSFT",
+    "direction": "CALL",
+    "source": "Congress - Gilbert Cisneros",
+    "buy_date": "2025-03-25",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "MRK",
+    "direction": "CALL",
+    "source": "Congress - Gilbert Cisneros",
+    "buy_date": "2025-03-25",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "PFE",
+    "direction": "CALL",
+    "source": "Congress - Gilbert Cisneros",
+    "buy_date": "2025-03-25",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "WTW",
+    "direction": "CALL",
+    "source": "Congress - Gilbert Cisneros",
+    "buy_date": "2025-03-25",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "PLD",
+    "direction": "CALL",
+    "source": "Congress - Jefferson Shreve",
+    "buy_date": "2025-03-25",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "RTX",
+    "direction": "CALL",
+    "source": "Congress - Jefferson Shreve",
+    "buy_date": "2025-03-25",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "UNP",
+    "direction": "CALL",
+    "source": "Congress - Jefferson Shreve",
+    "buy_date": "2025-03-25",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "NVDA",
+    "direction": "CALL",
+    "source": "Congress - Jefferson Shreve",
+    "buy_date": "2025-03-25",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "JNJ",
+    "direction": "CALL",
+    "source": "Congress - Jefferson Shreve",
+    "buy_date": "2025-03-25",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "MSTR",
+    "direction": "CALL",
+    "source": "Congress - Jefferson Shreve",
+    "buy_date": "2025-03-25",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "CI",
+    "direction": "CALL",
+    "source": "Congress - Jefferson Shreve",
+    "buy_date": "2025-03-25",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "OXY",
+    "direction": "CALL",
+    "source": "Congress - Jefferson Shreve",
+    "buy_date": "2025-03-25",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "QCOM",
+    "direction": "CALL",
+    "source": "Congress - Jefferson Shreve",
+    "buy_date": "2025-03-25",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "RGLD",
+    "direction": "CALL",
+    "source": "Congress - Jefferson Shreve",
+    "buy_date": "2025-03-25",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "AMGN",
+    "direction": "CALL",
+    "source": "Congress - Jefferson Shreve",
+    "buy_date": "2025-03-25",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "ORCL",
+    "direction": "CALL",
+    "source": "Congress - Jefferson Shreve",
+    "buy_date": "2025-03-25",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "ELV",
+    "direction": "CALL",
+    "source": "Congress - Jefferson Shreve",
+    "buy_date": "2025-03-25",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "ADBE",
+    "direction": "CALL",
+    "source": "Congress - Jefferson Shreve",
+    "buy_date": "2025-03-25",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "APD",
+    "direction": "CALL",
+    "source": "Congress - Jefferson Shreve",
+    "buy_date": "2025-03-25",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "GE",
+    "direction": "CALL",
+    "source": "Congress - Jefferson Shreve",
+    "buy_date": "2025-03-25",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "APP",
+    "direction": "CALL",
+    "source": "Congress - Jefferson Shreve",
+    "buy_date": "2025-03-25",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "CSGP",
+    "direction": "CALL",
+    "source": "Congress - Jefferson Shreve",
+    "buy_date": "2025-03-25",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "DVN",
+    "direction": "CALL",
+    "source": "Congress - Jefferson Shreve",
+    "buy_date": "2025-03-25",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "SHW",
+    "direction": "CALL",
+    "source": "Congress - Jefferson Shreve",
+    "buy_date": "2025-03-25",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "EXPO",
+    "direction": "CALL",
+    "source": "Congress - Jefferson Shreve",
+    "buy_date": "2025-03-25",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "BUSE",
+    "direction": "CALL",
+    "source": "Congress - Jefferson Shreve",
+    "buy_date": "2025-03-25",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "VRTX",
+    "direction": "CALL",
+    "source": "Congress - Jefferson Shreve",
+    "buy_date": "2025-03-25",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "AVGO",
+    "direction": "CALL",
+    "source": "Congress - Jefferson Shreve",
+    "buy_date": "2025-03-25",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "BC",
+    "direction": "CALL",
+    "source": "Congress - Jefferson Shreve",
+    "buy_date": "2025-03-25",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "PHM",
+    "direction": "CALL",
+    "source": "Congress - Jefferson Shreve",
+    "buy_date": "2025-03-25",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "ACGL",
+    "direction": "CALL",
+    "source": "Congress - Jefferson Shreve",
+    "buy_date": "2025-03-25",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "HD",
+    "direction": "CALL",
+    "source": "Congress - Jefferson Shreve",
+    "buy_date": "2025-03-25",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "LOW",
+    "direction": "CALL",
+    "source": "Congress - Jefferson Shreve",
+    "buy_date": "2025-03-25",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "ABBV",
+    "direction": "CALL",
+    "source": "Congress - Jefferson Shreve",
+    "buy_date": "2025-03-25",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "XOM",
+    "direction": "CALL",
+    "source": "Congress - Jefferson Shreve",
+    "buy_date": "2025-03-25",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "PFE",
+    "direction": "CALL",
+    "source": "Congress - Jefferson Shreve",
+    "buy_date": "2025-03-25",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "MRK",
+    "direction": "CALL",
+    "source": "Congress - Jefferson Shreve",
+    "buy_date": "2025-03-25",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "FIS",
+    "direction": "CALL",
+    "source": "Congress - Jefferson Shreve",
+    "buy_date": "2025-03-25",
+    "estimated_amount": 250,
+    "expected_gain": 50.0
+  },
+  {
+    "symbol": "NVT",
+    "direction": "CALL",
+    "source": "Congress - Jefferson Shreve",
+    "buy_date": "2025-03-25",
     "estimated_amount": 250,
     "expected_gain": 50.0
   }
