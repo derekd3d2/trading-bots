@@ -53,11 +53,8 @@ if __name__ == "__main__":
     # ✅ Day Trading
     run_bot("/home/ubuntu/trading-bots/day_trading_bot.py", "Day Trading Bot")
 
-    # ✅ Short Trading
-    time.sleep(60)  # ⏳ Wait 60 seconds before running short bot
-    run_bot("/home/ubuntu/trading-bots/short_trading_bot.py", "Short Trading Bot")
 
     # ✅ AI Update
-    run_bot("/home/ubuntu/trading-bots/ai_auto_update.py", "AI Auto-Update")
+#    run_bot("/home/ubuntu/trading-bots/ai_auto_update.py", "AI Auto-Update")
 
     log("✅ All tasks complete. main.py finished.\n")

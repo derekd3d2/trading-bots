@@ -1,74 +1,10 @@
 [
     {
-        "ticker": "NL",
-        "congress_score": 0.0,
-        "insider_score": 10,
-        "sentiment_score": 0.0,
-        "momentum_score": 0,
-        "volume_score": 0,
-        "total_score": 3.0
-    },
-    {
-        "ticker": "ZOM",
-        "congress_score": 0.0,
-        "insider_score": 10,
-        "sentiment_score": 0.0,
-        "momentum_score": 0,
-        "volume_score": 0,
-        "total_score": 3.0
-    },
-    {
-        "ticker": "BUKS",
+        "ticker": "WEST",
         "congress_score": 0.0,
         "insider_score": 10.0,
         "sentiment_score": 0.0,
-        "momentum_score": 0,
-        "volume_score": 0,
-        "total_score": 3.0
-    },
-    {
-        "ticker": "VG",
-        "congress_score": 0.0,
-        "insider_score": 10,
-        "sentiment_score": 0.0,
-        "momentum_score": 0,
-        "volume_score": 0,
-        "total_score": 3.0
-    },
-    {
-        "ticker": "PSEC",
-        "congress_score": 0.0,
-        "insider_score": 10,
-        "sentiment_score": 0.0,
-        "momentum_score": 0,
-        "volume_score": 0,
-        "total_score": 3.0
-    },
-    {
-        "ticker": "SRBK",
-        "congress_score": 0.0,
-        "insider_score": 10,
-        "sentiment_score": 0.0,
-        "momentum_score": 0,
-        "volume_score": 0,
-        "total_score": 3.0
-    },
-    {
-        "ticker": "MCVT",
-        "congress_score": 0.0,
-        "insider_score": 10,
-        "sentiment_score": 0.0,
-        "momentum_score": 0,
-        "volume_score": 0,
-        "total_score": 3.0
-    },
-    {
-        "ticker": "EONR",
-        "congress_score": 0.0,
-        "insider_score": 10,
-        "sentiment_score": 0.0,
-        "momentum_score": 0,
-        "volume_score": 0,
+        "gov_score": 0.0,
         "total_score": 3.0
     },
     {
@@ -76,26 +12,71 @@
         "congress_score": 0.0,
         "insider_score": 10,
         "sentiment_score": 0.0,
-        "momentum_score": 0,
-        "volume_score": 0,
+        "gov_score": 0.0,
         "total_score": 3.0
     },
     {
-        "ticker": "WEST",
+        "ticker": "VG",
         "congress_score": 0.0,
         "insider_score": 10.0,
         "sentiment_score": 0.0,
-        "momentum_score": 0,
-        "volume_score": 0,
+        "gov_score": 0.0,
         "total_score": 3.0
     },
     {
-        "ticker": "KRO",
+        "ticker": "ZOM",
         "congress_score": 0.0,
         "insider_score": 10,
         "sentiment_score": 0.0,
-        "momentum_score": 0,
-        "volume_score": 0,
+        "gov_score": 0.0,
+        "total_score": 3.0
+    },
+    {
+        "ticker": "MCVT",
+        "congress_score": 0.0,
+        "insider_score": 10,
+        "sentiment_score": 0.0,
+        "gov_score": 0.0,
+        "total_score": 3.0
+    },
+    {
+        "ticker": "NL",
+        "congress_score": 0.0,
+        "insider_score": 10,
+        "sentiment_score": 0.0,
+        "gov_score": 0.0,
+        "total_score": 3.0
+    },
+    {
+        "ticker": "BUKS",
+        "congress_score": 0.0,
+        "insider_score": 10.0,
+        "sentiment_score": 0.0,
+        "gov_score": 0.0,
+        "total_score": 3.0
+    },
+    {
+        "ticker": "SRBK",
+        "congress_score": 0.0,
+        "insider_score": 10,
+        "sentiment_score": 0.0,
+        "gov_score": 0.0,
+        "total_score": 3.0
+    },
+    {
+        "ticker": "PSEC",
+        "congress_score": 0.0,
+        "insider_score": 10.0,
+        "sentiment_score": 0.0,
+        "gov_score": 0.0,
+        "total_score": 3.0
+    },
+    {
+        "ticker": "EONR",
+        "congress_score": 0.0,
+        "insider_score": 10,
+        "sentiment_score": 0.0,
+        "gov_score": 0.0,
         "total_score": 3.0
     },
     {
@@ -103,62 +84,55 @@
         "congress_score": 0.0,
         "insider_score": 10,
         "sentiment_score": 0.0,
-        "momentum_score": 0,
-        "volume_score": 0,
+        "gov_score": 0.0,
         "total_score": 3.0
     },
     {
-        "ticker": "TTSH",
+        "ticker": "CULP",
         "congress_score": 0.0,
         "insider_score": 9.0,
         "sentiment_score": 0.0,
-        "momentum_score": 0,
-        "volume_score": 0,
-        "total_score": 2.6999999999999997
+        "gov_score": 0.75,
+        "total_score": 2.775
     },
     {
         "ticker": "ECAT",
         "congress_score": 0.0,
         "insider_score": 9.0,
         "sentiment_score": 0.0,
-        "momentum_score": 0,
-        "volume_score": 0,
+        "gov_score": 0.0,
         "total_score": 2.6999999999999997
     },
     {
-        "ticker": "CULP",
+        "ticker": "BMNM",
         "congress_score": 0.0,
-        "insider_score": 8.0,
+        "insider_score": 9.0,
         "sentiment_score": 0.0,
-        "momentum_score": 0,
-        "volume_score": 0,
-        "total_score": 2.4
+        "gov_score": 0.0,
+        "total_score": 2.6999999999999997
+    },
+    {
+        "ticker": "FMBM",
+        "congress_score": 0.0,
+        "insider_score": 9.0,
+        "sentiment_score": 0.0,
+        "gov_score": 0.0,
+        "total_score": 2.6999999999999997
+    },
+    {
+        "ticker": "BA",
+        "congress_score": 0.0,
+        "insider_score": 0.0,
+        "sentiment_score": 7.26,
+        "gov_score": 9.9,
+        "total_score": 2.442
     },
     {
         "ticker": "PESI",
         "congress_score": 0.0,
         "insider_score": 8.0,
         "sentiment_score": 0.0,
-        "momentum_score": 0,
-        "volume_score": 0,
-        "total_score": 2.4
-    },
-    {
-        "ticker": "TREE",
-        "congress_score": 0.0,
-        "insider_score": 8.0,
-        "sentiment_score": 0.0,
-        "momentum_score": 0,
-        "volume_score": 0,
-        "total_score": 2.4
-    },
-    {
-        "ticker": "CUBA",
-        "congress_score": 0.0,
-        "insider_score": 8.0,
-        "sentiment_score": 0.0,
-        "momentum_score": 0,
-        "volume_score": 0,
+        "gov_score": 0.0,
         "total_score": 2.4
     },
     {
@@ -166,107 +140,103 @@
         "congress_score": 0.0,
         "insider_score": 8.0,
         "sentiment_score": 0.0,
-        "momentum_score": 0,
-        "volume_score": 0,
+        "gov_score": 0.0,
         "total_score": 2.4
     },
     {
-        "ticker": "FLWS",
+        "ticker": "TTSH",
         "congress_score": 0.0,
         "insider_score": 8.0,
         "sentiment_score": 0.0,
-        "momentum_score": 0,
-        "volume_score": 0,
+        "gov_score": 0.0,
         "total_score": 2.4
+    },
+    {
+        "ticker": "ZYME",
+        "congress_score": 0.0,
+        "insider_score": 8.0,
+        "sentiment_score": 0.0,
+        "gov_score": 0.0,
+        "total_score": 2.4
+    },
+    {
+        "ticker": "MRNA",
+        "congress_score": 0.0,
+        "insider_score": 0.0,
+        "sentiment_score": 8.55,
+        "gov_score": 5.37,
+        "total_score": 2.2470000000000003
+    },
+    {
+        "ticker": "MSTR",
+        "congress_score": 0.0,
+        "insider_score": 3.0,
+        "sentiment_score": 6.37,
+        "gov_score": 0.0,
+        "total_score": 2.174
     },
     {
         "ticker": "MKZR",
         "congress_score": 0.0,
         "insider_score": 7.0,
         "sentiment_score": 0.0,
-        "momentum_score": 0,
-        "volume_score": 0,
+        "gov_score": 0.0,
         "total_score": 2.1
     },
     {
-        "ticker": "MVBF",
+        "ticker": "FLWS",
         "congress_score": 0.0,
         "insider_score": 7.0,
         "sentiment_score": 0.0,
-        "momentum_score": 0,
-        "volume_score": 0,
+        "gov_score": 0.0,
         "total_score": 2.1
-    },
-    {
-        "ticker": "VREO",
-        "congress_score": 0.0,
-        "insider_score": 7.0,
-        "sentiment_score": 0.0,
-        "momentum_score": 0,
-        "volume_score": 0,
-        "total_score": 2.1
-    },
-    {
-        "ticker": "BUSE",
-        "congress_score": 0.0,
-        "insider_score": 7.0,
-        "sentiment_score": 0.0,
-        "momentum_score": 0,
-        "volume_score": 0,
-        "total_score": 2.1
-    },
-    {
-        "ticker": "ADV",
-        "congress_score": 0.0,
-        "insider_score": 6.0,
-        "sentiment_score": 0.0,
-        "momentum_score": 0,
-        "volume_score": 0,
-        "total_score": 1.7999999999999998
-    },
-    {
-        "ticker": "QRHC",
-        "congress_score": 0.0,
-        "insider_score": 6.0,
-        "sentiment_score": 0.0,
-        "momentum_score": 0,
-        "volume_score": 0,
-        "total_score": 1.7999999999999998
     },
     {
         "ticker": "CION",
         "congress_score": 0.0,
-        "insider_score": 6.0,
+        "insider_score": 7.0,
         "sentiment_score": 0.0,
-        "momentum_score": 0,
-        "volume_score": 0,
-        "total_score": 1.7999999999999998
+        "gov_score": 0.0,
+        "total_score": 2.1
     },
     {
-        "ticker": "ZYME",
+        "ticker": "BB",
         "congress_score": 0.0,
-        "insider_score": 6.0,
-        "sentiment_score": 0.0,
-        "momentum_score": 0,
-        "volume_score": 0,
-        "total_score": 1.7999999999999998
+        "insider_score": 0.0,
+        "sentiment_score": 10.0,
+        "gov_score": 0.53,
+        "total_score": 2.053
     },
     {
-        "ticker": "AFCG",
+        "ticker": "CVNA",
         "congress_score": 0.0,
-        "insider_score": 6.0,
-        "sentiment_score": 0.0,
-        "momentum_score": 0,
-        "volume_score": 0,
-        "total_score": 1.7999999999999998
+        "insider_score": 0.0,
+        "sentiment_score": 10.0,
+        "gov_score": 0.0,
+        "total_score": 2.0
     },
     {
-        "ticker": "ONTF",
+        "ticker": "RSI",
         "congress_score": 0.0,
-        "insider_score": 6.0,
-        "sentiment_score": 0.0,
-        "momentum_score": 0,
-        "volume_score": 0,
-        "total_score": 1.7999999999999998
+        "insider_score": 0.0,
+        "sentiment_score": 10.0,
+        "gov_score": 0.0,
+        "total_score": 2.0
+    },
+    {
+        "ticker": "YEAR",
+        "congress_score": 0.0,
+        "insider_score": 0.0,
+        "sentiment_score": 10.0,
+        "gov_score": 0.0,
+        "total_score": 2.0
+    },
+    {
+        "ticker": "ETSY",
+        "congress_score": 0.0,
+        "insider_score": 0.0,
+        "sentiment_score": 10.0,
+        "gov_score": 0.0,
+        "total_score": 2.0
     }
 ]

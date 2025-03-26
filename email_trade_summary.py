@@ -8,7 +8,7 @@ import pytz
 api = tradeapi.REST(
     os.getenv("APCA_API_KEY_ID"),
     os.getenv("APCA_API_SECRET_KEY"),
-    "https://paper-api.alpaca.markets",
+APCA_BASE_URL = os.getenv("APCA_PAPER_URL", "https://paper-api.alpaca.markets")
     api_version="v2"
 )
 

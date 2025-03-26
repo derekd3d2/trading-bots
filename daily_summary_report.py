@@ -4,10 +4,12 @@ import csv
 from datetime import datetime, date
 from alpaca_trade_api.rest import REST
 
-ALPACA_API_KEY = os.getenv("APCA_API_KEY_ID")
-ALPACA_SECRET = os.getenv("APCA_API_SECRET_KEY")
-BASE_URL = "https://paper-api.alpaca.markets"
-api = REST(ALPACA_API_KEY, ALPACA_SECRET, BASE_URL)
+APCA_API_KEY_ID = os.getenv("APCA_API_KEY_ID")
+APCA_API_SECRET_KEY = os.getenv("APCA_API_SECRET_KEY")
+APCA_BASE_URL = os.getenv("APCA_PAPER_URL", "https://paper-api.alpaca.markets")
+APCA_API_SECRET_KEY = os.getenv("APCA_API_SECRET_KEY")
+APCA_BASE_URL = os.getenv("APCA_PAPER_URL", "https://paper-api.alpaca.markets")
+api = REST(APCA_API_KEY_ID, APCA_API_SECRET_KEY, APCA_BASE_URL)
 
 TRADE_LOG = "trade_history.csv"
 OPTION_LOG = "option_trade_log.csv"

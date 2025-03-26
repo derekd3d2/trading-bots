@@ -11,7 +11,8 @@ script_names = [
     "ms_congress.py",
     "ms_daytrading_signals.py",
     "ms_insider_trading.py",
-    "ms_wsb.py"
+    "ms_wsb.py",
+    "ms_gov.py"
 ]
 
 # ✅ Launch each script and simulate terminal command

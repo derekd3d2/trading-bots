@@ -2,9 +2,11 @@ import os
 import json
 import alpaca_trade_api as tradeapi
 import yfinance as yf
-from datetime import datetime, timedelta
+from datetime import datetime
 import time
 import signal
+import sys
+import csv
 import sys
 
 # ✅ Graceful shutdown on CTRL+C
@@ -14,35 +16,35 @@ def signal_handler(sig, frame):
 signal.signal(signal.SIGINT, signal_handler)
 
 # ✅ Load Alpaca API credentials
-ALPACA_API_KEY = os.getenv("APCA_API_KEY_ID")
-ALPACA_SECRET_KEY = os.getenv("APCA_API_SECRET_KEY")
-ALPACA_BASE_URL = "https://paper-api.alpaca.markets"
+APCA_API_KEY_ID = os.getenv("APCA_API_KEY_ID")
+APCA_API_SECRET_KEY = os.getenv("APCA_API_SECRET_KEY")
+APCA_BASE_URL = os.getenv("APCA_PAPER_URL", "https://paper-api.alpaca.markets")
 
-api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+api = tradeapi.REST(APCA_API_KEY_ID, APCA_API_SECRET_KEY, APCA_BASE_URL, api_version="v2")
 
-# ✅ Shorting Rules
-SHORT_TARGET = 0.02  # 2% drop = cover profit
-SHORT_STOPLOSS = 0.02  # 2% rise = stop-loss
-CAPITAL_USAGE = 0.25  # Using 25% of total capital for shorting
+# ✅ Load live short signals (ensure the short_signals_live.py file is in the same directory)
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+from short_signals_live import get_top_short_signals
+positions = {p.symbol for p in api.list_positions() if p.side == 'short'}
+open_orders = {o.symbol for o in api.list_orders(status='open') if o.side == 'sell'}
+skip_tickers = positions | open_orders
+signals = get_top_short_signals(current_positions=skip_tickers)
 
-SHORT_SIGNALS_FILE = "/home/ubuntu/trading-bots/short_signals.json"
+# ✅ Constants
+SHORT_TARGET = 0.05  # 5% drop = take profit
+SHORT_STOPLOSS = 0.03  # 3% rise = stop-loss
+CAPITAL_USAGE = 0.25  # 25% of total capital
 TRADE_LOG = "/home/ubuntu/trading-bots/trade_history.json"
-
-# ✅ Load short signals
-with open(SHORT_SIGNALS_FILE, "r") as f:
-    signals = json.load(f)
 
 # ✅ Get available capital
 buying_power = float(api.get_account().buying_power)
 short_capital = buying_power * CAPITAL_USAGE
-capital_per_trade = short_capital / 10  # evenly divide capital across 10 trades
+capital_per_trade = short_capital / 3  # top 3 trades
 
-# ✅ Load current positions
+# ✅ Load current short positions
 positions = {p.symbol: p for p in api.list_positions() if p.side == 'short'}
 
-# ✅ Log Trade
-import csv
-
+# ✅ Logging function
 def log_trade(action, ticker, shares, price, reason):
     log_entry = {
         "timestamp": datetime.now().isoformat(),
@@ -73,11 +75,10 @@ def log_trade(action, ticker, shares, price, reason):
         writer.writerow(log_entry)
 
 # ✅ Get latest price
-
 def get_price(ticker):
     try:
         stock = yf.Ticker(ticker)
-        time.sleep(0.5)  # Reduced to speed up loop and still avoid Yahoo rate-limiting
+        time.sleep(0.5)
         hist = stock.history(period="1d")
         if hist.empty:
             return None
@@ -85,42 +86,38 @@ def get_price(ticker):
     except:
         return None
 
-# ✅ Execute Short Orders, sorted by score descending
-sorted_signals = sorted(signals, key=lambda x: x.get("short_score", 0), reverse=True)[:15]
-remaining_capital = short_capital
+# ✅ Execute new shorts
+if len(positions) + len(open_orders) >= 3:
+    print("🔒 Already managing 3 short positions or pending orders. No new shorts today.")
+else:
+    for stock in signals:
+        ticker = stock["ticker"]
+        if ticker in positions:
+            print(f"⚠️ Already shorting {ticker}, skipping.")
+            continue
 
-for stock in sorted_signals:
-    ticker = stock["ticker"]
-    if ticker in positions:
-        print(f"⚠️ Already shorting {ticker}, skipping.")
-        continue
+        price = get_price(ticker)
+        if not price:
+            print(f"❌ Could not fetch price for {ticker}")
+            continue
 
-    price = get_price(ticker)
-    if not price:
-        print(f"❌ Could not fetch price for {ticker}")
-        continue
+        max_qty = int(capital_per_trade // price)
+        if max_qty < 1:
+            print(f"⚠️ Skipping {ticker}: not enough capital for 1 share")
+            continue
 
-    max_qty = int(capital_per_trade // price)
-
-    print(f"💵 Capital per trade: {capital_per_trade:.2f}, Price: {price:.2f}, Qty: {max_qty}")
-
-    if max_qty < 1:
-        print(f"⚠️ Skipping {ticker}: not enough capital for 1 full share")
-        continue
-
-    try:
-        api.submit_order(
-            symbol=ticker,
-            qty=max_qty,
-            side="sell",
-            type="market",
-            time_in_force="day"
-        )
-        remaining_capital -= max_qty * price
-        print(f"🔻 Shorted {max_qty} shares of {ticker} at {price:.2f}")
-        log_trade("SHORT", ticker, max_qty, price, "Short Signal")
-    except Exception as e:
-        print(f"❌ Failed to short {ticker}: {e}")
+        try:
+            api.submit_order(
+                symbol=ticker,
+                qty=max_qty,
+                side="sell",
+                type="market",
+                time_in_force="day"
+            )
+            print(f"🔻 Shorted {max_qty} shares of {ticker} at ${price:.2f}")
+            log_trade("SHORT", ticker, max_qty, price, "Live Signal")
+        except Exception as e:
+            print(f"❌ Failed to short {ticker}: {e}")
 
 # ✅ Review open short positions to cover
 positions = {p.symbol: p for p in api.list_positions() if p.side == 'short'}

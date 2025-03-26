@@ -4,7 +4,7 @@ import os
 API_KEY = os.getenv("APCA_API_KEY_ID")
 SECRET_KEY = os.getenv("APCA_API_SECRET_KEY")
 
-url = "https://paper-api.alpaca.markets/v2/account/reset"
+APCA_BASE_URL = os.getenv("APCA_PAPER_URL", "https://paper-api.alpaca.markets")
 
 headers = {
     "APCA-API-KEY-ID": API_KEY,

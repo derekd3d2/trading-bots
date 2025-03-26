@@ -53,10 +53,10 @@ def log_option_trade(action, ticker, option_type, strike, expiration, contracts,
 
 
 # === Alpaca Setup ===
-ALPACA_API_KEY = os.getenv("APCA_API_KEY_ID")
-ALPACA_SECRET = os.getenv("APCA_API_SECRET_KEY")
-BASE_URL = "https://paper-api.alpaca.markets"
-alpaca = REST(ALPACA_API_KEY, ALPACA_SECRET, BASE_URL)
+APCA_API_KEY_ID = os.getenv("APCA_API_KEY_ID")
+APCA_API_SECRET_KEY = os.getenv("APCA_API_SECRET_KEY")
+APCA_BASE_URL = os.getenv("APCA_PAPER_URL", "https://paper-api.alpaca.markets")
+alpaca = REST(APCA_API_KEY_ID, APCA_API_SECRET_KEY, APCA_BASE_URL)
 
 # === Load Open Positions ===
 if not os.path.exists("options_positions.json"):

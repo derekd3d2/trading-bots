@@ -3,12 +3,12 @@ import alpaca_trade_api as tradeapi
 from datetime import datetime
 
 # ✅ Load Alpaca API Keys
-ALPACA_API_KEY = os.getenv("APCA_API_KEY_ID")
-ALPACA_SECRET_KEY = os.getenv("APCA_API_SECRET_KEY")
-ALPACA_BASE_URL = "https://paper-api.alpaca.markets"
+APCA_API_KEY_ID = os.getenv("APCA_API_KEY_ID")
+APCA_API_SECRET_KEY = os.getenv("APCA_API_SECRET_KEY")
+APCA_BASE_URL = os.getenv("APCA_PAPER_URL", "https://paper-api.alpaca.markets")
 
 # ✅ Connect to Alpaca API
-api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+api = tradeapi.REST(APCA_API_KEY_ID, APCA_API_SECRET_KEY, APCA_BASE_URL, api_version="v2")
 
 # ✅ Get Today's Filled Orders
 today = datetime.today().strftime("%Y-%m-%d")

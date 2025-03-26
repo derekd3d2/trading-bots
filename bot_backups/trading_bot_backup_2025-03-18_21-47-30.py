@@ -6,16 +6,16 @@ from datetime import datetime, timedelta
 import time
 
 # ✅ Load API Keys
-ALPACA_API_KEY = os.getenv("ALPACA_API_KEY")
-ALPACA_SECRET_KEY = os.getenv("ALPACA_SECRET_KEY")
+APCA_API_KEY_ID = os.getenv("APCA_API_KEY_ID")
+APCA_API_SECRET_KEY = os.getenv("APCA_API_SECRET_KEY")
 ALPACA_BASE_URL = "https://paper-api.alpaca.markets"
 
-if not ALPACA_API_KEY or not ALPACA_SECRET_KEY:
+if not APCA_API_KEY_ID or not APCA_API_SECRET_KEY:
     print("❌ API Keys not found! Make sure they are set in ~/.bashrc_custom and sourced correctly.")
     exit(1)
 
 # ✅ Connect to Alpaca API
-api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+api = tradeapi.REST(APCA_API_KEY_ID, APCA_API_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
 
 # ✅ Trading Strategy Parameters
 PROFIT_TARGET = 0.03  # 3% profit target

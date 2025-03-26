@@ -43,10 +43,12 @@ for entry in data:
             continue
 
         if mentions >= MENTION_THRESHOLD and sentiment >= SCORE_THRESHOLD:
+            wsb_score = min(round(sentiment * 40 + (mentions / 5), 2), 10)
             buy_signals.append({
                 "ticker": ticker,
-                "wsb_score": round(sentiment, 4),
-                "mentions": mentions
+                "wsb_score": wsb_score,
+                "mentions": mentions,
+                "sentiment": round(sentiment, 4)
             })
     except Exception as e:
         print(f"⚠️ Error parsing WSB entry: {e}")

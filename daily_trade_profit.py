@@ -9,7 +9,7 @@ load_dotenv('/home/ubuntu/.bashrc_custom')
 api = tradeapi.REST(
     os.getenv('APCA_API_KEY'),
     os.getenv('APCA_SECRET_KEY'),
-    base_url='https://paper-api.alpaca.markets'
+APCA_BASE_URL = os.getenv("APCA_PAPER_URL", "https://paper-api.alpaca.markets")
 )
 
 # Get today's date in correct format

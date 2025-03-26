@@ -4,7 +4,7 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv('/home/ubuntu/.bashrc_custom')
-api = tradeapi.REST(os.getenv('ALPACA_API_KEY'), os.getenv('ALPACA_SECRET_KEY'), 'https://paper-api.alpaca.markets', api_version='v2')
+APCA_BASE_URL = os.getenv("APCA_PAPER_URL", "https://paper-api.alpaca.markets")
 
 orders = api.list_orders(status='open')
 for order in orders:
