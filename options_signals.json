@@ -1,33 +1,17 @@
 [
   {
-    "symbol": "WYNN",
-    "direction": "CALL",
-    "source": "Congress - Gilbert Cisneros",
-    "buy_date": "2025-03-25",
-    "estimated_amount": 250,
-    "expected_gain": 50.0
-  },
-  {
-    "symbol": "WYNN",
+    "symbol": "WELL",
     "direction": "CALL",
     "source": "Insider Buy",
-    "buy_date": "2025-03-25",
+    "buy_date": "2025-03-26",
     "estimated_amount": 250,
     "expected_gain": 50.0
   },
   {
-    "symbol": "AMGN",
+    "symbol": "WELL",
     "direction": "CALL",
-    "source": "Congress - Jefferson Shreve",
-    "buy_date": "2025-03-25",
-    "estimated_amount": 250,
-    "expected_gain": 50.0
-  },
-  {
-    "symbol": "AMGN",
-    "direction": "CALL",
-    "source": "Insider Buy",
-    "buy_date": "2025-03-25",
+    "source": "WSB",
+    "buy_date": "2025-03-26",
     "estimated_amount": 250,
     "expected_gain": 50.0
   }

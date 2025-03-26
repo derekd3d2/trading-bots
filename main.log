@@ -18152,3 +18152,287 @@ $ZOM: possibly delisted; no price data found  (period=1d)
 ✅ Day trading execution complete.
 2025-03-26 01:37:10 - ✅ All tasks complete. main.py finished.
 
+2025-03-26 05:10:25.861477 - 📅 Market open set for 2025-03-26 09:30:00-04:00
+2025-03-26 05:10:25.876561 - ✅ Selected 30 high-confidence trades for today.
+2025-03-26 05:10:25.876692 - 🚀 High-confidence trades selected and ready for execution.
+2025-03-26 05:11:37.987210 - 📅 Market open set for 2025-03-26 09:30:00-04:00
+2025-03-26 05:11:38.000238 - ✅ Selected 30 high-confidence trades for today.
+2025-03-26 05:11:38.000327 - 🚀 High-confidence trades selected and ready for execution.
+2025-03-26 05:13:16 - 🚀 main.py started.
+2025-03-26 05:13:16 - 🕒 Current Eastern Time: 2025-03-26 05:13:16 EDT
+2025-03-26 05:13:16 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-26 05:13:16 - 📥 Starting Day Trading Bot...
+2025-03-26 05:13:17 - ✅ Day Trading Bot completed.
+2025-03-26 05:13:17 - 📤 Day Trading Bot stdout:
+❌ API Keys not found! Make sure they are set in ~/.bashrc_custom and sourced correctly.
+2025-03-26 05:13:17 - ✅ All tasks complete. main.py finished.
+
+2025-03-26 05:28:16 - 🚀 main.py started.
+2025-03-26 05:28:17 - 🕒 Current Eastern Time: 2025-03-26 05:28:17 EDT
+2025-03-26 05:28:17 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-26 05:28:17 - 📥 Starting Day Trading Bot...
+2025-03-26 05:28:34 - ✅ Day Trading Bot completed.
+2025-03-26 05:28:34 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $75000.00 for day trading (75% of $100000.0)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+🚀 Buying 1915.7089 shares of RCG at 2.609999895095825
+🖍 Logged BUY of RCG at 2.609999895095825
+🚀 Buying 843.1703 shares of FLWS at 5.929999828338623
+🖍 Logged BUY of FLWS at 5.929999828338623
+🚀 Buying 80645.1626 shares of ZOM at 0.06199999898672104
+❌ Error executing buy for ZOM: asset ZOM is not active
+🚀 Buying 8944.5436 shares of EONR at 0.5590000152587891
+🖍 Logged BUY of EONR at 0.5590000152587891
+🚀 Buying 2906.9767 shares of BUKS at 1.7200000286102295
+❌ Error executing buy for BUKS: asset BUKS is not active
+🚀 Buying 706.2147 shares of WEST at 7.079999923706055
+🖍 Logged BUY of WEST at 7.079999923706055
+🚀 Buying 2659.5745 shares of BLNE at 1.8799999952316284
+🖍 Logged BUY of BLNE at 1.8799999952316284
+🚀 Buying 1179.2453 shares of PSEC at 4.239999771118164
+🖍 Logged BUY of PSEC at 4.239999771118164
+🚀 Buying 954.1985 shares of CULP at 5.239999771118164
+🖍 Logged BUY of CULP at 5.239999771118164
+🚀 Buying 27.3838 shares of BA at 182.58999633789062
+🖍 Logged BUY of BA at 182.58999633789062
+🚀 Buying 666.6667 shares of PESI at 7.5
+🖍 Logged BUY of PESI at 7.5
+🚀 Buying 414.2502 shares of SRBK at 12.069999694824219
+🖍 Logged BUY of SRBK at 12.069999694824219
+🚀 Buying 308.2614 shares of ECAT at 16.219999313354492
+🖍 Logged BUY of ECAT at 16.219999313354492
+🚀 Buying 2762.4310 shares of MCVT at 1.809999942779541
+🖍 Logged BUY of MCVT at 1.809999942779541
+🚀 Buying 3846.1540 shares of BMNM at 1.2999999523162842
+❌ Error executing buy for BMNM: asset BMNM is not active
+✅ Day trading execution complete.
+2025-03-26 05:28:34 - ✅ All tasks complete. main.py finished.
+
+2025-03-26 09:25:01.689818 - 📅 Market open set for 2025-03-26 09:30:00-04:00
+2025-03-26 09:25:01.690006 - ❌ Congress trading data not found.
+2025-03-26 09:25:01.702437 - ✅ Selected 30 high-confidence trades for today.
+2025-03-26 09:25:01.702525 - 🚀 High-confidence trades selected and ready for execution.
+2025-03-26 09:29:01 - 🚀 main.py started.
+2025-03-26 09:29:01 - 🕒 Current Eastern Time: 2025-03-26 09:29:01 EDT
+2025-03-26 09:29:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-26 09:29:01 - 📥 Starting Day Trading Bot...
+2025-03-26 09:29:02 - ✅ Day Trading Bot completed.
+2025-03-26 09:29:02 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $75000.00 for day trading (75% of $100000.0)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+✅ Day trading execution complete.
+2025-03-26 09:29:02 - ✅ All tasks complete. main.py finished.
+
+2025-03-26 09:55:02.458539 - 📅 Market open set for 2025-03-26 09:30:00-04:00
+2025-03-26 09:55:02.458728 - ❌ Congress trading data not found.
+2025-03-26 09:55:02.470918 - ✅ Selected 30 high-confidence trades for today.
+2025-03-26 09:55:02.471043 - 🚀 High-confidence trades selected and ready for execution.
+2025-03-26 10:00:01 - 🚀 main.py started.
+2025-03-26 10:00:01 - 🕒 Current Eastern Time: 2025-03-26 10:00:01 EDT
+2025-03-26 10:00:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-26 10:00:01 - 📥 Starting Day Trading Bot...
+2025-03-26 10:00:02 - ✅ Day Trading Bot completed.
+2025-03-26 10:00:02 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $75000.00 for day trading (75% of $100000.0)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+✅ Day trading execution complete.
+2025-03-26 10:00:02 - ✅ All tasks complete. main.py finished.
+
+2025-03-26 10:03:01 - 🚀 main.py started.
+2025-03-26 10:03:01 - 🕒 Current Eastern Time: 2025-03-26 10:03:01 EDT
+2025-03-26 10:03:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-26 10:03:01 - 📥 Starting Day Trading Bot...
+2025-03-26 10:03:01 - ✅ Day Trading Bot completed.
+2025-03-26 10:03:01 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $75000.00 for day trading (75% of $100000.0)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+✅ Day trading execution complete.
+2025-03-26 10:03:01 - ✅ All tasks complete. main.py finished.
+
+2025-03-26 10:06:01 - 🚀 main.py started.
+2025-03-26 10:06:01 - 🕒 Current Eastern Time: 2025-03-26 10:06:01 EDT
+2025-03-26 10:06:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-26 10:06:01 - 📥 Starting Day Trading Bot...
+2025-03-26 10:06:02 - ✅ Day Trading Bot completed.
+2025-03-26 10:06:02 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $75000.00 for day trading (75% of $100000.0)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+✅ Day trading execution complete.
+2025-03-26 10:06:02 - ✅ All tasks complete. main.py finished.
+
+2025-03-26 10:09:01 - 🚀 main.py started.
+2025-03-26 10:09:01 - 🕒 Current Eastern Time: 2025-03-26 10:09:01 EDT
+2025-03-26 10:09:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-26 10:09:01 - 📥 Starting Day Trading Bot...
+2025-03-26 10:09:02 - ✅ Day Trading Bot completed.
+2025-03-26 10:09:02 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $75000.00 for day trading (75% of $100000.0)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+✅ Day trading execution complete.
+2025-03-26 10:09:02 - ✅ All tasks complete. main.py finished.
+
+2025-03-26 10:12:01 - 🚀 main.py started.
+2025-03-26 10:12:01 - 🕒 Current Eastern Time: 2025-03-26 10:12:01 EDT
+2025-03-26 10:12:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-26 10:12:01 - 📥 Starting Day Trading Bot...
+2025-03-26 10:12:01 - ✅ Day Trading Bot completed.
+2025-03-26 10:12:01 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $75000.00 for day trading (75% of $100000.0)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+✅ Day trading execution complete.
+2025-03-26 10:12:01 - ✅ All tasks complete. main.py finished.
+
+2025-03-26 10:15:01 - 🚀 main.py started.
+2025-03-26 10:15:01 - 🕒 Current Eastern Time: 2025-03-26 10:15:01 EDT
+2025-03-26 10:15:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-26 10:15:01 - 📥 Starting Day Trading Bot...
+2025-03-26 10:15:02 - ✅ Day Trading Bot completed.
+2025-03-26 10:15:02 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $75000.00 for day trading (75% of $100000.0)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+✅ Day trading execution complete.
+2025-03-26 10:15:02 - ✅ All tasks complete. main.py finished.
+
+2025-03-26 10:18:01 - 🚀 main.py started.
+2025-03-26 10:18:01 - 🕒 Current Eastern Time: 2025-03-26 10:18:01 EDT
+2025-03-26 10:18:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-26 10:18:01 - 📥 Starting Day Trading Bot...
+2025-03-26 10:18:02 - ✅ Day Trading Bot completed.
+2025-03-26 10:18:02 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $75000.00 for day trading (75% of $100000.0)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+✅ Day trading execution complete.
+2025-03-26 10:18:02 - ✅ All tasks complete. main.py finished.
+
+2025-03-26 10:21:01 - 🚀 main.py started.
+2025-03-26 10:21:01 - 🕒 Current Eastern Time: 2025-03-26 10:21:01 EDT
+2025-03-26 10:21:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-26 10:21:01 - 📥 Starting Day Trading Bot...
+2025-03-26 10:21:01 - ✅ Day Trading Bot completed.
+2025-03-26 10:21:01 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $75000.00 for day trading (75% of $100000.0)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+✅ Day trading execution complete.
+2025-03-26 10:21:01 - ✅ All tasks complete. main.py finished.
+
+2025-03-26 10:24:01 - 🚀 main.py started.
+2025-03-26 10:24:01 - 🕒 Current Eastern Time: 2025-03-26 10:24:01 EDT
+2025-03-26 10:24:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-26 10:24:01 - 📥 Starting Day Trading Bot...
+2025-03-26 10:24:02 - ✅ Day Trading Bot completed.
+2025-03-26 10:24:02 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $75000.00 for day trading (75% of $100000.0)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+✅ Day trading execution complete.
+2025-03-26 10:24:02 - ✅ All tasks complete. main.py finished.
+
+2025-03-26 10:25:01.823193 - 📅 Market open set for 2025-03-26 09:30:00-04:00
+2025-03-26 10:25:01.823350 - ❌ Congress trading data not found.
+2025-03-26 10:25:01.835808 - ✅ Selected 30 high-confidence trades for today.
+2025-03-26 10:25:01.835899 - 🚀 High-confidence trades selected and ready for execution.
+2025-03-26 10:27:01 - 🚀 main.py started.
+2025-03-26 10:27:01 - 🕒 Current Eastern Time: 2025-03-26 10:27:01 EDT
+2025-03-26 10:27:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-26 10:27:01 - 📥 Starting Day Trading Bot...
+2025-03-26 10:27:02 - ✅ Day Trading Bot completed.
+2025-03-26 10:27:02 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $75000.00 for day trading (75% of $100000.0)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+✅ Day trading execution complete.
+2025-03-26 10:27:02 - ✅ All tasks complete. main.py finished.
+
+2025-03-26 10:30:01 - 🚀 main.py started.
+2025-03-26 10:30:01 - 🕒 Current Eastern Time: 2025-03-26 10:30:01 EDT
+2025-03-26 10:30:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-26 10:30:01 - 📥 Starting Day Trading Bot...
+2025-03-26 10:30:02 - ✅ Day Trading Bot completed.
+2025-03-26 10:30:02 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $75000.00 for day trading (75% of $100000.0)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+✅ Day trading execution complete.
+2025-03-26 10:30:02 - ✅ All tasks complete. main.py finished.
+
+2025-03-26 10:33:01 - 🚀 main.py started.
+2025-03-26 10:33:01 - 🕒 Current Eastern Time: 2025-03-26 10:33:01 EDT
+2025-03-26 10:33:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-26 10:33:01 - 📥 Starting Day Trading Bot...
+2025-03-26 10:33:01 - ✅ Day Trading Bot completed.
+2025-03-26 10:33:01 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $75000.00 for day trading (75% of $100000.0)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+✅ Day trading execution complete.
+2025-03-26 10:33:01 - ✅ All tasks complete. main.py finished.
+
+2025-03-26 10:36:01 - 🚀 main.py started.
+2025-03-26 10:36:01 - 🕒 Current Eastern Time: 2025-03-26 10:36:01 EDT
+2025-03-26 10:36:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-26 10:36:01 - 📥 Starting Day Trading Bot...
+2025-03-26 10:36:02 - ✅ Day Trading Bot completed.
+2025-03-26 10:36:02 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $75000.00 for day trading (75% of $100000.0)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+✅ Day trading execution complete.
+2025-03-26 10:36:02 - ✅ All tasks complete. main.py finished.
+
+2025-03-26 10:39:01 - 🚀 main.py started.
+2025-03-26 10:39:01 - 🕒 Current Eastern Time: 2025-03-26 10:39:01 EDT
+2025-03-26 10:39:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-26 10:39:01 - 📥 Starting Day Trading Bot...
+2025-03-26 10:39:02 - ✅ Day Trading Bot completed.
+2025-03-26 10:39:02 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $75000.00 for day trading (75% of $100000.0)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+✅ Day trading execution complete.
+2025-03-26 10:39:02 - ✅ All tasks complete. main.py finished.
+
+2025-03-26 10:42:01 - 🚀 main.py started.
+2025-03-26 10:42:01 - 🕒 Current Eastern Time: 2025-03-26 10:42:01 EDT
+2025-03-26 10:42:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-26 10:42:01 - 📥 Starting Day Trading Bot...
+2025-03-26 10:42:01 - ✅ Day Trading Bot completed.
+2025-03-26 10:42:01 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $75000.00 for day trading (75% of $100000.0)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+✅ Day trading execution complete.
+2025-03-26 10:42:01 - ✅ All tasks complete. main.py finished.
+
+2025-03-26 10:45:01 - 🚀 main.py started.
+2025-03-26 10:45:01 - 🕒 Current Eastern Time: 2025-03-26 10:45:01 EDT
+2025-03-26 10:45:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-26 10:45:01 - 📥 Starting Day Trading Bot...
+2025-03-26 10:45:02 - ✅ Day Trading Bot completed.
+2025-03-26 10:45:02 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $75000.00 for day trading (75% of $100000.0)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+✅ Day trading execution complete.
+2025-03-26 10:45:02 - ✅ All tasks complete. main.py finished.
+
+2025-03-26 10:48:01 - 🚀 main.py started.
+2025-03-26 10:48:01 - 🕒 Current Eastern Time: 2025-03-26 10:48:01 EDT
+2025-03-26 10:48:01 - ⚠️ ML model not found. Skipping prediction and using raw signals.
+2025-03-26 10:48:01 - 📥 Starting Day Trading Bot...
+2025-03-26 10:48:01 - ✅ Day Trading Bot completed.
+2025-03-26 10:48:01 - 📤 Day Trading Bot stdout:
+[INFO] Allocating $75000.00 for day trading (75% of $100000.0)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+⚠️ No trades to execute.
+✅ Day trading execution complete.
+2025-03-26 10:48:01 - ✅ All tasks complete. main.py finished.
+

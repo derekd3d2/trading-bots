@@ -7,21 +7,27 @@ import time
 import csv
 
 # ✅ Load API Keys
-APCA_API_KEY_ID = os.getenv("APCA_API_KEY_ID")
-APCA_API_SECRET_KEY = os.getenv("APCA_API_SECRET_KEY")
-APCA_BASE_URL = os.getenv("APCA_PAPER_URL", "https://paper-api.alpaca.markets")
+mode = os.getenv("ALPACA_ENV", "paper")
+if mode == "paper":
+    ALPACA_API_KEY = os.getenv("APCA_PAPER_KEY")
+    ALPACA_SECRET_KEY = os.getenv("APCA_PAPER_SECRET")
+    ALPACA_BASE_URL = os.getenv("APCA_PAPER_URL", "https://paper-api.alpaca.markets")
+else:
+    ALPACA_API_KEY = os.getenv("APCA_LIVE_KEY")
+    ALPACA_SECRET_KEY = os.getenv("APCA_LIVE_SECRET")
+    ALPACA_BASE_URL = os.getenv("APCA_LIVE_URL", "https://api.alpaca.markets")
 
-if not APCA_API_KEY_ID or not APCA_API_SECRET_KEY:
+if not ALPACA_API_KEY or not ALPACA_SECRET_KEY:
     print("❌ API Keys not found! Make sure they are set in ~/.bashrc_custom and sourced correctly.")
-    exit(1)
+    exit()
 
 # ✅ Connect to Alpaca API
-api = tradeapi.REST(APCA_API_KEY_ID, APCA_API_SECRET_KEY, APCA_BASE_URL, api_version="v2")
+api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
 
 # ✅ Trading Strategy Parameters
 PROFIT_TARGET = 0.015  # 1.5% profit target
 STOP_LOSS = 0.015      # 1.5% stop-loss
-CAPITAL_USAGE = 0.50   # 50% of total capital
+CAPITAL_USAGE = 0.75   # 50% of total capital
 MAX_TRADES = 15        # Limit trades to top 15 stocks
 TRADE_HISTORY_FILE = "/home/ubuntu/trading-bots/trade_history.json"
 

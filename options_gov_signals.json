@@ -1,9 +1,18 @@
 [
   {
-    "symbol": "CAH",
+    "symbol": "GD",
     "direction": "CALL",
-    "source": "Gov Contract - Department of Veterans Affairs",
-    "buy_date": "2025-03-25",
+    "source": "Gov Contract - Department of Health and Human Services",
+    "buy_date": "2025-03-26",
+    "estimated_amount": 250,
+    "expected_gain": 50.0,
+    "signal_strength": "MEDIUM"
+  },
+  {
+    "symbol": "GD",
+    "direction": "CALL",
+    "source": "Gov Contract - Department of Health and Human Services",
+    "buy_date": "2025-03-26",
     "estimated_amount": 250,
     "expected_gain": 50.0,
     "signal_strength": "MEDIUM"

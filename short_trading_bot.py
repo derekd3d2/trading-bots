@@ -16,11 +16,17 @@ def signal_handler(sig, frame):
 signal.signal(signal.SIGINT, signal_handler)
 
 # ✅ Load Alpaca API credentials
-APCA_API_KEY_ID = os.getenv("APCA_API_KEY_ID")
-APCA_API_SECRET_KEY = os.getenv("APCA_API_SECRET_KEY")
-APCA_BASE_URL = os.getenv("APCA_PAPER_URL", "https://paper-api.alpaca.markets")
+mode = os.getenv("ALPACA_ENV", "paper")
+if mode == "paper":
+    ALPACA_API_KEY = os.getenv("APCA_PAPER_KEY")
+    ALPACA_SECRET_KEY = os.getenv("APCA_PAPER_SECRET")
+    ALPACA_BASE_URL = os.getenv("APCA_PAPER_URL", "https://paper-api.alpaca.markets")
+else:
+    ALPACA_API_KEY = os.getenv("APCA_LIVE_KEY")
+    ALPACA_SECRET_KEY = os.getenv("APCA_LIVE_SECRET")
+    ALPACA_BASE_URL = os.getenv("APCA_LIVE_URL", "https://api.alpaca.markets")
 
-api = tradeapi.REST(APCA_API_KEY_ID, APCA_API_SECRET_KEY, APCA_BASE_URL, api_version="v2")
+api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
 
 # ✅ Load live short signals (ensure the short_signals_live.py file is in the same directory)
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
@@ -33,7 +39,7 @@ signals = get_top_short_signals(current_positions=skip_tickers)
 # ✅ Constants
 SHORT_TARGET = 0.05  # 5% drop = take profit
 SHORT_STOPLOSS = 0.03  # 3% rise = stop-loss
-CAPITAL_USAGE = 0.25  # 25% of total capital
+CAPITAL_USAGE = 0.15  # 15% of total capital
 TRADE_LOG = "/home/ubuntu/trading-bots/trade_history.json"
 
 # ✅ Get available capital

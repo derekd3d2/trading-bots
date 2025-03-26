@@ -1,12 +1,22 @@
 [
   {
-    "symbol": "CAH",
-    "amount": 9899536.0,
-    "agency": "Department of Veterans Affairs",
-    "description": "EXPRESS REPORT: MEDICAL SURGICAL PRIME VENDOR EXPENDITURES FOR THE MONTH OF JANUARY 2025",
+    "symbol": "GD",
+    "amount": 7107793.0,
+    "agency": "Department of Health and Human Services",
+    "description": "MEASURE AND INSTRUMENT DEVELOPMENT AND SUPPORT (MIDS) IDIQ",
     "source": "Gov Contract Win",
     "signal_type": "CALL",
     "signal_strength": "MEDIUM",
-    "date": "2025-02-21"
+    "date": "2025-02-24"
+  },
+  {
+    "symbol": "GD",
+    "amount": 1491808.0,
+    "agency": "Department of Health and Human Services",
+    "description": "THE CLOUD PRODUCTS AND TOOLS (CPT) CONTRACT IS USED TO PROVIDE CLOUD-BASED INFRASTRUCTURE FROM COMMERCIAL CLOUD SERVICE PROVIDERS (CSP) SUCH AS MICROSOFT AZURE GOVERNMENT (MAG) AND AMAZON WEB SERVICES (AWS), AS WELL AS SOFTWARE, HARDWARE, TOOLS, PROF",
+    "source": "Gov Contract Win",
+    "signal_type": "CALL",
+    "signal_strength": "MEDIUM",
+    "date": "2025-02-24"
   }
 ]

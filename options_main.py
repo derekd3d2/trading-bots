@@ -35,8 +35,8 @@ print("\n📦 Merging signals into options_signals.json")
 subprocess.run(["python3", "options_merge_signals.py"])
 
 # === Step 4: Run AI Filter (ML) ===
-print("\n🧠 Filtering trades using trained AI model...")
-subprocess.run(["python3", "predict_option_trades.py"])
+#print("\n🧠 Filtering trades using trained AI model...")
+#subprocess.run(["python3", "predict_option_trades.py"])
 
 # === Step 5: Execute Trades ===
 print("\n💥 Executing trades...")

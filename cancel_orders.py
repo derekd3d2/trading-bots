@@ -2,12 +2,18 @@ import os
 import alpaca_trade_api as tradeapi
 
 # ✅ Load API Keys
-APCA_API_KEY_ID = os.getenv("APCA_API_KEY_ID")
-APCA_API_SECRET_KEY = os.getenv("APCA_API_SECRET_KEY")
-APCA_BASE_URL = os.getenv("APCA_PAPER_URL", "https://paper-api.alpaca.markets")
+mode = os.getenv("ALPACA_ENV", "paper")
+if mode == "paper":
+    ALPACA_API_KEY = os.getenv("APCA_PAPER_KEY")
+    ALPACA_SECRET_KEY = os.getenv("APCA_PAPER_SECRET")
+    ALPACA_BASE_URL = os.getenv("APCA_PAPER_URL", "https://paper-api.alpaca.markets")
+else:
+    ALPACA_API_KEY = os.getenv("APCA_LIVE_KEY")
+    ALPACA_SECRET_KEY = os.getenv("APCA_LIVE_SECRET")
+    ALPACA_BASE_URL = os.getenv("APCA_LIVE_URL", "https://api.alpaca.markets")
 
 # ✅ Connect to Alpaca API
-api = tradeapi.REST(APCA_API_KEY_ID, APCA_API_SECRET_KEY, APCA_BASE_URL, api_version="v2")
+api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
 
 # ✅ Cancel All Open Orders
 def cancel_all_orders():

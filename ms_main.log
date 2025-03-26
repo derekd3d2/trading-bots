@@ -12431,3 +12431,415 @@ AttributeError: 'list' object has no attribute 'get'
 ✅ Saved Government Contract signals to /home/ubuntu/trading-bots/ms_gov_signals.json with 2208 entries.
 
 
+2025-03-26 05:11:52.584709 - ms_congress.py finished:
+📱 Fetching Congress trading data from QuiverQuant...
+✅ Saved Congress signals to /home/ubuntu/trading-bots/congress_signals.json with 11 buys, 0 shorts, and 0 options trades.
+
+
+2025-03-26 05:11:52.585155 - ms_daytrading_signals.py finished:
+🧐 PESI: Congress=0.0, Insider=8.0, WSB=0.0, Gov=0.0 → Total=2.4
+🧐 VG: Congress=0.0, Insider=6.0, WSB=0.0, Gov=0.0 → Total=1.8
+🧐 CULP: Congress=0.0, Insider=8.0, WSB=0.0, Gov=0.75 → Total=2.48
+🧐 SBGI: Congress=0.0, Insider=4.0, WSB=0.0, Gov=1.29 → Total=1.33
+🧐 SUNS: Congress=0.0, Insider=4.0, WSB=0.0, Gov=0.0 → Total=1.2
+🧐 WSR: Congress=0.0, Insider=3.0, WSB=0.0, Gov=2.38 → Total=1.14
+🧐 PSEC: Congress=0.0, Insider=9.0, WSB=0.0, Gov=0.0 → Total=2.7
+🧐 STAA: Congress=0.0, Insider=5.0, WSB=0.0, Gov=0.15 → Total=1.51
+🧐 META: Congress=0.0, Insider=0.0, WSB=10.0, Gov=0.0 → Total=2.0
+🧐 CION: Congress=0.0, Insider=7.0, WSB=0.0, Gov=0.0 → Total=2.1
+🧐 RCG: Congress=0.0, Insider=10, WSB=0.0, Gov=0.0 → Total=3.0
+🧐 ASAN: Congress=0.0, Insider=6.0, WSB=0.0, Gov=0.0 → Total=1.8
+🧐 SMCI: Congress=0.0, Insider=0.0, WSB=10.0, Gov=0.0 → Total=2.0
+🧐 GSAT: Congress=0.0, Insider=4.0, WSB=0.0, Gov=0.0 → Total=1.2
+🧐 TTSH: Congress=0.0, Insider=6.0, WSB=0.0, Gov=0.0 → Total=1.8
+🧐 WMT: Congress=0.0, Insider=0.0, WSB=7.49, Gov=0.25 → Total=1.52
+🧐 QBTS: Congress=0.0, Insider=0.0, WSB=5.61, Gov=0.0 → Total=1.12
+🧐 MKZR: Congress=0.0, Insider=7.0, WSB=0.0, Gov=0.0 → Total=2.1
+🧐 SRBK: Congress=0.0, Insider=8.0, WSB=0.0, Gov=0.0 → Total=2.4
+🧐 CPSH: Congress=0.0, Insider=4.0, WSB=0.0, Gov=0.44 → Total=1.24
+🧐 ADVM: Congress=0.0, Insider=4.0, WSB=0.0, Gov=0.0 → Total=1.2
+🧐 ZDGE: Congress=0.0, Insider=4.0, WSB=0.0, Gov=0.0 → Total=1.2
+🧐 GDRZF: Congress=0.0, Insider=4.0, WSB=0.0, Gov=0.0 → Total=1.2
+🧐 QQQ: Congress=0.0, Insider=0.0, WSB=7.98, Gov=0.0 → Total=1.6
+🧐 MSTR: Congress=0.0, Insider=3.0, WSB=6.37, Gov=0.0 → Total=2.17
+🧐 DK: Congress=0.0, Insider=2.0, WSB=0.0, Gov=4.26 → Total=1.03
+🧐 LYEL: Congress=0.0, Insider=4.0, WSB=0.0, Gov=0.0 → Total=1.2
+🧐 ANET: Congress=0.0, Insider=0.0, WSB=8.68, Gov=0.0 → Total=1.74
+🧐 EPS: Congress=0.0, Insider=0.0, WSB=10.0, Gov=0.0 → Total=2.0
+🧐 ECAT: Congress=0.0, Insider=8.0, WSB=0.0, Gov=0.0 → Total=2.4
+🧐 BB: Congress=0.0, Insider=0.0, WSB=10.0, Gov=0.53 → Total=2.05
+🧐 YEAR: Congress=0.0, Insider=0.0, WSB=10.0, Gov=0.0 → Total=2.0
+🧐 MCVT: Congress=0.0, Insider=8.0, WSB=0.0, Gov=0.0 → Total=2.4
+🧐 JELD: Congress=0.0, Insider=5.0, WSB=0.0, Gov=0.0 → Total=1.5
+🧐 BMNM: Congress=0.0, Insider=8.0, WSB=0.0, Gov=0.0 → Total=2.4
+🧐 CELH: Congress=0.0, Insider=0.0, WSB=6.57, Gov=1.0 → Total=1.41
+🧐 FLWS: Congress=0.0, Insider=10, WSB=0.0, Gov=0.0 → Total=3.0
+🧐 MGNI: Congress=0.0, Insider=0.0, WSB=5.08, Gov=0.0 → Total=1.02
+🧐 HFFG: Congress=0.0, Insider=4.0, WSB=0.0, Gov=0.0 → Total=1.2
+🧐 GUTS: Congress=0.0, Insider=5.0, WSB=0.0, Gov=0.0 → Total=1.5
+🧐 ZOM: Congress=0.0, Insider=10, WSB=0.0, Gov=0.0 → Total=3.0
+🧐 EU: Congress=0.0, Insider=2.0, WSB=4.33, Gov=0.0 → Total=1.47
+🧐 IMMR: Congress=0.0, Insider=3.0, WSB=0.0, Gov=2.35 → Total=1.14
+🧐 EONR: Congress=0.0, Insider=10, WSB=0.0, Gov=0.0 → Total=3.0
+🧐 ALZN: Congress=0.0, Insider=5.0, WSB=0.0, Gov=0.0 → Total=1.5
+🧐 GABC: Congress=0.0, Insider=4.0, WSB=0.0, Gov=0.0 → Total=1.2
+🧐 FMBM: Congress=0.0, Insider=8.0, WSB=0.0, Gov=0.0 → Total=2.4
+🧐 PGRE: Congress=0.0, Insider=3.0, WSB=0.0, Gov=2.43 → Total=1.14
+🧐 ENX: Congress=0.0, Insider=4.0, WSB=0.0, Gov=0.0 → Total=1.2
+🧐 RSI: Congress=0.0, Insider=0.0, WSB=10.0, Gov=0.0 → Total=2.0
+🧐 AFCG: Congress=0.0, Insider=6.0, WSB=0.0, Gov=0.0 → Total=1.8
+🧐 BTMD: Congress=0.0, Insider=8.0, WSB=0.0, Gov=0.0 → Total=2.4
+🧐 VREO: Congress=0.0, Insider=8.0, WSB=0.0, Gov=0.0 → Total=2.4
+🧐 EMYB: Congress=0.0, Insider=4.0, WSB=0.0, Gov=0.0 → Total=1.2
+🧐 QRHC: Congress=0.0, Insider=6.0, WSB=0.0, Gov=0.0 → Total=1.8
+🧐 JAKK: Congress=0.0, Insider=5.0, WSB=0.0, Gov=4.0 → Total=1.9
+🧐 MG: Congress=0.0, Insider=4.0, WSB=0.0, Gov=0.0 → Total=1.2
+🧐 BMBL: Congress=0.0, Insider=0.0, WSB=7.11, Gov=0.2 → Total=1.44
+🧐 BA: Congress=0.0, Insider=0.0, WSB=7.26, Gov=9.9 → Total=2.44
+🧐 SOUN: Congress=0.0, Insider=0.0, WSB=10.0, Gov=0.0 → Total=2.0
+🧐 BKSY: Congress=0.0, Insider=0.0, WSB=7.98, Gov=0.0 → Total=1.6
+🧐 BUSE: Congress=0.0, Insider=6.0, WSB=0.0, Gov=0.0 → Total=1.8
+🧐 LUV: Congress=0.0, Insider=3.0, WSB=0.0, Gov=3.39 → Total=1.24
+🧐 IMCR: Congress=0.0, Insider=4.0, WSB=0.0, Gov=0.0 → Total=1.2
+🧐 RGTI: Congress=0.0, Insider=0.0, WSB=10.0, Gov=0.0 → Total=2.0
+🧐 ZYME: Congress=0.0, Insider=7.0, WSB=0.0, Gov=0.0 → Total=2.1
+🧐 PRLD: Congress=0.0, Insider=5.0, WSB=0.0, Gov=0.0 → Total=1.5
+🧐 CBKM: Congress=0.0, Insider=4.0, WSB=0.0, Gov=0.0 → Total=1.2
+🧐 CVNA: Congress=0.0, Insider=0.0, WSB=10.0, Gov=0.0 → Total=2.0
+🧐 BBAI: Congress=0.0, Insider=0.0, WSB=6.57, Gov=1.07 → Total=1.42
+🧐 BUKS: Congress=0.0, Insider=10.0, WSB=0.0, Gov=0.0 → Total=3.0
+🧐 MRNA: Congress=0.0, Insider=0.0, WSB=8.55, Gov=5.37 → Total=2.25
+🧐 WEST: Congress=0.0, Insider=10.0, WSB=0.0, Gov=0.0 → Total=3.0
+🧐 SAIC: Congress=0.0, Insider=1.0, WSB=0.0, Gov=9.81 → Total=1.28
+🧐 RNAC: Congress=0.0, Insider=3.0, WSB=0.0, Gov=1.4 → Total=1.04
+🧐 ETSY: Congress=0.0, Insider=0.0, WSB=10.0, Gov=0.0 → Total=2.0
+🧐 BLNE: Congress=0.0, Insider=10, WSB=0.0, Gov=0.0 → Total=3.0
+🧐 TZUP: Congress=0.0, Insider=5.0, WSB=0.0, Gov=0.0 → Total=1.5
+
+
+2025-03-26 05:11:52.585351 - ms_insider_trading.py finished:
+✅ API Key successfully loaded in ms_insider_trading.py
+📊 Fetching Insider trading data from QuiverQuant...
+✅ Saved insider signals to /home/ubuntu/trading-bots/ms_insider_signals.json with 254 buys and 552 shorts.
+
+
+2025-03-26 05:11:52.585481 - ms_wsb.py finished:
+✅ API Key successfully loaded in ms_wsb.py
+📊 Fetching WallStreetBets sentiment data from QuiverQuant...
+✅ Saved WSB sentiment signals to /home/ubuntu/trading-bots/ms_wsb_signals.json with 29 entries.
+
+
+2025-03-26 05:11:52.585594 - ms_gov.py finished:
+📡 Fetching Government Contract data from QuiverQuant...
+✅ Saved Government Contract signals to /home/ubuntu/trading-bots/ms_gov_signals.json with 2208 entries.
+
+
+2025-03-26 09:25:16.641906 - ms_congress.py finished:
+📱 Fetching Congress trading data from QuiverQuant...
+✅ Saved Congress signals to /home/ubuntu/trading-bots/congress_signals.json with 11 buys, 0 shorts, and 0 options trades.
+
+
+2025-03-26 09:25:16.642184 - ms_daytrading_signals.py finished:
+🧐 CELH: Congress=0.0, Insider=0.0, WSB=6.57, Gov=1.0 → Total=1.41
+🧐 RGTI: Congress=0.0, Insider=0.0, WSB=10.0, Gov=0.0 → Total=2.0
+🧐 LUV: Congress=0.0, Insider=3.0, WSB=0.0, Gov=3.39 → Total=1.24
+🧐 VG: Congress=0.0, Insider=6.0, WSB=0.0, Gov=0.0 → Total=1.8
+🧐 MGNI: Congress=0.0, Insider=0.0, WSB=5.08, Gov=0.0 → Total=1.02
+🧐 SOUN: Congress=0.0, Insider=0.0, WSB=10.0, Gov=0.0 → Total=2.0
+🧐 FMBM: Congress=0.0, Insider=8.0, WSB=0.0, Gov=0.0 → Total=2.4
+🧐 CULP: Congress=0.0, Insider=8.0, WSB=0.0, Gov=0.75 → Total=2.48
+🧐 JELD: Congress=0.0, Insider=5.0, WSB=0.0, Gov=0.0 → Total=1.5
+🧐 BUSE: Congress=0.0, Insider=6.0, WSB=0.0, Gov=0.0 → Total=1.8
+🧐 ZDGE: Congress=0.0, Insider=4.0, WSB=0.0, Gov=0.0 → Total=1.2
+🧐 ENX: Congress=0.0, Insider=4.0, WSB=0.0, Gov=0.0 → Total=1.2
+🧐 WMT: Congress=0.0, Insider=0.0, WSB=7.49, Gov=0.25 → Total=1.52
+🧐 ECAT: Congress=0.0, Insider=8.0, WSB=0.0, Gov=0.0 → Total=2.4
+🧐 MRNA: Congress=0.0, Insider=0.0, WSB=8.55, Gov=5.37 → Total=2.25
+🧐 STAA: Congress=0.0, Insider=5.0, WSB=0.0, Gov=0.15 → Total=1.51
+🧐 ALZN: Congress=0.0, Insider=5.0, WSB=0.0, Gov=0.0 → Total=1.5
+🧐 BMNM: Congress=0.0, Insider=8.0, WSB=0.0, Gov=0.0 → Total=2.4
+🧐 ASAN: Congress=0.0, Insider=6.0, WSB=0.0, Gov=0.0 → Total=1.8
+🧐 ZYME: Congress=0.0, Insider=7.0, WSB=0.0, Gov=0.0 → Total=2.1
+🧐 MCVT: Congress=0.0, Insider=8.0, WSB=0.0, Gov=0.0 → Total=2.4
+🧐 HFFG: Congress=0.0, Insider=4.0, WSB=0.0, Gov=0.0 → Total=1.2
+🧐 VREO: Congress=0.0, Insider=8.0, WSB=0.0, Gov=0.0 → Total=2.4
+🧐 RNAC: Congress=0.0, Insider=3.0, WSB=0.0, Gov=1.4 → Total=1.04
+🧐 TZUP: Congress=0.0, Insider=5.0, WSB=0.0, Gov=0.0 → Total=1.5
+🧐 CION: Congress=0.0, Insider=7.0, WSB=0.0, Gov=0.0 → Total=2.1
+🧐 QQQ: Congress=0.0, Insider=0.0, WSB=7.98, Gov=0.0 → Total=1.6
+🧐 CVNA: Congress=0.0, Insider=0.0, WSB=10.0, Gov=0.0 → Total=2.0
+🧐 MG: Congress=0.0, Insider=4.0, WSB=0.0, Gov=0.0 → Total=1.2
+🧐 SAIC: Congress=0.0, Insider=1.0, WSB=0.0, Gov=9.81 → Total=1.28
+🧐 EU: Congress=0.0, Insider=2.0, WSB=4.33, Gov=0.0 → Total=1.47
+🧐 ADVM: Congress=0.0, Insider=4.0, WSB=0.0, Gov=0.0 → Total=1.2
+🧐 GUTS: Congress=0.0, Insider=5.0, WSB=0.0, Gov=0.0 → Total=1.5
+🧐 GABC: Congress=0.0, Insider=4.0, WSB=0.0, Gov=0.0 → Total=1.2
+🧐 SMCI: Congress=0.0, Insider=0.0, WSB=10.0, Gov=0.0 → Total=2.0
+🧐 EPS: Congress=0.0, Insider=0.0, WSB=10.0, Gov=0.0 → Total=2.0
+🧐 RSI: Congress=0.0, Insider=0.0, WSB=10.0, Gov=0.0 → Total=2.0
+🧐 PGRE: Congress=0.0, Insider=3.0, WSB=0.0, Gov=2.43 → Total=1.14
+🧐 QRHC: Congress=0.0, Insider=6.0, WSB=0.0, Gov=0.0 → Total=1.8
+🧐 SRBK: Congress=0.0, Insider=8.0, WSB=0.0, Gov=0.0 → Total=2.4
+🧐 BMBL: Congress=0.0, Insider=0.0, WSB=7.11, Gov=0.2 → Total=1.44
+🧐 BUKS: Congress=0.0, Insider=10.0, WSB=0.0, Gov=0.0 → Total=3.0
+🧐 CPSH: Congress=0.0, Insider=4.0, WSB=0.0, Gov=0.44 → Total=1.24
+🧐 PRLD: Congress=0.0, Insider=5.0, WSB=0.0, Gov=0.0 → Total=1.5
+🧐 PESI: Congress=0.0, Insider=8.0, WSB=0.0, Gov=0.0 → Total=2.4
+🧐 LYEL: Congress=0.0, Insider=4.0, WSB=0.0, Gov=0.0 → Total=1.2
+🧐 SUNS: Congress=0.0, Insider=4.0, WSB=0.0, Gov=0.0 → Total=1.2
+🧐 QBTS: Congress=0.0, Insider=0.0, WSB=5.61, Gov=0.0 → Total=1.12
+🧐 MKZR: Congress=0.0, Insider=7.0, WSB=0.0, Gov=0.0 → Total=2.1
+🧐 CBKM: Congress=0.0, Insider=4.0, WSB=0.0, Gov=0.0 → Total=1.2
+🧐 EONR: Congress=0.0, Insider=10, WSB=0.0, Gov=0.0 → Total=3.0
+🧐 BTMD: Congress=0.0, Insider=8.0, WSB=0.0, Gov=0.0 → Total=2.4
+🧐 PSEC: Congress=0.0, Insider=9.0, WSB=0.0, Gov=0.0 → Total=2.7
+🧐 TTSH: Congress=0.0, Insider=6.0, WSB=0.0, Gov=0.0 → Total=1.8
+🧐 WSR: Congress=0.0, Insider=3.0, WSB=0.0, Gov=2.38 → Total=1.14
+🧐 ANET: Congress=0.0, Insider=0.0, WSB=8.68, Gov=0.0 → Total=1.74
+🧐 BBAI: Congress=0.0, Insider=0.0, WSB=6.57, Gov=1.07 → Total=1.42
+🧐 GSAT: Congress=0.0, Insider=4.0, WSB=0.0, Gov=0.0 → Total=1.2
+🧐 BA: Congress=0.0, Insider=0.0, WSB=7.26, Gov=9.9 → Total=2.44
+🧐 IMCR: Congress=0.0, Insider=4.0, WSB=0.0, Gov=0.0 → Total=1.2
+🧐 META: Congress=0.0, Insider=0.0, WSB=10.0, Gov=0.0 → Total=2.0
+🧐 ETSY: Congress=0.0, Insider=0.0, WSB=10.0, Gov=0.0 → Total=2.0
+🧐 EMYB: Congress=0.0, Insider=4.0, WSB=0.0, Gov=0.0 → Total=1.2
+🧐 AFCG: Congress=0.0, Insider=6.0, WSB=0.0, Gov=0.0 → Total=1.8
+🧐 JAKK: Congress=0.0, Insider=5.0, WSB=0.0, Gov=4.0 → Total=1.9
+🧐 BKSY: Congress=0.0, Insider=0.0, WSB=7.98, Gov=0.0 → Total=1.6
+🧐 GDRZF: Congress=0.0, Insider=4.0, WSB=0.0, Gov=0.0 → Total=1.2
+🧐 DK: Congress=0.0, Insider=2.0, WSB=0.0, Gov=4.26 → Total=1.03
+🧐 WEST: Congress=0.0, Insider=10.0, WSB=0.0, Gov=0.0 → Total=3.0
+🧐 BLNE: Congress=0.0, Insider=10, WSB=0.0, Gov=0.0 → Total=3.0
+🧐 MSTR: Congress=0.0, Insider=3.0, WSB=6.37, Gov=0.0 → Total=2.17
+🧐 SBGI: Congress=0.0, Insider=4.0, WSB=0.0, Gov=1.29 → Total=1.33
+🧐 BB: Congress=0.0, Insider=0.0, WSB=10.0, Gov=0.53 → Total=2.05
+🧐 YEAR: Congress=0.0, Insider=0.0, WSB=10.0, Gov=0.0 → Total=2.0
+🧐 FLWS: Congress=0.0, Insider=10, WSB=0.0, Gov=0.0 → Total=3.0
+🧐 ZOM: Congress=0.0, Insider=10, WSB=0.0, Gov=0.0 → Total=3.0
+🧐 RCG: Congress=0.0, Insider=10, WSB=0.0, Gov=0.0 → Total=3.0
+🧐 IMMR: Congress=0.0, Insider=3.0, WSB=0.0, Gov=2.35 → Total=1.14
+
+
+2025-03-26 09:25:16.642394 - ms_insider_trading.py finished:
+✅ API Key successfully loaded in ms_insider_trading.py
+📊 Fetching Insider trading data from QuiverQuant...
+✅ Saved insider signals to /home/ubuntu/trading-bots/ms_insider_signals.json with 254 buys and 552 shorts.
+
+
+2025-03-26 09:25:16.642510 - ms_wsb.py finished:
+✅ API Key successfully loaded in ms_wsb.py
+📊 Fetching WallStreetBets sentiment data from QuiverQuant...
+✅ Saved WSB sentiment signals to /home/ubuntu/trading-bots/ms_wsb_signals.json with 29 entries.
+
+
+2025-03-26 09:25:16.642611 - ms_gov.py finished:
+📡 Fetching Government Contract data from QuiverQuant...
+✅ Saved Government Contract signals to /home/ubuntu/trading-bots/ms_gov_signals.json with 2208 entries.
+
+
+2025-03-26 09:55:16.524909 - ms_congress.py finished:
+📱 Fetching Congress trading data from QuiverQuant...
+✅ Saved Congress signals to /home/ubuntu/trading-bots/congress_signals.json with 11 buys, 0 shorts, and 0 options trades.
+
+
+2025-03-26 09:55:16.525163 - ms_daytrading_signals.py finished:
+🧐 EONR: Congress=0.0, Insider=10, WSB=0.0, Gov=0.0 → Total=3.0
+🧐 HFFG: Congress=0.0, Insider=4.0, WSB=0.0, Gov=0.0 → Total=1.2
+🧐 YEAR: Congress=0.0, Insider=0.0, WSB=10.0, Gov=0.0 → Total=2.0
+🧐 GUTS: Congress=0.0, Insider=5.0, WSB=0.0, Gov=0.0 → Total=1.5
+🧐 ECAT: Congress=0.0, Insider=8.0, WSB=0.0, Gov=0.0 → Total=2.4
+🧐 CION: Congress=0.0, Insider=7.0, WSB=0.0, Gov=0.0 → Total=2.1
+🧐 EPS: Congress=0.0, Insider=0.0, WSB=10.0, Gov=0.0 → Total=2.0
+🧐 EMYB: Congress=0.0, Insider=4.0, WSB=0.0, Gov=0.0 → Total=1.2
+🧐 ALZN: Congress=0.0, Insider=5.0, WSB=0.0, Gov=0.0 → Total=1.5
+🧐 WSR: Congress=0.0, Insider=3.0, WSB=0.0, Gov=2.38 → Total=1.14
+🧐 SBGI: Congress=0.0, Insider=4.0, WSB=0.0, Gov=1.29 → Total=1.33
+🧐 BKSY: Congress=0.0, Insider=0.0, WSB=7.98, Gov=0.0 → Total=1.6
+🧐 TTSH: Congress=0.0, Insider=6.0, WSB=0.0, Gov=0.0 → Total=1.8
+🧐 BBAI: Congress=0.0, Insider=0.0, WSB=6.57, Gov=1.07 → Total=1.42
+🧐 LUV: Congress=0.0, Insider=3.0, WSB=0.0, Gov=3.39 → Total=1.24
+🧐 WMT: Congress=0.0, Insider=0.0, WSB=7.49, Gov=0.25 → Total=1.52
+🧐 RNAC: Congress=0.0, Insider=3.0, WSB=0.0, Gov=1.4 → Total=1.04
+🧐 MG: Congress=0.0, Insider=4.0, WSB=0.0, Gov=0.0 → Total=1.2
+🧐 ASAN: Congress=0.0, Insider=6.0, WSB=0.0, Gov=0.0 → Total=1.8
+🧐 VREO: Congress=0.0, Insider=8.0, WSB=0.0, Gov=0.0 → Total=2.4
+🧐 IMCR: Congress=0.0, Insider=4.0, WSB=0.0, Gov=0.0 → Total=1.2
+🧐 META: Congress=0.0, Insider=0.0, WSB=10.0, Gov=0.0 → Total=2.0
+🧐 PSEC: Congress=0.0, Insider=9.0, WSB=0.0, Gov=0.0 → Total=2.7
+🧐 CBKM: Congress=0.0, Insider=4.0, WSB=0.0, Gov=0.0 → Total=1.2
+🧐 FMBM: Congress=0.0, Insider=8.0, WSB=0.0, Gov=0.0 → Total=2.4
+🧐 PGRE: Congress=0.0, Insider=3.0, WSB=0.0, Gov=2.43 → Total=1.14
+🧐 FLWS: Congress=0.0, Insider=10, WSB=0.0, Gov=0.0 → Total=3.0
+🧐 BB: Congress=0.0, Insider=0.0, WSB=10.0, Gov=0.53 → Total=2.05
+🧐 CELH: Congress=0.0, Insider=0.0, WSB=6.57, Gov=1.0 → Total=1.41
+🧐 ENX: Congress=0.0, Insider=4.0, WSB=0.0, Gov=0.0 → Total=1.2
+🧐 GDRZF: Congress=0.0, Insider=4.0, WSB=0.0, Gov=0.0 → Total=1.2
+🧐 JELD: Congress=0.0, Insider=5.0, WSB=0.0, Gov=0.0 → Total=1.5
+🧐 SOUN: Congress=0.0, Insider=0.0, WSB=10.0, Gov=0.0 → Total=2.0
+🧐 RSI: Congress=0.0, Insider=0.0, WSB=10.0, Gov=0.0 → Total=2.0
+🧐 BUSE: Congress=0.0, Insider=6.0, WSB=0.0, Gov=0.0 → Total=1.8
+🧐 QRHC: Congress=0.0, Insider=6.0, WSB=0.0, Gov=0.0 → Total=1.8
+🧐 PRLD: Congress=0.0, Insider=5.0, WSB=0.0, Gov=0.0 → Total=1.5
+🧐 ZDGE: Congress=0.0, Insider=4.0, WSB=0.0, Gov=0.0 → Total=1.2
+🧐 SUNS: Congress=0.0, Insider=4.0, WSB=0.0, Gov=0.0 → Total=1.2
+🧐 MGNI: Congress=0.0, Insider=0.0, WSB=5.08, Gov=0.0 → Total=1.02
+🧐 MKZR: Congress=0.0, Insider=7.0, WSB=0.0, Gov=0.0 → Total=2.1
+🧐 CVNA: Congress=0.0, Insider=0.0, WSB=10.0, Gov=0.0 → Total=2.0
+🧐 DK: Congress=0.0, Insider=2.0, WSB=0.0, Gov=4.26 → Total=1.03
+🧐 TZUP: Congress=0.0, Insider=5.0, WSB=0.0, Gov=0.0 → Total=1.5
+🧐 SAIC: Congress=0.0, Insider=1.0, WSB=0.0, Gov=9.81 → Total=1.28
+🧐 AFCG: Congress=0.0, Insider=6.0, WSB=0.0, Gov=0.0 → Total=1.8
+🧐 MRNA: Congress=0.0, Insider=0.0, WSB=8.55, Gov=5.37 → Total=2.25
+🧐 ZYME: Congress=0.0, Insider=7.0, WSB=0.0, Gov=0.0 → Total=2.1
+🧐 SMCI: Congress=0.0, Insider=0.0, WSB=10.0, Gov=0.0 → Total=2.0
+🧐 BLNE: Congress=0.0, Insider=10, WSB=0.0, Gov=0.0 → Total=3.0
+🧐 BUKS: Congress=0.0, Insider=10.0, WSB=0.0, Gov=0.0 → Total=3.0
+🧐 GABC: Congress=0.0, Insider=4.0, WSB=0.0, Gov=0.0 → Total=1.2
+🧐 CULP: Congress=0.0, Insider=8.0, WSB=0.0, Gov=0.75 → Total=2.48
+🧐 ANET: Congress=0.0, Insider=0.0, WSB=8.68, Gov=0.0 → Total=1.74
+🧐 QQQ: Congress=0.0, Insider=0.0, WSB=7.98, Gov=0.0 → Total=1.6
+🧐 ZOM: Congress=0.0, Insider=10, WSB=0.0, Gov=0.0 → Total=3.0
+🧐 GSAT: Congress=0.0, Insider=4.0, WSB=0.0, Gov=0.0 → Total=1.2
+🧐 IMMR: Congress=0.0, Insider=3.0, WSB=0.0, Gov=2.35 → Total=1.14
+🧐 QBTS: Congress=0.0, Insider=0.0, WSB=5.61, Gov=0.0 → Total=1.12
+🧐 LYEL: Congress=0.0, Insider=4.0, WSB=0.0, Gov=0.0 → Total=1.2
+🧐 RCG: Congress=0.0, Insider=10, WSB=0.0, Gov=0.0 → Total=3.0
+🧐 VG: Congress=0.0, Insider=6.0, WSB=0.0, Gov=0.0 → Total=1.8
+🧐 BTMD: Congress=0.0, Insider=8.0, WSB=0.0, Gov=0.0 → Total=2.4
+🧐 MCVT: Congress=0.0, Insider=8.0, WSB=0.0, Gov=0.0 → Total=2.4
+🧐 WEST: Congress=0.0, Insider=10.0, WSB=0.0, Gov=0.0 → Total=3.0
+🧐 JAKK: Congress=0.0, Insider=5.0, WSB=0.0, Gov=4.0 → Total=1.9
+🧐 ETSY: Congress=0.0, Insider=0.0, WSB=10.0, Gov=0.0 → Total=2.0
+🧐 CPSH: Congress=0.0, Insider=4.0, WSB=0.0, Gov=0.44 → Total=1.24
+🧐 MSTR: Congress=0.0, Insider=3.0, WSB=6.37, Gov=0.0 → Total=2.17
+🧐 STAA: Congress=0.0, Insider=5.0, WSB=0.0, Gov=0.15 → Total=1.51
+🧐 RGTI: Congress=0.0, Insider=0.0, WSB=10.0, Gov=0.0 → Total=2.0
+🧐 PESI: Congress=0.0, Insider=8.0, WSB=0.0, Gov=0.0 → Total=2.4
+🧐 BMBL: Congress=0.0, Insider=0.0, WSB=7.11, Gov=0.2 → Total=1.44
+🧐 ADVM: Congress=0.0, Insider=4.0, WSB=0.0, Gov=0.0 → Total=1.2
+🧐 EU: Congress=0.0, Insider=2.0, WSB=4.33, Gov=0.0 → Total=1.47
+🧐 BMNM: Congress=0.0, Insider=8.0, WSB=0.0, Gov=0.0 → Total=2.4
+🧐 BA: Congress=0.0, Insider=0.0, WSB=7.26, Gov=9.9 → Total=2.44
+🧐 SRBK: Congress=0.0, Insider=8.0, WSB=0.0, Gov=0.0 → Total=2.4
+
+
+2025-03-26 09:55:16.525339 - ms_insider_trading.py finished:
+✅ API Key successfully loaded in ms_insider_trading.py
+📊 Fetching Insider trading data from QuiverQuant...
+✅ Saved insider signals to /home/ubuntu/trading-bots/ms_insider_signals.json with 254 buys and 552 shorts.
+
+
+2025-03-26 09:55:16.525440 - ms_wsb.py finished:
+✅ API Key successfully loaded in ms_wsb.py
+📊 Fetching WallStreetBets sentiment data from QuiverQuant...
+✅ Saved WSB sentiment signals to /home/ubuntu/trading-bots/ms_wsb_signals.json with 29 entries.
+
+
+2025-03-26 09:55:16.525548 - ms_gov.py finished:
+📡 Fetching Government Contract data from QuiverQuant...
+✅ Saved Government Contract signals to /home/ubuntu/trading-bots/ms_gov_signals.json with 2208 entries.
+
+
+2025-03-26 10:25:15.740987 - ms_congress.py finished:
+📱 Fetching Congress trading data from QuiverQuant...
+✅ Saved Congress signals to /home/ubuntu/trading-bots/congress_signals.json with 11 buys, 0 shorts, and 0 options trades.
+
+
+2025-03-26 10:25:15.741203 - ms_daytrading_signals.py finished:
+🧐 SOUN: Congress=0.0, Insider=0.0, WSB=10.0, Gov=0.0 → Total=2.0
+🧐 MG: Congress=0.0, Insider=4.0, WSB=0.0, Gov=0.0 → Total=1.2
+🧐 BB: Congress=0.0, Insider=0.0, WSB=10.0, Gov=0.53 → Total=2.05
+🧐 FMBM: Congress=0.0, Insider=8.0, WSB=0.0, Gov=0.0 → Total=2.4
+🧐 JAKK: Congress=0.0, Insider=5.0, WSB=0.0, Gov=4.0 → Total=1.9
+🧐 ZOM: Congress=0.0, Insider=10, WSB=0.0, Gov=0.0 → Total=3.0
+🧐 WEST: Congress=0.0, Insider=10.0, WSB=0.0, Gov=0.0 → Total=3.0
+🧐 PGRE: Congress=0.0, Insider=3.0, WSB=0.0, Gov=2.43 → Total=1.14
+🧐 BBAI: Congress=0.0, Insider=0.0, WSB=6.57, Gov=1.07 → Total=1.42
+🧐 CULP: Congress=0.0, Insider=8.0, WSB=0.0, Gov=0.75 → Total=2.48
+🧐 SAIC: Congress=0.0, Insider=1.0, WSB=0.0, Gov=9.81 → Total=1.28
+🧐 QRHC: Congress=0.0, Insider=6.0, WSB=0.0, Gov=0.0 → Total=1.8
+🧐 AFCG: Congress=0.0, Insider=6.0, WSB=0.0, Gov=0.0 → Total=1.8
+🧐 FLWS: Congress=0.0, Insider=10, WSB=0.0, Gov=0.0 → Total=3.0
+🧐 GUTS: Congress=0.0, Insider=5.0, WSB=0.0, Gov=0.0 → Total=1.5
+🧐 SBGI: Congress=0.0, Insider=4.0, WSB=0.0, Gov=1.29 → Total=1.33
+🧐 EPS: Congress=0.0, Insider=0.0, WSB=10.0, Gov=0.0 → Total=2.0
+🧐 GABC: Congress=0.0, Insider=4.0, WSB=0.0, Gov=0.0 → Total=1.2
+🧐 RSI: Congress=0.0, Insider=0.0, WSB=10.0, Gov=0.0 → Total=2.0
+🧐 RNAC: Congress=0.0, Insider=3.0, WSB=0.0, Gov=1.4 → Total=1.04
+🧐 ANET: Congress=0.0, Insider=0.0, WSB=8.68, Gov=0.0 → Total=1.74
+🧐 EONR: Congress=0.0, Insider=10, WSB=0.0, Gov=0.0 → Total=3.0
+🧐 IMMR: Congress=0.0, Insider=3.0, WSB=0.0, Gov=2.35 → Total=1.14
+🧐 BUKS: Congress=0.0, Insider=10.0, WSB=0.0, Gov=0.0 → Total=3.0
+🧐 CPSH: Congress=0.0, Insider=4.0, WSB=0.0, Gov=0.44 → Total=1.24
+🧐 MGNI: Congress=0.0, Insider=0.0, WSB=5.08, Gov=0.0 → Total=1.02
+🧐 BKSY: Congress=0.0, Insider=0.0, WSB=7.98, Gov=0.0 → Total=1.6
+🧐 BUSE: Congress=0.0, Insider=6.0, WSB=0.0, Gov=0.0 → Total=1.8
+🧐 YEAR: Congress=0.0, Insider=0.0, WSB=10.0, Gov=0.0 → Total=2.0
+🧐 BTMD: Congress=0.0, Insider=8.0, WSB=0.0, Gov=0.0 → Total=2.4
+🧐 EMYB: Congress=0.0, Insider=4.0, WSB=0.0, Gov=0.0 → Total=1.2
+🧐 MKZR: Congress=0.0, Insider=7.0, WSB=0.0, Gov=0.0 → Total=2.1
+🧐 HFFG: Congress=0.0, Insider=4.0, WSB=0.0, Gov=0.0 → Total=1.2
+🧐 ETSY: Congress=0.0, Insider=0.0, WSB=10.0, Gov=0.0 → Total=2.0
+🧐 ZYME: Congress=0.0, Insider=7.0, WSB=0.0, Gov=0.0 → Total=2.1
+🧐 MRNA: Congress=0.0, Insider=0.0, WSB=8.55, Gov=5.37 → Total=2.25
+🧐 VG: Congress=0.0, Insider=6.0, WSB=0.0, Gov=0.0 → Total=1.8
+🧐 ALZN: Congress=0.0, Insider=5.0, WSB=0.0, Gov=0.0 → Total=1.5
+🧐 ZDGE: Congress=0.0, Insider=4.0, WSB=0.0, Gov=0.0 → Total=1.2
+🧐 LYEL: Congress=0.0, Insider=4.0, WSB=0.0, Gov=0.0 → Total=1.2
+🧐 QBTS: Congress=0.0, Insider=0.0, WSB=5.61, Gov=0.0 → Total=1.12
+🧐 DK: Congress=0.0, Insider=2.0, WSB=0.0, Gov=4.26 → Total=1.03
+🧐 TTSH: Congress=0.0, Insider=6.0, WSB=0.0, Gov=0.0 → Total=1.8
+🧐 WSR: Congress=0.0, Insider=3.0, WSB=0.0, Gov=2.38 → Total=1.14
+🧐 ENX: Congress=0.0, Insider=4.0, WSB=0.0, Gov=0.0 → Total=1.2
+🧐 BA: Congress=0.0, Insider=0.0, WSB=7.26, Gov=9.9 → Total=2.44
+🧐 QQQ: Congress=0.0, Insider=0.0, WSB=7.98, Gov=0.0 → Total=1.6
+🧐 SRBK: Congress=0.0, Insider=8.0, WSB=0.0, Gov=0.0 → Total=2.4
+🧐 CVNA: Congress=0.0, Insider=0.0, WSB=10.0, Gov=0.0 → Total=2.0
+🧐 CELH: Congress=0.0, Insider=0.0, WSB=6.57, Gov=1.0 → Total=1.41
+🧐 ADVM: Congress=0.0, Insider=4.0, WSB=0.0, Gov=0.0 → Total=1.2
+🧐 ECAT: Congress=0.0, Insider=8.0, WSB=0.0, Gov=0.0 → Total=2.4
+🧐 VREO: Congress=0.0, Insider=8.0, WSB=0.0, Gov=0.0 → Total=2.4
+🧐 BLNE: Congress=0.0, Insider=10, WSB=0.0, Gov=0.0 → Total=3.0
+🧐 ASAN: Congress=0.0, Insider=6.0, WSB=0.0, Gov=0.0 → Total=1.8
+🧐 LUV: Congress=0.0, Insider=3.0, WSB=0.0, Gov=3.39 → Total=1.24
+🧐 PRLD: Congress=0.0, Insider=5.0, WSB=0.0, Gov=0.0 → Total=1.5
+🧐 STAA: Congress=0.0, Insider=5.0, WSB=0.0, Gov=0.15 → Total=1.51
+🧐 JELD: Congress=0.0, Insider=5.0, WSB=0.0, Gov=0.0 → Total=1.5
+🧐 PSEC: Congress=0.0, Insider=9.0, WSB=0.0, Gov=0.0 → Total=2.7
+🧐 RGTI: Congress=0.0, Insider=0.0, WSB=10.0, Gov=0.0 → Total=2.0
+🧐 RCG: Congress=0.0, Insider=10, WSB=0.0, Gov=0.0 → Total=3.0
+🧐 CBKM: Congress=0.0, Insider=4.0, WSB=0.0, Gov=0.0 → Total=1.2
+🧐 BMBL: Congress=0.0, Insider=0.0, WSB=7.11, Gov=0.2 → Total=1.44
+🧐 CION: Congress=0.0, Insider=7.0, WSB=0.0, Gov=0.0 → Total=2.1
+🧐 SMCI: Congress=0.0, Insider=0.0, WSB=10.0, Gov=0.0 → Total=2.0
+🧐 IMCR: Congress=0.0, Insider=4.0, WSB=0.0, Gov=0.0 → Total=1.2
+🧐 MCVT: Congress=0.0, Insider=8.0, WSB=0.0, Gov=0.0 → Total=2.4
+🧐 MSTR: Congress=0.0, Insider=3.0, WSB=6.37, Gov=0.0 → Total=2.17
+🧐 BMNM: Congress=0.0, Insider=8.0, WSB=0.0, Gov=0.0 → Total=2.4
+🧐 TZUP: Congress=0.0, Insider=5.0, WSB=0.0, Gov=0.0 → Total=1.5
+🧐 GSAT: Congress=0.0, Insider=4.0, WSB=0.0, Gov=0.0 → Total=1.2
+🧐 SUNS: Congress=0.0, Insider=4.0, WSB=0.0, Gov=0.0 → Total=1.2
+🧐 META: Congress=0.0, Insider=0.0, WSB=10.0, Gov=0.0 → Total=2.0
+🧐 GDRZF: Congress=0.0, Insider=4.0, WSB=0.0, Gov=0.0 → Total=1.2
+🧐 WMT: Congress=0.0, Insider=0.0, WSB=7.49, Gov=0.25 → Total=1.52
+🧐 PESI: Congress=0.0, Insider=8.0, WSB=0.0, Gov=0.0 → Total=2.4
+🧐 EU: Congress=0.0, Insider=2.0, WSB=4.33, Gov=0.0 → Total=1.47
+
+
+2025-03-26 10:25:15.741379 - ms_insider_trading.py finished:
+✅ API Key successfully loaded in ms_insider_trading.py
+📊 Fetching Insider trading data from QuiverQuant...
+✅ Saved insider signals to /home/ubuntu/trading-bots/ms_insider_signals.json with 254 buys and 552 shorts.
+
+
+2025-03-26 10:25:15.741480 - ms_wsb.py finished:
+✅ API Key successfully loaded in ms_wsb.py
+📊 Fetching WallStreetBets sentiment data from QuiverQuant...
+✅ Saved WSB sentiment signals to /home/ubuntu/trading-bots/ms_wsb_signals.json with 29 entries.
+
+
+2025-03-26 10:25:15.741579 - ms_gov.py finished:
+📡 Fetching Government Contract data from QuiverQuant...
+✅ Saved Government Contract signals to /home/ubuntu/trading-bots/ms_gov_signals.json with 2208 entries.
+
+
