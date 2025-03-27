@@ -13422,5 +13422,389 @@
         "shares": 2762.431,
         "price": 1.81,
         "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-26T13:10:39.590695",
+        "action": "BUY",
+        "ticker": "RCG",
+        "shares": 1879.6992,
+        "price": 2.66,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-26T13:10:40.690229",
+        "action": "BUY",
+        "ticker": "WEST",
+        "shares": 698.812,
+        "price": 7.155,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-26T13:10:42.866841",
+        "action": "BUY",
+        "ticker": "BLNE",
+        "shares": 2336.4485,
+        "price": 2.14,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-26T13:10:43.938604",
+        "action": "BUY",
+        "ticker": "EONR",
+        "shares": 9426.8481,
+        "price": 0.5304,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-26T13:10:46.068421",
+        "action": "BUY",
+        "ticker": "FLWS",
+        "shares": 823.7232,
+        "price": 6.07,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-26T13:10:47.189933",
+        "action": "BUY",
+        "ticker": "PSEC",
+        "shares": 1179.2731,
+        "price": 4.2399,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-26T13:10:48.305552",
+        "action": "BUY",
+        "ticker": "CULP",
+        "shares": 948.7666,
+        "price": 5.27,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-26T13:10:49.497452",
+        "action": "BUY",
+        "ticker": "BA",
+        "shares": 27.8792,
+        "price": 179.345,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-26T13:10:50.612025",
+        "action": "BUY",
+        "ticker": "MCVT",
+        "shares": 2746.4982,
+        "price": 1.8205,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-26T13:10:53.988149",
+        "action": "BUY",
+        "ticker": "PESI",
+        "shares": 658.7615,
+        "price": 7.59,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-26T13:10:59.363416",
+        "action": "SELL",
+        "ticker": "CULP",
+        "shares": 948.7666,
+        "price": 5.27,
+        "reason": "Stop-loss triggered"
+    },
+    {
+        "timestamp": "2025-03-26T13:11:02.550352",
+        "action": "SELL",
+        "ticker": "MCVT",
+        "shares": 2746.0,
+        "price": 1.8205,
+        "reason": "Stop-loss triggered"
+    },
+    {
+        "timestamp": "2025-03-26T13:11:48.084722",
+        "action": "SHORT",
+        "ticker": "NVDA",
+        "shares": 65,
+        "price": 113.55,
+        "reason": "Live Signal"
+    },
+    {
+        "timestamp": "2025-03-26T13:11:48.654242",
+        "action": "SHORT",
+        "ticker": "BWIN",
+        "shares": 167,
+        "price": 44.49,
+        "reason": "Live Signal"
+    },
+    {
+        "timestamp": "2025-03-26T13:11:49.247765",
+        "action": "SHORT",
+        "ticker": "COST",
+        "shares": 8,
+        "price": 927.235,
+        "reason": "Live Signal"
+    },
+    {
+        "timestamp": "2025-03-26T13:13:30.246610",
+        "action": "BUY",
+        "ticker": "CULP",
+        "shares": 944.9418,
+        "price": 5.27,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-26T13:13:31.352691",
+        "action": "BUY",
+        "ticker": "MCVT",
+        "shares": 2735.4262,
+        "price": 1.8205,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-26T13:13:39.033313",
+        "action": "SELL",
+        "ticker": "CULP",
+        "shares": 944.9418,
+        "price": 5.27,
+        "reason": "Stop-loss triggered"
+    },
+    {
+        "timestamp": "2025-03-26T13:13:42.247894",
+        "action": "SELL",
+        "ticker": "MCVT",
+        "shares": 2735.0,
+        "price": 1.8205,
+        "reason": "Stop-loss triggered"
+    },
+    {
+        "timestamp": "2025-03-26T13:21:03.837813",
+        "action": "SELL",
+        "ticker": "BLNE",
+        "shares": 2336.0,
+        "price": 2.198,
+        "reason": "Target hit"
+    },
+    {
+        "timestamp": "2025-03-26T13:24:04.190803",
+        "action": "SELL",
+        "ticker": "EONR",
+        "shares": 9427.0,
+        "price": 0.518,
+        "reason": "Stop-loss triggered"
+    },
+    {
+        "timestamp": "2025-03-26T13:45:04.921889",
+        "action": "SELL",
+        "ticker": "PESI",
+        "shares": 659.0,
+        "price": 7.47,
+        "reason": "Stop-loss triggered"
+    },
+    {
+        "timestamp": "2025-03-26T14:03:07.186364",
+        "action": "SELL",
+        "ticker": "WEST",
+        "shares": 698.812,
+        "price": 7.06,
+        "reason": "Stop-loss triggered"
+    },
+    {
+        "timestamp": "2025-03-26T14:18:04.138675",
+        "action": "SELL",
+        "ticker": "FLWS",
+        "shares": 823.7232,
+        "price": 5.95,
+        "reason": "Stop-loss triggered"
+    },
+    {
+        "timestamp": "2025-03-26T15:21:05.203921",
+        "action": "SELL",
+        "ticker": "RCG",
+        "shares": 1880.0,
+        "price": 2.595,
+        "reason": "Stop-loss triggered"
+    },
+    {
+        "timestamp": "2025-03-27T00:57:58.400010",
+        "action": "BUY",
+        "ticker": "RCG",
+        "shares": 1911.7628,
+        "price": 2.58,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-27T00:58:00.521454",
+        "action": "BUY",
+        "ticker": "WEST",
+        "shares": 690.8051,
+        "price": 7.14,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-27T00:58:02.639186",
+        "action": "BUY",
+        "ticker": "EONR",
+        "shares": 9864.696,
+        "price": 0.5,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-27T00:58:03.713829",
+        "action": "BUY",
+        "ticker": "FLWS",
+        "shares": 824.8074,
+        "price": 5.98,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-27T00:58:04.781329",
+        "action": "BUY",
+        "ticker": "BLNE",
+        "shares": 2371.3212,
+        "price": 2.08,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-27T00:58:05.878427",
+        "action": "BUY",
+        "ticker": "CULP",
+        "shares": 957.7375,
+        "price": 5.15,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-27T00:58:06.946979",
+        "action": "BUY",
+        "ticker": "BTMD",
+        "shares": 1325.9,
+        "price": 3.72,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-27T00:58:08.028306",
+        "action": "BUY",
+        "ticker": "PESI",
+        "shares": 657.6464,
+        "price": 7.5,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-27T00:58:11.231504",
+        "action": "BUY",
+        "ticker": "MCVT",
+        "shares": 2770.9821,
+        "price": 1.78,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-27T01:06:03.795101",
+        "action": "BUY",
+        "ticker": "RCG",
+        "shares": 1911.7628,
+        "price": 2.58,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-27T01:06:05.914094",
+        "action": "BUY",
+        "ticker": "WEST",
+        "shares": 690.8051,
+        "price": 7.14,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-27T01:06:08.034162",
+        "action": "BUY",
+        "ticker": "EONR",
+        "shares": 9864.696,
+        "price": 0.5,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-27T01:06:09.103745",
+        "action": "BUY",
+        "ticker": "FLWS",
+        "shares": 824.8074,
+        "price": 5.98,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-27T01:06:10.174295",
+        "action": "BUY",
+        "ticker": "BLNE",
+        "shares": 2371.3212,
+        "price": 2.08,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-27T01:06:11.286240",
+        "action": "BUY",
+        "ticker": "CULP",
+        "shares": 957.7375,
+        "price": 5.15,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-27T01:06:12.353875",
+        "action": "BUY",
+        "ticker": "BTMD",
+        "shares": 1325.9,
+        "price": 3.72,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-27T01:06:13.442837",
+        "action": "BUY",
+        "ticker": "PESI",
+        "shares": 657.6464,
+        "price": 7.5,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-27T01:06:16.653619",
+        "action": "BUY",
+        "ticker": "MCVT",
+        "shares": 2770.9821,
+        "price": 1.78,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-27T03:20:43.577812",
+        "action": "BUY",
+        "ticker": "RCG",
+        "shares": 1911.7628,
+        "price": 2.58,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-27T03:20:44.716860",
+        "action": "BUY",
+        "ticker": "BLNE",
+        "shares": 2371.3212,
+        "price": 2.08,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-27T03:20:46.866740",
+        "action": "BUY",
+        "ticker": "FLWS",
+        "shares": 824.8074,
+        "price": 5.98,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-27T03:20:47.951205",
+        "action": "BUY",
+        "ticker": "EONR",
+        "shares": 9864.696,
+        "price": 0.5,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-27T03:20:49.039395",
+        "action": "BUY",
+        "ticker": "TTSH",
+        "shares": 757.6571,
+        "price": 6.51,
+        "reason": "New Signal"
     }
 ]

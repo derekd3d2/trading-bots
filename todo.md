@@ -28,7 +28,9 @@ Build our own Twitter crawler (not hard with X API + sentiment lib)
 
 Focus on Insider, Congress, WSB, and Options for now
 
+udpoate top_movers.py to trade and excute, waiting for friday and maybe monday to happen first to see how new strategy of shorts based on market will be
 
+add to john which strategyh, rcg, fallback, zom insider ect
 
 
 

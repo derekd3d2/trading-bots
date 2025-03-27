@@ -1,5 +1,64 @@
 {
-  "buy_signals": [
+  "congress_buy": [
+    {
+      "ticker": "AMAT",
+      "congress_score": 1,
+      "last_trade": "2025-03-17"
+    },
+    {
+      "ticker": "CAH",
+      "congress_score": 1,
+      "last_trade": "2025-03-17"
+    },
+    {
+      "ticker": "BX",
+      "congress_score": 1,
+      "last_trade": "2025-03-17"
+    },
+    {
+      "ticker": "KMI",
+      "congress_score": 1,
+      "last_trade": "2025-03-17"
+    },
+    {
+      "ticker": "CAT",
+      "congress_score": 1,
+      "last_trade": "2025-03-17"
+    },
+    {
+      "ticker": "NVDA",
+      "congress_score": 1,
+      "last_trade": "2025-03-17"
+    },
+    {
+      "ticker": "DLR",
+      "congress_score": 1,
+      "last_trade": "2025-03-17"
+    },
+    {
+      "ticker": "GOOG",
+      "congress_score": 1,
+      "last_trade": "2025-03-17"
+    },
+    {
+      "ticker": "UPS",
+      "congress_score": 1,
+      "last_trade": "2025-03-17"
+    },
+    {
+      "ticker": "ABBV",
+      "congress_score": 1,
+      "last_trade": "2025-03-17"
+    },
+    {
+      "ticker": "AAPL",
+      "congress_score": 1,
+      "last_trade": "2025-03-17"
+    }
+  ],
+  "congress_short": [],
+  "congress_options": [],
+  "insider_buy": [
     {
       "ticker": "RCG",
       "insider_score": 56,
@@ -1051,7 +1110,7 @@
       "last_trade": "2025-03-14T00:00:00.000"
     }
   ],
-  "short_signals": [
+  "insider_short": [
     {
       "ticker": "TEAM",
       "short_score": 110,
@@ -3767,5 +3826,182 @@
       "short_score": 1,
       "last_trade": "2025-03-14T00:00:00.000"
     }
-  ]
+  ],
+  "wsb_buy": [
+    {
+      "ticker": "BB",
+      "wsb_score": 10,
+      "mentions": 10,
+      "sentiment": 0.232
+    },
+    {
+      "ticker": "SMCI",
+      "wsb_score": 10,
+      "mentions": 373,
+      "sentiment": 0.0553
+    },
+    {
+      "ticker": "CVNA",
+      "wsb_score": 10,
+      "mentions": 60,
+      "sentiment": 0.0525
+    },
+    {
+      "ticker": "YEAR",
+      "wsb_score": 10,
+      "mentions": 5,
+      "sentiment": 0.5334
+    },
+    {
+      "ticker": "E",
+      "wsb_score": 10,
+      "mentions": 6,
+      "sentiment": 0.3261
+    },
+    {
+      "ticker": "META",
+      "wsb_score": 10,
+      "mentions": 29,
+      "sentiment": 0.1074
+    },
+    {
+      "ticker": "R",
+      "wsb_score": 10,
+      "mentions": 7,
+      "sentiment": 0.2277
+    },
+    {
+      "ticker": "SOUN",
+      "wsb_score": 10,
+      "mentions": 10,
+      "sentiment": 0.2995
+    },
+    {
+      "ticker": "V",
+      "wsb_score": 10,
+      "mentions": 43,
+      "sentiment": 0.133
+    },
+    {
+      "ticker": "ETSY",
+      "wsb_score": 10,
+      "mentions": 5,
+      "sentiment": 0.3463
+    },
+    {
+      "ticker": "EPS",
+      "wsb_score": 10,
+      "mentions": 5,
+      "sentiment": 0.6385
+    },
+    {
+      "ticker": "RGTI",
+      "wsb_score": 10,
+      "mentions": 13,
+      "sentiment": 0.2083
+    },
+    {
+      "ticker": "RSI",
+      "wsb_score": 10,
+      "mentions": 8,
+      "sentiment": 0.2537
+    },
+    {
+      "ticker": "ANET",
+      "wsb_score": 8.68,
+      "mentions": 15,
+      "sentiment": 0.1419
+    },
+    {
+      "ticker": "MRNA",
+      "wsb_score": 8.55,
+      "mentions": 5,
+      "sentiment": 0.1887
+    },
+    {
+      "ticker": "QQQ",
+      "wsb_score": 7.98,
+      "mentions": 25,
+      "sentiment": 0.0744
+    },
+    {
+      "ticker": "BKSY",
+      "wsb_score": 7.98,
+      "mentions": 6,
+      "sentiment": 0.1696
+    },
+    {
+      "ticker": "WMT",
+      "wsb_score": 7.49,
+      "mentions": 18,
+      "sentiment": 0.0973
+    },
+    {
+      "ticker": "BA",
+      "wsb_score": 7.26,
+      "mentions": 5,
+      "sentiment": 0.1565
+    },
+    {
+      "ticker": "BMBL",
+      "wsb_score": 7.11,
+      "mentions": 5,
+      "sentiment": 0.1527
+    },
+    {
+      "ticker": "BBAI",
+      "wsb_score": 6.57,
+      "mentions": 19,
+      "sentiment": 0.0693
+    },
+    {
+      "ticker": "CELH",
+      "wsb_score": 6.57,
+      "mentions": 16,
+      "sentiment": 0.0842
+    },
+    {
+      "ticker": "MSTR",
+      "wsb_score": 6.37,
+      "mentions": 15,
+      "sentiment": 0.0841
+    },
+    {
+      "ticker": "QBTS",
+      "wsb_score": 5.61,
+      "mentions": 7,
+      "sentiment": 0.1052
+    },
+    {
+      "ticker": "MGNI",
+      "wsb_score": 5.08,
+      "mentions": 5,
+      "sentiment": 0.1019
+    },
+    {
+      "ticker": "BABA",
+      "wsb_score": 4.61,
+      "mentions": 6,
+      "sentiment": 0.0852
+    },
+    {
+      "ticker": "X",
+      "wsb_score": 4.48,
+      "mentions": 6,
+      "sentiment": 0.0821
+    },
+    {
+      "ticker": "EU",
+      "wsb_score": 4.33,
+      "mentions": 9,
+      "sentiment": 0.0631
+    },
+    {
+      "ticker": "VKTX",
+      "wsb_score": 3.59,
+      "mentions": 7,
+      "sentiment": 0.0546
+    }
+  ],
+  "gov_buy": []
 }

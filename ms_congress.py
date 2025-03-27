@@ -43,8 +43,9 @@ for trade in raw_data:
             continue
 
         ticker = trade.get("Ticker")
-        if not ticker:
+        if not ticker or ticker.lower() in ["n/a", "null", "none", ""]:
             continue
+        ticker = ticker.upper()
 
         size = trade.get("Range", "")
         score = 1
@@ -84,7 +85,7 @@ for trade in raw_data:
             shorts[ticker]["short_score"] += score
 
     except Exception as e:
-        print(f"⚠️ Error parsing trade: {e}")
+        print(f"⚠️ Error parsing congress trade: {e}")
 
 # ✅ Save combined results to file
 final_output = {

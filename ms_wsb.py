@@ -36,10 +36,18 @@ buy_signals = []
 
 for entry in data:
     try:
-        ticker = entry.get("Ticker")
+        ticker = entry.get("Ticker", "").strip().upper()
+        if not ticker or ticker.lower() in ["n/a", "null", "none"]:
+            continue
+
         mentions = entry.get("Count", 0)
         sentiment = entry.get("Sentiment", 0)
-        if not ticker:
+
+        # Ensure mentions and sentiment are numeric and valid
+        try:
+            mentions = int(mentions)
+            sentiment = float(sentiment)
+        except (ValueError, TypeError):
             continue
 
         if mentions >= MENTION_THRESHOLD and sentiment >= SCORE_THRESHOLD:
@@ -50,8 +58,10 @@ for entry in data:
                 "mentions": mentions,
                 "sentiment": round(sentiment, 4)
             })
+
     except Exception as e:
         print(f"⚠️ Error parsing WSB entry: {e}")
+
 
 # ✅ Save output
 output = {"buy_signals": sorted(buy_signals, key=lambda x: x["wsb_score"], reverse=True)}

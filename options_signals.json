@@ -1,17 +1,17 @@
 [
   {
-    "symbol": "WELL",
+    "symbol": "PFE",
     "direction": "CALL",
-    "source": "Insider Buy",
-    "buy_date": "2025-03-26",
+    "source": "Congress - Gilbert Cisneros",
+    "buy_date": "2025-03-27",
     "estimated_amount": 250,
     "expected_gain": 50.0
   },
   {
-    "symbol": "WELL",
+    "symbol": "PFE",
     "direction": "CALL",
-    "source": "WSB",
-    "buy_date": "2025-03-26",
+    "source": "Insider Buy",
+    "buy_date": "2025-03-27",
     "estimated_amount": 250,
     "expected_gain": 50.0
   }

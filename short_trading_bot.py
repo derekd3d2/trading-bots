@@ -28,16 +28,25 @@ else:
 
 api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
 
-# ✅ Load live short signals (ensure the short_signals_live.py file is in the same directory)
-sys.path.append(os.path.dirname(os.path.abspath(__file__)))
-from short_signals_live import get_top_short_signals
+# ✅ Load updated short signals directly from short_signals.json
+signals_file = "/home/ubuntu/trading-bots/short_signals.json"
+try:
+    with open(signals_file, "r") as f:
+        signals = json.load(f)
+except FileNotFoundError:
+    print(f"❌ {signals_file} not found. Exiting.")
+    sys.exit(1)
+
 positions = {p.symbol for p in api.list_positions() if p.side == 'short'}
 open_orders = {o.symbol for o in api.list_orders(status='open') if o.side == 'sell'}
 skip_tickers = positions | open_orders
-signals = get_top_short_signals(current_positions=skip_tickers)
+
+# ✅ Filter signals to exclude positions/open orders and limit to top 3
+signals = [s for s in signals if s["ticker"] not in skip_tickers][:3]
+
 
 # ✅ Constants
-SHORT_TARGET = 0.05  # 5% drop = take profit
+SHORT_TARGET = 0.02  # 5% drop = take profit
 SHORT_STOPLOSS = 0.03  # 3% rise = stop-loss
 CAPITAL_USAGE = 0.15  # 15% of total capital
 TRADE_LOG = "/home/ubuntu/trading-bots/trade_history.json"

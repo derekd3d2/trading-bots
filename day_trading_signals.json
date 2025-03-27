@@ -1,242 +1,290 @@
 [
-    {
-        "ticker": "ZOM",
-        "congress_score": 0.0,
-        "insider_score": 10,
-        "sentiment_score": 0.0,
-        "gov_score": 0.0,
-        "total_score": 3.0
-    },
-    {
-        "ticker": "WEST",
-        "congress_score": 0.0,
-        "insider_score": 10.0,
-        "sentiment_score": 0.0,
-        "gov_score": 0.0,
-        "total_score": 3.0
-    },
-    {
-        "ticker": "FLWS",
-        "congress_score": 0.0,
-        "insider_score": 10,
-        "sentiment_score": 0.0,
-        "gov_score": 0.0,
-        "total_score": 3.0
-    },
-    {
-        "ticker": "EONR",
-        "congress_score": 0.0,
-        "insider_score": 10,
-        "sentiment_score": 0.0,
-        "gov_score": 0.0,
-        "total_score": 3.0
-    },
-    {
-        "ticker": "BUKS",
-        "congress_score": 0.0,
-        "insider_score": 10.0,
-        "sentiment_score": 0.0,
-        "gov_score": 0.0,
-        "total_score": 3.0
-    },
-    {
-        "ticker": "BLNE",
-        "congress_score": 0.0,
-        "insider_score": 10,
-        "sentiment_score": 0.0,
-        "gov_score": 0.0,
-        "total_score": 3.0
-    },
-    {
-        "ticker": "RCG",
-        "congress_score": 0.0,
-        "insider_score": 10,
-        "sentiment_score": 0.0,
-        "gov_score": 0.0,
-        "total_score": 3.0
-    },
-    {
-        "ticker": "PSEC",
-        "congress_score": 0.0,
-        "insider_score": 9.0,
-        "sentiment_score": 0.0,
-        "gov_score": 0.0,
-        "total_score": 2.6999999999999997
-    },
-    {
-        "ticker": "CULP",
-        "congress_score": 0.0,
-        "insider_score": 8.0,
-        "sentiment_score": 0.0,
-        "gov_score": 0.75,
-        "total_score": 2.475
-    },
-    {
-        "ticker": "BA",
-        "congress_score": 0.0,
-        "insider_score": 0.0,
-        "sentiment_score": 7.26,
-        "gov_score": 9.9,
-        "total_score": 2.442
-    },
-    {
-        "ticker": "FMBM",
-        "congress_score": 0.0,
-        "insider_score": 8.0,
-        "sentiment_score": 0.0,
-        "gov_score": 0.0,
-        "total_score": 2.4
-    },
-    {
-        "ticker": "BTMD",
-        "congress_score": 0.0,
-        "insider_score": 8.0,
-        "sentiment_score": 0.0,
-        "gov_score": 0.0,
-        "total_score": 2.4
-    },
-    {
-        "ticker": "SRBK",
-        "congress_score": 0.0,
-        "insider_score": 8.0,
-        "sentiment_score": 0.0,
-        "gov_score": 0.0,
-        "total_score": 2.4
-    },
-    {
-        "ticker": "ECAT",
-        "congress_score": 0.0,
-        "insider_score": 8.0,
-        "sentiment_score": 0.0,
-        "gov_score": 0.0,
-        "total_score": 2.4
-    },
-    {
-        "ticker": "VREO",
-        "congress_score": 0.0,
-        "insider_score": 8.0,
-        "sentiment_score": 0.0,
-        "gov_score": 0.0,
-        "total_score": 2.4
-    },
-    {
-        "ticker": "MCVT",
-        "congress_score": 0.0,
-        "insider_score": 8.0,
-        "sentiment_score": 0.0,
-        "gov_score": 0.0,
-        "total_score": 2.4
-    },
-    {
-        "ticker": "BMNM",
-        "congress_score": 0.0,
-        "insider_score": 8.0,
-        "sentiment_score": 0.0,
-        "gov_score": 0.0,
-        "total_score": 2.4
-    },
-    {
-        "ticker": "PESI",
-        "congress_score": 0.0,
-        "insider_score": 8.0,
-        "sentiment_score": 0.0,
-        "gov_score": 0.0,
-        "total_score": 2.4
-    },
-    {
-        "ticker": "MRNA",
-        "congress_score": 0.0,
-        "insider_score": 0.0,
-        "sentiment_score": 8.55,
-        "gov_score": 5.37,
-        "total_score": 2.2470000000000003
-    },
-    {
-        "ticker": "MSTR",
-        "congress_score": 0.0,
-        "insider_score": 3.0,
-        "sentiment_score": 6.37,
-        "gov_score": 0.0,
-        "total_score": 2.174
-    },
-    {
-        "ticker": "MKZR",
-        "congress_score": 0.0,
-        "insider_score": 7.0,
-        "sentiment_score": 0.0,
-        "gov_score": 0.0,
-        "total_score": 2.1
-    },
-    {
-        "ticker": "ZYME",
-        "congress_score": 0.0,
-        "insider_score": 7.0,
-        "sentiment_score": 0.0,
-        "gov_score": 0.0,
-        "total_score": 2.1
-    },
-    {
-        "ticker": "CION",
-        "congress_score": 0.0,
-        "insider_score": 7.0,
-        "sentiment_score": 0.0,
-        "gov_score": 0.0,
-        "total_score": 2.1
-    },
-    {
-        "ticker": "BB",
-        "congress_score": 0.0,
-        "insider_score": 0.0,
-        "sentiment_score": 10.0,
-        "gov_score": 0.53,
-        "total_score": 2.053
-    },
-    {
-        "ticker": "SOUN",
-        "congress_score": 0.0,
-        "insider_score": 0.0,
-        "sentiment_score": 10.0,
-        "gov_score": 0.0,
-        "total_score": 2.0
-    },
-    {
-        "ticker": "EPS",
-        "congress_score": 0.0,
-        "insider_score": 0.0,
-        "sentiment_score": 10.0,
-        "gov_score": 0.0,
-        "total_score": 2.0
-    },
-    {
-        "ticker": "RSI",
-        "congress_score": 0.0,
-        "insider_score": 0.0,
-        "sentiment_score": 10.0,
-        "gov_score": 0.0,
-        "total_score": 2.0
-    },
-    {
-        "ticker": "YEAR",
-        "congress_score": 0.0,
-        "insider_score": 0.0,
-        "sentiment_score": 10.0,
-        "gov_score": 0.0,
-        "total_score": 2.0
-    },
-    {
-        "ticker": "ETSY",
-        "congress_score": 0.0,
-        "insider_score": 0.0,
-        "sentiment_score": 10.0,
-        "gov_score": 0.0,
-        "total_score": 2.0
-    },
-    {
-        "ticker": "CVNA",
-        "congress_score": 0.0,
-        "insider_score": 0.0,
-        "sentiment_score": 10.0,
-        "gov_score": 0.0,
-        "total_score": 2.0
-    }
+  {
+    "ticker": "RCG",
+    "total_score": 3.0
+  },
+  {
+    "ticker": "BLNE",
+    "total_score": 3.0
+  },
+  {
+    "ticker": "ZOM",
+    "total_score": 3.0
+  },
+  {
+    "ticker": "FLWS",
+    "total_score": 3.0
+  },
+  {
+    "ticker": "EONR",
+    "total_score": 3.0
+  },
+  {
+    "ticker": "TTSH",
+    "total_score": 3.0
+  },
+  {
+    "ticker": "BUKS",
+    "total_score": 3.0
+  },
+  {
+    "ticker": "WEST",
+    "total_score": 3.0
+  },
+  {
+    "ticker": "PSEC",
+    "total_score": 2.7
+  },
+  {
+    "ticker": "MKZR",
+    "total_score": 2.4
+  },
+  {
+    "ticker": "BMNM",
+    "total_score": 2.4
+  },
+  {
+    "ticker": "FMBM",
+    "total_score": 2.4
+  },
+  {
+    "ticker": "PESI",
+    "total_score": 2.4
+  },
+  {
+    "ticker": "SRBK",
+    "total_score": 2.4
+  },
+  {
+    "ticker": "MSTR",
+    "total_score": 2.17
+  },
+  {
+    "ticker": "VREO",
+    "total_score": 2.1
+  },
+  {
+    "ticker": "CULP",
+    "total_score": 2.1
+  },
+  {
+    "ticker": "CION",
+    "total_score": 2.1
+  },
+  {
+    "ticker": "ECAT",
+    "total_score": 2.1
+  },
+  {
+    "ticker": "BTMD",
+    "total_score": 2.1
+  },
+  {
+    "ticker": "BB",
+    "total_score": 2.0
+  },
+  {
+    "ticker": "SMCI",
+    "total_score": 2.0
+  },
+  {
+    "ticker": "CVNA",
+    "total_score": 2.0
+  },
+  {
+    "ticker": "YEAR",
+    "total_score": 2.0
+  },
+  {
+    "ticker": "E",
+    "total_score": 2.0
+  },
+  {
+    "ticker": "META",
+    "total_score": 2.0
+  },
+  {
+    "ticker": "R",
+    "total_score": 2.0
+  },
+  {
+    "ticker": "SOUN",
+    "total_score": 2.0
+  },
+  {
+    "ticker": "V",
+    "total_score": 2.0
+  },
+  {
+    "ticker": "ETSY",
+    "total_score": 2.0
+  },
+  {
+    "ticker": "EPS",
+    "total_score": 2.0
+  },
+  {
+    "ticker": "RGTI",
+    "total_score": 2.0
+  },
+  {
+    "ticker": "RSI",
+    "total_score": 2.0
+  },
+  {
+    "ticker": "ALZN",
+    "total_score": 1.8
+  },
+  {
+    "ticker": "ZYME",
+    "total_score": 1.8
+  },
+  {
+    "ticker": "QRHC",
+    "total_score": 1.8
+  },
+  {
+    "ticker": "AFCG",
+    "total_score": 1.8
+  },
+  {
+    "ticker": "ANET",
+    "total_score": 1.74
+  },
+  {
+    "ticker": "MRNA",
+    "total_score": 1.71
+  },
+  {
+    "ticker": "QQQ",
+    "total_score": 1.6
+  },
+  {
+    "ticker": "BKSY",
+    "total_score": 1.6
+  },
+  {
+    "ticker": "CUBA",
+    "total_score": 1.5
+  },
+  {
+    "ticker": "STAA",
+    "total_score": 1.5
+  },
+  {
+    "ticker": "JELD",
+    "total_score": 1.5
+  },
+  {
+    "ticker": "JAKK",
+    "total_score": 1.5
+  },
+  {
+    "ticker": "ASAN",
+    "total_score": 1.5
+  },
+  {
+    "ticker": "WMT",
+    "total_score": 1.5
+  },
+  {
+    "ticker": "EU",
+    "total_score": 1.47
+  },
+  {
+    "ticker": "BA",
+    "total_score": 1.45
+  },
+  {
+    "ticker": "BMBL",
+    "total_score": 1.42
+  },
+  {
+    "ticker": "BBAI",
+    "total_score": 1.31
+  },
+  {
+    "ticker": "CELH",
+    "total_score": 1.31
+  },
+  {
+    "ticker": "ORRF",
+    "total_score": 1.2
+  },
+  {
+    "ticker": "IMNM",
+    "total_score": 1.2
+  },
+  {
+    "ticker": "AP",
+    "total_score": 1.2
+  },
+  {
+    "ticker": "LYEL",
+    "total_score": 1.2
+  },
+  {
+    "ticker": "ZDGE",
+    "total_score": 1.2
+  },
+  {
+    "ticker": "PRLD",
+    "total_score": 1.2
+  },
+  {
+    "ticker": "SBGI",
+    "total_score": 1.2
+  },
+  {
+    "ticker": "EMYB",
+    "total_score": 1.2
+  },
+  {
+    "ticker": "GSAT",
+    "total_score": 1.2
+  },
+  {
+    "ticker": "ADVM",
+    "total_score": 1.2
+  },
+  {
+    "ticker": "HFFG",
+    "total_score": 1.2
+  },
+  {
+    "ticker": "MG",
+    "total_score": 1.2
+  },
+  {
+    "ticker": "ENX",
+    "total_score": 1.2
+  },
+  {
+    "ticker": "IMCR",
+    "total_score": 1.2
+  },
+  {
+    "ticker": "TZUP",
+    "total_score": 1.2
+  },
+  {
+    "ticker": "CPSH",
+    "total_score": 1.2
+  },
+  {
+    "ticker": "CBKM",
+    "total_score": 1.2
+  },
+  {
+    "ticker": "GABC",
+    "total_score": 1.2
+  },
+  {
+    "ticker": "QBTS",
+    "total_score": 1.12
+  },
+  {
+    "ticker": "MGNI",
+    "total_score": 1.02
+  }
 ]

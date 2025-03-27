@@ -18,7 +18,7 @@ if not APCA_API_KEY_ID or not APCA_API_SECRET_KEY:
 api = tradeapi.REST(APCA_API_KEY_ID, APCA_API_SECRET_KEY, APCA_BASE_URL, api_version="v2")
 
 # ✅ Trading Strategy Parameters
-PROFIT_TARGET = 0.1  # 1% profit target
+PROFIT_TARGET = 0.03  # 3% profit target
 STOP_LOSS = 0.02  # 2% loss cut-off
 TIME_LIMIT_3_DAYS = 0.02  # Sell at 2% gain if held for 3 days
 TIME_LIMIT_7_DAYS = 7  # Sell after 1 week if no 3% gain

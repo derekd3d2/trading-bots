@@ -77,35 +77,50 @@ def fetch_and_score_patents():
     patent_scores = {}
     recent_cutoff_date = (datetime.utcnow() - timedelta(days=RECENT_DAYS)).strftime('%Y-%m-%d')
 
-    for patent in patents:
-        ticker = patent["Ticker"]
-        claims = patent["Claims"]
-        publication_date = patent["Date"]
-
-        score = 0
-        if claims >= CLAIMS_THRESHOLD:
-            score += 4
-        if publication_date >= recent_cutoff_date:
-            score += 4
-
-        if ticker not in patent_scores:
-            patent_scores[ticker] = 0
-        patent_scores[ticker] += score
-
     ticker_counts = {}
-    for patent in patents:
-        ticker = patent["Ticker"]
-        publication_date = patent["Date"]
-        if publication_date >= recent_cutoff_date:
-            ticker_counts[ticker] = ticker_counts.get(ticker, 0) + 1
 
+    for patent in patents:
+        try:
+            ticker = patent.get("Ticker", "").strip().upper()
+            if not ticker or ticker.lower() in ["n/a", "null", "none"]:
+                continue
+
+            claims = patent.get("Claims", 0)
+            publication_date = patent.get("Date", "2000-01-01")
+
+            try:
+                claims = int(claims)
+            except (ValueError, TypeError):
+                continue
+
+            try:
+                datetime.strptime(publication_date, "%Y-%m-%d")
+            except ValueError:
+                continue
+
+            # Initial scoring based on claims and recency
+            score = 0
+            if claims >= CLAIMS_THRESHOLD:
+                score += 4
+            if publication_date >= recent_cutoff_date:
+                score += 4
+
+            patent_scores[ticker] = patent_scores.get(ticker, 0) + score
+
+            if publication_date >= recent_cutoff_date:
+                ticker_counts[ticker] = ticker_counts.get(ticker, 0) + 1
+
+        except Exception as e:
+            print(f"⚠️ Error parsing patent entry: {e}")
+
+    # Bonus scoring for multiple recent patents
     for ticker, count in ticker_counts.items():
         if count >= 2:
             patent_scores[ticker] += 3
 
+    # Further qualification
     qualified_tickers = {}
-    for ticker in patent_scores.keys():
-        total_score = patent_scores[ticker]
+    for ticker, total_score in patent_scores.items():
 
         if check_technical_analysis(ticker):
             total_score += 3
@@ -122,15 +137,19 @@ def fetch_and_score_patents():
                 continue
             price = price_data['Close'].iloc[-1]
         except Exception as e:
-            print(f"Error fetching data for {ticker}: {e}")
+            print(f"Error fetching price for {ticker}: {e}")
             continue
 
         if ticker in STRONG_PICKS or (ticker not in STRONG_PICKS and price < 25):
-            if not recently_bought(ticker, 30, "LONG") or (recently_bought(ticker, 60, "LONG") and not recently_bought(ticker, 30, "LONG")):
+            recently_bought_30 = recently_bought(ticker, 30, "LONG")
+            recently_bought_60 = recently_bought(ticker, 60, "LONG")
+
+            if not recently_bought_30 or (recently_bought_60 and not recently_bought_30):
                 if total_score >= SCORE_THRESHOLD:
                     qualified_tickers[ticker] = total_score
 
     return qualified_tickers
+
 
 # ✅ Save Patent trading signals (market research only, no trade insertion)
 

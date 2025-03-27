@@ -31,14 +31,23 @@ data = resp.json()
 contract_signals = {}
 
 # ✅ Score each contract
+
 for entry in data:
     try:
-        ticker = entry.get("Ticker", "").upper()
-        amount = float(entry.get("Amount", 0))
-        contract_date = datetime.strptime(entry.get("Date", "2000-01-01"), "%Y-%m-%d")
-
-        if not ticker:
+        ticker = entry.get("Ticker", "").strip().upper()
+        if not ticker or ticker.lower() in ["n/a", "null", "none"]:
             continue
+
+        amount_str = entry.get("Amount", 0)
+        try:
+            amount = float(amount_str)
+        except (TypeError, ValueError):
+            continue  # Skip if amount is invalid
+
+        date_str = entry.get("Date")
+        if not date_str:
+            continue
+        contract_date = datetime.strptime(date_str, "%Y-%m-%d")
 
         # Base scoring by amount
         score = 0
@@ -72,7 +81,7 @@ for entry in data:
                 "ticker": ticker,
                 "scores": [],
                 "total_amount": 0,
-                "recent_date": entry.get("Date"),
+                "recent_date": date_str,
             }
 
         contract_signals[ticker]["scores"].append(score)

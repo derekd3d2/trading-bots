@@ -42,6 +42,7 @@ shorts = {}
 now = datetime.utcnow()
 cutoff_date = now - timedelta(days=INSIDER_LOOKBACK_DAYS)
 
+
 for trade in raw_data:
     try:
         date_str = trade.get("Date")
@@ -52,6 +53,10 @@ for trade in raw_data:
             continue
 
         ticker = trade.get("Ticker")
+        if not ticker or ticker.lower() in ["n/a", "null", "none", ""]:
+            continue
+        ticker = ticker.upper()
+
         shares = trade.get("Shares", 0)
         tx_code = trade.get("TransactionCode", "")
         if shares < MIN_SHARES_THRESHOLD:
@@ -65,6 +70,7 @@ for trade in raw_data:
             if ticker not in shorts:
                 shorts[ticker] = {"ticker": ticker, "short_score": 0, "last_trade": date_str}
             shorts[ticker]["short_score"] += 1
+
     except Exception as e:
         print(f"⚠️ Error parsing insider trade: {e}")
 

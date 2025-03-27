@@ -1,0 +1,438 @@
+2025-03-27 02:43:27 [INFO] ============================================
+2025-03-27 02:43:27 [INFO]   ALOHA TRADING - MANAGER PIPELINE STARTED  
+2025-03-27 02:43:27 [INFO] ============================================
+
+2025-03-27 02:43:27 [INFO] 🚀 Running: /home/ubuntu/trading-bots/ms_congress.py (Fetch Congress trades)
+2025-03-27 02:43:58 [INFO] /home/ubuntu/trading-bots/ms_congress.py | 📱 Fetching Congress trading data from QuiverQuant...
+2025-03-27 02:43:58 [INFO] /home/ubuntu/trading-bots/ms_congress.py | ❌ Failed to fetch Congress data: 500
+2025-03-27 02:43:58 [INFO] ✅ Finished: /home/ubuntu/trading-bots/ms_congress.py
+2025-03-27 02:43:59 [INFO] 🚀 Running: /home/ubuntu/trading-bots/ms_insider_trading.py (Fetch Insider trades)
+2025-03-27 02:44:03 [INFO] /home/ubuntu/trading-bots/ms_insider_trading.py | ✅ API Key successfully loaded in ms_insider_trading.py
+2025-03-27 02:44:03 [INFO] /home/ubuntu/trading-bots/ms_insider_trading.py | 📊 Fetching Insider trading data from QuiverQuant...
+2025-03-27 02:44:03 [INFO] /home/ubuntu/trading-bots/ms_insider_trading.py | ✅ Saved insider signals to /home/ubuntu/trading-bots/ms_insider_signals.json with 209 buys and 543 shorts.
+2025-03-27 02:44:03 [INFO] ✅ Finished: /home/ubuntu/trading-bots/ms_insider_trading.py
+2025-03-27 02:44:04 [INFO] 🚀 Running: /home/ubuntu/trading-bots/ms_wsb.py (Fetch WSB sentiment)
+2025-03-27 02:44:05 [INFO] /home/ubuntu/trading-bots/ms_wsb.py | ✅ API Key successfully loaded in ms_wsb.py
+2025-03-27 02:44:05 [INFO] /home/ubuntu/trading-bots/ms_wsb.py | 📊 Fetching WallStreetBets sentiment data from QuiverQuant...
+2025-03-27 02:44:05 [INFO] /home/ubuntu/trading-bots/ms_wsb.py | ✅ Saved WSB sentiment signals to /home/ubuntu/trading-bots/ms_wsb_signals.json with 29 entries.
+2025-03-27 02:44:05 [INFO] ✅ Finished: /home/ubuntu/trading-bots/ms_wsb.py
+2025-03-27 02:44:06 [INFO] 🚀 Running: /home/ubuntu/trading-bots/ms_gov.py (Fetch Gov contracts)
+2025-03-27 02:44:08 [INFO] /home/ubuntu/trading-bots/ms_gov.py | 📡 Fetching Government Contract data from QuiverQuant...
+2025-03-27 02:44:08 [INFO] /home/ubuntu/trading-bots/ms_gov.py | ✅ Saved Government Contract signals to /home/ubuntu/trading-bots/ms_gov_signals.json with 2208 entries.
+2025-03-27 02:44:08 [INFO] ✅ Finished: /home/ubuntu/trading-bots/ms_gov.py
+2025-03-27 02:44:09 [INFO] 🚀 Running: /home/ubuntu/trading-bots/aggregator.py (Aggregating signals for Day & Short)
+2025-03-27 02:44:09 [ERROR] ❌ Error running /home/ubuntu/trading-bots/aggregator.py:
+✅ Merged all data → /home/ubuntu/trading-bots/all_signals.json
+
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/aggregator.py", line 155, in <module>
+    day_signals = build_day_trading_signals()
+  File "/home/ubuntu/trading-bots/aggregator.py", line 124, in build_day_trading_signals
+    ticker = entry.get("ticker", "").upper()
+AttributeError: 'NoneType' object has no attribute 'upper'
+
+2025-03-27 02:52:35 [INFO] ============================================
+2025-03-27 02:52:35 [INFO]   ALOHA TRADING - MANAGER PIPELINE STARTED  
+2025-03-27 02:52:35 [INFO] ============================================
+
+2025-03-27 02:52:35 [INFO] 🚀 Running: /home/ubuntu/trading-bots/ms_congress.py (Fetch Congress trades)
+2025-03-27 02:52:48 [INFO] /home/ubuntu/trading-bots/ms_congress.py | 📱 Fetching Congress trading data from QuiverQuant...
+2025-03-27 02:52:48 [INFO] /home/ubuntu/trading-bots/ms_congress.py | ✅ Saved Congress signals to /home/ubuntu/trading-bots/congress_signals.json with 11 buys, 0 shorts, and 0 options trades.
+2025-03-27 02:52:48 [INFO] ✅ Finished: /home/ubuntu/trading-bots/ms_congress.py
+2025-03-27 02:52:49 [INFO] 🚀 Running: /home/ubuntu/trading-bots/ms_insider_trading.py (Fetch Insider trades)
+2025-03-27 02:52:53 [INFO] /home/ubuntu/trading-bots/ms_insider_trading.py | ✅ API Key successfully loaded in ms_insider_trading.py
+2025-03-27 02:52:53 [INFO] /home/ubuntu/trading-bots/ms_insider_trading.py | 📊 Fetching Insider trading data from QuiverQuant...
+2025-03-27 02:52:53 [INFO] /home/ubuntu/trading-bots/ms_insider_trading.py | ✅ Saved insider signals to /home/ubuntu/trading-bots/ms_insider_signals.json with 209 buys and 543 shorts.
+2025-03-27 02:52:53 [INFO] ✅ Finished: /home/ubuntu/trading-bots/ms_insider_trading.py
+2025-03-27 02:52:54 [INFO] 🚀 Running: /home/ubuntu/trading-bots/ms_wsb.py (Fetch WSB sentiment)
+2025-03-27 02:52:55 [INFO] /home/ubuntu/trading-bots/ms_wsb.py | ✅ API Key successfully loaded in ms_wsb.py
+2025-03-27 02:52:55 [INFO] /home/ubuntu/trading-bots/ms_wsb.py | 📊 Fetching WallStreetBets sentiment data from QuiverQuant...
+2025-03-27 02:52:55 [INFO] /home/ubuntu/trading-bots/ms_wsb.py | ✅ Saved WSB sentiment signals to /home/ubuntu/trading-bots/ms_wsb_signals.json with 29 entries.
+2025-03-27 02:52:55 [INFO] ✅ Finished: /home/ubuntu/trading-bots/ms_wsb.py
+2025-03-27 02:52:56 [INFO] 🚀 Running: /home/ubuntu/trading-bots/ms_gov.py (Fetch Gov contracts)
+2025-03-27 02:52:58 [INFO] /home/ubuntu/trading-bots/ms_gov.py | 📡 Fetching Government Contract data from QuiverQuant...
+2025-03-27 02:52:58 [INFO] /home/ubuntu/trading-bots/ms_gov.py | ✅ Saved Government Contract signals to /home/ubuntu/trading-bots/ms_gov_signals.json with 2208 entries.
+2025-03-27 02:52:58 [INFO] ✅ Finished: /home/ubuntu/trading-bots/ms_gov.py
+2025-03-27 02:52:59 [INFO] 🚀 Running: /home/ubuntu/trading-bots/aggregator.py (Aggregating signals for Day & Short)
+2025-03-27 02:52:59 [ERROR] ❌ Error running /home/ubuntu/trading-bots/aggregator.py:
+✅ Merged all data → /home/ubuntu/trading-bots/all_signals.json
+
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/aggregator.py", line 155, in <module>
+    day_signals = build_day_trading_signals()
+  File "/home/ubuntu/trading-bots/aggregator.py", line 124, in build_day_trading_signals
+    ticker = entry.get("ticker", "").upper()
+AttributeError: 'NoneType' object has no attribute 'upper'
+
+2025-03-27 02:59:31 [INFO] ============================================
+2025-03-27 02:59:31 [INFO]   ALOHA TRADING - MANAGER PIPELINE STARTED  
+2025-03-27 02:59:31 [INFO] ============================================
+
+2025-03-27 02:59:31 [INFO] 🚀 Running: /home/ubuntu/trading-bots/ms_congress.py (Fetch Congress trades)
+2025-03-27 02:59:44 [INFO] /home/ubuntu/trading-bots/ms_congress.py | 📱 Fetching Congress trading data from QuiverQuant...
+2025-03-27 02:59:44 [INFO] /home/ubuntu/trading-bots/ms_congress.py | ✅ Saved Congress signals to /home/ubuntu/trading-bots/congress_signals.json with 11 buys, 0 shorts, and 0 options trades.
+2025-03-27 02:59:44 [INFO] ✅ Finished: /home/ubuntu/trading-bots/ms_congress.py
+2025-03-27 02:59:45 [INFO] 🚀 Running: /home/ubuntu/trading-bots/ms_insider_trading.py (Fetch Insider trades)
+2025-03-27 02:59:50 [INFO] /home/ubuntu/trading-bots/ms_insider_trading.py | ✅ API Key successfully loaded in ms_insider_trading.py
+2025-03-27 02:59:50 [INFO] /home/ubuntu/trading-bots/ms_insider_trading.py | 📊 Fetching Insider trading data from QuiverQuant...
+2025-03-27 02:59:50 [INFO] /home/ubuntu/trading-bots/ms_insider_trading.py | ✅ Saved insider signals to /home/ubuntu/trading-bots/ms_insider_signals.json with 209 buys and 543 shorts.
+2025-03-27 02:59:50 [INFO] ✅ Finished: /home/ubuntu/trading-bots/ms_insider_trading.py
+2025-03-27 02:59:51 [INFO] 🚀 Running: /home/ubuntu/trading-bots/ms_wsb.py (Fetch WSB sentiment)
+2025-03-27 02:59:52 [INFO] /home/ubuntu/trading-bots/ms_wsb.py | ✅ API Key successfully loaded in ms_wsb.py
+2025-03-27 02:59:52 [INFO] /home/ubuntu/trading-bots/ms_wsb.py | 📊 Fetching WallStreetBets sentiment data from QuiverQuant...
+2025-03-27 02:59:52 [INFO] /home/ubuntu/trading-bots/ms_wsb.py | ✅ Saved WSB sentiment signals to /home/ubuntu/trading-bots/ms_wsb_signals.json with 29 entries.
+2025-03-27 02:59:52 [INFO] ✅ Finished: /home/ubuntu/trading-bots/ms_wsb.py
+2025-03-27 02:59:53 [INFO] 🚀 Running: /home/ubuntu/trading-bots/ms_gov.py (Fetch Gov contracts)
+2025-03-27 03:00:23 [INFO] /home/ubuntu/trading-bots/ms_gov.py | 📡 Fetching Government Contract data from QuiverQuant...
+2025-03-27 03:00:23 [INFO] /home/ubuntu/trading-bots/ms_gov.py | ❌ Failed to fetch Government Contract data: 500
+2025-03-27 03:00:23 [INFO] ✅ Finished: /home/ubuntu/trading-bots/ms_gov.py
+2025-03-27 03:00:24 [INFO] 🚀 Running: /home/ubuntu/trading-bots/aggregator.py (Aggregating signals for Day & Short)
+2025-03-27 03:00:24 [ERROR] ❌ Error running /home/ubuntu/trading-bots/aggregator.py:
+✅ Merged all data → /home/ubuntu/trading-bots/all_signals.json
+
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/aggregator.py", line 155, in <module>
+    day_signals = build_day_trading_signals()
+  File "/home/ubuntu/trading-bots/aggregator.py", line 124, in build_day_trading_signals
+    ticker = entry.get("ticker", "").upper()
+AttributeError: 'NoneType' object has no attribute 'upper'
+
+2025-03-27 03:17:12 [INFO] ============================================
+2025-03-27 03:17:12 [INFO]   ALOHA TRADING - MANAGER PIPELINE STARTED  
+2025-03-27 03:17:12 [INFO] ============================================
+
+2025-03-27 03:17:12 [INFO] 🚀 Running: /home/ubuntu/trading-bots/ms_congress.py (Fetch Congress trades)
+2025-03-27 03:17:25 [INFO] /home/ubuntu/trading-bots/ms_congress.py | 📱 Fetching Congress trading data from QuiverQuant...
+2025-03-27 03:17:25 [INFO] /home/ubuntu/trading-bots/ms_congress.py | ✅ Saved Congress signals to /home/ubuntu/trading-bots/congress_signals.json with 11 buys, 0 shorts, and 0 options trades.
+2025-03-27 03:17:25 [INFO] ✅ Finished: /home/ubuntu/trading-bots/ms_congress.py
+2025-03-27 03:17:26 [INFO] 🚀 Running: /home/ubuntu/trading-bots/ms_insider_trading.py (Fetch Insider trades)
+2025-03-27 03:17:31 [INFO] /home/ubuntu/trading-bots/ms_insider_trading.py | ✅ API Key successfully loaded in ms_insider_trading.py
+2025-03-27 03:17:31 [INFO] /home/ubuntu/trading-bots/ms_insider_trading.py | 📊 Fetching Insider trading data from QuiverQuant...
+2025-03-27 03:17:31 [INFO] /home/ubuntu/trading-bots/ms_insider_trading.py | ✅ Saved insider signals to /home/ubuntu/trading-bots/ms_insider_signals.json with 207 buys and 541 shorts.
+2025-03-27 03:17:31 [INFO] ✅ Finished: /home/ubuntu/trading-bots/ms_insider_trading.py
+2025-03-27 03:17:32 [INFO] 🚀 Running: /home/ubuntu/trading-bots/ms_wsb.py (Fetch WSB sentiment)
+2025-03-27 03:17:33 [INFO] /home/ubuntu/trading-bots/ms_wsb.py | ✅ API Key successfully loaded in ms_wsb.py
+2025-03-27 03:17:33 [INFO] /home/ubuntu/trading-bots/ms_wsb.py | 📊 Fetching WallStreetBets sentiment data from QuiverQuant...
+2025-03-27 03:17:33 [INFO] /home/ubuntu/trading-bots/ms_wsb.py | ✅ Saved WSB sentiment signals to /home/ubuntu/trading-bots/ms_wsb_signals.json with 29 entries.
+2025-03-27 03:17:33 [INFO] ✅ Finished: /home/ubuntu/trading-bots/ms_wsb.py
+2025-03-27 03:17:34 [INFO] 🚀 Running: /home/ubuntu/trading-bots/ms_gov.py (Fetch Gov contracts)
+2025-03-27 03:17:35 [INFO] /home/ubuntu/trading-bots/ms_gov.py | 📡 Fetching Government Contract data from QuiverQuant...
+2025-03-27 03:17:35 [INFO] /home/ubuntu/trading-bots/ms_gov.py | ✅ Saved Government Contract signals to /home/ubuntu/trading-bots/ms_gov_signals.json with 0 entries.
+2025-03-27 03:17:35 [INFO] ✅ Finished: /home/ubuntu/trading-bots/ms_gov.py
+2025-03-27 03:17:36 [INFO] 🚀 Running: /home/ubuntu/trading-bots/aggregator.py (Aggregating signals for Day & Short)
+2025-03-27 03:17:36 [INFO] /home/ubuntu/trading-bots/aggregator.py | ✅ Merged all data → /home/ubuntu/trading-bots/all_signals.json
+2025-03-27 03:17:36 [INFO] /home/ubuntu/trading-bots/aggregator.py | ✅ Created day_trading_signals.json with 72 entries.
+2025-03-27 03:17:36 [INFO] /home/ubuntu/trading-bots/aggregator.py | ✅ Created short_signals.json with 541 entries.
+2025-03-27 03:17:36 [INFO] /home/ubuntu/trading-bots/aggregator.py | 
+2025-03-27 03:17:36 [INFO] /home/ubuntu/trading-bots/aggregator.py | ✅ aggregator.py complete.
+2025-03-27 03:17:36 [INFO] ✅ Finished: /home/ubuntu/trading-bots/aggregator.py
+2025-03-27 03:17:37 [INFO] 🚀 Running: /home/ubuntu/trading-bots/predict_day_trades.py (ML filter for Day Trades)
+2025-03-27 03:17:38 [ERROR] ❌ Error running /home/ubuntu/trading-bots/predict_day_trades.py:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/predict_day_trades.py", line 7, in <module>
+    model = joblib.load("day_trade_model.pkl")
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/joblib/numpy_pickle.py", line 650, in load
+    with open(filename, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'day_trade_model.pkl'
+
+2025-03-27 03:20:31 [INFO] ============================================
+2025-03-27 03:20:31 [INFO]   ALOHA TRADING - MANAGER PIPELINE STARTED  
+2025-03-27 03:20:31 [INFO] ============================================
+
+2025-03-27 03:20:31 [INFO] 🚀 Running: /home/ubuntu/trading-bots/ms_congress.py (Fetch Congress trades)
+2025-03-27 03:20:32 [INFO] /home/ubuntu/trading-bots/ms_congress.py | 📱 Fetching Congress trading data from QuiverQuant...
+2025-03-27 03:20:32 [INFO] /home/ubuntu/trading-bots/ms_congress.py | ✅ Saved Congress signals to /home/ubuntu/trading-bots/congress_signals.json with 11 buys, 0 shorts, and 0 options trades.
+2025-03-27 03:20:32 [INFO] ✅ Finished: /home/ubuntu/trading-bots/ms_congress.py
+2025-03-27 03:20:33 [INFO] 🚀 Running: /home/ubuntu/trading-bots/ms_insider_trading.py (Fetch Insider trades)
+2025-03-27 03:20:34 [INFO] /home/ubuntu/trading-bots/ms_insider_trading.py | ✅ API Key successfully loaded in ms_insider_trading.py
+2025-03-27 03:20:34 [INFO] /home/ubuntu/trading-bots/ms_insider_trading.py | 📊 Fetching Insider trading data from QuiverQuant...
+2025-03-27 03:20:34 [INFO] /home/ubuntu/trading-bots/ms_insider_trading.py | ✅ Saved insider signals to /home/ubuntu/trading-bots/ms_insider_signals.json with 207 buys and 541 shorts.
+2025-03-27 03:20:34 [INFO] ✅ Finished: /home/ubuntu/trading-bots/ms_insider_trading.py
+2025-03-27 03:20:35 [INFO] 🚀 Running: /home/ubuntu/trading-bots/ms_wsb.py (Fetch WSB sentiment)
+2025-03-27 03:20:36 [INFO] /home/ubuntu/trading-bots/ms_wsb.py | ✅ API Key successfully loaded in ms_wsb.py
+2025-03-27 03:20:36 [INFO] /home/ubuntu/trading-bots/ms_wsb.py | 📊 Fetching WallStreetBets sentiment data from QuiverQuant...
+2025-03-27 03:20:36 [INFO] /home/ubuntu/trading-bots/ms_wsb.py | ✅ Saved WSB sentiment signals to /home/ubuntu/trading-bots/ms_wsb_signals.json with 29 entries.
+2025-03-27 03:20:36 [INFO] ✅ Finished: /home/ubuntu/trading-bots/ms_wsb.py
+2025-03-27 03:20:37 [INFO] 🚀 Running: /home/ubuntu/trading-bots/ms_gov.py (Fetch Gov contracts)
+2025-03-27 03:20:38 [INFO] /home/ubuntu/trading-bots/ms_gov.py | 📡 Fetching Government Contract data from QuiverQuant...
+2025-03-27 03:20:38 [INFO] /home/ubuntu/trading-bots/ms_gov.py | ✅ Saved Government Contract signals to /home/ubuntu/trading-bots/ms_gov_signals.json with 0 entries.
+2025-03-27 03:20:38 [INFO] ✅ Finished: /home/ubuntu/trading-bots/ms_gov.py
+2025-03-27 03:20:39 [INFO] 🚀 Running: /home/ubuntu/trading-bots/aggregator.py (Aggregating signals for Day & Short)
+2025-03-27 03:20:39 [INFO] /home/ubuntu/trading-bots/aggregator.py | ✅ Merged all data → /home/ubuntu/trading-bots/all_signals.json
+2025-03-27 03:20:39 [INFO] /home/ubuntu/trading-bots/aggregator.py | ✅ Created day_trading_signals.json with 72 entries.
+2025-03-27 03:20:39 [INFO] /home/ubuntu/trading-bots/aggregator.py | ✅ Created short_signals.json with 541 entries.
+2025-03-27 03:20:39 [INFO] /home/ubuntu/trading-bots/aggregator.py | 
+2025-03-27 03:20:39 [INFO] /home/ubuntu/trading-bots/aggregator.py | ✅ aggregator.py complete.
+2025-03-27 03:20:39 [INFO] ✅ Finished: /home/ubuntu/trading-bots/aggregator.py
+2025-03-27 03:20:40 [INFO] 🚀 Running: /home/ubuntu/trading-bots/market_sentiment.py (Compute Market Sentiment)
+2025-03-27 03:20:40 [INFO] /home/ubuntu/trading-bots/market_sentiment.py | ⚠️ Not enough bars for SPY. Skipping.
+2025-03-27 03:20:40 [INFO] /home/ubuntu/trading-bots/market_sentiment.py | ⚠️ Not enough bars for DIA. Skipping.
+2025-03-27 03:20:40 [INFO] /home/ubuntu/trading-bots/market_sentiment.py | ⚠️ Not enough bars for QQQ. Skipping.
+2025-03-27 03:20:40 [INFO] /home/ubuntu/trading-bots/market_sentiment.py | 📊 Market sentiment: neutral
+2025-03-27 03:20:40 [INFO] ✅ Finished: /home/ubuntu/trading-bots/market_sentiment.py
+2025-03-27 03:20:41 [INFO] 🚀 Running: /home/ubuntu/trading-bots/day_trading_bot.py (Execute Day Trading Bot)
+2025-03-27 03:20:59 [INFO] /home/ubuntu/trading-bots/day_trading_bot.py | [INFO] Allocating $73985.22 for day trading (75% of $98646.96)
+2025-03-27 03:20:59 [INFO] /home/ubuntu/trading-bots/day_trading_bot.py | ⚠️ AI-filtered signals not found. Falling back to full signal list.
+2025-03-27 03:20:59 [INFO] /home/ubuntu/trading-bots/day_trading_bot.py | 🚀 Buying 1911.7628 shares of RCG at 2.5799999237060547
+2025-03-27 03:20:59 [INFO] /home/ubuntu/trading-bots/day_trading_bot.py | 🖍 Logged BUY of RCG at 2.5799999237060547
+2025-03-27 03:20:59 [INFO] /home/ubuntu/trading-bots/day_trading_bot.py | 🚀 Buying 2371.3212 shares of BLNE at 2.0799999237060547
+2025-03-27 03:20:59 [INFO] /home/ubuntu/trading-bots/day_trading_bot.py | 🖍 Logged BUY of BLNE at 2.0799999237060547
+2025-03-27 03:20:59 [INFO] /home/ubuntu/trading-bots/day_trading_bot.py | 🚀 Buying 86837.1121 shares of ZOM at 0.0568000003695488
+2025-03-27 03:20:59 [INFO] /home/ubuntu/trading-bots/day_trading_bot.py | ❌ Error executing buy for ZOM: asset ZOM is not active
+2025-03-27 03:20:59 [INFO] /home/ubuntu/trading-bots/day_trading_bot.py | 🚀 Buying 824.8074 shares of FLWS at 5.980000019073486
+2025-03-27 03:20:59 [INFO] /home/ubuntu/trading-bots/day_trading_bot.py | 🖍 Logged BUY of FLWS at 5.980000019073486
+2025-03-27 03:20:59 [INFO] /home/ubuntu/trading-bots/day_trading_bot.py | 🚀 Buying 9864.6960 shares of EONR at 0.5
+2025-03-27 03:20:59 [INFO] /home/ubuntu/trading-bots/day_trading_bot.py | 🖍 Logged BUY of EONR at 0.5
+2025-03-27 03:20:59 [INFO] /home/ubuntu/trading-bots/day_trading_bot.py | 🚀 Buying 757.6571 shares of TTSH at 6.510000228881836
+2025-03-27 03:20:59 [INFO] /home/ubuntu/trading-bots/day_trading_bot.py | 🖍 Logged BUY of TTSH at 6.510000228881836
+2025-03-27 03:20:59 [INFO] /home/ubuntu/trading-bots/day_trading_bot.py | 🚀 Buying 2818.4846 shares of BUKS at 1.75
+2025-03-27 03:20:59 [INFO] /home/ubuntu/trading-bots/day_trading_bot.py | ❌ Error executing buy for BUKS: asset BUKS is not active
+2025-03-27 03:20:59 [INFO] /home/ubuntu/trading-bots/day_trading_bot.py | 🚀 Buying 690.8051 shares of WEST at 7.139999866485596
+2025-03-27 03:20:59 [INFO] /home/ubuntu/trading-bots/day_trading_bot.py | ❌ Error executing buy for WEST: insufficient buying power
+2025-03-27 03:20:59 [INFO] /home/ubuntu/trading-bots/day_trading_bot.py | ⚠️ Skipping PSEC: Already in position.
+2025-03-27 03:20:59 [INFO] /home/ubuntu/trading-bots/day_trading_bot.py | 🚀 Buying 3266.4556 shares of MKZR at 1.5099999904632568
+2025-03-27 03:20:59 [INFO] /home/ubuntu/trading-bots/day_trading_bot.py | ❌ Error executing buy for MKZR: insufficient buying power
+2025-03-27 03:20:59 [INFO] /home/ubuntu/trading-bots/day_trading_bot.py | 🚀 Buying 3708.5322 shares of BMNM at 1.3300000429153442
+2025-03-27 03:20:59 [INFO] /home/ubuntu/trading-bots/day_trading_bot.py | ❌ Error executing buy for BMNM: asset BMNM is not active
+2025-03-27 03:20:59 [INFO] /home/ubuntu/trading-bots/day_trading_bot.py | 🚀 Buying 255.2975 shares of FMBM at 19.31999969482422
+2025-03-27 03:20:59 [INFO] /home/ubuntu/trading-bots/day_trading_bot.py | ❌ Error executing buy for FMBM: asset FMBM is not active
+2025-03-27 03:20:59 [INFO] /home/ubuntu/trading-bots/day_trading_bot.py | 🚀 Buying 657.6464 shares of PESI at 7.5
+2025-03-27 03:20:59 [INFO] /home/ubuntu/trading-bots/day_trading_bot.py | ❌ Error executing buy for PESI: insufficient buying power
+2025-03-27 03:20:59 [INFO] /home/ubuntu/trading-bots/day_trading_bot.py | 🚀 Buying 404.2908 shares of SRBK at 12.199999809265137
+2025-03-27 03:20:59 [INFO] /home/ubuntu/trading-bots/day_trading_bot.py | ❌ Error executing buy for SRBK: insufficient buying power
+2025-03-27 03:20:59 [INFO] /home/ubuntu/trading-bots/day_trading_bot.py | 🚀 Buying 14.9778 shares of MSTR at 329.30999755859375
+2025-03-27 03:20:59 [INFO] /home/ubuntu/trading-bots/day_trading_bot.py | ❌ Error executing buy for MSTR: insufficient buying power
+2025-03-27 03:20:59 [INFO] /home/ubuntu/trading-bots/day_trading_bot.py | ⚠️ Skipping BWIN: no shares held.
+2025-03-27 03:20:59 [INFO] /home/ubuntu/trading-bots/day_trading_bot.py | ⚠️ Skipping COST: no shares held.
+2025-03-27 03:20:59 [INFO] /home/ubuntu/trading-bots/day_trading_bot.py | ⚠️ Skipping NVDA: no shares held.
+2025-03-27 03:20:59 [INFO] /home/ubuntu/trading-bots/day_trading_bot.py | ✅ Day trading execution complete.
+2025-03-27 03:20:59 [INFO] ✅ Finished: /home/ubuntu/trading-bots/day_trading_bot.py
+2025-03-27 03:21:00 [INFO] 🚀 Running: /home/ubuntu/trading-bots/short_trading_bot.py (Execute Short Trading Bot)
+2025-03-27 03:21:09 [INFO] /home/ubuntu/trading-bots/short_trading_bot.py | 🔒 Already managing 3 short positions or pending orders. No new shorts today.
+2025-03-27 03:21:09 [INFO] ✅ Finished: /home/ubuntu/trading-bots/short_trading_bot.py
+2025-03-27 03:21:10 [INFO] 🚀 Running: /home/ubuntu/trading-bots/options_main.py (Run Options Pipeline)
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py | Fetching Congress trades...
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py | ✅ Retrieved 49770 Congress trades.
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py | Analyzing trade returns to find top 25 most profitable Congress members...
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py | ✅ Top 25 reps selected.
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py | ✅ Saved 24 CALL & PUT signals from top 25 reps to congress_signals.json
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py | CALL signals: 24, PUT signals: 0
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py | 
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py | Fetching recent insider trades...
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py | ✅ Retrieved 3073 insider records since 20250225.
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py | 
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py | 🔍 First 3 entries from Insider data:
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py |   Entry 1: {'Ticker': 'FTI', 'Date': '2025-02-21T00:00:00.000', 'Name': 'Aalders Cristina', 'AcquiredDisposedCode': 'D', 'TransactionCode': 'F', 'Shares': 452.0, 'PricePerShare': 29.13, 'SharesOwnedFollowing': 30665.0, 'fileDate': '2025-02-25T23:59:14.000', 'officerTitle': 'EVP, Chief Legal Officer & Sec', 'isDirector': False, 'isOfficer': True, 'isTenPercentOwner': False, 'isOther': False, 'directOrIndirectOwnership': 'D', 'uploaded': '2025-02-26T00:00:23.021'}
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py |   Entry 2: {'Ticker': 'FTI', 'Date': '2025-02-24T00:00:00.000', 'Name': 'Aalders Cristina', 'AcquiredDisposedCode': 'A', 'TransactionCode': 'A', 'Shares': 10278.0, 'PricePerShare': 0.0, 'SharesOwnedFollowing': 40943.0, 'fileDate': '2025-02-25T23:59:14.000', 'officerTitle': 'EVP, Chief Legal Officer & Sec', 'isDirector': False, 'isOfficer': True, 'isTenPercentOwner': False, 'isOther': False, 'directOrIndirectOwnership': 'D', 'uploaded': '2025-02-26T00:00:23.021'}
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py |   Entry 3: {'Ticker': 'FTI', 'Date': '2025-02-24T00:00:00.000', 'Name': 'Aalders Cristina', 'AcquiredDisposedCode': 'A', 'TransactionCode': 'A', 'Shares': 6114.0, 'PricePerShare': 0.0, 'SharesOwnedFollowing': 47057.0, 'fileDate': '2025-02-25T23:59:14.000', 'officerTitle': 'EVP, Chief Legal Officer & Sec', 'isDirector': False, 'isOfficer': True, 'isTenPercentOwner': False, 'isOther': False, 'directOrIndirectOwnership': 'D', 'uploaded': '2025-02-26T00:00:23.021'}
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py | ✅ Saved 1739 insider signals to insider_signals.json
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py | 
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py | Fetching recent government contracts...
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py | ✅ Retrieved 147 contracts since 20250225.
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py | [
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py |   {
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py |     "Ticker": "DNOW",
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py |     "Date": "2025-02-25",
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py |     "Description": "CARTRIDGE, TONER PN: W2120X HP OEM",
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py |     "Agency": "General Services Administration",
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py |     "Amount": 540.34
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py |   },
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py |   {
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py |     "Ticker": "DNOW",
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py |     "Date": "2025-02-25",
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py |     "Description": "PUNCH, CENTER, SOLID: TYPE II: PUNCHES CLASS 3: CENTER OVERALL LENGTH: 4 INCHES SHANK WIDTH ACROSS FLATS: 1/2 INCH POINT SZ: 7/32 INCH SHANK SHAPE: HEXAGON MATERIAL: STEEL (PARTIAL DESCRIPTION)",
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py |     "Agency": "General Services Administration",
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py |     "Amount": 4.45
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py |   },
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py |   {
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py |     "Ticker": "DNOW",
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py |     "Date": "2025-02-25",
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py |     "Description": "CARTRIDGE,TONER     PN: W2123A MAGENTA",
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py |     "Agency": "General Services Administration",
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py |     "Amount": 1914.25
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py |   }
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py | ]
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py | ⚠️ No strong signals found.
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py | ✅ Saved 34 WSB options signals to options_wsb_signals.json
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py | 
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py | 🔍 First 3 entries from Congress data:
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py |   Entry 1: {'symbol': 'HLMN', 'representative': 'Gilbert Cisneros', 'buy_date': '2025-03-03', 'source': 'Congress - Gilbert Cisneros', 'signal_type': 'CALL'}
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py |   Entry 2: {'symbol': 'STRL', 'representative': 'Gilbert Cisneros', 'buy_date': '2025-03-03', 'source': 'Congress - Gilbert Cisneros', 'signal_type': 'CALL'}
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py |   Entry 3: {'symbol': 'LH', 'representative': 'April Mcclain Delaney', 'buy_date': '2025-02-28', 'source': 'Congress - April Mcclain Delaney', 'signal_type': 'CALL'}
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py | ✅ Saved 24 Congress options signals to options_congress_signals.json
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py | 
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py | 🔍 First 3 entries from Insider data:
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py |   Entry 1: {'symbol': 'FTI', 'transaction_value': 13166.76, 'source': 'Insider Sell', 'signal_type': 'PUT', 'signal_strength': 'MEDIUM', 'date': '2025-02-21T00:00:00.000'}
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py |   Entry 2: {'symbol': 'PFE', 'transaction_value': 263715.97000000003, 'source': 'Insider Buy', 'signal_type': 'CALL', 'signal_strength': 'HIGH', 'date': '2025-02-22T00:00:00.000'}
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py |   Entry 3: {'symbol': 'PFE', 'transaction_value': 203371.84, 'source': 'Insider Sell', 'signal_type': 'PUT', 'signal_strength': 'HIGH', 'date': '2025-02-22T00:00:00.000'}
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py | ✅ Saved 1739 insider options signals to options_insider_signals.json
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py | ✅ Saved 2 gov contract options signals to options_signals.json
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py | 
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py | 🔍 First 3 entries from WSB data:
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py |   Entry 1: {'ticker': 'SLB', 'ai_score': 0.7579, 'action': 'BUY'}
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py |   Entry 2: {'ticker': 'GLD', 'ai_score': 0.9479, 'action': 'BUY'}
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py |   Entry 3: {'ticker': 'LOVE', 'ai_score': 0.85, 'action': 'BUY'}
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py | ✅ Saved 34 WSB options signals to options_wsb_signals.json
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py | ✅ Loaded 24 signals from options_congress_signals.json
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py | ✅ Loaded 1739 signals from options_insider_signals.json
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py | ✅ Loaded 2 signals from options_gov_signals.json
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py | ✅ Loaded 34 signals from options_wsb_signals.json
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py | 
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py | ✅ Saved 2 cross-validated signals to options_signals.json
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py | 
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py | 🚀 Running full Aloha Options Bot pipeline...
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py | 
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py | 📥 Running: options_signal_creator_congress.py
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py | 
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py | 📥 Running: options_signal_creator_insider.py
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py | 
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py | 📥 Running: options_signal_creator_gov.py
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py | 
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py | 📥 Running: options_signal_creator_wsb.py
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py | 
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py | 🔁 Converting signals with: options_signals_congress.py
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py | 
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py | 🔁 Converting signals with: options_signals_insider.py
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py | 
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py | 🔁 Converting signals with: options_signals_gov.py
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py | 
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py | 🔁 Converting signals with: options_signals_wsb.py
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py | 
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py | 📦 Merging signals into options_signals.json
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py | 
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py | 💥 Executing trades...
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py | 
+2025-03-27 03:21:34 [INFO] /home/ubuntu/trading-bots/options_main.py | ✅ Aloha Options Bot run complete.
+2025-03-27 03:21:34 [WARNING] /home/ubuntu/trading-bots/options_main.py [stderr] Traceback (most recent call last):
+2025-03-27 03:21:34 [WARNING] /home/ubuntu/trading-bots/options_main.py [stderr]   File "/home/ubuntu/trading-bots/options_trading_bot.py", line 19, in <module>
+2025-03-27 03:21:34 [WARNING] /home/ubuntu/trading-bots/options_main.py [stderr]     client = TradingClient(TRADE_API_KEY, TRADE_SECRET_KEY, paper=True)
+2025-03-27 03:21:34 [WARNING] /home/ubuntu/trading-bots/options_main.py [stderr]   File "/home/ubuntu/.local/lib/python3.10/site-packages/alpaca/trading/client.py", line 74, in __init__
+2025-03-27 03:21:34 [WARNING] /home/ubuntu/trading-bots/options_main.py [stderr]     super().__init__(
+2025-03-27 03:21:34 [WARNING] /home/ubuntu/trading-bots/options_main.py [stderr]   File "/home/ubuntu/.local/lib/python3.10/site-packages/alpaca/common/rest.py", line 61, in __init__
+2025-03-27 03:21:34 [WARNING] /home/ubuntu/trading-bots/options_main.py [stderr]     self._api_key, self._secret_key, self._oauth_token = self._validate_credentials(
+2025-03-27 03:21:34 [WARNING] /home/ubuntu/trading-bots/options_main.py [stderr]   File "/home/ubuntu/.local/lib/python3.10/site-packages/alpaca/common/rest.py", line 354, in _validate_credentials
+2025-03-27 03:21:34 [WARNING] /home/ubuntu/trading-bots/options_main.py [stderr]     raise ValueError("You must supply a method of authentication")
+2025-03-27 03:21:34 [WARNING] /home/ubuntu/trading-bots/options_main.py [stderr] ValueError: You must supply a method of authentication
+2025-03-27 03:21:34 [INFO] ✅ Finished: /home/ubuntu/trading-bots/options_main.py
+2025-03-27 03:21:35 [INFO] 🚀 Running: /home/ubuntu/trading-bots/predict_option_trades.py (ML filter for Options)
+2025-03-27 03:21:35 [ERROR] ❌ Error running /home/ubuntu/trading-bots/predict_option_trades.py:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/predict_option_trades.py", line 6, in <module>
+    model = joblib.load("option_trade_model.pkl")
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/joblib/numpy_pickle.py", line 650, in load
+    with open(filename, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'option_trade_model.pkl'
+
+2025-03-27 09:20:01 [INFO] ============================================
+2025-03-27 09:20:01 [INFO]   ALOHA TRADING - MANAGER PIPELINE STARTED  
+2025-03-27 09:20:01 [INFO] ============================================
+
+2025-03-27 09:20:01 [INFO] 🚀 Running: /home/ubuntu/trading-bots/ms_congress.py (Fetch Congress trades)
+2025-03-27 09:20:14 [INFO] /home/ubuntu/trading-bots/ms_congress.py | 📱 Fetching Congress trading data from QuiverQuant...
+2025-03-27 09:20:14 [INFO] /home/ubuntu/trading-bots/ms_congress.py | ✅ Saved Congress signals to /home/ubuntu/trading-bots/congress_signals.json with 11 buys, 0 shorts, and 0 options trades.
+2025-03-27 09:20:14 [INFO] ✅ Finished: /home/ubuntu/trading-bots/ms_congress.py
+2025-03-27 09:20:15 [INFO] 🚀 Running: /home/ubuntu/trading-bots/ms_insider_trading.py (Fetch Insider trades)
+2025-03-27 09:20:20 [INFO] /home/ubuntu/trading-bots/ms_insider_trading.py | ✅ API Key successfully loaded in ms_insider_trading.py
+2025-03-27 09:20:20 [INFO] /home/ubuntu/trading-bots/ms_insider_trading.py | 📊 Fetching Insider trading data from QuiverQuant...
+2025-03-27 09:20:20 [INFO] /home/ubuntu/trading-bots/ms_insider_trading.py | ✅ Saved insider signals to /home/ubuntu/trading-bots/ms_insider_signals.json with 209 buys and 541 shorts.
+2025-03-27 09:20:20 [INFO] ✅ Finished: /home/ubuntu/trading-bots/ms_insider_trading.py
+2025-03-27 09:20:21 [INFO] 🚀 Running: /home/ubuntu/trading-bots/ms_wsb.py (Fetch WSB sentiment)
+2025-03-27 09:20:22 [INFO] /home/ubuntu/trading-bots/ms_wsb.py | ✅ API Key successfully loaded in ms_wsb.py
+2025-03-27 09:20:22 [INFO] /home/ubuntu/trading-bots/ms_wsb.py | 📊 Fetching WallStreetBets sentiment data from QuiverQuant...
+2025-03-27 09:20:22 [INFO] /home/ubuntu/trading-bots/ms_wsb.py | ✅ Saved WSB sentiment signals to /home/ubuntu/trading-bots/ms_wsb_signals.json with 29 entries.
+2025-03-27 09:20:22 [INFO] ✅ Finished: /home/ubuntu/trading-bots/ms_wsb.py
+2025-03-27 09:20:23 [INFO] 🚀 Running: /home/ubuntu/trading-bots/ms_gov.py (Fetch Gov contracts)
+2025-03-27 09:20:24 [INFO] /home/ubuntu/trading-bots/ms_gov.py | 📡 Fetching Government Contract data from QuiverQuant...
+2025-03-27 09:20:24 [INFO] /home/ubuntu/trading-bots/ms_gov.py | ✅ Saved Government Contract signals to /home/ubuntu/trading-bots/ms_gov_signals.json with 0 entries.
+2025-03-27 09:20:24 [INFO] ✅ Finished: /home/ubuntu/trading-bots/ms_gov.py
+2025-03-27 09:20:25 [INFO] 🚀 Running: /home/ubuntu/trading-bots/aggregator.py (Aggregating signals for Day & Short)
+2025-03-27 09:20:25 [INFO] /home/ubuntu/trading-bots/aggregator.py | ✅ Merged all data → /home/ubuntu/trading-bots/all_signals.json
+2025-03-27 09:20:25 [INFO] /home/ubuntu/trading-bots/aggregator.py | ✅ Created day_trading_signals.json with 72 entries.
+2025-03-27 09:20:25 [INFO] /home/ubuntu/trading-bots/aggregator.py | ✅ Created short_signals.json with 541 entries.
+2025-03-27 09:20:25 [INFO] /home/ubuntu/trading-bots/aggregator.py | 
+2025-03-27 09:20:25 [INFO] /home/ubuntu/trading-bots/aggregator.py | ✅ aggregator.py complete.
+2025-03-27 09:20:25 [INFO] ✅ Finished: /home/ubuntu/trading-bots/aggregator.py
+2025-03-27 09:20:26 [INFO] 🚀 Running: /home/ubuntu/trading-bots/market_sentiment.py (Compute Market Sentiment)
+2025-03-27 09:20:27 [ERROR] ❌ Error running /home/ubuntu/trading-bots/market_sentiment.py:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/market_sentiment.py", line 22, in <module>
+    raise ValueError("❌ Missing Alpaca API credentials. Please check ~/.bashrc_custom and reload env.")
+ValueError: ❌ Missing Alpaca API credentials. Please check ~/.bashrc_custom and reload env.
+
+2025-03-27 09:30:01 [INFO] ============================================
+2025-03-27 09:30:01 [INFO]   ALOHA TRADING - MANAGER PIPELINE STARTED  
+2025-03-27 09:30:01 [INFO] ============================================
+
+2025-03-27 09:30:01 [INFO] 🚀 Running: /home/ubuntu/trading-bots/ms_congress.py (Fetch Congress trades)
+2025-03-27 09:30:14 [INFO] /home/ubuntu/trading-bots/ms_congress.py | 📱 Fetching Congress trading data from QuiverQuant...
+2025-03-27 09:30:14 [INFO] /home/ubuntu/trading-bots/ms_congress.py | ✅ Saved Congress signals to /home/ubuntu/trading-bots/congress_signals.json with 11 buys, 0 shorts, and 0 options trades.
+2025-03-27 09:30:14 [INFO] ✅ Finished: /home/ubuntu/trading-bots/ms_congress.py
+2025-03-27 09:30:15 [INFO] 🚀 Running: /home/ubuntu/trading-bots/ms_insider_trading.py (Fetch Insider trades)
+2025-03-27 09:30:32 [INFO] /home/ubuntu/trading-bots/ms_insider_trading.py | ✅ API Key successfully loaded in ms_insider_trading.py
+2025-03-27 09:30:32 [INFO] /home/ubuntu/trading-bots/ms_insider_trading.py | 📊 Fetching Insider trading data from QuiverQuant...
+2025-03-27 09:30:32 [INFO] /home/ubuntu/trading-bots/ms_insider_trading.py | ✅ Saved insider signals to /home/ubuntu/trading-bots/ms_insider_signals.json with 209 buys and 541 shorts.
+2025-03-27 09:30:32 [INFO] ✅ Finished: /home/ubuntu/trading-bots/ms_insider_trading.py
+2025-03-27 09:30:33 [INFO] 🚀 Running: /home/ubuntu/trading-bots/ms_wsb.py (Fetch WSB sentiment)
+2025-03-27 09:30:34 [INFO] /home/ubuntu/trading-bots/ms_wsb.py | ✅ API Key successfully loaded in ms_wsb.py
+2025-03-27 09:30:34 [INFO] /home/ubuntu/trading-bots/ms_wsb.py | 📊 Fetching WallStreetBets sentiment data from QuiverQuant...
+2025-03-27 09:30:34 [INFO] /home/ubuntu/trading-bots/ms_wsb.py | ✅ Saved WSB sentiment signals to /home/ubuntu/trading-bots/ms_wsb_signals.json with 29 entries.
+2025-03-27 09:30:34 [INFO] ✅ Finished: /home/ubuntu/trading-bots/ms_wsb.py
+2025-03-27 09:30:35 [INFO] 🚀 Running: /home/ubuntu/trading-bots/ms_gov.py (Fetch Gov contracts)
+2025-03-27 09:30:37 [INFO] /home/ubuntu/trading-bots/ms_gov.py | 📡 Fetching Government Contract data from QuiverQuant...
+2025-03-27 09:30:37 [INFO] /home/ubuntu/trading-bots/ms_gov.py | ✅ Saved Government Contract signals to /home/ubuntu/trading-bots/ms_gov_signals.json with 0 entries.
+2025-03-27 09:30:37 [INFO] ✅ Finished: /home/ubuntu/trading-bots/ms_gov.py
+2025-03-27 09:30:38 [INFO] 🚀 Running: /home/ubuntu/trading-bots/aggregator.py (Aggregating signals for Day & Short)
+2025-03-27 09:30:38 [INFO] /home/ubuntu/trading-bots/aggregator.py | ✅ Merged all data → /home/ubuntu/trading-bots/all_signals.json
+2025-03-27 09:30:38 [INFO] /home/ubuntu/trading-bots/aggregator.py | ✅ Created day_trading_signals.json with 72 entries.
+2025-03-27 09:30:38 [INFO] /home/ubuntu/trading-bots/aggregator.py | ✅ Created short_signals.json with 541 entries.
+2025-03-27 09:30:38 [INFO] /home/ubuntu/trading-bots/aggregator.py | 
+2025-03-27 09:30:38 [INFO] /home/ubuntu/trading-bots/aggregator.py | ✅ aggregator.py complete.
+2025-03-27 09:30:38 [INFO] ✅ Finished: /home/ubuntu/trading-bots/aggregator.py
+2025-03-27 09:30:39 [INFO] 🚀 Running: /home/ubuntu/trading-bots/market_sentiment.py (Compute Market Sentiment)
+2025-03-27 09:30:39 [ERROR] ❌ Error running /home/ubuntu/trading-bots/market_sentiment.py:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/market_sentiment.py", line 22, in <module>
+    raise ValueError("❌ Missing Alpaca API credentials. Please check ~/.bashrc_custom and reload env.")
+ValueError: ❌ Missing Alpaca API credentials. Please check ~/.bashrc_custom and reload env.
+
+2025-03-27 10:31:01 [INFO] ============================================
+2025-03-27 10:31:01 [INFO]   ALOHA TRADING - MANAGER PIPELINE STARTED  
+2025-03-27 10:31:01 [INFO] ============================================
+
+2025-03-27 10:31:01 [INFO] 🚀 Running: /home/ubuntu/trading-bots/ms_congress.py (Fetch Congress trades)
+2025-03-27 10:31:14 [INFO] /home/ubuntu/trading-bots/ms_congress.py | 📱 Fetching Congress trading data from QuiverQuant...
+2025-03-27 10:31:14 [INFO] /home/ubuntu/trading-bots/ms_congress.py | ✅ Saved Congress signals to /home/ubuntu/trading-bots/congress_signals.json with 11 buys, 0 shorts, and 0 options trades.
+2025-03-27 10:31:14 [INFO] ✅ Finished: /home/ubuntu/trading-bots/ms_congress.py
+2025-03-27 10:31:15 [INFO] 🚀 Running: /home/ubuntu/trading-bots/ms_insider_trading.py (Fetch Insider trades)
+2025-03-27 10:31:20 [INFO] /home/ubuntu/trading-bots/ms_insider_trading.py | ✅ API Key successfully loaded in ms_insider_trading.py
+2025-03-27 10:31:20 [INFO] /home/ubuntu/trading-bots/ms_insider_trading.py | 📊 Fetching Insider trading data from QuiverQuant...
+2025-03-27 10:31:20 [INFO] /home/ubuntu/trading-bots/ms_insider_trading.py | ✅ Saved insider signals to /home/ubuntu/trading-bots/ms_insider_signals.json with 210 buys and 543 shorts.
+2025-03-27 10:31:20 [INFO] ✅ Finished: /home/ubuntu/trading-bots/ms_insider_trading.py
+2025-03-27 10:31:21 [INFO] 🚀 Running: /home/ubuntu/trading-bots/ms_wsb.py (Fetch WSB sentiment)
+2025-03-27 10:31:22 [INFO] /home/ubuntu/trading-bots/ms_wsb.py | ✅ API Key successfully loaded in ms_wsb.py
+2025-03-27 10:31:22 [INFO] /home/ubuntu/trading-bots/ms_wsb.py | 📊 Fetching WallStreetBets sentiment data from QuiverQuant...
+2025-03-27 10:31:22 [INFO] /home/ubuntu/trading-bots/ms_wsb.py | ✅ Saved WSB sentiment signals to /home/ubuntu/trading-bots/ms_wsb_signals.json with 29 entries.
+2025-03-27 10:31:22 [INFO] ✅ Finished: /home/ubuntu/trading-bots/ms_wsb.py
+2025-03-27 10:31:23 [INFO] 🚀 Running: /home/ubuntu/trading-bots/ms_gov.py (Fetch Gov contracts)
+2025-03-27 10:31:24 [INFO] /home/ubuntu/trading-bots/ms_gov.py | 📡 Fetching Government Contract data from QuiverQuant...
+2025-03-27 10:31:24 [INFO] /home/ubuntu/trading-bots/ms_gov.py | ✅ Saved Government Contract signals to /home/ubuntu/trading-bots/ms_gov_signals.json with 0 entries.
+2025-03-27 10:31:24 [INFO] ✅ Finished: /home/ubuntu/trading-bots/ms_gov.py
+2025-03-27 10:31:25 [INFO] 🚀 Running: /home/ubuntu/trading-bots/aggregator.py (Aggregating signals for Day & Short)
+2025-03-27 10:31:25 [INFO] /home/ubuntu/trading-bots/aggregator.py | ✅ Merged all data → /home/ubuntu/trading-bots/all_signals.json
+2025-03-27 10:31:25 [INFO] /home/ubuntu/trading-bots/aggregator.py | ✅ Created day_trading_signals.json with 72 entries.
+2025-03-27 10:31:25 [INFO] /home/ubuntu/trading-bots/aggregator.py | ✅ Created short_signals.json with 543 entries.
+2025-03-27 10:31:25 [INFO] /home/ubuntu/trading-bots/aggregator.py | 
+2025-03-27 10:31:25 [INFO] /home/ubuntu/trading-bots/aggregator.py | ✅ aggregator.py complete.
+2025-03-27 10:31:25 [INFO] ✅ Finished: /home/ubuntu/trading-bots/aggregator.py
+2025-03-27 10:31:26 [INFO] 🚀 Running: /home/ubuntu/trading-bots/market_sentiment.py (Compute Market Sentiment)
+2025-03-27 10:31:27 [ERROR] ❌ Error running /home/ubuntu/trading-bots/market_sentiment.py:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/market_sentiment.py", line 22, in <module>
+    raise ValueError("❌ Missing Alpaca API credentials. Please check ~/.bashrc_custom and reload env.")
+ValueError: ❌ Missing Alpaca API credentials. Please check ~/.bashrc_custom and reload env.
+
