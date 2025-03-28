@@ -1,0 +1,3 @@
+timestamp,action,ticker,contracts,price,strike_date,option_type,prediction,outcome,entry_price,future_price,pct_change
+2025-03-28T08:00:00Z,SELL,PFE,1,2.85,2025-03-28,CALL,WIN,WIN,2.5,2.85,14.0
+2025-03-28T08:00:00Z,SELL,PFE,1,2.85,2025-03-28,CALL,WIN,WIN,2.5,2.85,14.0

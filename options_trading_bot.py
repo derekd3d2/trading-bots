@@ -11,15 +11,35 @@ import csv
 from datetime import datetime
 
 # === Load Alpaca API keys for both execution and market data ===
-TRADE_API_KEY = os.getenv("APCA_API_KEY_ID")
-TRADE_SECRET_KEY = os.getenv("APCA_API_SECRET_KEY")
-DATA_API_KEY = os.getenv("APCA_LIVE_KEY")  # Use live key for options data
-DATA_SECRET_KEY = os.getenv("APCA_LIVE_SECRET")
+import os
 
-client = TradingClient(TRADE_API_KEY, TRADE_SECRET_KEY, paper=True)
+# Determine which environment to use
+alpaca_env = os.getenv("ALPACA_ENV", "paper").lower()
+
+if alpaca_env == "live":
+    TRADE_API_KEY = os.getenv("APCA_LIVE_KEY")
+    TRADE_SECRET_KEY = os.getenv("APCA_LIVE_SECRET")
+    BASE_URL = os.getenv("APCA_LIVE_URL")
+    PAPER_MODE = False
+else:
+    TRADE_API_KEY = os.getenv("APCA_PAPER_KEY")
+    TRADE_SECRET_KEY = os.getenv("APCA_PAPER_SECRET")
+    BASE_URL = os.getenv("APCA_PAPER_URL")
+    PAPER_MODE = True
+
+client = TradingClient(TRADE_API_KEY, TRADE_SECRET_KEY, paper=PAPER_MODE)
+
+# === Load options data keys (same structure as trading keys)
+if alpaca_env == "live":
+    DATA_API_KEY = os.getenv("APCA_LIVE_KEY")
+    DATA_SECRET_KEY = os.getenv("APCA_LIVE_SECRET")
+else:
+    DATA_API_KEY = os.getenv("APCA_PAPER_KEY")
+    DATA_SECRET_KEY = os.getenv("APCA_PAPER_SECRET")
+
 
 TRADE_LOG_FILE = "option_trade_log.json"
-CSV_REPORT_FILE = "option_trade_log.csv"
+CSV_REPORT_FILE = "options_trade_log.csv"
 
 # --- Config ---
 TAKE_PROFIT_PCT = 0.20
@@ -134,14 +154,24 @@ with open(TRADE_LOG_FILE, "w") as f:
 
 try:
     with open(CSV_REPORT_FILE, "w", newline="") as csvfile:
-        fieldnames = ["timestamp", "action", "ticker", "option_type", "strike", "expiration", "contracts", "price", "reason", "pnl_pct", "outcome"]
+        fieldnames = ["timestamp", "action", "ticker", "contracts", "price", "strike_date", "prediction"]
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         writer.writeheader()
+
         for row in trades:
-            if row["action"] == "SELL":
-                writer.writerow(row)
-    print(f"📄 CSV report exported to {CSV_REPORT_FILE}")
+            if row["action"] == "BUY":
+                writer.writerow({
+                    "timestamp": row["timestamp"],
+                    "action": row["action"],
+                    "ticker": row["ticker"],
+                    "contracts": row["contracts"],
+                    "price": row["price"],
+                    "strike_date": row["expiration"],
+                    "prediction": row.get("prediction", "unknown")  # fallback if not present
+                })
+    print(f"📄 ML-compatible CSV exported to {CSV_REPORT_FILE}")
 except Exception as e:
-    print(f"⚠️ Failed to export CSV: {e}")
+    print(f"⚠️ Failed to export 7-column CSV: {e}")
+
 
 print("✅ Monitor check complete.")

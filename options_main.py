@@ -40,6 +40,8 @@ subprocess.run(["python3", "options_merge_signals.py"])
 
 # === Step 5: Execute Trades ===
 print("\n💥 Executing trades...")
-subprocess.run(["python3", "options_trading_bot.py"])
+subprocess.run(["python3", "options_buy_bot.py"])      # NEW — Executes BUYs
+subprocess.run(["python3", "options_trading_bot.py"])  # EXISTING — Monitors + SELLS
+
 
 print("\n✅ Aloha Options Bot run complete.")

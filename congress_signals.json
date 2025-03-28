@@ -1,61 +1,170 @@
-{
-  "buy_signals": [
-    {
-      "ticker": "AMAT",
-      "congress_score": 1,
-      "last_trade": "2025-03-17"
-    },
-    {
-      "ticker": "CAH",
-      "congress_score": 1,
-      "last_trade": "2025-03-17"
-    },
-    {
-      "ticker": "BX",
-      "congress_score": 1,
-      "last_trade": "2025-03-17"
-    },
-    {
-      "ticker": "KMI",
-      "congress_score": 1,
-      "last_trade": "2025-03-17"
-    },
-    {
-      "ticker": "CAT",
-      "congress_score": 1,
-      "last_trade": "2025-03-17"
-    },
-    {
-      "ticker": "NVDA",
-      "congress_score": 1,
-      "last_trade": "2025-03-17"
-    },
-    {
-      "ticker": "DLR",
-      "congress_score": 1,
-      "last_trade": "2025-03-17"
-    },
-    {
-      "ticker": "GOOG",
-      "congress_score": 1,
-      "last_trade": "2025-03-17"
-    },
-    {
-      "ticker": "UPS",
-      "congress_score": 1,
-      "last_trade": "2025-03-17"
-    },
-    {
-      "ticker": "ABBV",
-      "congress_score": 1,
-      "last_trade": "2025-03-17"
-    },
-    {
-      "ticker": "AAPL",
-      "congress_score": 1,
-      "last_trade": "2025-03-17"
-    }
-  ],
-  "short_signals": [],
-  "options_signals": []
-}
+[
+  {
+    "symbol": "HLMN",
+    "representative": "Gilbert Cisneros",
+    "buy_date": "2025-03-03",
+    "source": "Congress - Gilbert Cisneros",
+    "signal_type": "CALL"
+  },
+  {
+    "symbol": "STRL",
+    "representative": "Gilbert Cisneros",
+    "buy_date": "2025-03-03",
+    "source": "Congress - Gilbert Cisneros",
+    "signal_type": "CALL"
+  },
+  {
+    "symbol": "LH",
+    "representative": "April Mcclain Delaney",
+    "buy_date": "2025-02-28",
+    "source": "Congress - April Mcclain Delaney",
+    "signal_type": "CALL"
+  },
+  {
+    "symbol": "CPAY",
+    "representative": "April Mcclain Delaney",
+    "buy_date": "2025-02-28",
+    "source": "Congress - April Mcclain Delaney",
+    "signal_type": "CALL"
+  },
+  {
+    "symbol": "V",
+    "representative": "Josh Gottheimer",
+    "buy_date": "2025-02-28",
+    "source": "Congress - Josh Gottheimer",
+    "signal_type": "CALL"
+  },
+  {
+    "symbol": "PAYX",
+    "representative": "April Mcclain Delaney",
+    "buy_date": "2025-02-27",
+    "source": "Congress - April Mcclain Delaney",
+    "signal_type": "CALL"
+  },
+  {
+    "symbol": "LH",
+    "representative": "April Mcclain Delaney",
+    "buy_date": "2025-02-27",
+    "source": "Congress - April Mcclain Delaney",
+    "signal_type": "CALL"
+  },
+  {
+    "symbol": "CACI",
+    "representative": "April Mcclain Delaney",
+    "buy_date": "2025-02-27",
+    "source": "Congress - April Mcclain Delaney",
+    "signal_type": "CALL"
+  },
+  {
+    "symbol": "TSLA",
+    "representative": "Gilbert Cisneros",
+    "buy_date": "2025-02-26",
+    "source": "Congress - Gilbert Cisneros",
+    "signal_type": "CALL"
+  },
+  {
+    "symbol": "UBER",
+    "representative": "Gilbert Cisneros",
+    "buy_date": "2025-02-26",
+    "source": "Congress - Gilbert Cisneros",
+    "signal_type": "CALL"
+  },
+  {
+    "symbol": "DG",
+    "representative": "Gilbert Cisneros",
+    "buy_date": "2025-02-26",
+    "source": "Congress - Gilbert Cisneros",
+    "signal_type": "CALL"
+  },
+  {
+    "symbol": "AMP",
+    "representative": "Greg Landsman",
+    "buy_date": "2025-02-26",
+    "source": "Congress - Greg Landsman",
+    "signal_type": "CALL"
+  },
+  {
+    "symbol": "EPAC",
+    "representative": "Gilbert Cisneros",
+    "buy_date": "2025-02-26",
+    "source": "Congress - Gilbert Cisneros",
+    "signal_type": "CALL"
+  },
+  {
+    "symbol": "WYNN",
+    "representative": "Gilbert Cisneros",
+    "buy_date": "2025-02-26",
+    "source": "Congress - Gilbert Cisneros",
+    "signal_type": "CALL"
+  },
+  {
+    "symbol": "CRWD",
+    "representative": "Greg Landsman",
+    "buy_date": "2025-02-26",
+    "source": "Congress - Greg Landsman",
+    "signal_type": "CALL"
+  },
+  {
+    "symbol": "AMZN",
+    "representative": "Scott Scott Franklin",
+    "buy_date": "2025-02-26",
+    "source": "Congress - Scott Scott Franklin",
+    "signal_type": "CALL"
+  },
+  {
+    "symbol": "FI",
+    "representative": "Josh Gottheimer",
+    "buy_date": "2025-02-26",
+    "source": "Congress - Josh Gottheimer",
+    "signal_type": "CALL"
+  },
+  {
+    "symbol": "HUM",
+    "representative": "Gilbert Cisneros",
+    "buy_date": "2025-02-26",
+    "source": "Congress - Gilbert Cisneros",
+    "signal_type": "CALL"
+  },
+  {
+    "symbol": "AMZN",
+    "representative": "Scott Scott Franklin",
+    "buy_date": "2025-02-26",
+    "source": "Congress - Scott Scott Franklin",
+    "signal_type": "CALL"
+  },
+  {
+    "symbol": "AMZN",
+    "representative": "Scott Scott Franklin",
+    "buy_date": "2025-02-26",
+    "source": "Congress - Scott Scott Franklin",
+    "signal_type": "CALL"
+  },
+  {
+    "symbol": "AMZN",
+    "representative": "Thomas H. Kean Jr",
+    "buy_date": "2025-02-26",
+    "source": "Congress - Thomas H. Kean Jr",
+    "signal_type": "CALL"
+  },
+  {
+    "symbol": "MRK",
+    "representative": "Gilbert Cisneros",
+    "buy_date": "2025-02-26",
+    "source": "Congress - Gilbert Cisneros",
+    "signal_type": "CALL"
+  },
+  {
+    "symbol": "PFE",
+    "representative": "Gilbert Cisneros",
+    "buy_date": "2025-02-26",
+    "source": "Congress - Gilbert Cisneros",
+    "signal_type": "CALL"
+  },
+  {
+    "symbol": "MSFT",
+    "representative": "Gilbert Cisneros",
+    "buy_date": "2025-02-26",
+    "source": "Congress - Gilbert Cisneros",
+    "signal_type": "CALL"
+  }
+]

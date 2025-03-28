@@ -32,7 +32,7 @@ MAX_TRADES = 15        # Limit trades to top 15 stocks
 TRADE_HISTORY_FILE = "/home/ubuntu/trading-bots/trade_history.json"
 
 # ✅ Log Trade
-def log_trade(action, ticker, shares, price, reason):
+def log_trade(action, ticker, shares, price, reason, prediction=None):
     log_entry = {
         "timestamp": datetime.now().isoformat(),
         "action": action,
@@ -41,6 +41,24 @@ def log_trade(action, ticker, shares, price, reason):
         "price": round(price, 4),
         "reason": reason
     }
+
+    if action == "BUY" and prediction:
+        log_entry["prediction"] = prediction
+
+    if action == "SELL":
+        try:
+            with open(TRADE_HISTORY_FILE, "r") as f:
+                full_log = json.load(f)
+            for entry in reversed(full_log):
+                if entry["action"] == "BUY" and entry["ticker"] == ticker and "prediction" in entry:
+                    log_entry["prediction"] = entry["prediction"]
+                    break
+        except Exception as e:
+            print(f"⚠️ Could not backfill prediction for SELL: {e}")
+    
+    ...
+
+
     try:
         if os.path.exists(TRADE_HISTORY_FILE):
             with open(TRADE_HISTORY_FILE, "r") as f:
@@ -58,7 +76,7 @@ def log_trade(action, ticker, shares, price, reason):
         csv_file = TRADE_HISTORY_FILE.replace(".json", ".csv")
         file_exists = os.path.isfile(csv_file)
         with open(csv_file, 'a', newline='') as csvfile:
-            fieldnames = ["timestamp", "action", "ticker", "shares", "price", "reason"]
+            fieldnames = ["timestamp", "action", "ticker", "shares", "price", "reason", "prediction"]
             writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
             if not file_exists:
                 writer.writeheader()
@@ -133,7 +151,7 @@ def execute_trades():
                 type="market",
                 time_in_force="day"
             )
-            log_trade("BUY", ticker, shares_to_buy, current_price, "New Signal")
+            log_trade("BUY", ticker, shares_to_buy, current_price, "New Signal", prediction=trade.get("ml_prediction"))
         except Exception as e:
             print(f"❌ Error executing buy for {ticker}: {e}")
 

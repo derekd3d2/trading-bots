@@ -45,3 +45,747 @@ Traceback (most recent call last):
   File "/usr/lib/python3.10/subprocess.py", line 526, in run
     raise CalledProcessError(retcode, process.args,
 subprocess.CalledProcessError: Command '['python3', '/home/ubuntu/trading-bots/market_sentiment.py']' returned non-zero exit status 1.
+2025-03-28 09:20:01 [INFO] ============================================
+2025-03-28 09:20:01 [INFO]   ALOHA TRADING - MANAGER PIPELINE STARTED  
+2025-03-28 09:20:01 [INFO] ============================================
+
+2025-03-28 09:20:01 [INFO] 🚀 Running: /home/ubuntu/trading-bots/ms_congress.py (Fetch Congress trades)
+2025-03-28 09:20:15 [INFO] /home/ubuntu/trading-bots/ms_congress.py | 📱 Fetching Congress trading data from QuiverQuant...
+2025-03-28 09:20:15 [INFO] /home/ubuntu/trading-bots/ms_congress.py | ✅ Saved Congress signals to /home/ubuntu/trading-bots/congress_signals.json with 11 buys, 0 shorts, and 0 options trades.
+2025-03-28 09:20:15 [INFO] ✅ Finished: /home/ubuntu/trading-bots/ms_congress.py
+2025-03-28 09:20:16 [INFO] 🚀 Running: /home/ubuntu/trading-bots/ms_insider_trading.py (Fetch Insider trades)
+2025-03-28 09:20:20 [INFO] /home/ubuntu/trading-bots/ms_insider_trading.py | ✅ API Key successfully loaded in ms_insider_trading.py
+2025-03-28 09:20:20 [INFO] /home/ubuntu/trading-bots/ms_insider_trading.py | 📊 Fetching Insider trading data from QuiverQuant...
+2025-03-28 09:20:20 [INFO] /home/ubuntu/trading-bots/ms_insider_trading.py | ✅ Saved insider signals to /home/ubuntu/trading-bots/ms_insider_signals.json with 176 buys and 484 shorts.
+2025-03-28 09:20:20 [INFO] ✅ Finished: /home/ubuntu/trading-bots/ms_insider_trading.py
+2025-03-28 09:20:21 [INFO] 🚀 Running: /home/ubuntu/trading-bots/ms_wsb.py (Fetch WSB sentiment)
+2025-03-28 09:20:22 [INFO] /home/ubuntu/trading-bots/ms_wsb.py | ✅ API Key successfully loaded in ms_wsb.py
+2025-03-28 09:20:22 [INFO] /home/ubuntu/trading-bots/ms_wsb.py | 📊 Fetching WallStreetBets sentiment data from QuiverQuant...
+2025-03-28 09:20:22 [INFO] /home/ubuntu/trading-bots/ms_wsb.py | ✅ Saved WSB sentiment signals to /home/ubuntu/trading-bots/ms_wsb_signals.json with 29 entries.
+2025-03-28 09:20:22 [INFO] ✅ Finished: /home/ubuntu/trading-bots/ms_wsb.py
+2025-03-28 09:20:23 [INFO] 🚀 Running: /home/ubuntu/trading-bots/ms_gov.py (Fetch Gov contracts)
+2025-03-28 09:20:25 [INFO] /home/ubuntu/trading-bots/ms_gov.py | 📡 Fetching Government Contract data from QuiverQuant...
+2025-03-28 09:20:25 [INFO] /home/ubuntu/trading-bots/ms_gov.py | ✅ Saved Government Contract signals to /home/ubuntu/trading-bots/ms_gov_signals.json with 0 entries.
+2025-03-28 09:20:25 [INFO] ✅ Finished: /home/ubuntu/trading-bots/ms_gov.py
+2025-03-28 09:20:26 [INFO] 🚀 Running: /home/ubuntu/trading-bots/aggregator.py (Aggregating signals for Day & Short)
+2025-03-28 09:20:26 [INFO] /home/ubuntu/trading-bots/aggregator.py | ✅ Merged all data → /home/ubuntu/trading-bots/all_signals.json
+2025-03-28 09:20:26 [INFO] /home/ubuntu/trading-bots/aggregator.py | ✅ Created day_trading_signals.json with 73 entries.
+2025-03-28 09:20:26 [INFO] /home/ubuntu/trading-bots/aggregator.py | ✅ Created short_signals.json with 484 entries.
+2025-03-28 09:20:26 [INFO] /home/ubuntu/trading-bots/aggregator.py | 
+2025-03-28 09:20:26 [INFO] /home/ubuntu/trading-bots/aggregator.py | ✅ aggregator.py complete.
+2025-03-28 09:20:26 [INFO] ✅ Finished: /home/ubuntu/trading-bots/aggregator.py
+2025-03-28 09:20:27 [INFO] 🚀 Running: /home/ubuntu/trading-bots/market_sentiment.py (Compute Market Sentiment)
+2025-03-28 09:20:27 [INFO] /home/ubuntu/trading-bots/market_sentiment.py | 📊 Market sentiment: neutral
+2025-03-28 09:20:27 [INFO] ✅ Finished: /home/ubuntu/trading-bots/market_sentiment.py
+2025-03-28 09:20:28 [INFO] 🚀 Running: /home/ubuntu/trading-bots/day_trading_bot.py (Execute Day Trading Bot)
+2025-03-28 09:20:44 [INFO] /home/ubuntu/trading-bots/day_trading_bot.py | [INFO] Allocating $70589.03 for day trading (75% of $94118.71)
+2025-03-28 09:20:44 [INFO] /home/ubuntu/trading-bots/day_trading_bot.py | 🧑‍🧐 Loaded 11 AI-filtered WIN signals.
+2025-03-28 09:20:44 [INFO] /home/ubuntu/trading-bots/day_trading_bot.py | 🚀 Buying 2546.5019 shares of RCG at 2.5199999809265137
+2025-03-28 09:20:44 [INFO] /home/ubuntu/trading-bots/day_trading_bot.py | ❌ Error executing buy for RCG: insufficient buying power
+2025-03-28 09:20:44 [INFO] /home/ubuntu/trading-bots/day_trading_bot.py | 🚀 Buying 3241.0024 shares of BLNE at 1.9800000190734863
+2025-03-28 09:20:44 [INFO] /home/ubuntu/trading-bots/day_trading_bot.py | ❌ Error executing buy for BLNE: insufficient buying power
+2025-03-28 09:20:44 [INFO] /home/ubuntu/trading-bots/day_trading_bot.py | ⚠️ Skipping EONR: Already in position.
+2025-03-28 09:20:44 [INFO] /home/ubuntu/trading-bots/day_trading_bot.py | ⚠️ Skipping FLWS: Already in position.
+2025-03-28 09:20:44 [INFO] /home/ubuntu/trading-bots/day_trading_bot.py | ⚠️ Skipping TTSH: Already in position.
+2025-03-28 09:20:44 [INFO] /home/ubuntu/trading-bots/day_trading_bot.py | ⚠️ Skipping PSEC: Already in position.
+2025-03-28 09:20:44 [INFO] /home/ubuntu/trading-bots/day_trading_bot.py | ⚠️ Skipping PESI: Already in position.
+2025-03-28 09:20:44 [INFO] /home/ubuntu/trading-bots/day_trading_bot.py | 🚀 Buying 4167.0032 shares of MKZR at 1.5399999618530273
+2025-03-28 09:20:44 [INFO] /home/ubuntu/trading-bots/day_trading_bot.py | ❌ Error executing buy for MKZR: insufficient buying power
+2025-03-28 09:20:44 [INFO] /home/ubuntu/trading-bots/day_trading_bot.py | 🚀 Buying 1199.4738 shares of CULP at 5.349999904632568
+2025-03-28 09:20:44 [INFO] /home/ubuntu/trading-bots/day_trading_bot.py | ❌ Error executing buy for CULP: insufficient buying power
+2025-03-28 09:20:44 [INFO] /home/ubuntu/trading-bots/day_trading_bot.py | 🚀 Buying 2412.4754 shares of CUBA at 2.6600000858306885
+2025-03-28 09:20:44 [INFO] /home/ubuntu/trading-bots/day_trading_bot.py | ❌ Error executing buy for CUBA: insufficient buying power
+2025-03-28 09:20:44 [INFO] /home/ubuntu/trading-bots/day_trading_bot.py | ⚠️ Skipping WEST: Already in position.
+2025-03-28 09:20:44 [INFO] /home/ubuntu/trading-bots/day_trading_bot.py | ⚠️ Skipping BWIN: no shares held.
+2025-03-28 09:20:44 [INFO] /home/ubuntu/trading-bots/day_trading_bot.py | ⚠️ Skipping COST: no shares held.
+2025-03-28 09:20:44 [INFO] /home/ubuntu/trading-bots/day_trading_bot.py | ⚠️ Skipping NVDA: no shares held.
+2025-03-28 09:20:44 [INFO] /home/ubuntu/trading-bots/day_trading_bot.py | ⚠️ Skipping selling WEST: open order detected.
+2025-03-28 09:20:44 [INFO] /home/ubuntu/trading-bots/day_trading_bot.py | ✅ Day trading execution complete.
+2025-03-28 09:20:44 [INFO] ✅ Finished: /home/ubuntu/trading-bots/day_trading_bot.py
+2025-03-28 09:20:45 [INFO] 🚀 Running: /home/ubuntu/trading-bots/short_trading_bot.py (Execute Short Trading Bot)
+2025-03-28 09:20:47 [INFO] /home/ubuntu/trading-bots/short_trading_bot.py | 🧠 Loaded 1 ML-filtered short signals.
+2025-03-28 09:20:47 [INFO] /home/ubuntu/trading-bots/short_trading_bot.py | 🔒 Already managing 3 short positions or pending orders. No new shorts today.
+2025-03-28 09:20:47 [INFO] /home/ubuntu/trading-bots/short_trading_bot.py | ❌ Failed to cover BWIN: qty must be > 0
+2025-03-28 09:20:47 [INFO] ✅ Finished: /home/ubuntu/trading-bots/short_trading_bot.py
+2025-03-28 09:20:48 [INFO] 🚀 Running: /home/ubuntu/trading-bots/options_main.py (Run Options Pipeline)
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | Fetching Congress trades...
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | ✅ Retrieved 49770 Congress trades.
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | Analyzing trade returns to find top 25 most profitable Congress members...
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | ✅ Top 25 reps selected.
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | ✅ Saved 24 CALL & PUT signals from top 25 reps to congress_signals.json
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | CALL signals: 24, PUT signals: 0
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | 
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | Fetching recent insider trades...
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | ✅ Retrieved 2099 insider records since 20250226.
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | 
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | 🔍 First 3 entries from Insider data:
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py |   Entry 1: {'Ticker': 'WU', 'Date': '2025-02-24T00:00:00.000', 'Name': 'TRUJILLO SOLOMON D', 'AcquiredDisposedCode': 'A', 'TransactionCode': 'A', 'Shares': 9399.0, 'PricePerShare': 0.0, 'SharesOwnedFollowing': 64536.0, 'fileDate': '2025-02-26T23:59:49.000', 'officerTitle': None, 'isDirector': True, 'isOfficer': None, 'isTenPercentOwner': None, 'isOther': None, 'directOrIndirectOwnership': 'D', 'uploaded': '2025-02-27T00:15:14.754'}
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py |   Entry 2: {'Ticker': 'WU', 'Date': '2025-02-24T00:00:00.000', 'Name': 'Sun Angela', 'AcquiredDisposedCode': 'A', 'TransactionCode': 'A', 'Shares': 9399.0, 'PricePerShare': 0.0, 'SharesOwnedFollowing': 65991.0, 'fileDate': '2025-02-26T23:58:41.000', 'officerTitle': None, 'isDirector': True, 'isOfficer': None, 'isTenPercentOwner': None, 'isOther': None, 'directOrIndirectOwnership': 'D', 'uploaded': '2025-02-27T00:00:20.390'}
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py |   Entry 3: {'Ticker': 'WU', 'Date': '2025-02-24T00:00:00.000', 'Name': 'Siegmund Jan', 'AcquiredDisposedCode': 'A', 'TransactionCode': 'A', 'Shares': 18797.0, 'PricePerShare': 0.0, 'SharesOwnedFollowing': 65073.0, 'fileDate': '2025-02-26T23:58:39.000', 'officerTitle': None, 'isDirector': True, 'isOfficer': None, 'isTenPercentOwner': None, 'isOther': None, 'directOrIndirectOwnership': 'D', 'uploaded': '2025-02-27T00:00:20.390'}
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | ✅ Saved 1156 insider signals to insider_signals.json
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | 
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | Fetching recent government contracts...
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | ✅ Retrieved 61 contracts since 20250226.
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | [
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py |   {
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py |     "Ticker": "DNOW",
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py |     "Date": "2025-02-26",
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py |     "Description": "CARTRIDGE,TONER",
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py |     "Agency": "General Services Administration",
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py |     "Amount": 1092.4
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py |   },
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py |   {
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py |     "Ticker": "DNOW",
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py |     "Date": "2025-02-26",
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py |     "Description": "CARTRIDGE,TONER",
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py |     "Agency": "General Services Administration",
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py |     "Amount": 1523.68
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py |   },
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py |   {
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py |     "Ticker": "DNOW",
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py |     "Date": "2025-02-26",
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py |     "Description": "CARTRIDGE,TONER",
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py |     "Agency": "General Services Administration",
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py |     "Amount": 2475.98
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py |   }
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | ]
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | ✅ Saved 4 gov contract signals (CALL & PUT) to gov_signals.json
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | ✅ Saved 34 WSB options signals to options_wsb_signals.json
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | 
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | 🔍 First 3 entries from Congress data:
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py |   Entry 1: {'symbol': 'HLMN', 'representative': 'Gilbert Cisneros', 'buy_date': '2025-03-03', 'source': 'Congress - Gilbert Cisneros', 'signal_type': 'CALL'}
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py |   Entry 2: {'symbol': 'STRL', 'representative': 'Gilbert Cisneros', 'buy_date': '2025-03-03', 'source': 'Congress - Gilbert Cisneros', 'signal_type': 'CALL'}
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py |   Entry 3: {'symbol': 'CPAY', 'representative': 'April Mcclain Delaney', 'buy_date': '2025-02-28', 'source': 'Congress - April Mcclain Delaney', 'signal_type': 'CALL'}
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | ✅ Saved 24 Congress options signals to options_congress_signals.json
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | 
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | 🔍 First 3 entries from Insider data:
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py |   Entry 1: {'symbol': 'WU', 'transaction_value': 671735.12, 'source': 'Insider Sell', 'signal_type': 'PUT', 'signal_strength': 'HIGH', 'date': '2025-02-24T00:00:00.000'}
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py |   Entry 2: {'symbol': 'WU', 'transaction_value': 135713.2, 'source': 'Insider Sell', 'signal_type': 'PUT', 'signal_strength': 'HIGH', 'date': '2025-02-24T00:00:00.000'}
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py |   Entry 3: {'symbol': 'WRAP', 'transaction_value': 90000.0, 'source': 'Insider Buy', 'signal_type': 'CALL', 'signal_strength': 'MEDIUM', 'date': '2025-02-24T00:00:00.000'}
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | ✅ Saved 1156 insider options signals to options_insider_signals.json
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | ✅ Saved 4 gov contract options signals to options_signals.json
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | 
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | 🔍 First 3 entries from WSB data:
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py |   Entry 1: {'ticker': 'SLB', 'ai_score': 0.7579, 'action': 'BUY'}
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py |   Entry 2: {'ticker': 'GLD', 'ai_score': 0.9479, 'action': 'BUY'}
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py |   Entry 3: {'ticker': 'LOVE', 'ai_score': 0.85, 'action': 'BUY'}
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | ✅ Saved 34 WSB options signals to options_wsb_signals.json
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | ✅ Loaded 24 signals from options_congress_signals.json
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | ✅ Loaded 1156 signals from options_insider_signals.json
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | ✅ Loaded 4 signals from options_gov_signals.json
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | ✅ Loaded 34 signals from options_wsb_signals.json
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | 
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | ✅ Saved 7 cross-validated signals to options_signals.json
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | ⏭️ Already bought PFE, skipping.
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | ⏭️ Already bought PFE, skipping.
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | ⏭️ Already bought PFE, skipping.
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | ⏭️ Already bought PFE, skipping.
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | ⏭️ Already bought PFE, skipping.
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | ⏭️ Already bought PFE, skipping.
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | ⏭️ Already bought PFE, skipping.
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | ✅ Logged 7 option BUY trades to option_trade_log.json
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | 🚫 No snapshot returned for PFE20250328C00100000, trying SDK fallback...
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | ❌ Contract fallback failed for PFE20250328C00100000: {"code":40410000,"message":"option contract PFE20250328C00100000 not found"}
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | 🚫 No snapshot returned for PFE20250328C00100000, trying SDK fallback...
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | ❌ Contract fallback failed for PFE20250328C00100000: {"code":40410000,"message":"option contract PFE20250328C00100000 not found"}
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | 🚫 No snapshot returned for PFE20250328C00100000, trying SDK fallback...
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | ❌ Contract fallback failed for PFE20250328C00100000: {"code":40410000,"message":"option contract PFE20250328C00100000 not found"}
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | 🚫 No snapshot returned for PFE20250328C00100000, trying SDK fallback...
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | ❌ Contract fallback failed for PFE20250328C00100000: {"code":40410000,"message":"option contract PFE20250328C00100000 not found"}
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | 🚫 No snapshot returned for PFE20250328C00100000, trying SDK fallback...
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | ❌ Contract fallback failed for PFE20250328C00100000: {"code":40410000,"message":"option contract PFE20250328C00100000 not found"}
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | 🚫 No snapshot returned for PFE20250328C00100000, trying SDK fallback...
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | ❌ Contract fallback failed for PFE20250328C00100000: {"code":40410000,"message":"option contract PFE20250328C00100000 not found"}
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | 🚫 No snapshot returned for PFE20250328C00100000, trying SDK fallback...
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | ❌ Contract fallback failed for PFE20250328C00100000: {"code":40410000,"message":"option contract PFE20250328C00100000 not found"}
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | 📄 ML-compatible CSV exported to options_trade_log.csv
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | ✅ Monitor check complete.
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | 
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | 🚀 Running full Aloha Options Bot pipeline...
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | 
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | 📥 Running: options_signal_creator_congress.py
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | 
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | 📥 Running: options_signal_creator_insider.py
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | 
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | 📥 Running: options_signal_creator_gov.py
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | 
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | 📥 Running: options_signal_creator_wsb.py
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | 
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | 🔁 Converting signals with: options_signals_congress.py
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | 
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | 🔁 Converting signals with: options_signals_insider.py
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | 
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | 🔁 Converting signals with: options_signals_gov.py
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | 
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | 🔁 Converting signals with: options_signals_wsb.py
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | 
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | 📦 Merging signals into options_signals.json
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | 
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | 💥 Executing trades...
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | 
+2025-03-28 09:21:13 [INFO] /home/ubuntu/trading-bots/options_main.py | ✅ Aloha Options Bot run complete.
+2025-03-28 09:21:13 [INFO] ✅ Finished: /home/ubuntu/trading-bots/options_main.py
+2025-03-28 09:21:14 [INFO] 🚀 Running: /home/ubuntu/trading-bots/predict_option_trades.py (ML filter for Options)
+2025-03-28 09:21:14 [INFO] /home/ubuntu/trading-bots/predict_option_trades.py | ✅ Filtered 7 predicted WIN options → filtered_option_signals.json
+2025-03-28 09:21:14 [WARNING] /home/ubuntu/trading-bots/predict_option_trades.py [stderr] /home/ubuntu/.local/lib/python3.10/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+2025-03-28 09:21:14 [WARNING] /home/ubuntu/trading-bots/predict_option_trades.py [stderr]   warnings.warn(
+2025-03-28 09:21:14 [INFO] ✅ Finished: /home/ubuntu/trading-bots/predict_option_trades.py
+2025-03-28 09:21:15 [INFO] 🚀 Running: /home/ubuntu/trading-bots/predict_day_trades.py (ML filter for Day Trades)
+2025-03-28 09:21:16 [INFO] /home/ubuntu/trading-bots/predict_day_trades.py | ⚠️ Skipping ZOM: not seen in training.
+2025-03-28 09:21:16 [INFO] /home/ubuntu/trading-bots/predict_day_trades.py | ⚠️ Skipping BUKS: not seen in training.
+2025-03-28 09:21:16 [INFO] /home/ubuntu/trading-bots/predict_day_trades.py | ⚠️ Skipping ZYME: not seen in training.
+2025-03-28 09:21:16 [INFO] /home/ubuntu/trading-bots/predict_day_trades.py | ⚠️ Skipping FMBM: not seen in training.
+2025-03-28 09:21:16 [INFO] /home/ubuntu/trading-bots/predict_day_trades.py | ⚠️ Skipping SRBK: not seen in training.
+2025-03-28 09:21:16 [INFO] /home/ubuntu/trading-bots/predict_day_trades.py | ⚠️ Skipping MSTR: not seen in training.
+2025-03-28 09:21:16 [INFO] /home/ubuntu/trading-bots/predict_day_trades.py | ⚠️ Skipping BMNM: not seen in training.
+2025-03-28 09:21:16 [INFO] /home/ubuntu/trading-bots/predict_day_trades.py | ⚠️ Skipping CION: not seen in training.
+2025-03-28 09:21:16 [INFO] /home/ubuntu/trading-bots/predict_day_trades.py | ⚠️ Skipping BB: not seen in training.
+2025-03-28 09:21:16 [INFO] /home/ubuntu/trading-bots/predict_day_trades.py | ⚠️ Skipping SMCI: not seen in training.
+2025-03-28 09:21:16 [INFO] /home/ubuntu/trading-bots/predict_day_trades.py | ⚠️ Skipping CVNA: not seen in training.
+2025-03-28 09:21:16 [INFO] /home/ubuntu/trading-bots/predict_day_trades.py | ⚠️ Skipping YEAR: not seen in training.
+2025-03-28 09:21:16 [INFO] /home/ubuntu/trading-bots/predict_day_trades.py | ⚠️ Skipping E: not seen in training.
+2025-03-28 09:21:16 [INFO] /home/ubuntu/trading-bots/predict_day_trades.py | ⚠️ Skipping META: not seen in training.
+2025-03-28 09:21:16 [INFO] /home/ubuntu/trading-bots/predict_day_trades.py | ⚠️ Skipping R: not seen in training.
+2025-03-28 09:21:16 [INFO] /home/ubuntu/trading-bots/predict_day_trades.py | ⚠️ Skipping SOUN: not seen in training.
+2025-03-28 09:21:16 [INFO] /home/ubuntu/trading-bots/predict_day_trades.py | ⚠️ Skipping V: not seen in training.
+2025-03-28 09:21:16 [INFO] /home/ubuntu/trading-bots/predict_day_trades.py | ⚠️ Skipping ETSY: not seen in training.
+2025-03-28 09:21:16 [INFO] /home/ubuntu/trading-bots/predict_day_trades.py | ⚠️ Skipping EPS: not seen in training.
+2025-03-28 09:21:16 [INFO] /home/ubuntu/trading-bots/predict_day_trades.py | ⚠️ Skipping RGTI: not seen in training.
+2025-03-28 09:21:16 [INFO] /home/ubuntu/trading-bots/predict_day_trades.py | ⚠️ Skipping RSI: not seen in training.
+2025-03-28 09:21:16 [INFO] /home/ubuntu/trading-bots/predict_day_trades.py | ⚠️ Skipping ADVM: not seen in training.
+2025-03-28 09:21:16 [INFO] /home/ubuntu/trading-bots/predict_day_trades.py | ⚠️ Skipping ASAN: not seen in training.
+2025-03-28 09:21:16 [INFO] /home/ubuntu/trading-bots/predict_day_trades.py | ⚠️ Skipping ALZN: not seen in training.
+2025-03-28 09:21:16 [INFO] /home/ubuntu/trading-bots/predict_day_trades.py | ⚠️ Skipping VREO: not seen in training.
+2025-03-28 09:21:16 [INFO] /home/ubuntu/trading-bots/predict_day_trades.py | ⚠️ Skipping ECAT: not seen in training.
+2025-03-28 09:21:16 [INFO] /home/ubuntu/trading-bots/predict_day_trades.py | ⚠️ Skipping QRHC: not seen in training.
+2025-03-28 09:21:16 [INFO] /home/ubuntu/trading-bots/predict_day_trades.py | ⚠️ Skipping BTMD: not seen in training.
+2025-03-28 09:21:16 [INFO] /home/ubuntu/trading-bots/predict_day_trades.py | ⚠️ Skipping ANET: not seen in training.
+2025-03-28 09:21:16 [INFO] /home/ubuntu/trading-bots/predict_day_trades.py | ⚠️ Skipping MRNA: not seen in training.
+2025-03-28 09:21:16 [INFO] /home/ubuntu/trading-bots/predict_day_trades.py | ⚠️ Skipping QQQ: not seen in training.
+2025-03-28 09:21:16 [INFO] /home/ubuntu/trading-bots/predict_day_trades.py | ⚠️ Skipping BKSY: not seen in training.
+2025-03-28 09:21:16 [INFO] /home/ubuntu/trading-bots/predict_day_trades.py | ⚠️ Skipping SAIC: not seen in training.
+2025-03-28 09:21:16 [INFO] /home/ubuntu/trading-bots/predict_day_trades.py | ⚠️ Skipping PRLD: not seen in training.
+2025-03-28 09:21:16 [INFO] /home/ubuntu/trading-bots/predict_day_trades.py | ⚠️ Skipping STAA: not seen in training.
+2025-03-28 09:21:16 [INFO] /home/ubuntu/trading-bots/predict_day_trades.py | ⚠️ Skipping JELD: not seen in training.
+2025-03-28 09:21:16 [INFO] /home/ubuntu/trading-bots/predict_day_trades.py | ⚠️ Skipping JAKK: not seen in training.
+2025-03-28 09:21:16 [INFO] /home/ubuntu/trading-bots/predict_day_trades.py | ⚠️ Skipping WMT: not seen in training.
+2025-03-28 09:21:16 [INFO] /home/ubuntu/trading-bots/predict_day_trades.py | ⚠️ Skipping EU: not seen in training.
+2025-03-28 09:21:16 [INFO] /home/ubuntu/trading-bots/predict_day_trades.py | ⚠️ Skipping BA: not seen in training.
+2025-03-28 09:21:16 [INFO] /home/ubuntu/trading-bots/predict_day_trades.py | ⚠️ Skipping BMBL: not seen in training.
+2025-03-28 09:21:16 [INFO] /home/ubuntu/trading-bots/predict_day_trades.py | ⚠️ Skipping BBAI: not seen in training.
+2025-03-28 09:21:16 [INFO] /home/ubuntu/trading-bots/predict_day_trades.py | ⚠️ Skipping CELH: not seen in training.
+2025-03-28 09:21:16 [INFO] /home/ubuntu/trading-bots/predict_day_trades.py | ⚠️ Skipping FG: not seen in training.
+2025-03-28 09:21:16 [INFO] /home/ubuntu/trading-bots/predict_day_trades.py | ⚠️ Skipping AFCG: not seen in training.
+2025-03-28 09:21:16 [INFO] /home/ubuntu/trading-bots/predict_day_trades.py | ⚠️ Skipping LSAK: not seen in training.
+2025-03-28 09:21:16 [INFO] /home/ubuntu/trading-bots/predict_day_trades.py | ⚠️ Skipping ROLR: not seen in training.
+2025-03-28 09:21:16 [INFO] /home/ubuntu/trading-bots/predict_day_trades.py | ⚠️ Skipping AHH: not seen in training.
+2025-03-28 09:21:16 [INFO] /home/ubuntu/trading-bots/predict_day_trades.py | ⚠️ Skipping ORRF: not seen in training.
+2025-03-28 09:21:16 [INFO] /home/ubuntu/trading-bots/predict_day_trades.py | ⚠️ Skipping IMNM: not seen in training.
+2025-03-28 09:21:16 [INFO] /home/ubuntu/trading-bots/predict_day_trades.py | ⚠️ Skipping AP: not seen in training.
+2025-03-28 09:21:16 [INFO] /home/ubuntu/trading-bots/predict_day_trades.py | ⚠️ Skipping ZDGE: not seen in training.
+2025-03-28 09:21:16 [INFO] /home/ubuntu/trading-bots/predict_day_trades.py | ⚠️ Skipping SBGI: not seen in training.
+2025-03-28 09:21:16 [INFO] /home/ubuntu/trading-bots/predict_day_trades.py | ⚠️ Skipping EMYB: not seen in training.
+2025-03-28 09:21:16 [INFO] /home/ubuntu/trading-bots/predict_day_trades.py | ⚠️ Skipping GSAT: not seen in training.
+2025-03-28 09:21:16 [INFO] /home/ubuntu/trading-bots/predict_day_trades.py | ⚠️ Skipping HFFG: not seen in training.
+2025-03-28 09:21:16 [INFO] /home/ubuntu/trading-bots/predict_day_trades.py | ⚠️ Skipping MG: not seen in training.
+2025-03-28 09:21:16 [INFO] /home/ubuntu/trading-bots/predict_day_trades.py | ⚠️ Skipping IMCR: not seen in training.
+2025-03-28 09:21:16 [INFO] /home/ubuntu/trading-bots/predict_day_trades.py | ⚠️ Skipping CPSH: not seen in training.
+2025-03-28 09:21:16 [INFO] /home/ubuntu/trading-bots/predict_day_trades.py | ⚠️ Skipping GABC: not seen in training.
+2025-03-28 09:21:16 [INFO] /home/ubuntu/trading-bots/predict_day_trades.py | ⚠️ Skipping QBTS: not seen in training.
+2025-03-28 09:21:16 [INFO] /home/ubuntu/trading-bots/predict_day_trades.py | ⚠️ Skipping MGNI: not seen in training.
+2025-03-28 09:21:16 [INFO] /home/ubuntu/trading-bots/predict_day_trades.py | 
+2025-03-28 09:21:16 [INFO] /home/ubuntu/trading-bots/predict_day_trades.py | ✅ Filtered 11 WIN signals → filtered_day_signals.json
+2025-03-28 09:21:16 [WARNING] /home/ubuntu/trading-bots/predict_day_trades.py [stderr] /home/ubuntu/.local/lib/python3.10/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+2025-03-28 09:21:16 [WARNING] /home/ubuntu/trading-bots/predict_day_trades.py [stderr]   warnings.warn(
+2025-03-28 09:21:16 [INFO] ✅ Finished: /home/ubuntu/trading-bots/predict_day_trades.py
+2025-03-28 09:21:17 [INFO] 🚀 Running: /home/ubuntu/trading-bots/predict_short_trades.py (ML filter for Short Trades)
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping TEAM: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping METC: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping AVAH: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping RDDT: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping NET: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping DUOL: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping SFM: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping IOT: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping CRWD: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping TEM: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping EVER: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping PKOH: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping ALHC: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping IRON: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping TDG: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping CRM: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping CARG: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping ZS: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping HIMS: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping TARS: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping DRCT: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping CVNA: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping PEN: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping OPFI: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping SMC: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping GWRE: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping GAP: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping NTRA: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping FSLR: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping WDAY: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping IDCC: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping GETY: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping PB: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping GTLB: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping PCTY: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping TDUP: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping OKTA: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping NN: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping MSTR: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping RRGB: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping BURL: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping DRI: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping SOUN: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping CSWI: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping HGTY: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping SNOW: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping ABNB: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping DASH: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping JAMF: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping EVCM: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping MA: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping M: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping SHIM: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping ACR: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping UTI: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping UTHR: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping HES: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping TTAN: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping CRNX: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping ZIP: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping ALTR: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping WEAV: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping EBAY: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping CW: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping MP: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping DKNG: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping HNNA: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping SNA: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping CYRX: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping AMBA: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping BBY: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping MSGS: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping TOST: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping TW: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping BDTX: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping DOCU: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping BGNE: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping MIRM: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping PDEX: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping PINS: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping CRDO: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping COR: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping RVMD: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping TDOC: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping UPWK: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping STOK: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping CADL: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping INSM: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping RENT: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping RGEN: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping SG: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping CYTK: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping EGHT: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping CNTA: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping FDS: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping GYRE: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping ATAI: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping EXFY: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping CRSP: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping VSTM: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping KR: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping RNA: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping CTMX: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping PLTR: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping OPEN: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping AFRM: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping DRS: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping NMIH: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping KIDS: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping ETD: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping KFS: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping META: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping LIF: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping LMND: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping GSHD: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping WWD: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping ARES: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping CNO: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping MNMD: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping PGR: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping S: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping SRRK: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping RBRK: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping LPSN: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping ARQ: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping ESRT: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping QSI: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping JPM: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping COLL: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping CDRE: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping EA: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping AI: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping CB: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping EOLS: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping ONTF: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping RDNT: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping RXT: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping RBLX: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping PRCT: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping PTCT: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping GKOS: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping PX: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping COST: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping TSQ: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping FDX: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping ACVA: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping DXPE: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping SABA: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping ELVN: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping CORT: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping ROST: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping HOOD: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping PRCH: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping ARQT: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping LQDT: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping RMBS: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping COIN: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping PRDO: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping WLFC: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping CIEN: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping IPI: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping INTU: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping NTNX: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping GLP: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping BVS: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping RNGR: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping ALNY: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping VTOL: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping TRAK: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping ASAN: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping CLSK: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping KNSA: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping TWST: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping ARLO: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping RBA: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping KEQU: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping PGC: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping CHPT: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping ROKU: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping DFH: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping CTRA: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping INTA: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping H: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping HURN: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping SERV: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping JOE: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping MXCT: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping CPNG: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping SLRN: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping AMRC: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping MCB: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping TSVT: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping NUVL: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping OLP: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping RELY: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping ESPR: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping ACCD: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping SNAP: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping MRVL: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping HFWA: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping EPR: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping CWAN: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping VRSK: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping LBTY: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping MCW: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping POWL: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping CRCT: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping BRT: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping DAY: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping CACC: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping NXST: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping MPA: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping ACAD: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping BOX: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping OLLI: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping DVAX: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping ESTC: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping MAIN: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping BBAI: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping NYSE: KRC: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping ADI: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping TRVI: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping ALL: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping VITL: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping HROW: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping JOBY: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping HURC: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping CCCS: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping NJR: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping YELP: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping ORA: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping MRUS: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping HTCR: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping RL: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping VWFB: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping SLVM: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping ROIV: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping EXPI: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping TJX: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping AIZ: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping RBOT: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping CART: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping ADMA: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping ONDS: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping SOFI: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping APO: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping PLMR: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping QLYS: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping QSR: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping ESI: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping BJ: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping FOA: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping VERX: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping RRC: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping HSIC: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping WMT: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping OFIX: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping COCO: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping KOP: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping BCAT: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping ARIS: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping CLNN: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping NRDY: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping PRIM: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping KNTK: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping AVO: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping NTAP: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping HIG: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping OPTN: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping RKLB: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping BXMT: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping AKRO: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping EQH: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping ASTS: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping AKAM: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping MCO: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping U: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping CRDA CRDB: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping WGS: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping KTOS: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping LAZ: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping APHP: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping BYND: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping KLRS: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping MU: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping SCHW: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping GOOGL: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping CASY: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping Z AND ZG: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping DNB: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping BBIO: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping RDN: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping ENVA: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping XGN: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping KLAC: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping GLRE: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping GTE: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping COMP: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping PLAB: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping ZM: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping NFLX: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping AEVA: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping ADPT: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping GEVO: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping AVAV: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping ATLC: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping AVGO: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping EDR: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping EW: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping CLMT: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping MTZ: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping TZOO: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping HBAN: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping RIVN: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping BPMC: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping PODD: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping NWN: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping ROOT: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping PENG: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping BKV: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping TIPT: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping EGY: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping QUBT: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping CHMI: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping RDFN: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping DTIL: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping AVPT: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping VLTO: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping HPQ: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping PFSI: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping SWX: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping SCSC: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping FTI: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping NWPX: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping DDOG: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping BAND: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping ZUMZ: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping FNF: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping HQL: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping FIVE: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping SSSS: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping UBER: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping IBO: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping TRUP: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping CFLT: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping RYTM: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping CENX: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping IPAR: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping SJM: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping MCD: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping PSTG: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping KURA: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping BASE: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping ICE: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping PANW: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping HLLY: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping AROC: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping BSX: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping LTBR: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping ACAN: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping PNC: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping MLAB: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping EMYB: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping MSEX: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping WVE: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping NVTS: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping KLXE: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping PCOR: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping AJG: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping SPRY: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping RDVT: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping LUNG: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping KDP: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping CPRT: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping AZO: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping XERS: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping K: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping HG: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping TPG: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping VC: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping VREX: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping NCMI: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping CRSR: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping BMRN: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping WSC: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping CLYM: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping EWBC: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping TASK: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping V: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping MRAM: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping REAL: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping OGS: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping ANIP: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping GDYN: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping APT: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping TNL: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping IDT: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping KAI: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping MDXG: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping ACMR: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping TMCI: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping DGX: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping SYM: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping DIBS: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping SNX: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping AIRG: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping LNTH: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping CDNS: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping CBRE: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping ASUR: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping SANM: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping ESGR: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping NAMS: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping AXGN: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping PHR: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping MMS: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping DXCM: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping ARI: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping SPIR: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping ZLAB: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping HUBS: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping MSS: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping TRDA: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping ISPR: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping FARO: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping AMT: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping DOCN: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping EG: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping XMTR: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping KRP: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping NDAQ: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping AAOI: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping PTGX: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping FFBC: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping BKE: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping NIKA: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping CLMB: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping LWAY: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping BDX: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping BDC: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping AGYS: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping PTC: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping ARVN: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping FNKO: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping AXON: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping BE: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping LFST: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping ACLX: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping RSI: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping VRCA: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping LAUR: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping SRE: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping INSW: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping PTON: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping BLFS: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping OUST: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping GH: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping CLW: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping RCMT: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping BLKB: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping AVDX: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping LDI: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping SKWD: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping XOM: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping GILD: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping DPZ: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping CGON: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping NNN: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping YOU: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping NLST: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping CNA: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping ACNT: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping A: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping DCI: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping APLS: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping YUM: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping LKFN: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping CMPO: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping PSTL: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping UPLD: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping RGLD: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping INOD: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ⚠️ Skipping BWFG: not seen in training.
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | 
+2025-03-28 09:21:18 [INFO] /home/ubuntu/trading-bots/predict_short_trades.py | ✅ Filtered 1 WIN short signals → filtered_short_signals.json
+2025-03-28 09:21:18 [WARNING] /home/ubuntu/trading-bots/predict_short_trades.py [stderr] /home/ubuntu/.local/lib/python3.10/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+2025-03-28 09:21:18 [WARNING] /home/ubuntu/trading-bots/predict_short_trades.py [stderr]   warnings.warn(
+2025-03-28 09:21:18 [INFO] ✅ Finished: /home/ubuntu/trading-bots/predict_short_trades.py
+2025-03-28 09:21:19 [INFO] ✅ Aloha Trading Pipeline Complete. Total time: 77.6 sec.
+

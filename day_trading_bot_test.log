@@ -1,0 +1,31 @@
+❌ API Keys not found! Make sure they are set in ~/.bashrc_custom and sourced correctly.
+[INFO] Allocating $70713.37 for day trading (75% of $94284.49)
+⚠️ AI-filtered signals not found. Falling back to full signal list.
+🚀 Buying 1870.7240 shares of RCG at 2.5199999809265137
+🖍 Logged BUY of RCG at 2.5199999809265137
+🚀 Buying 2380.9214 shares of BLNE at 1.9800000190734863
+🖍 Logged BUY of BLNE at 1.9800000190734863
+🚀 Buying 77600.4031 shares of ZOM at 0.060750000178813934
+❌ Error executing buy for ZOM: asset ZOM is not active
+⚠️ Skipping EONR: Already in position.
+⚠️ Skipping FLWS: Already in position.
+⚠️ Skipping TTSH: Already in position.
+🚀 Buying 2663.4037 shares of BUKS at 1.7699999809265137
+❌ Error executing buy for BUKS: asset BUKS is not active
+🚀 Buying 376.8365 shares of ZYME at 12.510000228881836
+🖍 Logged BUY of ZYME at 12.510000228881836
+⚠️ Skipping PSEC: Already in position.
+🚀 Buying 248.1171 shares of FMBM at 19.0
+❌ Error executing buy for FMBM: asset FMBM is not active
+⚠️ Skipping PESI: Already in position.
+⚠️ Skipping SRBK: Already in position.
+⚠️ Skipping MSTR: Already in position.
+🚀 Buying 3061.1848 shares of MKZR at 1.5399999618530273
+🖍 Logged BUY of MKZR at 1.5399999618530273
+🚀 Buying 3544.5296 shares of BMNM at 1.3300000429153442
+❌ Error executing buy for BMNM: asset BMNM is not active
+⚠️ Skipping BWIN: no shares held.
+⚠️ Skipping COST: no shares held.
+⚠️ Skipping NVDA: no shares held.
+⚠️ Skipping selling WEST: open order detected.
+✅ Day trading execution complete.

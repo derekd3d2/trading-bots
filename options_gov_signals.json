@@ -1,18 +1,36 @@
 [
   {
-    "symbol": "GD",
+    "symbol": "MCK",
     "direction": "CALL",
-    "source": "Gov Contract - Department of Health and Human Services",
-    "buy_date": "2025-03-27",
+    "source": "Gov Contract - Department of Veterans Affairs",
+    "buy_date": "2025-03-28",
+    "estimated_amount": 250,
+    "expected_gain": 50.0,
+    "signal_strength": "HIGH"
+  },
+  {
+    "symbol": "CDW",
+    "direction": "CALL",
+    "source": "Gov Contract - Department of Transportation",
+    "buy_date": "2025-03-28",
     "estimated_amount": 250,
     "expected_gain": 50.0,
     "signal_strength": "MEDIUM"
   },
   {
-    "symbol": "GD",
+    "symbol": "CDW",
     "direction": "CALL",
-    "source": "Gov Contract - Department of Health and Human Services",
-    "buy_date": "2025-03-27",
+    "source": "Gov Contract - Department of Transportation",
+    "buy_date": "2025-03-28",
+    "estimated_amount": 250,
+    "expected_gain": 50.0,
+    "signal_strength": "MEDIUM"
+  },
+  {
+    "symbol": "CDW",
+    "direction": "CALL",
+    "source": "Gov Contract - Department of Transportation",
+    "buy_date": "2025-03-28",
     "estimated_amount": 250,
     "expected_gain": 50.0,
     "signal_strength": "MEDIUM"

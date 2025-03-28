@@ -80,50 +80,47 @@ if __name__ == "__main__":
         time.sleep(1)  # brief pause so logs don’t jumbled
 
     # 3B. Aggregator: merges the gatherers’ outputs into day_trading_signals.json & short_signals.json
-    aggregator_script = os.path.join(os.getcwd(), "aggregator.py")  # or aggregator/aggregator.py
+    aggregator_script = os.path.join(os.getcwd(), "aggregator.py")
     run_script(aggregator_script, "Aggregating signals for Day & Short")
     time.sleep(1)
 
-    # 3C. (OPTIONAL) ML Filtering for Day or Short signals
-    # If you have ML scripts that filter signals (like predict_day_trades.py), call them here:
-    ##ml_day_script = os.path.join(os.getcwd(), "predict_day_trades.py")
-    #if os.path.exists(ml_day_script):
-    #    run_script(ml_day_script, "ML filter for Day Trades")
-    #    time.sleep(1)
-
-    # 3D. Market Sentiment
+    # 3C. Market Sentiment
     market_sentiment_path = os.path.join(os.getcwd(), "market_sentiment.py")
     run_script(market_sentiment_path, "Compute Market Sentiment")
     time.sleep(1)
 
-    # 3E. Run Day & Short Trading Bots
-    day_bot_script   = os.path.join(os.getcwd(), "day_trading_bot.py")
-    short_bot_script = os.path.join(os.getcwd(), "short_trading_bot.py")
-
-    # In your original code, you might also have momentum_long_bot.py / momentum_short_bot.py
-    # If you want them, just add them similarly.
-
-    run_script(day_bot_script,   "Execute Day Trading Bot")
+    # 3D. Run Day & Short Trading Bots
+    run_script(os.path.join(os.getcwd(), "day_trading_bot.py"), "Execute Day Trading Bot")
     time.sleep(1)
-    run_script(short_bot_script, "Execute Short Trading Bot")
+    run_script(os.path.join(os.getcwd(), "short_trading_bot.py"), "Execute Short Trading Bot")
     time.sleep(1)
 
-    # 3F. Options Pipeline
-    # - This calls options_main.py, which runs its own gatherers
-    #   (options_signal_creator_*) merges signals, and executes options_trading_bot.py
+    # 3E. Run Options Pipeline (runs gatherers, converters, merger, and trading bot)
     options_script = os.path.join(os.getcwd(), "options_main.py")
     if os.path.exists(options_script):
         run_script(options_script, "Run Options Pipeline")
         time.sleep(1)
 
-    # 3G. (OPTIONAL) ML Filter for Options
-    # If you have predict_option_trades.py, run it here:
+    # 3F. ML Prediction Filter for Options
     ml_options_script = os.path.join(os.getcwd(), "predict_option_trades.py")
     if os.path.exists(ml_options_script):
         run_script(ml_options_script, "ML filter for Options")
         time.sleep(1)
 
-    # 3H. Wrap up
+    # 3F-2. ML Filter for Day Trades
+    ml_day_script = os.path.join(os.getcwd(), "predict_day_trades.py")
+    if os.path.exists(ml_day_script):
+        run_script(ml_day_script, "ML filter for Day Trades")
+        time.sleep(1)
+
+    # 3F-3. ML Filter for Short Trades
+    ml_short_script = os.path.join(os.getcwd(), "predict_short_trades.py")
+    if os.path.exists(ml_short_script):
+        run_script(ml_short_script, "ML filter for Short Trades")
+        time.sleep(1)
+
+    # 3G. Wrap up
     end_time = datetime.now()
     elapsed = (end_time - start_time).total_seconds()
     log(f"✅ Aloha Trading Pipeline Complete. Total time: {elapsed:.1f} sec.\n")
+

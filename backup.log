@@ -1,0 +1,100 @@
+📁 Backing up trading-bots repo...
+HEAD detached from v1.0-clean-env
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   aggregator_hourly.log
+	modified:   aggregator_pre_market.log
+	modified:   all_signals.json
+	modified:   bot_update.log
+	modified:   congress_signals.json
+	modified:   day_bot.log
+	modified:   day_trading_bot.py
+	modified:   day_trading_signals.json
+	modified:   gatherers_pre_market.log
+	modified:   gov_signals.json
+	modified:   insider_signals.json
+	modified:   label_day_trades.py
+	modified:   label_option_trades.py
+	modified:   manager.log
+	modified:   manager.py
+	modified:   manager_hourly.log
+	modified:   manager_open.log
+	modified:   ms_insider_signals.json
+	modified:   nohup.out
+	modified:   option_trade_log.csv
+	modified:   option_trade_log.json
+	modified:   options_congress_signals.json
+	modified:   options_gov_signals.json
+	modified:   options_insider_signals.json
+	modified:   options_main.py
+	modified:   options_signals.json
+	modified:   options_trade_log.csv
+	modified:   options_trading_bot.py
+	modified:   options_wsb_signals.json
+	modified:   predict_day_trades.py
+	modified:   short_bot.log
+	modified:   short_signals.json
+	modified:   short_trading_bot.py
+	modified:   trade_history.csv
+	modified:   trade_history.json
+	modified:   train_model_day.py
+	modified:   train_model_options.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	auto_train_day.py
+	auto_train_options.py
+	auto_train_short.py
+	backup.log
+	bot_backups/market_research_backup_2025-03-27_14-00-31.py
+	bot_backups/market_research_backup_2025-03-27_14-17-32.py
+	bot_backups/market_research_backup_2025-03-27_15-14-01.py
+	bot_backups/market_research_backup_2025-03-27_22-02-13.py
+	bot_backups/market_research_backup_2025-03-28_02-01-16.py
+	bot_backups/market_research_backup_2025-03-28_02-18-13.py
+	bot_backups/market_research_backup_2025-03-28_03-14-39.py
+	bot_backups/market_research_backup_2025-03-28_10-02-57.py
+	bot_backups/trading_bot_backup_2025-03-27_14-00-05.py
+	bot_backups/trading_bot_backup_2025-03-27_14-17-09.py
+	bot_backups/trading_bot_backup_2025-03-27_15-13-39.py
+	bot_backups/trading_bot_backup_2025-03-27_22-01-53.py
+	bot_backups/trading_bot_backup_2025-03-28_02-01-00.py
+	bot_backups/trading_bot_backup_2025-03-28_02-17-54.py
+	bot_backups/trading_bot_backup_2025-03-28_03-14-20.py
+	bot_backups/trading_bot_backup_2025-03-28_10-02-32.py
+	convert_day_csv_to_json.py
+	cron_run.log
+	day_ticker_encoder.pkl
+	day_trade_labels.csv
+	day_trade_model.pkl
+	day_trading_bot_test.log
+	eod.log
+	evaluate_day_predictions.py
+	evaluate_day_predictions.py.save
+	evaluate_short_predictions.py
+	export_option_csv.py
+	filtered_day_signals.json
+	filtered_option_signals.json
+	filtered_short_signals.json
+	fix_option_json.py
+	label_option_sell_trades.py
+	label_sell_trades.py
+	label_short_trades.py
+	logs/
+	manager_test.log
+	option_ticker_encoder.pkl
+	option_trade_labels.csv
+	option_trade_log_fixed.json
+	option_trade_model.pkl
+	option_type_encoder.pkl
+	options_buy_bot.py
+	predict_short_trades.py
+	run_trading_bot.sh
+	short_ticker_encoder.pkl
+	short_trade_labels.csv
+	short_trade_model.pkl
+	short_trading_bot_test.log
+	train_model_short.py
+
+no changes added to commit (use "git add" and/or "git commit -a")

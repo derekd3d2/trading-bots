@@ -1,0 +1,3 @@
+ticker,short_date,cover_date,entry_price,exit_price,pct_change,label
+NVDA,2025-03-26T00:33:50.315092,2025-03-26T14:00:00,120.69,114.0,0.0554,WIN
+BWIN,2025-03-26T00:33:49.742374,2025-03-26T14:05:00,46.41,47.0,-0.0127,LOSS

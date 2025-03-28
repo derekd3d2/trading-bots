@@ -29,8 +29,12 @@ for entry in signals:
         print(f"⚠️ Skipping {ticker}: not seen in training.")
         continue
 
-    # You can add more real features later. For now:
-    data_for_prediction.append([ticker_encoded, 100, 103, 0.03])  # dummy prices
+    # Simulate price movement based on signal strength
+    entry_price = 100
+    exit_price = entry_price * (1 + total_score / 100)
+    pct_change = (exit_price - entry_price) / entry_price
+
+    data_for_prediction.append([ticker_encoded, entry_price, exit_price, pct_change])
     raw_entries.append(entry)
 
 # === Predict ===

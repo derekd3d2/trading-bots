@@ -294,3 +294,946 @@ Traceback (most recent call last):
   File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
     raise ValueError('Key ID must be given to access Alpaca trade API',
 ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/short_trading_bot.py", line 29, in <module>
+    api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/rest.py", line 177, in __init__
+    self._key_id, self._secret_key, self._oauth = get_credentials(
+  File "/usr/local/lib/python3.10/dist-packages/alpaca_trade_api/common.py", line 84, in get_credentials
+    raise ValueError('Key ID must be given to access Alpaca trade API',
+ValueError: ('Key ID must be given to access Alpaca trade API', ' (env: APCA_API_KEY_ID)')
+🧠 Loaded 1 ML-filtered short signals.
+🔒 Already managing 3 short positions or pending orders. No new shorts today.
+❌ Failed to cover BWIN: qty must be > 0
+🧠 Loaded 1 ML-filtered short signals.
+🔒 Already managing 3 short positions or pending orders. No new shorts today.
+❌ Failed to cover BWIN: qty must be > 0
+🧠 Loaded 1 ML-filtered short signals.
+🔒 Already managing 3 short positions or pending orders. No new shorts today.
+❌ Failed to cover BWIN: qty must be > 0
+🧠 Loaded 1 ML-filtered short signals.
+🔒 Already managing 3 short positions or pending orders. No new shorts today.
+❌ Failed to cover BWIN: qty must be > 0
+🧠 Loaded 1 ML-filtered short signals.
+🔒 Already managing 3 short positions or pending orders. No new shorts today.
+❌ Failed to cover BWIN: qty must be > 0
+🧠 Loaded 1 ML-filtered short signals.
+🔒 Already managing 3 short positions or pending orders. No new shorts today.
+❌ Failed to cover BWIN: qty must be > 0
+🧠 Loaded 1 ML-filtered short signals.
+🔒 Already managing 3 short positions or pending orders. No new shorts today.
+❌ Failed to cover BWIN: qty must be > 0
+🧠 Loaded 1 ML-filtered short signals.
+🔒 Already managing 3 short positions or pending orders. No new shorts today.
+❌ Failed to cover BWIN: qty must be > 0
+🧠 Loaded 1 ML-filtered short signals.
+🔒 Already managing 3 short positions or pending orders. No new shorts today.
+❌ Failed to cover BWIN: qty must be > 0
+🧠 Loaded 1 ML-filtered short signals.
+🔒 Already managing 3 short positions or pending orders. No new shorts today.
+❌ Failed to cover BWIN: qty must be > 0
+🧠 Loaded 1 ML-filtered short signals.
+🔒 Already managing 3 short positions or pending orders. No new shorts today.
+❌ Failed to cover BWIN: qty must be > 0
+🧠 Loaded 1 ML-filtered short signals.
+🔒 Already managing 3 short positions or pending orders. No new shorts today.
+❌ Failed to cover BWIN: qty must be > 0
+❌ Failed to cover NVDA: qty must be > 0
+🧠 Loaded 1 ML-filtered short signals.
+🔒 Already managing 3 short positions or pending orders. No new shorts today.
+❌ Failed to cover BWIN: qty must be > 0
+🧠 Loaded 1 ML-filtered short signals.
+🔒 Already managing 3 short positions or pending orders. No new shorts today.
+❌ Failed to cover BWIN: qty must be > 0
+🧠 Loaded 1 ML-filtered short signals.
+🔒 Already managing 3 short positions or pending orders. No new shorts today.
+❌ Failed to cover BWIN: qty must be > 0
+🧠 Loaded 1 ML-filtered short signals.
+🔒 Already managing 3 short positions or pending orders. No new shorts today.
+❌ Failed to cover BWIN: qty must be > 0
+🧠 Loaded 1 ML-filtered short signals.
+🔒 Already managing 3 short positions or pending orders. No new shorts today.
+❌ Failed to cover BWIN: qty must be > 0
+🧠 Loaded 1 ML-filtered short signals.
+🔒 Already managing 3 short positions or pending orders. No new shorts today.
+❌ Failed to cover BWIN: qty must be > 0
+🧠 Loaded 1 ML-filtered short signals.
+🔒 Already managing 3 short positions or pending orders. No new shorts today.
+❌ Failed to cover BWIN: qty must be > 0
+🧠 Loaded 1 ML-filtered short signals.
+🔒 Already managing 3 short positions or pending orders. No new shorts today.
+❌ Failed to cover BWIN: qty must be > 0
+🧠 Loaded 1 ML-filtered short signals.
+🔒 Already managing 3 short positions or pending orders. No new shorts today.
+❌ Failed to cover BWIN: qty must be > 0
+🧠 Loaded 1 ML-filtered short signals.
+🔒 Already managing 3 short positions or pending orders. No new shorts today.
+❌ Failed to cover BWIN: qty must be > 0
+🧠 Loaded 1 ML-filtered short signals.
+🔒 Already managing 3 short positions or pending orders. No new shorts today.
+❌ Failed to cover BWIN: qty must be > 0
+❌ Failed to cover NVDA: qty must be > 0
+🧠 Loaded 1 ML-filtered short signals.
+🔒 Already managing 3 short positions or pending orders. No new shorts today.
+❌ Failed to cover BWIN: qty must be > 0
+❌ Failed to cover NVDA: qty must be > 0
+🧠 Loaded 1 ML-filtered short signals.
+🔒 Already managing 3 short positions or pending orders. No new shorts today.
+❌ Failed to cover BWIN: qty must be > 0
+❌ Failed to cover NVDA: qty must be > 0
+🧠 Loaded 1 ML-filtered short signals.
+🔒 Already managing 3 short positions or pending orders. No new shorts today.
+❌ Failed to cover BWIN: qty must be > 0
+❌ Failed to cover NVDA: qty must be > 0
+🧠 Loaded 1 ML-filtered short signals.
+🔒 Already managing 3 short positions or pending orders. No new shorts today.
+❌ Failed to cover BWIN: qty must be > 0
+❌ Failed to cover NVDA: qty must be > 0
+🧠 Loaded 1 ML-filtered short signals.
+🔒 Already managing 3 short positions or pending orders. No new shorts today.
+❌ Failed to cover BWIN: qty must be > 0
+❌ Failed to cover NVDA: qty must be > 0
+🧠 Loaded 1 ML-filtered short signals.
+🔒 Already managing 3 short positions or pending orders. No new shorts today.
+❌ Failed to cover BWIN: qty must be > 0
+❌ Failed to cover NVDA: qty must be > 0
+🧠 Loaded 1 ML-filtered short signals.
+🔒 Already managing 3 short positions or pending orders. No new shorts today.
+❌ Failed to cover NVDA: qty must be > 0
+🧠 Loaded 1 ML-filtered short signals.
+🔒 Already managing 3 short positions or pending orders. No new shorts today.
+❌ Failed to cover NVDA: qty must be > 0
+🧠 Loaded 1 ML-filtered short signals.
+🔒 Already managing 3 short positions or pending orders. No new shorts today.
+❌ Failed to cover NVDA: qty must be > 0
+🧠 Loaded 1 ML-filtered short signals.
+🔒 Already managing 3 short positions or pending orders. No new shorts today.
+❌ Failed to cover NVDA: qty must be > 0
+🧠 Loaded 1 ML-filtered short signals.
+🔒 Already managing 3 short positions or pending orders. No new shorts today.
+❌ Failed to cover NVDA: qty must be > 0
+🧠 Loaded 1 ML-filtered short signals.
+🔒 Already managing 3 short positions or pending orders. No new shorts today.
+❌ Failed to cover NVDA: qty must be > 0
+🧠 Loaded 1 ML-filtered short signals.
+🔒 Already managing 3 short positions or pending orders. No new shorts today.
+❌ Failed to cover NVDA: qty must be > 0
+🧠 Loaded 1 ML-filtered short signals.
+🔒 Already managing 3 short positions or pending orders. No new shorts today.
+❌ Failed to cover NVDA: qty must be > 0

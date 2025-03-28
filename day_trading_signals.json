@@ -12,11 +12,11 @@
     "total_score": 3.0
   },
   {
-    "ticker": "FLWS",
+    "ticker": "EONR",
     "total_score": 3.0
   },
   {
-    "ticker": "EONR",
+    "ticker": "FLWS",
     "total_score": 3.0
   },
   {
@@ -28,19 +28,11 @@
     "total_score": 3.0
   },
   {
-    "ticker": "WEST",
-    "total_score": 3.0
-  },
-  {
-    "ticker": "PSEC",
-    "total_score": 2.7
-  },
-  {
-    "ticker": "MKZR",
+    "ticker": "ZYME",
     "total_score": 2.4
   },
   {
-    "ticker": "BMNM",
+    "ticker": "PSEC",
     "total_score": 2.4
   },
   {
@@ -60,23 +52,15 @@
     "total_score": 2.17
   },
   {
-    "ticker": "VREO",
+    "ticker": "MKZR",
     "total_score": 2.1
   },
   {
-    "ticker": "CULP",
+    "ticker": "BMNM",
     "total_score": 2.1
   },
   {
     "ticker": "CION",
-    "total_score": 2.1
-  },
-  {
-    "ticker": "ECAT",
-    "total_score": 2.1
-  },
-  {
-    "ticker": "BTMD",
     "total_score": 2.1
   },
   {
@@ -132,11 +116,27 @@
     "total_score": 2.0
   },
   {
+    "ticker": "ADVM",
+    "total_score": 1.8
+  },
+  {
+    "ticker": "ASAN",
+    "total_score": 1.8
+  },
+  {
     "ticker": "ALZN",
     "total_score": 1.8
   },
   {
-    "ticker": "ZYME",
+    "ticker": "VREO",
+    "total_score": 1.8
+  },
+  {
+    "ticker": "CULP",
+    "total_score": 1.8
+  },
+  {
+    "ticker": "ECAT",
     "total_score": 1.8
   },
   {
@@ -144,7 +144,7 @@
     "total_score": 1.8
   },
   {
-    "ticker": "AFCG",
+    "ticker": "BTMD",
     "total_score": 1.8
   },
   {
@@ -164,6 +164,14 @@
     "total_score": 1.6
   },
   {
+    "ticker": "SAIC",
+    "total_score": 1.5
+  },
+  {
+    "ticker": "PRLD",
+    "total_score": 1.5
+  },
+  {
     "ticker": "CUBA",
     "total_score": 1.5
   },
@@ -180,7 +188,7 @@
     "total_score": 1.5
   },
   {
-    "ticker": "ASAN",
+    "ticker": "WEST",
     "total_score": 1.5
   },
   {
@@ -208,6 +216,26 @@
     "total_score": 1.31
   },
   {
+    "ticker": "FG",
+    "total_score": 1.2
+  },
+  {
+    "ticker": "AFCG",
+    "total_score": 1.2
+  },
+  {
+    "ticker": "LSAK",
+    "total_score": 1.2
+  },
+  {
+    "ticker": "ROLR",
+    "total_score": 1.2
+  },
+  {
+    "ticker": "AHH",
+    "total_score": 1.2
+  },
+  {
     "ticker": "ORRF",
     "total_score": 1.2
   },
@@ -220,15 +248,7 @@
     "total_score": 1.2
   },
   {
-    "ticker": "LYEL",
-    "total_score": 1.2
-  },
-  {
     "ticker": "ZDGE",
-    "total_score": 1.2
-  },
-  {
-    "ticker": "PRLD",
     "total_score": 1.2
   },
   {
@@ -244,10 +264,6 @@
     "total_score": 1.2
   },
   {
-    "ticker": "ADVM",
-    "total_score": 1.2
-  },
-  {
     "ticker": "HFFG",
     "total_score": 1.2
   },
@@ -256,23 +272,11 @@
     "total_score": 1.2
   },
   {
-    "ticker": "ENX",
-    "total_score": 1.2
-  },
-  {
     "ticker": "IMCR",
     "total_score": 1.2
   },
   {
-    "ticker": "TZUP",
-    "total_score": 1.2
-  },
-  {
     "ticker": "CPSH",
-    "total_score": 1.2
-  },
-  {
-    "ticker": "CBKM",
     "total_score": 1.2
   },
   {

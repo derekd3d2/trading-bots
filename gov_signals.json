@@ -1,22 +1,42 @@
 [
   {
-    "symbol": "GD",
-    "amount": 7107793.0,
-    "agency": "Department of Health and Human Services",
-    "description": "MEASURE AND INSTRUMENT DEVELOPMENT AND SUPPORT (MIDS) IDIQ",
+    "symbol": "MCK",
+    "amount": 715986475.03,
+    "agency": "Department of Veterans Affairs",
+    "description": "EXPRESS REPORT: PHARMACEUTICAL PRIME VENDOR (PPV)FY2025 JANUARY",
     "source": "Gov Contract Win",
     "signal_type": "CALL",
-    "signal_strength": "MEDIUM",
-    "date": "2025-02-24"
+    "signal_strength": "HIGH",
+    "date": "2025-02-26"
   },
   {
-    "symbol": "GD",
-    "amount": 1491808.0,
-    "agency": "Department of Health and Human Services",
-    "description": "THE CLOUD PRODUCTS AND TOOLS (CPT) CONTRACT IS USED TO PROVIDE CLOUD-BASED INFRASTRUCTURE FROM COMMERCIAL CLOUD SERVICE PROVIDERS (CSP) SUCH AS MICROSOFT AZURE GOVERNMENT (MAG) AND AMAZON WEB SERVICES (AWS), AS WELL AS SOFTWARE, HARDWARE, TOOLS, PROF",
+    "symbol": "CDW",
+    "amount": 2316134.54,
+    "agency": "Department of Transportation",
+    "description": "THE PURPOSE OF THIS PURCHASE REQUEST IS TO ISSUE A NEW CALL AGAINST FAA SAVES 697DCK-22-D-00001 FOR THE ANNUAL ORACLE SOFTWARE MAINTENANCE ENTERPRISE LICENSE AGREEMENT (ELA) FOR THE DOT COMMON OPERATING ENVIRONMENT (COE).  PERIOD OF PERFORMANCE 03",
     "source": "Gov Contract Win",
     "signal_type": "CALL",
     "signal_strength": "MEDIUM",
-    "date": "2025-02-24"
+    "date": "2025-02-26"
+  },
+  {
+    "symbol": "CDW",
+    "amount": 1277001.0,
+    "agency": "Department of Transportation",
+    "description": "FY25 SERVICENOW RENEWAL FOR ESC",
+    "source": "Gov Contract Win",
+    "signal_type": "CALL",
+    "signal_strength": "MEDIUM",
+    "date": "2025-02-26"
+  },
+  {
+    "symbol": "CDW",
+    "amount": 5522832.7,
+    "agency": "Department of Transportation",
+    "description": "FY25-ADOBE ELA RENEWAL",
+    "source": "Gov Contract Win",
+    "signal_type": "CALL",
+    "signal_strength": "MEDIUM",
+    "date": "2025-02-26"
   }
 ]

@@ -45,3 +45,43 @@ Traceback (most recent call last):
   File "/usr/lib/python3.10/subprocess.py", line 526, in run
     raise CalledProcessError(retcode, process.args,
 subprocess.CalledProcessError: Command '['python3', '/home/ubuntu/trading-bots/market_sentiment.py']' returned non-zero exit status 1.
+2025-03-28 09:30:01 [INFO] ============================================
+2025-03-28 09:30:01 [INFO]   ALOHA TRADING - MANAGER PIPELINE STARTED  
+2025-03-28 09:30:01 [INFO] ============================================
+
+2025-03-28 09:30:01 [INFO] 🚀 Running: /home/ubuntu/trading-bots/ms_congress.py (Fetch Congress trades)
+2025-03-28 09:30:02 [INFO] /home/ubuntu/trading-bots/ms_congress.py | 📱 Fetching Congress trading data from QuiverQuant...
+2025-03-28 09:30:02 [INFO] /home/ubuntu/trading-bots/ms_congress.py | ✅ Saved Congress signals to /home/ubuntu/trading-bots/congress_signals.json with 11 buys, 0 shorts, and 0 options trades.
+2025-03-28 09:30:02 [INFO] ✅ Finished: /home/ubuntu/trading-bots/ms_congress.py
+2025-03-28 09:30:03 [INFO] 🚀 Running: /home/ubuntu/trading-bots/ms_insider_trading.py (Fetch Insider trades)
+2025-03-28 09:30:10 [INFO] /home/ubuntu/trading-bots/ms_insider_trading.py | ✅ API Key successfully loaded in ms_insider_trading.py
+2025-03-28 09:30:10 [INFO] /home/ubuntu/trading-bots/ms_insider_trading.py | 📊 Fetching Insider trading data from QuiverQuant...
+2025-03-28 09:30:10 [INFO] /home/ubuntu/trading-bots/ms_insider_trading.py | ✅ Saved insider signals to /home/ubuntu/trading-bots/ms_insider_signals.json with 176 buys and 484 shorts.
+2025-03-28 09:30:10 [INFO] ✅ Finished: /home/ubuntu/trading-bots/ms_insider_trading.py
+2025-03-28 09:30:11 [INFO] 🚀 Running: /home/ubuntu/trading-bots/ms_wsb.py (Fetch WSB sentiment)
+2025-03-28 09:30:12 [INFO] /home/ubuntu/trading-bots/ms_wsb.py | ✅ API Key successfully loaded in ms_wsb.py
+2025-03-28 09:30:12 [INFO] /home/ubuntu/trading-bots/ms_wsb.py | 📊 Fetching WallStreetBets sentiment data from QuiverQuant...
+2025-03-28 09:30:12 [INFO] /home/ubuntu/trading-bots/ms_wsb.py | ✅ Saved WSB sentiment signals to /home/ubuntu/trading-bots/ms_wsb_signals.json with 29 entries.
+2025-03-28 09:30:12 [INFO] ✅ Finished: /home/ubuntu/trading-bots/ms_wsb.py
+2025-03-28 09:30:13 [INFO] 🚀 Running: /home/ubuntu/trading-bots/ms_gov.py (Fetch Gov contracts)
+2025-03-28 09:30:15 [INFO] /home/ubuntu/trading-bots/ms_gov.py | 📡 Fetching Government Contract data from QuiverQuant...
+2025-03-28 09:30:15 [INFO] /home/ubuntu/trading-bots/ms_gov.py | ✅ Saved Government Contract signals to /home/ubuntu/trading-bots/ms_gov_signals.json with 0 entries.
+2025-03-28 09:30:15 [INFO] ✅ Finished: /home/ubuntu/trading-bots/ms_gov.py
+2025-03-28 09:30:16 [INFO] 🚀 Running: /home/ubuntu/trading-bots/aggregator.py (Aggregating signals for Day & Short)
+2025-03-28 09:30:16 [ERROR] ❌ Error running /home/ubuntu/trading-bots/aggregator.py:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/aggregator.py", line 65, in <module>
+    "congress_buy":    congress_data.get("buy_signals", []),
+AttributeError: 'list' object has no attribute 'get'
+
+Traceback (most recent call last):
+  File "/home/ubuntu/trading-bots/manager.py", line 84, in <module>
+    run_script(aggregator_script, "Aggregating signals for Day & Short")
+  File "/home/ubuntu/trading-bots/manager.py", line 53, in run_script
+    raise e
+  File "/home/ubuntu/trading-bots/manager.py", line 43, in run_script
+    result = subprocess.run(["python3", script_path], capture_output=True, text=True, check=True)
+  File "/usr/lib/python3.10/subprocess.py", line 526, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python3', '/home/ubuntu/trading-bots/aggregator.py']' returned non-zero exit status 1.

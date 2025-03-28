@@ -1,71 +1,72 @@
 import pandas as pd
-import yfinance as yf
-from datetime import datetime, timedelta
-import time
 
-# === CONFIGURATION ===
-TRADE_LOG_FILE = "trade_history.csv"
+# === CONFIG ===
+INPUT_FILE = "trade_history.csv"
 OUTPUT_FILE = "day_trade_labels.csv"
-LABEL_LOOKBACK_DAYS = 7
-WIN_THRESHOLD = 0.02  # +2%
-LOSS_THRESHOLD = -0.02  # -2%
+WIN_THRESHOLD = 0.01       # +1% or more = WIN
+LOSS_THRESHOLD = -0.01     # -1% or less = LOSS
 
-# === Load Buy Trades Only ===
-df = pd.read_csv(TRADE_LOG_FILE, quotechar='"', skip_blank_lines=True, on_bad_lines='skip')
-buy_trades = df[df["action"] == "BUY"]
+def label_day_trades():
+    # 1. Load trade history
+    df = pd.read_csv(INPUT_FILE)
+    df = df.sort_values(by="timestamp").reset_index(drop=True)
 
-# === Process Each Trade ===
-labeled_trades = []
+    # 2. Prepare list of labeled trades
+    labeled = []
 
-# === Process Each Trade ===
-labeled_trades = []
+    open_positions = []
 
-for _, row in buy_trades.iterrows():
-    ticker = row["ticker"]
-    entry_price = row["price"]
-    buy_date = datetime.fromisoformat(row["timestamp"]).date()
-    target_date = buy_date + timedelta(days=LABEL_LOOKBACK_DAYS)
+    for _, row in df.iterrows():
+        action = row["action"]
+        ticker = row["ticker"]
+        timestamp = row["timestamp"]
+        price = float(row["price"])
+        shares = float(row["shares"])
+        reason = row.get("reason", "")
 
-    if target_date > datetime.today().date():
-        print(f"⏳ Skipping {ticker}: trade on {buy_date} not yet 7 days old.")
-        continue
+        if action == "BUY":
+            open_positions.append({
+                "ticker": ticker,
+                "timestamp": timestamp,
+                "price": price,
+                "shares": shares,
+                "reason": reason
+            })
 
-    try:
-        stock = yf.Ticker(ticker)
-        time.sleep(1)  # avoid rate limiting
+        elif action == "SELL":
+            # Match with oldest unmatched BUY for the same ticker
+            match_index = next((i for i, t in enumerate(open_positions) if t["ticker"] == ticker), None)
 
-        hist = stock.history(start=target_date, end=target_date + timedelta(days=3))
-        if hist.empty:
-            print(f"⚠️ No price data found for {ticker} on {target_date}")
-            continue
+            if match_index is not None:
+                buy = open_positions.pop(match_index)
 
-        future_price = hist["Close"].iloc[0]
-        change_pct = (future_price - entry_price) / entry_price
+                entry_price = buy["price"]
+                exit_price = price
+                change_pct = (exit_price - entry_price) / entry_price
 
-        if change_pct >= WIN_THRESHOLD:
-            label = "WIN"
-        elif change_pct <= LOSS_THRESHOLD:
-            label = "LOSS"
-        else:
-            label = "NEUTRAL"
+                if change_pct >= WIN_THRESHOLD:
+                    label = "WIN"
+                elif change_pct <= LOSS_THRESHOLD:
+                    label = "LOSS"
+                else:
+                    label = "NEUTRAL"
 
-        labeled_trades.append({
-            "ticker": ticker,
-            "buy_date": buy_date.isoformat(),
-            "target_date": target_date.isoformat(),
-            "entry_price": round(entry_price, 4),
-            "future_price": round(future_price, 4),
-            "pct_change": round(change_pct, 4),
-            "label": label
-        })
+                labeled.append({
+                    "ticker": ticker,
+                    "buy_date": buy["timestamp"],
+                    "sell_date": timestamp,
+                    "entry_price": round(entry_price, 4),
+                    "exit_price": round(exit_price, 4),
+                    "pct_change": round(change_pct, 4),
+                    "label": label
+                })
 
-    except Exception as e:
-        print(f"❌ Error processing {ticker}: {e}")
-        continue
+    # 3. Output labeled trades
+    if labeled:
+        pd.DataFrame(labeled).to_csv(OUTPUT_FILE, index=False)
+        print(f"\n✅ Labeled {len(labeled)} trades → {OUTPUT_FILE}")
+    else:
+        print("⚠️ No labeled trades found.")
 
-# === Save Labeled Trades ===
-if labeled_trades:
-    pd.DataFrame(labeled_trades).to_csv(OUTPUT_FILE, index=False)
-    print(f"\n✅ Labeled {len(labeled_trades)} trades → {OUTPUT_FILE}")
-else:
-    print("\n⚠️ No trades labeled.")
+if __name__ == "__main__":
+    label_day_trades()

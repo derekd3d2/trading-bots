@@ -13806,5 +13806,3255 @@
         "shares": 757.6571,
         "price": 6.51,
         "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-27T13:01:08.248182",
+        "action": "BUY",
+        "ticker": "RCG",
+        "shares": 1952.8097,
+        "price": 2.52,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-27T13:01:09.335865",
+        "action": "BUY",
+        "ticker": "BLNE",
+        "shares": 2288.8745,
+        "price": 2.15,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-27T13:01:11.468399",
+        "action": "BUY",
+        "ticker": "FLWS",
+        "shares": 816.0996,
+        "price": 6.03,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-27T13:01:12.555106",
+        "action": "BUY",
+        "ticker": "EONR",
+        "shares": 8892.4479,
+        "price": 0.5534,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-27T13:01:13.645471",
+        "action": "BUY",
+        "ticker": "TTSH",
+        "shares": 761.7772,
+        "price": 6.46,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-27T13:01:15.808704",
+        "action": "BUY",
+        "ticker": "WEST",
+        "shares": 689.227,
+        "price": 7.14,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-27T13:01:16.930904",
+        "action": "BUY",
+        "ticker": "MKZR",
+        "shares": 3037.704,
+        "price": 1.62,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-27T13:01:20.305752",
+        "action": "BUY",
+        "ticker": "PESI",
+        "shares": 624.5026,
+        "price": 7.88,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-27T13:01:21.394004",
+        "action": "BUY",
+        "ticker": "SRBK",
+        "shares": 401.403,
+        "price": 12.2597,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-27T13:01:22.477932",
+        "action": "BUY",
+        "ticker": "MSTR",
+        "shares": 15.2455,
+        "price": 322.79,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-27T13:01:24.731556",
+        "action": "SELL",
+        "ticker": "BLNE",
+        "shares": 2289.0,
+        "price": 2.14,
+        "reason": "Stop-loss triggered"
+    },
+    {
+        "timestamp": "2025-03-27T13:01:30.018097",
+        "action": "SELL",
+        "ticker": "PSEC",
+        "shares": 1179.2731,
+        "price": 4.1701,
+        "reason": "Stop-loss triggered"
+    },
+    {
+        "timestamp": "2025-03-27T13:01:31.134551",
+        "action": "SELL",
+        "ticker": "RCG",
+        "shares": 1953.0,
+        "price": 2.52,
+        "reason": "Stop-loss triggered"
+    },
+    {
+        "timestamp": "2025-03-27T13:15:13.948884",
+        "action": "BUY",
+        "ticker": "RCG",
+        "shares": 1942.0956,
+        "price": 2.52,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-27T13:15:15.124131",
+        "action": "BUY",
+        "ticker": "BLNE",
+        "shares": 2319.4698,
+        "price": 2.11,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-27T13:15:18.351148",
+        "action": "BUY",
+        "ticker": "PSEC",
+        "shares": 1170.8328,
+        "price": 4.18,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-27T13:15:23.788490",
+        "action": "SELL",
+        "ticker": "EONR",
+        "shares": 8892.0,
+        "price": 0.541,
+        "reason": "Stop-loss triggered"
+    },
+    {
+        "timestamp": "2025-03-27T13:15:30.422077",
+        "action": "SELL",
+        "ticker": "RCG",
+        "shares": 1942.0,
+        "price": 2.52,
+        "reason": "Stop-loss triggered"
+    },
+    {
+        "timestamp": "2025-03-27T13:21:02.902355",
+        "action": "BUY",
+        "ticker": "RCG",
+        "shares": 1934.332,
+        "price": 2.52,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-27T13:21:05.105383",
+        "action": "BUY",
+        "ticker": "EONR",
+        "shares": 9010.1967,
+        "price": 0.541,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-27T13:21:11.561412",
+        "action": "SELL",
+        "ticker": "EONR",
+        "shares": 9010.0,
+        "price": 0.541,
+        "reason": "Stop-loss triggered"
+    },
+    {
+        "timestamp": "2025-03-27T13:21:18.007379",
+        "action": "SELL",
+        "ticker": "RCG",
+        "shares": 1934.0,
+        "price": 2.52,
+        "reason": "Stop-loss triggered"
+    },
+    {
+        "timestamp": "2025-03-27T13:38:25.627079",
+        "action": "BUY",
+        "ticker": "RCG",
+        "shares": 1925.9147,
+        "price": 2.52,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-27T13:38:27.767515",
+        "action": "BUY",
+        "ticker": "EONR",
+        "shares": 8924.7978,
+        "price": 0.5438,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-27T13:38:33.315703",
+        "action": "SELL",
+        "ticker": "BLNE",
+        "shares": 2319.0,
+        "price": 2.07,
+        "reason": "Stop-loss triggered"
+    },
+    {
+        "timestamp": "2025-03-27T13:38:36.613140",
+        "action": "SELL",
+        "ticker": "MKZR",
+        "shares": 3038.0,
+        "price": 1.6,
+        "reason": "Stop-loss triggered"
+    },
+    {
+        "timestamp": "2025-03-27T13:38:40.947016",
+        "action": "SELL",
+        "ticker": "RCG",
+        "shares": 1926.0,
+        "price": 2.52,
+        "reason": "Stop-loss triggered"
+    },
+    {
+        "timestamp": "2025-03-27T13:56:13.751784",
+        "action": "BUY",
+        "ticker": "RCG",
+        "shares": 1911.8103,
+        "price": 2.52,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-27T13:56:14.893292",
+        "action": "BUY",
+        "ticker": "BLNE",
+        "shares": 2294.1725,
+        "price": 2.1,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-27T13:56:18.136859",
+        "action": "BUY",
+        "ticker": "MKZR",
+        "shares": 3011.1012,
+        "price": 1.6,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-27T13:56:22.497497",
+        "action": "SELL",
+        "ticker": "BLNE",
+        "shares": 2294.0,
+        "price": 2.1,
+        "reason": "Stop-loss triggered"
+    },
+    {
+        "timestamp": "2025-03-27T13:56:23.622483",
+        "action": "SELL",
+        "ticker": "EONR",
+        "shares": 8925.0,
+        "price": 0.5352,
+        "reason": "Stop-loss triggered"
+    },
+    {
+        "timestamp": "2025-03-27T13:56:25.780643",
+        "action": "SELL",
+        "ticker": "MKZR",
+        "shares": 3011.0,
+        "price": 1.6,
+        "reason": "Stop-loss triggered"
+    },
+    {
+        "timestamp": "2025-03-27T13:56:30.202719",
+        "action": "SELL",
+        "ticker": "RCG",
+        "shares": 1912.0,
+        "price": 2.52,
+        "reason": "Stop-loss triggered"
+    },
+    {
+        "timestamp": "2025-03-27T14:06:22.935450",
+        "action": "BUY",
+        "ticker": "RCG",
+        "shares": 1900.0675,
+        "price": 2.52,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-27T14:06:24.023393",
+        "action": "BUY",
+        "ticker": "BLNE",
+        "shares": 2335.6927,
+        "price": 2.05,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-27T14:06:26.167169",
+        "action": "BUY",
+        "ticker": "EONR",
+        "shares": 8876.8449,
+        "price": 0.5394,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-27T14:06:28.320745",
+        "action": "BUY",
+        "ticker": "MKZR",
+        "shares": 2992.6062,
+        "price": 1.6,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-27T14:06:32.681515",
+        "action": "SELL",
+        "ticker": "BLNE",
+        "shares": 2336.0,
+        "price": 2.05,
+        "reason": "Stop-loss triggered"
+    },
+    {
+        "timestamp": "2025-03-27T14:06:40.111858",
+        "action": "SELL",
+        "ticker": "RCG",
+        "shares": 1900.0,
+        "price": 2.52,
+        "reason": "Stop-loss triggered"
+    },
+    {
+        "timestamp": "2025-03-27T14:49:27.167343",
+        "action": "BUY",
+        "ticker": "RCG",
+        "shares": 1889.8318,
+        "price": 2.52,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-27T14:49:28.264880",
+        "action": "BUY",
+        "ticker": "BLNE",
+        "shares": 2334.4981,
+        "price": 2.04,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-27T14:49:35.803546",
+        "action": "SELL",
+        "ticker": "EONR",
+        "shares": 8877.0,
+        "price": 0.5292,
+        "reason": "Stop-loss triggered"
+    },
+    {
+        "timestamp": "2025-03-27T14:49:40.126382",
+        "action": "SELL",
+        "ticker": "PESI",
+        "shares": 625.0,
+        "price": 8.12,
+        "reason": "Target hit"
+    },
+    {
+        "timestamp": "2025-03-27T14:49:42.339638",
+        "action": "SELL",
+        "ticker": "RCG",
+        "shares": 1890.0,
+        "price": 2.52,
+        "reason": "Stop-loss triggered"
+    },
+    {
+        "timestamp": "2025-03-27T15:42:56.830161",
+        "action": "BUY",
+        "ticker": "RCG",
+        "shares": 1881.1724,
+        "price": 2.52,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-27T15:42:58.973844",
+        "action": "BUY",
+        "ticker": "EONR",
+        "shares": 8816.3558,
+        "price": 0.5377,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-27T15:43:03.427158",
+        "action": "BUY",
+        "ticker": "PESI",
+        "shares": 578.1164,
+        "price": 8.2,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-27T15:43:05.667416",
+        "action": "SELL",
+        "ticker": "BLNE",
+        "shares": 2334.0,
+        "price": 1.995,
+        "reason": "Stop-loss triggered"
+    },
+    {
+        "timestamp": "2025-03-27T15:43:08.853239",
+        "action": "SELL",
+        "ticker": "MKZR",
+        "shares": 2993.0,
+        "price": 1.56,
+        "reason": "Stop-loss triggered"
+    },
+    {
+        "timestamp": "2025-03-27T15:43:12.115156",
+        "action": "SELL",
+        "ticker": "RCG",
+        "shares": 1881.0,
+        "price": 2.52,
+        "reason": "Stop-loss triggered"
+    },
+    {
+        "timestamp": "2025-03-28T00:45:30.045935",
+        "action": "BUY",
+        "ticker": "RCG",
+        "shares": 1870.724,
+        "price": 2.52,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-28T00:45:31.131301",
+        "action": "BUY",
+        "ticker": "BLNE",
+        "shares": 2380.9214,
+        "price": 1.98,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-28T00:45:34.400073",
+        "action": "BUY",
+        "ticker": "ZYME",
+        "shares": 376.8365,
+        "price": 12.51,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-28T00:45:36.576499",
+        "action": "BUY",
+        "ticker": "MKZR",
+        "shares": 3061.1848,
+        "price": 1.54,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-28T00:45:47.308788",
+        "action": "SELL",
+        "ticker": "WEST",
+        "shares": 689.227,
+        "price": 7.25,
+        "reason": "Target hit"
+    },
+    {
+        "timestamp": "2025-03-28T00:47:03.391499",
+        "action": "BUY",
+        "ticker": "RCG",
+        "shares": 1870.724,
+        "price": 2.52,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-28T00:47:04.508455",
+        "action": "BUY",
+        "ticker": "BLNE",
+        "shares": 2380.9214,
+        "price": 1.98,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-28T00:47:07.774086",
+        "action": "BUY",
+        "ticker": "ZYME",
+        "shares": 376.8365,
+        "price": 12.51,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-28T00:47:10.020161",
+        "action": "BUY",
+        "ticker": "MKZR",
+        "shares": 3061.1848,
+        "price": 1.54,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-28T05:44:06.260698",
+        "action": "BUY",
+        "ticker": "RCG",
+        "shares": 2546.6496,
+        "price": 2.52,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-28T05:44:07.348026",
+        "action": "BUY",
+        "ticker": "BLNE",
+        "shares": 3241.1904,
+        "price": 1.98,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-28T05:44:08.437523",
+        "action": "BUY",
+        "ticker": "MKZR",
+        "shares": 4167.2449,
+        "price": 1.54,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-28T05:44:09.544314",
+        "action": "BUY",
+        "ticker": "CULP",
+        "shares": 1199.5434,
+        "price": 5.35,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-28T05:44:10.652866",
+        "action": "BUY",
+        "ticker": "CUBA",
+        "shares": 2412.6154,
+        "price": 2.66,
+        "reason": "New Signal"
+    },
+    {
+        "timestamp": "2025-03-28T06:15:57.739452",
+        "action": "BUY",
+        "ticker": "RCG",
+        "shares": 2546.5019,
+        "price": 2.52,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T06:15:58.824846",
+        "action": "BUY",
+        "ticker": "BLNE",
+        "shares": 3241.0024,
+        "price": 1.98,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T06:15:59.919630",
+        "action": "BUY",
+        "ticker": "MKZR",
+        "shares": 4167.0032,
+        "price": 1.54,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T06:16:01.029429",
+        "action": "BUY",
+        "ticker": "CULP",
+        "shares": 1199.4738,
+        "price": 5.35,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T06:16:02.140845",
+        "action": "BUY",
+        "ticker": "CUBA",
+        "shares": 2412.4754,
+        "price": 2.66,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:00:03.097562",
+        "action": "BUY",
+        "ticker": "RCG",
+        "shares": 2546.0809,
+        "price": 2.52,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:00:04.208652",
+        "action": "BUY",
+        "ticker": "BLNE",
+        "shares": 3240.4666,
+        "price": 1.98,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:00:05.328350",
+        "action": "BUY",
+        "ticker": "MKZR",
+        "shares": 4166.3143,
+        "price": 1.54,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:00:06.441864",
+        "action": "BUY",
+        "ticker": "CULP",
+        "shares": 1199.2755,
+        "price": 5.35,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:00:07.552286",
+        "action": "BUY",
+        "ticker": "CUBA",
+        "shares": 2412.0766,
+        "price": 2.66,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:00:17.289590",
+        "action": "SELL",
+        "ticker": "WEST",
+        "shares": 689.227,
+        "price": 7.25,
+        "reason": "Target hit"
+    },
+    {
+        "timestamp": "2025-03-28T09:03:03.163793",
+        "action": "BUY",
+        "ticker": "RCG",
+        "shares": 2545.8334,
+        "price": 2.52,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:03:04.296017",
+        "action": "BUY",
+        "ticker": "BLNE",
+        "shares": 3240.1515,
+        "price": 1.98,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:03:05.414906",
+        "action": "BUY",
+        "ticker": "MKZR",
+        "shares": 4165.9092,
+        "price": 1.54,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:03:06.567376",
+        "action": "BUY",
+        "ticker": "CULP",
+        "shares": 1199.1589,
+        "price": 5.35,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:03:07.723463",
+        "action": "BUY",
+        "ticker": "CUBA",
+        "shares": 2411.842,
+        "price": 2.66,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:06:03.140570",
+        "action": "BUY",
+        "ticker": "RCG",
+        "shares": 2545.9554,
+        "price": 2.52,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:06:04.225063",
+        "action": "BUY",
+        "ticker": "BLNE",
+        "shares": 3240.3068,
+        "price": 1.98,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:06:05.316120",
+        "action": "BUY",
+        "ticker": "MKZR",
+        "shares": 4166.1089,
+        "price": 1.54,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:06:06.440475",
+        "action": "BUY",
+        "ticker": "CULP",
+        "shares": 1199.2164,
+        "price": 5.35,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:06:07.545826",
+        "action": "BUY",
+        "ticker": "CUBA",
+        "shares": 2411.9576,
+        "price": 2.66,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:09:02.978103",
+        "action": "BUY",
+        "ticker": "RCG",
+        "shares": 2545.947,
+        "price": 2.52,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:09:04.071872",
+        "action": "BUY",
+        "ticker": "BLNE",
+        "shares": 3240.2961,
+        "price": 1.98,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:09:05.197622",
+        "action": "BUY",
+        "ticker": "MKZR",
+        "shares": 4166.0951,
+        "price": 1.54,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:33:00.212215",
+        "action": "SELL",
+        "ticker": "BLNE",
+        "shares": 12960.0,
+        "price": 2.0004,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:33:02.815305",
+        "action": "BUY",
+        "ticker": "BLNE",
+        "shares": 3105.152,
+        "price": 2.0004,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:33:03.937691",
+        "action": "BUY",
+        "ticker": "WEST",
+        "shares": 887.047,
+        "price": 7.0025,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:33:06.183698",
+        "action": "SELL",
+        "ticker": "BLNE",
+        "shares": 3096.0,
+        "price": 2.0004,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:33:08.504038",
+        "action": "SELL",
+        "ticker": "CULP",
+        "shares": 3597.6508,
+        "price": 5.35,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:33:10.713050",
+        "action": "SELL",
+        "ticker": "FLWS",
+        "shares": 816.0996,
+        "price": 5.945,
+        "reason": "Stop-loss triggered"
+    },
+    {
+        "timestamp": "2025-03-28T09:33:11.870618",
+        "action": "SELL",
+        "ticker": "MKZR",
+        "shares": 16664.0,
+        "price": 1.54,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:33:16.254808",
+        "action": "SELL",
+        "ticker": "RCG",
+        "shares": 10184.0,
+        "price": 2.52,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:35:36.509387",
+        "action": "BUY",
+        "ticker": "RCG",
+        "shares": 2414.8661,
+        "price": 2.52,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:35:37.642483",
+        "action": "BUY",
+        "ticker": "FLWS",
+        "shares": 1027.9497,
+        "price": 5.92,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:35:40.202427",
+        "action": "BUY",
+        "ticker": "MKZR",
+        "shares": 3951.5991,
+        "price": 1.54,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:35:41.348216",
+        "action": "BUY",
+        "ticker": "CULP",
+        "shares": 1137.4696,
+        "price": 5.35,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:35:42.543252",
+        "action": "SELL",
+        "ticker": "BA",
+        "shares": 27.8792,
+        "price": 176.54,
+        "reason": "Stop-loss triggered"
+    },
+    {
+        "timestamp": "2025-03-28T09:35:45.997327",
+        "action": "SELL",
+        "ticker": "EONR",
+        "shares": 8816.0,
+        "price": 0.5361,
+        "reason": "Stop-loss triggered"
+    },
+    {
+        "timestamp": "2025-03-28T09:35:48.130897",
+        "action": "SELL",
+        "ticker": "MKZR",
+        "shares": 3952.0,
+        "price": 1.54,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:35:52.593896",
+        "action": "SELL",
+        "ticker": "RCG",
+        "shares": 2415.0,
+        "price": 2.52,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:35:55.897058",
+        "action": "SELL",
+        "ticker": "WEST",
+        "shares": 887.047,
+        "price": 7.0025,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:36:08.462644",
+        "action": "BUY",
+        "ticker": "RCG",
+        "shares": 2385.2192,
+        "price": 2.52,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:36:09.582078",
+        "action": "BUY",
+        "ticker": "EONR",
+        "shares": 11211.9989,
+        "price": 0.5361,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:36:13.288823",
+        "action": "BUY",
+        "ticker": "MKZR",
+        "shares": 3903.086,
+        "price": 1.54,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:36:14.437307",
+        "action": "BUY",
+        "ticker": "WEST",
+        "shares": 826.7885,
+        "price": 7.27,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:36:17.866880",
+        "action": "SELL",
+        "ticker": "CULP",
+        "shares": 1137.4696,
+        "price": 5.35,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:36:21.118699",
+        "action": "SELL",
+        "ticker": "MKZR",
+        "shares": 3903.0,
+        "price": 1.54,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:36:25.816840",
+        "action": "SELL",
+        "ticker": "RCG",
+        "shares": 2385.0,
+        "price": 2.52,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:38:13.422451",
+        "action": "BUY",
+        "ticker": "RCG",
+        "shares": 2354.3255,
+        "price": 2.52,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:38:14.516281",
+        "action": "BUY",
+        "ticker": "MKZR",
+        "shares": 3869.8716,
+        "price": 1.5331,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:38:15.641403",
+        "action": "BUY",
+        "ticker": "CULP",
+        "shares": 1108.9533,
+        "price": 5.35,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:38:18.926385",
+        "action": "SELL",
+        "ticker": "EONR",
+        "shares": 11212.0,
+        "price": 0.5301,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:38:21.092392",
+        "action": "SELL",
+        "ticker": "MKZR",
+        "shares": 3870.0,
+        "price": 1.5331,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:38:25.829347",
+        "action": "SELL",
+        "ticker": "RCG",
+        "shares": 2354.0,
+        "price": 2.52,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:38:32.680497",
+        "action": "SELL",
+        "ticker": "WEST",
+        "shares": 826.7885,
+        "price": 7.2425,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:39:02.940893",
+        "action": "BUY",
+        "ticker": "RCG",
+        "shares": 2323.8772,
+        "price": 2.52,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:39:04.034694",
+        "action": "BUY",
+        "ticker": "EONR",
+        "shares": 11047.2941,
+        "price": 0.5301,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:39:05.148404",
+        "action": "BUY",
+        "ticker": "MKZR",
+        "shares": 3819.8229,
+        "price": 1.5331,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:39:06.265759",
+        "action": "BUY",
+        "ticker": "WEST",
+        "shares": 808.5841,
+        "price": 7.2425,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:39:09.671469",
+        "action": "SELL",
+        "ticker": "CULP",
+        "shares": 1108.9533,
+        "price": 5.35,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:39:10.715506",
+        "action": "SELL",
+        "ticker": "EONR",
+        "shares": 11047.0,
+        "price": 0.5301,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:39:12.841615",
+        "action": "SELL",
+        "ticker": "MKZR",
+        "shares": 3820.0,
+        "price": 1.5331,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:39:18.493894",
+        "action": "SELL",
+        "ticker": "RCG",
+        "shares": 2324.0,
+        "price": 2.52,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:41:35.113498",
+        "action": "BUY",
+        "ticker": "RCG",
+        "shares": 2295.4348,
+        "price": 2.52,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:41:36.217833",
+        "action": "BUY",
+        "ticker": "EONR",
+        "shares": 10862.9021,
+        "price": 0.5325,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:41:37.308971",
+        "action": "BUY",
+        "ticker": "MKZR",
+        "shares": 3773.0713,
+        "price": 1.5331,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:41:38.462705",
+        "action": "BUY",
+        "ticker": "CULP",
+        "shares": 1081.2142,
+        "price": 5.35,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:41:46.894581",
+        "action": "SELL",
+        "ticker": "MKZR",
+        "shares": 3773.0,
+        "price": 1.5331,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:41:54.478919",
+        "action": "SELL",
+        "ticker": "RCG",
+        "shares": 2295.0,
+        "price": 2.52,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:42:03.482987",
+        "action": "BUY",
+        "ticker": "RCG",
+        "shares": 2270.8926,
+        "price": 2.52,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:42:05.709020",
+        "action": "BUY",
+        "ticker": "MKZR",
+        "shares": 3732.7306,
+        "price": 1.5331,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:42:06.915306",
+        "action": "SELL",
+        "ticker": "BLNE",
+        "shares": 9.0,
+        "price": 1.9292,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:42:15.829970",
+        "action": "SELL",
+        "ticker": "RCG",
+        "shares": 2271.0,
+        "price": 2.52,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:44:55.522269",
+        "action": "BUY",
+        "ticker": "RCG",
+        "shares": 2247.8994,
+        "price": 2.52,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:44:56.612498",
+        "action": "BUY",
+        "ticker": "BLNE",
+        "shares": 2875.6314,
+        "price": 1.9699,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:45:02.126415",
+        "action": "SELL",
+        "ticker": "MKZR",
+        "shares": 3733.0,
+        "price": 1.5331,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:45:03.215758",
+        "action": "SELL",
+        "ticker": "MSTR",
+        "shares": 15.2455,
+        "price": 318.08,
+        "reason": "Stop-loss triggered"
+    },
+    {
+        "timestamp": "2025-03-28T09:45:08.594286",
+        "action": "SELL",
+        "ticker": "CULP",
+        "shares": 1081.2142,
+        "price": 5.28,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:45:09.114008",
+        "action": "SELL",
+        "ticker": "RCG",
+        "shares": 2226.0,
+        "price": 2.52,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:47:30.369151",
+        "action": "BUY",
+        "ticker": "MKZR",
+        "shares": 3614.1261,
+        "price": 1.55,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:47:31.490982",
+        "action": "BUY",
+        "ticker": "CULP",
+        "shares": 1060.965,
+        "price": 5.28,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:47:32.638826",
+        "action": "SELL",
+        "ticker": "BLNE",
+        "shares": 2876.0,
+        "price": 1.9394,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:47:34.846385",
+        "action": "SELL",
+        "ticker": "EONR",
+        "shares": 10863.0,
+        "price": 0.5115,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:47:37.012639",
+        "action": "SELL",
+        "ticker": "MKZR",
+        "shares": 3614.0,
+        "price": 1.55,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:47:40.725744",
+        "action": "SELL",
+        "ticker": "RCG",
+        "shares": 22.0,
+        "price": 2.52,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:47:43.971905",
+        "action": "SELL",
+        "ticker": "WEST",
+        "shares": 808.5841,
+        "price": 7.2,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:48:03.868571",
+        "action": "BUY",
+        "ticker": "RCG",
+        "shares": 2212.006,
+        "price": 2.52,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:48:04.969410",
+        "action": "BUY",
+        "ticker": "BLNE",
+        "shares": 2874.2163,
+        "price": 1.9394,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:48:06.072779",
+        "action": "BUY",
+        "ticker": "EONR",
+        "shares": 10897.8592,
+        "price": 0.5115,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:48:07.171755",
+        "action": "BUY",
+        "ticker": "MKZR",
+        "shares": 3596.2937,
+        "price": 1.55,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:48:09.715649",
+        "action": "BUY",
+        "ticker": "WEST",
+        "shares": 774.2021,
+        "price": 7.2,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:48:10.768511",
+        "action": "SELL",
+        "ticker": "BLNE",
+        "shares": 2874.0,
+        "price": 1.9394,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:48:14.531908",
+        "action": "SELL",
+        "ticker": "CULP",
+        "shares": 1060.965,
+        "price": 5.28,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:48:17.801376",
+        "action": "SELL",
+        "ticker": "MKZR",
+        "shares": 3596.0,
+        "price": 1.5753,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:48:21.380592",
+        "action": "SELL",
+        "ticker": "RCG",
+        "shares": 2212.0,
+        "price": 2.52,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:50:30.301197",
+        "action": "BUY",
+        "ticker": "RCG",
+        "shares": 2183.0963,
+        "price": 2.52,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:50:31.398413",
+        "action": "BUY",
+        "ticker": "BLNE",
+        "shares": 2855.4982,
+        "price": 1.9266,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:50:32.505482",
+        "action": "BUY",
+        "ticker": "MKZR",
+        "shares": 3492.289,
+        "price": 1.5753,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:50:33.655562",
+        "action": "BUY",
+        "ticker": "CULP",
+        "shares": 1041.9323,
+        "price": 5.28,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:50:34.705459",
+        "action": "SELL",
+        "ticker": "BLNE",
+        "shares": 2855.0,
+        "price": 1.9266,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:50:42.518154",
+        "action": "SELL",
+        "ticker": "MKZR",
+        "shares": 3492.0,
+        "price": 1.5753,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:50:45.845848",
+        "action": "SELL",
+        "ticker": "RCG",
+        "shares": 2183.0,
+        "price": 2.52,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:50:49.107936",
+        "action": "SELL",
+        "ticker": "WEST",
+        "shares": 774.2021,
+        "price": 7.2,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:51:03.331254",
+        "action": "BUY",
+        "ticker": "RCG",
+        "shares": 2155.6315,
+        "price": 2.52,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:51:04.743509",
+        "action": "BUY",
+        "ticker": "BLNE",
+        "shares": 2819.5741,
+        "price": 1.9266,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:51:05.858841",
+        "action": "BUY",
+        "ticker": "MKZR",
+        "shares": 3448.3536,
+        "price": 1.5753,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:51:06.953002",
+        "action": "BUY",
+        "ticker": "WEST",
+        "shares": 754.471,
+        "price": 7.2,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:51:08.001456",
+        "action": "SELL",
+        "ticker": "BLNE",
+        "shares": 2820.0,
+        "price": 1.9266,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:51:12.470311",
+        "action": "SELL",
+        "ticker": "CULP",
+        "shares": 1041.9323,
+        "price": 5.28,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:51:15.751274",
+        "action": "SELL",
+        "ticker": "MKZR",
+        "shares": 3448.0,
+        "price": 1.5753,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:51:19.180260",
+        "action": "SELL",
+        "ticker": "RCG",
+        "shares": 2156.0,
+        "price": 2.52,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:53:29.011081",
+        "action": "BUY",
+        "ticker": "RCG",
+        "shares": 2131.0203,
+        "price": 2.52,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:53:30.154564",
+        "action": "BUY",
+        "ticker": "BLNE",
+        "shares": 2782.4722,
+        "price": 1.93,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:53:31.266360",
+        "action": "BUY",
+        "ticker": "MKZR",
+        "shares": 3408.9832,
+        "price": 1.5753,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:53:32.388863",
+        "action": "BUY",
+        "ticker": "CULP",
+        "shares": 1017.0778,
+        "price": 5.28,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:53:33.440066",
+        "action": "SELL",
+        "ticker": "BLNE",
+        "shares": 2782.0,
+        "price": 1.93,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:53:37.754415",
+        "action": "SELL",
+        "ticker": "MKZR",
+        "shares": 3409.0,
+        "price": 1.5753,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:53:41.101295",
+        "action": "SELL",
+        "ticker": "RCG",
+        "shares": 2131.0,
+        "price": 2.52,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:53:44.340915",
+        "action": "SELL",
+        "ticker": "WEST",
+        "shares": 754.471,
+        "price": 7.2,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:54:02.767090",
+        "action": "BUY",
+        "ticker": "RCG",
+        "shares": 2104.9721,
+        "price": 2.52,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:54:03.893518",
+        "action": "BUY",
+        "ticker": "BLNE",
+        "shares": 2748.4611,
+        "price": 1.93,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:54:05.001253",
+        "action": "BUY",
+        "ticker": "MKZR",
+        "shares": 3367.3141,
+        "price": 1.5753,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:54:06.126675",
+        "action": "BUY",
+        "ticker": "WEST",
+        "shares": 736.7403,
+        "price": 7.2,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:54:07.175809",
+        "action": "SELL",
+        "ticker": "BLNE",
+        "shares": 2748.0,
+        "price": 1.93,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:54:09.457010",
+        "action": "SELL",
+        "ticker": "CULP",
+        "shares": 1017.0778,
+        "price": 5.28,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:54:12.661876",
+        "action": "SELL",
+        "ticker": "MKZR",
+        "shares": 3367.0,
+        "price": 1.5753,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:54:15.918465",
+        "action": "SELL",
+        "ticker": "RCG",
+        "shares": 2105.0,
+        "price": 2.52,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:56:25.524381",
+        "action": "BUY",
+        "ticker": "RCG",
+        "shares": 2073.8274,
+        "price": 2.52,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:56:26.623763",
+        "action": "BUY",
+        "ticker": "BLNE",
+        "shares": 2659.5648,
+        "price": 1.965,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:56:27.716308",
+        "action": "BUY",
+        "ticker": "MKZR",
+        "shares": 3317.492,
+        "price": 1.5753,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:56:28.834195",
+        "action": "BUY",
+        "ticker": "CULP",
+        "shares": 989.7812,
+        "price": 5.28,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:56:30.976789",
+        "action": "SELL",
+        "ticker": "CUBA",
+        "shares": 7236.0,
+        "price": 2.61,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:56:33.135539",
+        "action": "SELL",
+        "ticker": "FLWS",
+        "shares": 1027.9497,
+        "price": 5.83,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:56:34.199275",
+        "action": "SELL",
+        "ticker": "MKZR",
+        "shares": 3317.0,
+        "price": 1.5753,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:56:37.454685",
+        "action": "SELL",
+        "ticker": "RCG",
+        "shares": 2074.0,
+        "price": 2.52,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:56:40.675910",
+        "action": "SELL",
+        "ticker": "WEST",
+        "shares": 736.7403,
+        "price": 7.2,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:57:02.718020",
+        "action": "BUY",
+        "ticker": "RCG",
+        "shares": 2050.543,
+        "price": 2.52,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:57:03.807091",
+        "action": "BUY",
+        "ticker": "FLWS",
+        "shares": 886.3411,
+        "price": 5.83,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:57:04.897256",
+        "action": "BUY",
+        "ticker": "MKZR",
+        "shares": 3280.2441,
+        "price": 1.5753,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:57:06.013347",
+        "action": "BUY",
+        "ticker": "CUBA",
+        "shares": 1979.8347,
+        "price": 2.61,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:57:07.153140",
+        "action": "BUY",
+        "ticker": "WEST",
+        "shares": 717.6901,
+        "price": 7.2,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:57:09.284455",
+        "action": "SELL",
+        "ticker": "CUBA",
+        "shares": 1980.0,
+        "price": 2.61,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:57:10.420927",
+        "action": "SELL",
+        "ticker": "CULP",
+        "shares": 989.7812,
+        "price": 5.28,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:57:13.562585",
+        "action": "SELL",
+        "ticker": "MKZR",
+        "shares": 3280.0,
+        "price": 1.5753,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:57:16.881300",
+        "action": "SELL",
+        "ticker": "RCG",
+        "shares": 2051.0,
+        "price": 2.52,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:59:28.696853",
+        "action": "BUY",
+        "ticker": "RCG",
+        "shares": 2024.6821,
+        "price": 2.52,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:59:29.814701",
+        "action": "BUY",
+        "ticker": "MKZR",
+        "shares": 3290.6796,
+        "price": 1.5505,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:59:30.971935",
+        "action": "BUY",
+        "ticker": "CULP",
+        "shares": 966.3255,
+        "price": 5.28,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:59:32.096970",
+        "action": "BUY",
+        "ticker": "CUBA",
+        "shares": 1953.1444,
+        "price": 2.6123,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:59:34.211636",
+        "action": "SELL",
+        "ticker": "CULP",
+        "shares": 966.3255,
+        "price": 5.28,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:59:37.427526",
+        "action": "SELL",
+        "ticker": "MKZR",
+        "shares": 3291.0,
+        "price": 1.5505,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:59:40.703495",
+        "action": "SELL",
+        "ticker": "RCG",
+        "shares": 2025.0,
+        "price": 2.52,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T09:59:43.926138",
+        "action": "SELL",
+        "ticker": "WEST",
+        "shares": 717.6901,
+        "price": 7.2,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:00:02.897896",
+        "action": "BUY",
+        "ticker": "RCG",
+        "shares": 1999.1315,
+        "price": 2.52,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:00:04.001817",
+        "action": "BUY",
+        "ticker": "MKZR",
+        "shares": 3249.1527,
+        "price": 1.5505,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:00:05.137344",
+        "action": "BUY",
+        "ticker": "CULP",
+        "shares": 954.1309,
+        "price": 5.28,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:00:06.316130",
+        "action": "BUY",
+        "ticker": "WEST",
+        "shares": 699.696,
+        "price": 7.2,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:00:08.499880",
+        "action": "SELL",
+        "ticker": "CUBA",
+        "shares": 1953.0,
+        "price": 2.6123,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:00:09.547900",
+        "action": "SELL",
+        "ticker": "CULP",
+        "shares": 954.1309,
+        "price": 5.28,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:00:12.726878",
+        "action": "SELL",
+        "ticker": "MKZR",
+        "shares": 3249.0,
+        "price": 1.5505,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:00:16.048500",
+        "action": "SELL",
+        "ticker": "RCG",
+        "shares": 1999.0,
+        "price": 2.52,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:00:38.018089",
+        "action": "BUY",
+        "ticker": "RCG",
+        "shares": 1975.9581,
+        "price": 2.52,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:00:39.123161",
+        "action": "BUY",
+        "ticker": "MKZR",
+        "shares": 3211.4893,
+        "price": 1.5505,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:00:40.288591",
+        "action": "BUY",
+        "ticker": "CULP",
+        "shares": 943.0709,
+        "price": 5.28,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:00:41.403455",
+        "action": "BUY",
+        "ticker": "CUBA",
+        "shares": 1906.1419,
+        "price": 2.6123,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:00:43.640833",
+        "action": "SELL",
+        "ticker": "CULP",
+        "shares": 943.0709,
+        "price": 5.28,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:00:46.834720",
+        "action": "SELL",
+        "ticker": "MKZR",
+        "shares": 3211.0,
+        "price": 1.5505,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:00:50.113295",
+        "action": "SELL",
+        "ticker": "RCG",
+        "shares": 1976.0,
+        "price": 2.52,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:00:53.364370",
+        "action": "SELL",
+        "ticker": "WEST",
+        "shares": 699.696,
+        "price": 7.2,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:03:02.840429",
+        "action": "BUY",
+        "ticker": "RCG",
+        "shares": 1951.6069,
+        "price": 2.52,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:03:03.972065",
+        "action": "BUY",
+        "ticker": "MKZR",
+        "shares": 3171.9118,
+        "price": 1.5505,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:03:05.240569",
+        "action": "BUY",
+        "ticker": "CULP",
+        "shares": 931.4487,
+        "price": 5.28,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:03:06.329038",
+        "action": "BUY",
+        "ticker": "WEST",
+        "shares": 677.4172,
+        "price": 7.26,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:03:08.508677",
+        "action": "SELL",
+        "ticker": "CUBA",
+        "shares": 1906.0,
+        "price": 2.6123,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:03:09.560684",
+        "action": "SELL",
+        "ticker": "CULP",
+        "shares": 931.4487,
+        "price": 5.28,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:03:12.791472",
+        "action": "SELL",
+        "ticker": "MKZR",
+        "shares": 3172.0,
+        "price": 1.5505,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:03:16.080483",
+        "action": "SELL",
+        "ticker": "RCG",
+        "shares": 1952.0,
+        "price": 2.52,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:03:16.210836",
+        "action": "BUY",
+        "ticker": "MKZR",
+        "shares": 3144.3589,
+        "price": 1.5505,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:03:17.350318",
+        "action": "BUY",
+        "ticker": "CULP",
+        "shares": 923.3577,
+        "price": 5.28,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:03:18.469891",
+        "action": "BUY",
+        "ticker": "CUBA",
+        "shares": 1866.2974,
+        "price": 2.6123,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:03:20.593604",
+        "action": "SELL",
+        "ticker": "CULP",
+        "shares": 923.3577,
+        "price": 5.28,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:03:23.767572",
+        "action": "SELL",
+        "ticker": "MKZR",
+        "shares": 3144.0,
+        "price": 1.5505,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:06:03.004240",
+        "action": "BUY",
+        "ticker": "RCG",
+        "shares": 1919.1169,
+        "price": 2.52,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:06:04.100089",
+        "action": "BUY",
+        "ticker": "MKZR",
+        "shares": 3119.1064,
+        "price": 1.5505,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:06:05.218804",
+        "action": "BUY",
+        "ticker": "CULP",
+        "shares": 915.9421,
+        "price": 5.28,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:06:07.401397",
+        "action": "SELL",
+        "ticker": "CUBA",
+        "shares": 1866.0,
+        "price": 2.6123,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:06:10.626347",
+        "action": "SELL",
+        "ticker": "MKZR",
+        "shares": 2862.0,
+        "price": 1.5505,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:06:13.936840",
+        "action": "SELL",
+        "ticker": "RCG",
+        "shares": 1919.0,
+        "price": 2.52,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:06:29.749470",
+        "action": "BUY",
+        "ticker": "RCG",
+        "shares": 1902.4318,
+        "price": 2.52,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:06:30.865222",
+        "action": "BUY",
+        "ticker": "CUBA",
+        "shares": 1835.2135,
+        "price": 2.6123,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:06:33.096627",
+        "action": "SELL",
+        "ticker": "CULP",
+        "shares": 915.9421,
+        "price": 5.28,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:06:36.319020",
+        "action": "SELL",
+        "ticker": "MKZR",
+        "shares": 257.0,
+        "price": 1.5505,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:06:39.532660",
+        "action": "SELL",
+        "ticker": "RCG",
+        "shares": 1902.0,
+        "price": 2.52,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:09:03.113136",
+        "action": "BUY",
+        "ticker": "RCG",
+        "shares": 1890.7216,
+        "price": 2.52,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:09:04.212445",
+        "action": "BUY",
+        "ticker": "MKZR",
+        "shares": 3072.956,
+        "price": 1.5505,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:09:05.378992",
+        "action": "BUY",
+        "ticker": "CULP",
+        "shares": 902.3898,
+        "price": 5.28,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:09:07.591350",
+        "action": "SELL",
+        "ticker": "CUBA",
+        "shares": 1835.0,
+        "price": 2.6123,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:09:10.760923",
+        "action": "SELL",
+        "ticker": "MKZR",
+        "shares": 3073.0,
+        "price": 1.5505,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:09:13.968289",
+        "action": "SELL",
+        "ticker": "RCG",
+        "shares": 1891.0,
+        "price": 2.52,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:09:29.800008",
+        "action": "BUY",
+        "ticker": "RCG",
+        "shares": 1873.1899,
+        "price": 2.52,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:09:30.889667",
+        "action": "BUY",
+        "ticker": "MKZR",
+        "shares": 3044.4621,
+        "price": 1.5505,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:09:32.022497",
+        "action": "BUY",
+        "ticker": "CUBA",
+        "shares": 1807.0049,
+        "price": 2.6123,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:09:34.496331",
+        "action": "SELL",
+        "ticker": "CULP",
+        "shares": 902.3898,
+        "price": 5.28,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:09:37.718696",
+        "action": "SELL",
+        "ticker": "MKZR",
+        "shares": 3044.0,
+        "price": 1.5505,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:09:45.781419",
+        "action": "SELL",
+        "ticker": "RCG",
+        "shares": 1873.0,
+        "price": 2.52,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:12:03.696750",
+        "action": "BUY",
+        "ticker": "RCG",
+        "shares": 1860.6632,
+        "price": 2.52,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:12:04.801821",
+        "action": "BUY",
+        "ticker": "MKZR",
+        "shares": 3024.1026,
+        "price": 1.5505,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:12:05.916027",
+        "action": "BUY",
+        "ticker": "CULP",
+        "shares": 888.0437,
+        "price": 5.28,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:12:08.109086",
+        "action": "SELL",
+        "ticker": "CUBA",
+        "shares": 1807.0,
+        "price": 2.6123,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:12:11.309762",
+        "action": "SELL",
+        "ticker": "MKZR",
+        "shares": 3024.0,
+        "price": 1.5505,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:12:12.421830",
+        "action": "SELL",
+        "ticker": "PESI",
+        "shares": 578.0,
+        "price": 7.915,
+        "reason": "Stop-loss triggered"
+    },
+    {
+        "timestamp": "2025-03-28T10:12:14.649177",
+        "action": "SELL",
+        "ticker": "RCG",
+        "shares": 1861.0,
+        "price": 2.52,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:12:30.400099",
+        "action": "BUY",
+        "ticker": "RCG",
+        "shares": 1844.5106,
+        "price": 2.52,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:12:31.493991",
+        "action": "BUY",
+        "ticker": "PESI",
+        "shares": 587.2605,
+        "price": 7.915,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:12:32.617082",
+        "action": "BUY",
+        "ticker": "MKZR",
+        "shares": 2997.85,
+        "price": 1.5505,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:12:33.738575",
+        "action": "BUY",
+        "ticker": "CUBA",
+        "shares": 1779.3388,
+        "price": 2.6123,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:12:36.013690",
+        "action": "SELL",
+        "ticker": "CULP",
+        "shares": 888.0437,
+        "price": 5.28,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:12:39.211608",
+        "action": "SELL",
+        "ticker": "MKZR",
+        "shares": 2998.0,
+        "price": 1.5505,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:12:42.457414",
+        "action": "SELL",
+        "ticker": "RCG",
+        "shares": 1845.0,
+        "price": 2.52,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:15:03.675697",
+        "action": "BUY",
+        "ticker": "RCG",
+        "shares": 1829.5322,
+        "price": 2.52,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:15:04.770421",
+        "action": "BUY",
+        "ticker": "MKZR",
+        "shares": 2973.506,
+        "price": 1.5505,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:15:05.894720",
+        "action": "BUY",
+        "ticker": "CULP",
+        "shares": 873.1858,
+        "price": 5.28,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:15:09.151387",
+        "action": "SELL",
+        "ticker": "EONR",
+        "shares": 10898.0,
+        "price": 0.5074,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:15:11.257155",
+        "action": "SELL",
+        "ticker": "MKZR",
+        "shares": 2974.0,
+        "price": 1.5505,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:15:13.358518",
+        "action": "BUY",
+        "ticker": "EONR",
+        "shares": 9022.5311,
+        "price": 0.5074,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:15:14.459231",
+        "action": "BUY",
+        "ticker": "MKZR",
+        "shares": 2952.6165,
+        "price": 1.5505,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:15:14.538180",
+        "action": "SELL",
+        "ticker": "RCG",
+        "shares": 1830.0,
+        "price": 2.52,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:15:17.785778",
+        "action": "SELL",
+        "ticker": "CULP",
+        "shares": 873.1858,
+        "price": 5.28,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:18:02.875423",
+        "action": "BUY",
+        "ticker": "RCG",
+        "shares": 1786.1603,
+        "price": 2.5516,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:18:03.997274",
+        "action": "BUY",
+        "ticker": "CULP",
+        "shares": 854.2768,
+        "price": 5.335,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:18:05.151757",
+        "action": "SELL",
+        "ticker": "BLNE",
+        "shares": 2660.0,
+        "price": 2.0232,
+        "reason": "Target hit",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:18:07.346913",
+        "action": "SELL",
+        "ticker": "EONR",
+        "shares": 9023.0,
+        "price": 0.5015,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:18:09.558848",
+        "action": "SELL",
+        "ticker": "MKZR",
+        "shares": 2953.0,
+        "price": 1.575,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:18:12.815391",
+        "action": "SELL",
+        "ticker": "RCG",
+        "shares": 1786.0,
+        "price": 2.5516,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:18:17.972418",
+        "action": "BUY",
+        "ticker": "RCG",
+        "shares": 1773.2614,
+        "price": 2.5516,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:18:19.091850",
+        "action": "BUY",
+        "ticker": "BLNE",
+        "shares": 2236.3848,
+        "price": 2.0232,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:18:20.181820",
+        "action": "BUY",
+        "ticker": "EONR",
+        "shares": 9022.2408,
+        "price": 0.5015,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:18:21.271297",
+        "action": "BUY",
+        "ticker": "MKZR",
+        "shares": 2872.796,
+        "price": 1.575,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:18:25.568608",
+        "action": "SELL",
+        "ticker": "EONR",
+        "shares": 9022.0,
+        "price": 0.5015,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:18:29.962929",
+        "action": "SELL",
+        "ticker": "RCG",
+        "shares": 1773.0,
+        "price": 2.5516,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:18:33.195031",
+        "action": "SELL",
+        "ticker": "WEST",
+        "shares": 677.4172,
+        "price": 7.21,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:21:02.699785",
+        "action": "BUY",
+        "ticker": "RCG",
+        "shares": 1719.5254,
+        "price": 2.6094,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:21:03.791633",
+        "action": "BUY",
+        "ticker": "EONR",
+        "shares": 8801.3523,
+        "price": 0.5098,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:21:04.974699",
+        "action": "BUY",
+        "ticker": "WEST",
+        "shares": 617.1843,
+        "price": 7.27,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:21:11.499825",
+        "action": "SELL",
+        "ticker": "MKZR",
+        "shares": 2873.0,
+        "price": 1.5511,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:21:28.871800",
+        "action": "BUY",
+        "ticker": "MKZR",
+        "shares": 2887.7222,
+        "price": 1.5511,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:21:33.316199",
+        "action": "SELL",
+        "ticker": "EONR",
+        "shares": 8801.0,
+        "price": 0.502,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:24:03.202306",
+        "action": "BUY",
+        "ticker": "EONR",
+        "shares": 8888.7486,
+        "price": 0.502,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:24:04.302265",
+        "action": "SELL",
+        "ticker": "BLNE",
+        "shares": 2236.0,
+        "price": 1.97,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:24:08.634801",
+        "action": "SELL",
+        "ticker": "MKZR",
+        "shares": 2888.0,
+        "price": 1.5511,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:24:30.092154",
+        "action": "BUY",
+        "ticker": "BLNE",
+        "shares": 2261.4095,
+        "price": 1.97,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:24:31.186047",
+        "action": "BUY",
+        "ticker": "MKZR",
+        "shares": 2872.1403,
+        "price": 1.5511,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:24:32.235833",
+        "action": "SELL",
+        "ticker": "BLNE",
+        "shares": 2154.0,
+        "price": 1.97,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:24:35.535514",
+        "action": "SELL",
+        "ticker": "EONR",
+        "shares": 8889.0,
+        "price": 0.502,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:27:03.233505",
+        "action": "BUY",
+        "ticker": "EONR",
+        "shares": 8690.5173,
+        "price": 0.5099,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:27:04.333050",
+        "action": "SELL",
+        "ticker": "BLNE",
+        "shares": 107.0,
+        "price": 1.9555,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:27:08.669661",
+        "action": "SELL",
+        "ticker": "MKZR",
+        "shares": 2872.0,
+        "price": 1.5511,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:27:15.146677",
+        "action": "SELL",
+        "ticker": "WEST",
+        "shares": 617.1843,
+        "price": 7.22,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:30:02.995878",
+        "action": "BUY",
+        "ticker": "BLNE",
+        "shares": 2257.4982,
+        "price": 1.96,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:30:06.801092",
+        "action": "BUY",
+        "ticker": "MKZR",
+        "shares": 2852.6185,
+        "price": 1.5511,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:30:07.918830",
+        "action": "BUY",
+        "ticker": "WEST",
+        "shares": 609.8824,
+        "price": 7.255,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:30:08.978448",
+        "action": "SELL",
+        "ticker": "BLNE",
+        "shares": 2257.0,
+        "price": 1.96,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:30:12.292937",
+        "action": "SELL",
+        "ticker": "EONR",
+        "shares": 8691.0,
+        "price": 0.5,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:30:14.499798",
+        "action": "SELL",
+        "ticker": "MKZR",
+        "shares": 2853.0,
+        "price": 1.5511,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:30:33.387371",
+        "action": "BUY",
+        "ticker": "BLNE",
+        "shares": 2245.3229,
+        "price": 1.96,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:30:34.536559",
+        "action": "BUY",
+        "ticker": "EONR",
+        "shares": 8782.3447,
+        "price": 0.5011,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:30:35.635672",
+        "action": "BUY",
+        "ticker": "MKZR",
+        "shares": 2837.2335,
+        "price": 1.5511,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:31:34.045710",
+        "action": "SELL",
+        "ticker": "MKZR",
+        "shares": 2837.0,
+        "price": 1.5511,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:33:03.118105",
+        "action": "BUY",
+        "ticker": "MKZR",
+        "shares": 2830.6531,
+        "price": 1.5511,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:33:35.391863",
+        "action": "SELL",
+        "ticker": "MKZR",
+        "shares": 2831.0,
+        "price": 1.5511,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:36:03.572868",
+        "action": "BUY",
+        "ticker": "MKZR",
+        "shares": 2816.4225,
+        "price": 1.5511,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:36:04.680765",
+        "action": "SELL",
+        "ticker": "BLNE",
+        "shares": 2245.0,
+        "price": 1.89,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:36:18.237720",
+        "action": "BUY",
+        "ticker": "BLNE",
+        "shares": 2306.7341,
+        "price": 1.89,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:36:23.715468",
+        "action": "SELL",
+        "ticker": "MKZR",
+        "shares": 2816.0,
+        "price": 1.5511,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:39:03.433419",
+        "action": "BUY",
+        "ticker": "MKZR",
+        "shares": 2801.8731,
+        "price": 1.5511,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:39:04.535678",
+        "action": "SELL",
+        "ticker": "BLNE",
+        "shares": 2307.0,
+        "price": 1.89,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:39:05.678469",
+        "action": "SELL",
+        "ticker": "CUBA",
+        "shares": 1779.0,
+        "price": 2.6101,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:39:15.410689",
+        "action": "SELL",
+        "ticker": "WEST",
+        "shares": 609.8824,
+        "price": 7.17,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:39:29.876834",
+        "action": "BUY",
+        "ticker": "BLNE",
+        "shares": 2293.3665,
+        "price": 1.89,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:39:31.008074",
+        "action": "BUY",
+        "ticker": "CUBA",
+        "shares": 1660.65,
+        "price": 2.6101,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:39:32.097398",
+        "action": "BUY",
+        "ticker": "WEST",
+        "shares": 604.5276,
+        "price": 7.17,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:39:33.152739",
+        "action": "SELL",
+        "ticker": "BLNE",
+        "shares": 2293.0,
+        "price": 1.89,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:39:34.199226",
+        "action": "SELL",
+        "ticker": "CUBA",
+        "shares": 1661.0,
+        "price": 2.6101,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:39:38.532804",
+        "action": "SELL",
+        "ticker": "MKZR",
+        "shares": 2802.0,
+        "price": 1.5511,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:42:02.843209",
+        "action": "BUY",
+        "ticker": "BLNE",
+        "shares": 2255.5635,
+        "price": 1.915,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:42:03.935670",
+        "action": "BUY",
+        "ticker": "MKZR",
+        "shares": 2784.736,
+        "price": 1.5511,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:42:05.055797",
+        "action": "BUY",
+        "ticker": "CUBA",
+        "shares": 1654.8807,
+        "price": 2.6101,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:42:10.431691",
+        "action": "SELL",
+        "ticker": "MKZR",
+        "shares": 2785.0,
+        "price": 1.5511,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:42:29.384364",
+        "action": "BUY",
+        "ticker": "MKZR",
+        "shares": 2772.148,
+        "price": 1.5511,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:42:31.573605",
+        "action": "SELL",
+        "ticker": "CUBA",
+        "shares": 1655.0,
+        "price": 2.6101,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:45:03.365567",
+        "action": "BUY",
+        "ticker": "CUBA",
+        "shares": 1645.4215,
+        "price": 2.6101,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:45:05.591193",
+        "action": "SELL",
+        "ticker": "CULP",
+        "shares": 854.2768,
+        "price": 5.277,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:45:08.857855",
+        "action": "SELL",
+        "ticker": "MKZR",
+        "shares": 2772.0,
+        "price": 1.5511,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:45:30.290797",
+        "action": "BUY",
+        "ticker": "MKZR",
+        "shares": 2759.0198,
+        "price": 1.5511,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:45:31.409267",
+        "action": "BUY",
+        "ticker": "CULP",
+        "shares": 810.9751,
+        "price": 5.277,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:45:32.504151",
+        "action": "SELL",
+        "ticker": "BLNE",
+        "shares": 2256.0,
+        "price": 1.9078,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:45:33.627874",
+        "action": "SELL",
+        "ticker": "CUBA",
+        "shares": 1645.0,
+        "price": 2.6101,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:45:36.824907",
+        "action": "SELL",
+        "ticker": "MKZR",
+        "shares": 2759.0,
+        "price": 1.5511,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:48:02.907407",
+        "action": "BUY",
+        "ticker": "BLNE",
+        "shares": 2218.9873,
+        "price": 1.92,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:48:04.032837",
+        "action": "BUY",
+        "ticker": "MKZR",
+        "shares": 2746.7316,
+        "price": 1.5511,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:48:05.146583",
+        "action": "BUY",
+        "ticker": "CUBA",
+        "shares": 1632.2959,
+        "price": 2.6101,
+        "reason": "New Signal",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:48:10.466659",
+        "action": "SELL",
+        "ticker": "MKZR",
+        "shares": 2746.0,
+        "price": 1.5511,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:48:26.518067",
+        "action": "SELL",
+        "ticker": "CUBA",
+        "shares": 1632.0,
+        "price": 2.6101,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
+    },
+    {
+        "timestamp": "2025-03-28T10:48:30.861898",
+        "action": "SELL",
+        "ticker": "MKZR",
+        "shares": 1.0,
+        "price": 1.5511,
+        "reason": "Stop-loss triggered",
+        "prediction": "WIN"
     }
 ]

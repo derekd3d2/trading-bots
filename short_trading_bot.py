@@ -7,7 +7,6 @@ import time
 import signal
 import sys
 import csv
-import sys
 
 # ✅ Graceful shutdown on CTRL+C
 def signal_handler(sig, frame):
@@ -28,39 +27,35 @@ else:
 
 api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version="v2")
 
-# ✅ Load updated short signals directly from short_signals.json
-signals_file = "/home/ubuntu/trading-bots/short_signals.json"
+# ✅ Load AI-Filtered or Raw Short Signals
 try:
-    with open(signals_file, "r") as f:
+    with open("filtered_short_signals.json", "r") as f:
         signals = json.load(f)
+    print(f"🧠 Loaded {len(signals)} ML-filtered short signals.")
 except FileNotFoundError:
-    print(f"❌ {signals_file} not found. Exiting.")
-    sys.exit(1)
+    print("⚠️ filtered_short_signals.json not found. Falling back to short_signals.json")
+    with open("short_signals.json", "r") as f:
+        signals = json.load(f)
 
 positions = {p.symbol for p in api.list_positions() if p.side == 'short'}
 open_orders = {o.symbol for o in api.list_orders(status='open') if o.side == 'sell'}
 skip_tickers = positions | open_orders
 
-# ✅ Filter signals to exclude positions/open orders and limit to top 3
 signals = [s for s in signals if s["ticker"] not in skip_tickers][:3]
 
-
 # ✅ Constants
-SHORT_TARGET = 0.02  # 5% drop = take profit
-SHORT_STOPLOSS = 0.03  # 3% rise = stop-loss
-CAPITAL_USAGE = 0.15  # 15% of total capital
+SHORT_TARGET = 0.02
+SHORT_STOPLOSS = 0.03
+CAPITAL_USAGE = 0.15
 TRADE_LOG = "/home/ubuntu/trading-bots/trade_history.json"
 
 # ✅ Get available capital
 buying_power = float(api.get_account().buying_power)
 short_capital = buying_power * CAPITAL_USAGE
-capital_per_trade = short_capital / 3  # top 3 trades
-
-# ✅ Load current short positions
-positions = {p.symbol: p for p in api.list_positions() if p.side == 'short'}
+capital_per_trade = short_capital / 3
 
 # ✅ Logging function
-def log_trade(action, ticker, shares, price, reason):
+def log_trade(action, ticker, shares, price, reason, prediction=None):
     log_entry = {
         "timestamp": datetime.now().isoformat(),
         "action": action,
@@ -70,24 +65,41 @@ def log_trade(action, ticker, shares, price, reason):
         "reason": reason
     }
 
-    if os.path.exists(TRADE_LOG):
-        with open(TRADE_LOG, "r") as f:
-            history = json.load(f)
-    else:
-        history = []
+    if action == "SHORT" and prediction:
+        log_entry["prediction"] = prediction
 
-    history.append(log_entry)
-    with open(TRADE_LOG, "w") as f:
-        json.dump(history, f, indent=4)
+    if action == "COVER":
+        try:
+            with open(TRADE_LOG, "r") as f:
+                full_log = json.load(f)
+            for entry in reversed(full_log):
+                if entry["action"] == "SHORT" and entry["ticker"] == ticker and "prediction" in entry:
+                    log_entry["prediction"] = entry["prediction"]
+                    break
+        except Exception as e:
+            print(f"⚠️ Could not backfill prediction for COVER: {e}")
 
-    csv_file = TRADE_LOG.replace(".json", ".csv")
-    file_exists = os.path.isfile(csv_file)
-    with open(csv_file, 'a', newline='') as csvfile:
-        fieldnames = ["timestamp", "action", "ticker", "shares", "price", "reason"]
-        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-        if not file_exists:
-            writer.writeheader()
-        writer.writerow(log_entry)
+    try:
+        if os.path.exists(TRADE_LOG):
+            with open(TRADE_LOG, "r") as f:
+                history = json.load(f)
+        else:
+            history = []
+
+        history.append(log_entry)
+        with open(TRADE_LOG, "w") as f:
+            json.dump(history, f, indent=4)
+
+        csv_file = TRADE_LOG.replace(".json", ".csv")
+        file_exists = os.path.isfile(csv_file)
+        with open(csv_file, 'a', newline='') as csvfile:
+            fieldnames = ["timestamp", "action", "ticker", "shares", "price", "reason", "prediction"]
+            writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+            if not file_exists:
+                writer.writeheader()
+            writer.writerow(log_entry)
+    except Exception as e:
+        print(f"⚠️ Failed to log trade: {e}")
 
 # ✅ Get latest price
 def get_price(ticker):
@@ -130,7 +142,7 @@ else:
                 time_in_force="day"
             )
             print(f"🔻 Shorted {max_qty} shares of {ticker} at ${price:.2f}")
-            log_trade("SHORT", ticker, max_qty, price, "Live Signal")
+            log_trade("SHORT", ticker, max_qty, price, "Live Signal", prediction=stock.get("ml_prediction"))
         except Exception as e:
             print(f"❌ Failed to short {ticker}: {e}")
 

@@ -17,7 +17,7 @@ ticker_encoder = LabelEncoder()
 df["ticker_encoded"] = ticker_encoder.fit_transform(df["ticker"])
 
 # === Feature Engineering ===
-features = df[["ticker_encoded", "entry_price", "future_price", "pct_change"]]
+features = df[["ticker_encoded", "entry_price", "exit_price", "pct_change"]]
 labels = df["label_encoded"]
 
 # === Train/Test Split ===

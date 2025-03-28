@@ -1,36 +1,18 @@
-✅ Final To-Do List for Today:
-1️⃣ Auto-Label Options Trades for Win/Loss
-Use option_trade_log.csv
+import json
 
-Fetch price 7 days after entry (if available)
+INPUT_FILE = "option_trade_log.json"
+OUTPUT_FILE = "option_trade_log.json"
 
-Calculate % gain/loss
+with open(INPUT_FILE, "r") as f:
+    trades = json.load(f)
 
-Label: WIN / LOSS / NEUTRAL
+for t in trades:
+    if t["action"] == "SELL":
+        pnl = t.get("pnl_pct", 0)
+        t["outcome"] = "WIN" if pnl > 0 else "LOSS"
+        t.setdefault("prediction", "unknown")
 
-➡️ Will update label_option_trades.py to work with new fill logic
+with open(OUTPUT_FILE, "w") as f:
+    json.dump(trades, f, indent=2)
 
-2️⃣ Track Prediction Success
-Cross-reference:
-
-filtered_option_signals.json
-
-option_trade_log.csv
-
-Output ML accuracy:
-
-Wins vs losses per source (Congress, Insider, etc.)
-
-Per ticker summary
-
-➡️ We’ll create evaluate_option_predictions.py
-
-3️⃣ Backtest Visualization
-Generate P&L curve and win/loss charts
-
-Based on historical option_trade_log.csv
-
-Output simple .png or HTML plot
-
-➡️ Will create plot_options_performance.py
-
+print(f"✅ Labeled SELL trades with outcome + prediction.")

@@ -1,0 +1,57 @@
+[
+  {
+    "ticker": "RCG",
+    "total_score": 3.0,
+    "ml_prediction": "WIN"
+  },
+  {
+    "ticker": "BLNE",
+    "total_score": 3.0,
+    "ml_prediction": "WIN"
+  },
+  {
+    "ticker": "EONR",
+    "total_score": 3.0,
+    "ml_prediction": "WIN"
+  },
+  {
+    "ticker": "FLWS",
+    "total_score": 3.0,
+    "ml_prediction": "WIN"
+  },
+  {
+    "ticker": "TTSH",
+    "total_score": 3.0,
+    "ml_prediction": "WIN"
+  },
+  {
+    "ticker": "PSEC",
+    "total_score": 2.4,
+    "ml_prediction": "WIN"
+  },
+  {
+    "ticker": "PESI",
+    "total_score": 2.4,
+    "ml_prediction": "WIN"
+  },
+  {
+    "ticker": "MKZR",
+    "total_score": 2.1,
+    "ml_prediction": "WIN"
+  },
+  {
+    "ticker": "CULP",
+    "total_score": 1.8,
+    "ml_prediction": "WIN"
+  },
+  {
+    "ticker": "CUBA",
+    "total_score": 1.5,
+    "ml_prediction": "WIN"
+  },
+  {
+    "ticker": "WEST",
+    "total_score": 1.5,
+    "ml_prediction": "WIN"
+  }
+]

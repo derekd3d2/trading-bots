@@ -10,7 +10,7 @@ df = pd.read_csv("option_trade_labels.csv")
 
 # === Encode Label (WIN, LOSS, NEUTRAL) ===
 label_map = {"WIN": 2, "NEUTRAL": 1, "LOSS": 0}
-df["label_encoded"] = df["label"].map(label_map)
+df["label_encoded"] = df["outcome"].map(label_map)
 
 # === Encode Categorical Fields ===
 ticker_encoder = LabelEncoder()
@@ -33,7 +33,10 @@ clf.fit(X_train, y_train)
 # === Evaluate ===
 y_pred = clf.predict(X_test)
 print("\n📊 Model Evaluation:")
-print(classification_report(y_test, y_pred, target_names=["LOSS", "NEUTRAL", "WIN"]))
+from sklearn.utils.multiclass import unique_labels
+labels_present = unique_labels(y_test, y_pred)
+print(classification_report(y_test, y_pred, labels=labels_present, target_names=[str(l) for l in labels_present]))
+
 
 # === Save Model & Encoders ===
 joblib.dump(clf, "option_trade_model.pkl")
